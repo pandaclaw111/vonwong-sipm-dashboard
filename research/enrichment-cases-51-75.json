@@ -1,0 +1,929 @@
+[
+  {
+    "id": 51,
+    "name": "Morocco: 2018 Youth Boycott Campaign",
+    "outcome_score": 2,
+    "outcome_summary": "Consumer boycott of three politically connected companies (Centrale Danone/milk, Afriquia/petrol, Sidi Ali/water) caused 40-50% revenue drop for Danone Morocco. Prices reduced on some products. Economic impact was real and sustained over months. However, politically the campaign failed: PM Aziz Akhannouch (owner of Afriquia) won the 2021 elections with a landslide, becoming Prime Minister. No structural change to the nexus of political and economic power. A consumer campaign that worked economically but failed politically.",
+    "progress_markers": [
+      {"year": 2016, "type": "BUILDUP", "event": "Morocco's Hirak Rif movement (#22) builds popular resistance consciousness; young Moroccans increasingly connecting economic grievance to political power"},
+      {"year": 2017, "type": "BUILDUP", "event": "Growing awareness via social media of economic concentration: three major consumer goods companies owned by families with close palace/government ties"},
+      {"year": 2018, "type": "BUILDUP", "event": "Morocco's cost of living rising; fuel prices reaching record highs despite Afriquia owner Aziz Akhannouch serving as Agriculture Minister"},
+      {"year": 2018, "type": "TIP", "event": "April 2018: WhatsApp boycott campaign launched targeting Centrale Danone (milk), Afriquia (petrol), and Sidi Ali (water). Spreads virally within days to millions of participants"},
+      {"year": 2018, "type": "WIN", "event": "By mid-2018: Danone Morocco reports 40-50% revenue decline. Company forced to cut prices and review product lines. Immediate economic impact confirmed"},
+      {"year": 2018, "type": "PARTIAL-WIN", "event": "Fuel prices reduced at Afriquia stations. Brief acknowledgment of public pressure from corporate side"},
+      {"year": 2018, "type": "SETBACK", "event": "Government and palace maintain silence, treat boycott as economic matter, refuse political framing. No political leaders held accountable"},
+      {"year": 2018, "type": "CONSOLIDATION", "event": "Boycott sustained for 5+ months — demonstrating unusual consumer discipline. WhatsApp infrastructure proves effective for coordinating economic action"},
+      {"year": 2018, "type": "SETBACK", "event": "Danone announces restructuring; eventually partially withdraws from some product segments. Interpreted as corporate defeat but also job losses creating backlash"},
+      {"year": 2019, "type": "ONGOING", "event": "Movement dissipates without structural political change; organizers face some legal harassment"},
+      {"year": 2021, "type": "REVERSAL", "event": "Aziz Akhannouch (Afriquia owner, direct target of boycott) wins September 2021 elections with massive majority; becomes Prime Minister. Boycott's economic damage did not translate to political accountability"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Informal WhatsApp networks", "description": "Boycott spread organically through existing social networks without formal organizational leadership — a key feature and vulnerability"},
+        {"name": "Mamfakinch (online civil society)", "description": "Emerged from 2011 Arab Spring activism; provided loose intellectual infrastructure for political framing of economic grievances"},
+        {"name": "Moroccan journalists/bloggers", "description": "Investigative reporting on ownership structures of targeted companies provided the factual foundation for the campaign"}
+      ],
+      "funders": ["Self-funded through organic participation; no major institutional funders identified"],
+      "celebrities": ["Moroccan musicians and social media personalities amplified boycott calls on Instagram/Facebook"],
+      "government_champions": [],
+      "corporate_actors": {
+        "villains": ["Centrale Danone (Danone Morocco subsidiary)", "Afriquia (owned by PM-to-be Akhannouch)", "Sidi Ali (bottled water, palace-connected ownership)"],
+        "allies": ["Smaller Moroccan milk producers who gained market share during boycott"]
+      },
+      "international": ["Danone SA (Paris) forced to acknowledge Moroccan subsidiary's revenue collapse in earnings reports, bringing international attention"]
+    },
+    "what_actually_changed": "Danone Morocco's revenues dropped ~40-50% during peak boycott; company restructured and cut some prices. Afriquia and Sidi Ali saw reduced sales. These were real economic impacts. What did NOT change: the political economy linking business elites to political power. Akhannouch became Prime Minister in 2021, demonstrating consumer boycotts cannot substitute for political organizing. The boycott created no lasting institutional change, no regulatory reform, no accountability mechanism. The campaign's model (specific targets, WhatsApp dissemination, precision of three companies) is widely studied as a consumer action template."
+  },
+  {
+    "id": 52,
+    "name": "Yellow Vests France",
+    "outcome_score": 2,
+    "outcome_summary": "Won significant economic concessions (fuel tax cancelled, €10B in relief package including minimum wage increase) but produced no structural change to inequality, no lasting organization, and may have accelerated right-wing political shift. Macron survived politically. Marine Le Pen and RN strengthened significantly in subsequent elections (2022, 2024). Classic 'battle won, war lost' pattern.",
+    "progress_markers": [
+      {"year": 2017, "type": "BUILDUP", "event": "Macron elected on 'President of the Rich' narrative; wealth tax abolished ('ISF'); fuel tax increases announced as ecological measure"},
+      {"year": 2018, "type": "BUILDUP", "event": "October 2018: Facebook groups organizing against fuel taxes begin. Priscillia Ludosky's petition reaches 300,000+ signatures. Érık Drouet and other organizers calling for November 17 action"},
+      {"year": 2018, "type": "TIP", "event": "November 17, 2018: 300,000 'Yellow Vests' (fluorescent safety vests — mandatory in all French cars) blockade roundabouts and roads across France. Symbol accessible to everyone"},
+      {"year": 2018, "type": "MILESTONE", "event": "November 24: Violence erupts in Paris; Arc de Triomphe vandalized. First major confrontation between black-bloc elements and mainstream protesters"},
+      {"year": 2018, "type": "WIN", "event": "December 10: Macron addresses nation; announces €10 billion package including minimum wage increase (SMIC +€100/month), no ISF reinstatement but cancellation of CSG increase for pensioners under €2000/month, and fuel tax suspension"},
+      {"year": 2018, "type": "PARTIAL-WIN", "event": "Fuel tax fully cancelled January 2019. Specific economic demands largely met within 4 weeks — unusual speed of government response"},
+      {"year": 2019, "type": "CONSOLIDATION", "event": "Grand Débat National launched (nationwide consultation); 10,000 local meetings. Largely absorbed movement energy without structural reform"},
+      {"year": 2019, "type": "ONGOING", "event": "Movement continued through 2019 but weekly numbers declining. No formal leadership meant no negotiation possible. Far-right elements increasingly visible"},
+      {"year": 2019, "type": "SETBACK", "event": "European elections (May 2019): Macron's LREM and Le Pen's RN tied at ~23% each. Movement energy partially captured by RN narrative"},
+      {"year": 2020, "type": "SUPPRESSED", "event": "COVID-19 March 2020 ends street protest phase. Movement infrastructure (leaderless Facebook groups) unable to adapt to pandemic context"},
+      {"year": 2022, "type": "REVERSAL", "event": "Presidential election: Le Pen reaches run-off with Macron again, stronger than 2017. Yellow Vest economic grievances had energized right-wing populism more than left"},
+      {"year": 2024, "type": "REVERSAL", "event": "July 2024 legislative elections: RN achieves plurality in first round; Yellow Vest-originated economic grievances now fully captured by far-right framing"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "No formal organization", "description": "Deliberately leaderless; Facebook groups served as coordination but no national leadership emerged — prevented co-optation but also prevented consolidation"},
+        {"name": "Priscillia Ludosky", "description": "Informal leader who launched the original petition; later attempted to channel movement into policy demands"},
+        {"name": "Érık Drouet", "description": "Key online organizer; later arrested for protest organization"}
+      ],
+      "funders": ["Self-funded by participants; no major institutional backing"],
+      "celebrities": ["No major celebrity involvement; movement explicitly anti-elite"],
+      "government_champions": [],
+      "corporate_actors": {
+        "villains": ["Total Energies (fuel price beneficiary)", "BNP Paribas and major banks (seen as ISF abolition beneficiaries)", "Vinci (motorway toll operator — significant roundabout blockades targeted toll plazas)"],
+        "allies": []
+      },
+      "international": ["Movement spread to Belgium, Netherlands, Canada; influenced global 'cost-of-living crisis' political vocabulary", "Inspired similar movements in multiple countries 2019-2022"]
+    },
+    "what_actually_changed": "The €10 billion concessions package was real: minimum wage increase, CSG relief for pensioners, overtime tax relief. The fuel tax was permanently cancelled. These were tangible economic wins affecting millions. What did not change: the structural inequality that generated the movement, the wealth tax abolition, or the political economy that Macron represented. Long-term: the movement fed right-wing populism (RN) more than left-wing reform, a pattern repeated globally when economic grievance movements lack organizational infrastructure to channel them into progressive institutional alternatives."
+  },
+  {
+    "id": 53,
+    "name": "Occupy Wall Street",
+    "outcome_score": 2,
+    "outcome_summary": "No direct policy wins. Zuccotti Park occupation cleared November 2011. But: 'We are the 99%' permanently entered political vocabulary and inequality became a mainstream political issue. Bernie Sanders 2016/2020 campaigns, Elizabeth Warren's Wall Street regulation agenda, and the broader democratic socialist revival all drew directly from Occupy's vocabulary and networks. Cultural impact substantially exceeded operational failure.",
+    "progress_markers": [
+      {"year": 2008, "type": "BUILDUP", "event": "Global Financial Crisis: banks bailed out ($700B TARP), homeowners foreclosed, unemployment reaches 10%. Anger at Wall Street impunity grows but finds no political outlet"},
+      {"year": 2010, "type": "BUILDUP", "event": "Citizens United ruling (January 2010) confirms corporate capture of democracy. Dodd-Frank Act (July 2010) seen as inadequate bank reform. No bankers prosecuted"},
+      {"year": 2011, "type": "BUILDUP", "event": "Arab Spring and Spanish Indignados provide global permission structure for occupation tactic. Adbusters magazine (Canada) publishes 'What is Our One Demand?' calling for Occupy Wall Street September 17"},
+      {"year": 2011, "type": "TIP", "event": "September 17, 2011: ~1,000 protesters march in Manhattan's financial district; ~100 establish Zuccotti Park occupation. 'We are the 99%' frame coined by anthropologist David Graeber and Adbusters"},
+      {"year": 2011, "type": "MILESTONE", "event": "October 1: 700+ arrested on Brooklyn Bridge; international media coverage explodes. Movement spreads to 900+ cities globally"},
+      {"year": 2011, "type": "MILESTONE", "event": "October 15: Global Day of Action; protests in 1,500+ cities across 82 countries — the first genuinely global synchronized protest in history"},
+      {"year": 2011, "type": "MILESTONE", "event": "November 2: Oakland General Strike — first US general strike in 65 years. Port of Oakland shut down. Movement's tactical peak"},
+      {"year": 2011, "type": "SUPPRESSED", "event": "November 15: Zuccotti Park cleared by NYPD at 1am; Bloomberg decision coordinated with other mayors (Oakland, Portland, etc.) in nationwide coordinated clearance"},
+      {"year": 2012, "type": "SETBACK", "event": "May Day 2012 Occupy revival fizzles; movement cannot reconstitute physical presence without occupation tactic"},
+      {"year": 2013, "type": "CONSOLIDATION", "event": "Occupy's vocabulary and networks seed multiple successor projects: Strike Debt, Rolling Jubilee (debt cancellation mutual aid), and local labor campaigns"},
+      {"year": 2014, "type": "CONSOLIDATION", "event": "Seattle $15 minimum wage campaign (Kshama Sawant) draws directly from Occupy network and vocabulary — first major policy win traceable to Occupy"},
+      {"year": 2016, "type": "WIN", "event": "Bernie Sanders 2016 presidential campaign explicitly uses 'the 99%' frame, raises $220M from small donors — demonstrating Occupy's lasting infrastructure contribution"},
+      {"year": 2018, "type": "WIN", "event": "Democratic Socialists of America (DSA) membership explodes from 6,000 to 50,000+ post-2016; directly built on Occupy-era organizer networks"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Adbusters Media Foundation", "description": "Canadian culture-jamming magazine that issued the original call; Kalle Lasn coined 'We are the 99%' frame"},
+        {"name": "NYC General Assembly", "description": "Horizontal decision-making body that governed the Zuccotti occupation; model of direct democracy that proved both inspiring and functionally paralysing"},
+        {"name": "US Day of Rage", "description": "Original organizing group; quickly superseded by the occupation itself"}
+      ],
+      "funders": ["Small donations via online fundraising; National Lawyers Guild (legal support)", "Working Families Party provided some infrastructure support"],
+      "celebrities": ["Naomi Klein, Cornel West, Michael Moore visited and spoke", "Russell Simmons, Susan Sarandon publicly supported"],
+      "government_champions": [],
+      "corporate_actors": {
+        "villains": ["Goldman Sachs", "JPMorgan Chase (donated $4.6M to NYPD during Occupy)", "Bank of America", "Citigroup"],
+        "allies": []
+      },
+      "international": ["Global Day of Action (Oct 15) connected to Spanish Indignados, Tahrir Square veterans, and movements in 82 countries", "Occupy model was adopted in Hong Kong 2014, Brazil, and multiple European countries"]
+    },
+    "what_actually_changed": "No direct policy wins from the occupation itself. But inequality entered mainstream political discourse in the US for the first time since the New Deal era. The $15 minimum wage movement, Bernie Sanders campaigns, DSA growth, and the broader progressive policy agenda (Medicare for All, Green New Deal, student debt cancellation) all trace organizational roots and vocabulary to Occupy. The most successful 'failed' movement in recent US history — failed as an occupation, succeeded as a cultural and organizational seedbed."
+  },
+  {
+    "id": 54,
+    "name": "Polish Women's Strike (Strajk Kobiet)",
+    "outcome_score": 4,
+    "outcome_summary": "Direct policy reversal not achieved — the near-total abortion ban (effective Jan 2021) was implemented. But the political consequences were transformative: PiS lost the 2023 elections partly due to the mobilized women's vote (abortion was #1 issue for women under 40 in exit polls). The Tusk coalition government (since 2023) has been attempting to liberalize abortion law, blocked by Presidential veto from Duda (PiS-aligned). Score 4 reflects the major electoral win that is translating into policy, albeit slowly.",
+    "progress_markers": [
+      {"year": 2016, "type": "BUILDUP", "event": "PiS government proposes total abortion ban ('Black Monday' October 2016); Women's Strike (Strajk Kobiet) organizes massive protests with black clothing as symbol; government backs down on total ban"},
+      {"year": 2016, "type": "PARTIAL-WIN", "event": "October 2016 PiS total abortion ban withdrawn under protest pressure — first major defeat of PiS government on social policy"},
+      {"year": 2017, "type": "BUILDUP", "event": "PiS systematically packs Constitutional Tribunal with loyalists; feminist organizations build networks anticipating further attacks on reproductive rights"},
+      {"year": 2019, "type": "BUILDUP", "event": "PiS wins re-election; abortion further restricted in practice through hospital refusals. Black lightning bolt symbol (zaraza) adopted as movement symbol"},
+      {"year": 2020, "type": "TIP", "event": "October 22, 2020: Constitutional Tribunal (packed with PiS nominees) rules fetal abnormality insufficient justification for abortion — near-total ban. Red lightning bolt symbol spreads instantly"},
+      {"year": 2020, "type": "MILESTONE", "event": "Protests disrupt Catholic masses — extraordinary in deeply Catholic Poland. Lightning bolts appear in church windows, on cars, businesses. 400+ cities simultaneously"},
+      {"year": 2020, "type": "SETBACK", "event": "Government delays implementation until January 2021 under protest pressure, but does not withdraw ruling"},
+      {"year": 2021, "type": "SUPPRESSED", "event": "January 27, 2021: Ban comes into effect. First woman dies due to denied abortion of non-viable fetus (Izabela from Pszczyna, September 2021) — becomes the movement's martyr figure"},
+      {"year": 2021, "type": "MILESTONE", "event": "October 2021: One year anniversary march; death of Izabela galvanizes second wave of protests. 'To była dziewczynka' (She was a girl) becomes new slogan"},
+      {"year": 2022, "type": "ONGOING", "event": "Multiple women die from delayed care under near-total ban; each death triggers new protests and media cycles. Medical profession openly criticizing law"},
+      {"year": 2023, "type": "WIN", "event": "October 15, 2023: PiS loses parliamentary elections. Exit polls confirm abortion was #1 issue for women under 40. Women's electoral mobilization decisive in result"},
+      {"year": 2023, "type": "CONSOLIDATION", "event": "Donald Tusk coalition government formed December 2023; includes explicit commitment to liberalize abortion law"},
+      {"year": 2024, "type": "PARTIAL-WIN", "event": "Sejm (parliament) passes abortion decriminalization bill but President Duda (PiS-aligned, term until 2025) vetoes. Legal reform stalled but political trajectory clear"},
+      {"year": 2025, "type": "ONGOING", "event": "Presidential elections scheduled May 2025; pro-choice coalition candidate potentially ending veto block. Movement's electoral victory being slowly converted to policy"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Strajk Kobiet (Women's Strike)", "description": "Core organizing body; led by Marta Lempart. Provided continuity between 2016 and 2020 mobilizations"},
+        {"name": "Ogólnopolski Strajk Kobiet", "description": "National coordination network connecting protests in 400+ cities"},
+        {"name": "Federacja na rzecz Kobiet i Planowania Rodziny (FEDERA)", "description": "Policy and legal expertise organization; documented health impacts of the ban"}
+      ],
+      "funders": ["Online crowdfunding (significant)", "International feminist foundations", "George Soros / Open Society (contested but documented)"],
+      "celebrities": ["Kayah (singer), Kortez and other Polish musicians publicly supported", "International solidarity from Emma Watson, Billie Jean King and others"],
+      "government_champions": ["Szymon Hołownia (Poland 2050 party)", "Lewica (Left) coalition", "KO (Civic Coalition) — all in current governing coalition"],
+      "corporate_actors": {
+        "villains": ["Catholic Church hierarchy", "Ordo Iuris (conservative legal institute, drafted the restrictions)"],
+        "allies": ["Some Polish corporations publicly supported women's rights in response to boycott threats"]
+      },
+      "international": ["European Parliament resolutions condemning Polish abortion restrictions", "ECHR (European Court of Human Rights) ruled Poland's abortion restrictions violate human rights (2020, 2023)", "EU funding leverage discussions"]
+    },
+    "what_actually_changed": "The near-total abortion ban is still in effect as of early 2026, but: (1) Multiple women have died and their cases created ongoing political pressure; (2) PiS lost the 2023 elections with abortion as the decisive issue; (3) The Tusk government has parliamentary majority to change the law, blocked only by presidential veto; (4) Presidential elections in 2025 represent the final institutional barrier. The movement won the long game politically while losing the immediate legal battle — a score of 4 reflects a major win that is still being implemented."
+  },
+  {
+    "id": 55,
+    "name": "Iceland: Banking Revolution / Pots and Pans (Búsáhaldabyltingin)",
+    "outcome_score": 5,
+    "outcome_summary": "Complete success: government fell, bankers were imprisoned (26 senior executives, highest per capita globally), the country refused to bail out foreign creditors, and the economy recovered faster than comparable crisis countries. Crowdsourced constitution drafted (though not fully adopted). The only country that responded to the 2008 financial crisis through criminal accountability rather than austerity. Score 5 — sustained systemic change achieved.",
+    "progress_markers": [
+      {"year": 2006, "type": "BUILDUP", "event": "Iceland's three major banks (Kaupthing, Glitnir, Landsbanki) have expanded to borrow 10x GDP. Financial system growing at unsustainable rate; some domestic critics ignored"},
+      {"year": 2008, "type": "TIP", "event": "October 2008: All three banks collapse within a week as interbank lending freezes globally. Iceland's stock market drops 90%. Savings wiped out. Country essentially bankrupt"},
+      {"year": 2008, "type": "MILESTONE", "event": "October 2008: Demonstrations begin; Icesave accounts crisis (UK and Dutch depositors demand Iceland guarantee deposits). Emergency IMF bailout package negotiated"},
+      {"year": 2009, "type": "TIP", "event": "January-February 2009: 'Pots and Pans Revolution' — weekly Saturday protests with pots, pans, drums. PM Haarde becomes first world leader to resign due to financial crisis (January 26, 2009)"},
+      {"year": 2009, "type": "WIN", "event": "April 2009: New left-leaning government under Jóhanna Sigurðardóttir formed. First openly lesbian head of government globally"},
+      {"year": 2010, "type": "WIN", "event": "March 2010: Icesave referendum — Icelanders vote 93% AGAINST government guaranteeing Icesave deposits to foreign creditors. Government accepts the democratic verdict"},
+      {"year": 2010, "type": "WIN", "event": "Special Prosecutor appointed to investigate bank executives; arrests begin"},
+      {"year": 2011, "type": "WIN", "event": "Second Icesave referendum (April 2011): 59% reject again. EFTA Court later rules Iceland was not obligated to bail out depositors — referendum vindicated"},
+      {"year": 2012, "type": "CONSOLIDATION", "event": "Crowdsourced constitution drafted via social media (citizens submitted amendments online). First crowdsourced national constitution. Parliament did not adopt it in full but process was unprecedented"},
+      {"year": 2012, "type": "WIN", "event": "First convictions of bank executives. Eventually 26 senior bankers convicted and imprisoned — sentences of 2-5 years. Highest per capita banker imprisonment globally from GFC"},
+      {"year": 2013, "type": "CONSOLIDATION", "event": "Economy fully recovered — unemployment back near pre-crisis levels. GDP growth positive. Outperformed Ireland, Greece, Portugal which took austerity route"},
+      {"year": 2015, "type": "WIN", "event": "EFTA Court ruling confirms Iceland was right to refuse Icesave guarantee. €6 billion debt avoided. Economic vindication of protest-driven political decisions"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "InDefence (Indefence.is)", "description": "Civil society organization that coordinated early demonstrations and Icesave referendum campaign"},
+        {"name": "Hagsmunasamtök Heimilanna", "description": "Association of household savings defenders; organized debt relief campaign"},
+        {"name": "Iðunn (feminist organization)", "description": "Part of the broad coalition; women's organizations central to Jóhanna Sigurðardóttir government coalition"}
+      ],
+      "funders": ["Self-organized through civil society; no major external funders"],
+      "celebrities": ["Björk publicly supported the protest movement internationally"],
+      "government_champions": ["Jóhanna Sigurðardóttir (PM 2009-2013, Social Democrat)", "Steingrímur J. Sigfússon (Finance Minister, Left-Green)"],
+      "corporate_actors": {
+        "villains": ["Kaupthing Bank (CEO Sigurdur Einarsson convicted)", "Glitnir Bank (executives convicted)", "Landsbanki (Icesave product executives convicted)"],
+        "allies": []
+      },
+      "international": ["IMF (provided €2.1B loan with conditions)", "UK and Dutch governments (demanded Icesave guarantee — became the foreign pressure that domestic democracy successfully resisted)", "EFTA Court (eventually vindicated Iceland's position)"]
+    },
+    "what_actually_changed": "Iceland is the only country in the world that prosecuted and imprisoned senior bankers for their role in the 2008 financial crisis. The economy recovered fully by 2013 without imposing austerity (unlike Ireland, Greece, Portugal). Icesave debt avoided entirely. A new constitution was drafted (though not fully adopted). The pots and pans revolution produced the most comprehensive accountability outcome of any GFC-related movement globally — a complete success within Iceland's context, limited exportability to larger economies."
+  },
+  {
+    "id": 56,
+    "name": "Spain Indignados / 15-M Movement",
+    "outcome_score": 3,
+    "outcome_summary": "No immediate policy wins. Movement cleared from plazas by autumn 2011. But long-term institutional impact was profound: Podemos party (founded 2014 from 15-M networks) entered government in 2020 as junior coalition partner. Municipal activists ('Mayors of Change') won city halls in Madrid, Barcelona, and other major cities in 2015. The two-party system (PP/PSOE duopoly) was permanently disrupted. Score 3 reflects cultural/institutional shift that took years to convert into policy.",
+    "progress_markers": [
+      {"year": 2009, "type": "BUILDUP", "event": "Spain's real estate bubble collapses; unemployment begins rising to 20%+ (youth unemployment 50%+). Mortgage crisis creates massive evictions. Partido Popular and PSOE seen as identical on economic austerity"},
+      {"year": 2010, "type": "BUILDUP", "event": "General strike November 2010 against socialist government's austerity measures. Traditional union-led protest — precursor to 15-M's more horizontal approach"},
+      {"year": 2011, "type": "BUILDUP", "event": "¡Democracia Real Ya! ('Real Democracy Now') network formed by informal groups. Manifesto circulated online. Inspired by Tunisian revolution. Planned protest for May 15 (day before municipal elections)"},
+      {"year": 2011, "type": "TIP", "event": "May 15, 2011: 130 cities; ~50,000 march. Madrid's Puerta del Sol occupied after police disperse small post-march group. Spontaneous; next morning 20,000 arrive to find 40 people had stayed overnight"},
+      {"year": 2011, "type": "MILESTONE", "event": "May 27: Catalan government attempts to evict Sol occupation; 10,000 surround to prevent eviction. Cross-city solidarity demonstrating resilience"},
+      {"year": 2011, "type": "MILESTONE", "event": "June 2011: Movement transforms from static occupation to 'popular assemblies' in neighborhoods across Spain — institutionalization attempt"},
+      {"year": 2011, "type": "SETBACK", "event": "Municipal elections (May 22, before movement peak) — PP wins majority of city halls despite protests. Movement unable to convert into immediate electoral impact"},
+      {"year": 2011, "type": "ONGOING", "event": "Occupations gradually wind down through summer-autumn 2011. No formal leadership = no negotiation possible = no policy wins"},
+      {"year": 2012, "type": "CONSOLIDATION", "event": "15-M networks transform into Platform for Mortgage Victims (PAH) — led by Ada Colau; direct action against evictions becomes Spain's most popular social movement. Stops 1,600+ evictions"},
+      {"year": 2014, "type": "CONSOLIDATION", "event": "January 2014: Podemos launched by academics led by Pablo Iglesias — explicitly channeling 15-M energy into electoral vehicle. Uses circle (assembly) imagery and 15-M vocabulary"},
+      {"year": 2015, "type": "WIN", "event": "Municipal elections May 2015: 'Mayors of Change' (15-M activists) win Madrid (Manuela Carmena), Barcelona (Ada Colau), and several other major cities"},
+      {"year": 2015, "type": "WIN", "event": "December 2015 elections: Podemos wins 20.7% — Spain's political duopoly permanently broken. No government can form without including new parties"},
+      {"year": 2020, "type": "WIN", "event": "January 2020: Pedro Sánchez forms coalition government with Podemos. Pablo Iglesias becomes Deputy Prime Minister. Direct line from Puerta del Sol 2011 to government participation 2020"},
+      {"year": 2024, "type": "ONGOING", "event": "Podemos splits (2023); Yolanda Díaz's Sumar replaces it in government. 15-M's institutional legacy continues through successor formations"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "¡Democracia Real Ya!", "description": "Original organizing network; launched the May 15 call. Loose network of individuals without formal structure"},
+        {"name": "Juventud Sin Futuro (Youth Without Future)", "description": "Student network that provided early organizational core"},
+        {"name": "Platform for Mortgage Victims (PAH)", "description": "Most durable organizational product of 15-M; led by Ada Colau; direct action against bank evictions"}
+      ],
+      "funders": ["Self-organized; no major institutional funders", "Some labor union support (CNT, smaller unions)"],
+      "celebrities": ["Pablo Iglesias (political scientist, future Podemos leader, future Deputy PM)", "Ada Colau (future Mayor of Barcelona)", "Naomi Klein expressed international solidarity"],
+      "government_champions": [],
+      "corporate_actors": {
+        "villains": ["Major Spanish banks (Santander, BBVA, Bankia) — mortgage eviction targets", "La Caixa (major savings bank involved in foreclosures)"],
+        "allies": []
+      },
+      "international": ["Occupied Wall Street, Occupy London, and global Occupy movements inspired by and connected to 15-M", "Greek Syntagma Square occupation contemporaneous", "Podemos model studied by Syriza (Greece), Five Star Movement (Italy), La France Insoumise"]
+    },
+    "what_actually_changed": "No immediate policy changes from the occupation. But 15-M permanently disrupted Spain's two-party system: Podemos and Ciudadanos (responding to same dynamics from center-right) ended the PP/PSOE duopoly. The PAH (Platform for Mortgage Victims) stopped thousands of evictions and won a municipal mortgage relief law. The 'Mayors of Change' (Colau in Barcelona, Carmena in Madrid) implemented progressive urban policies 2015-2019. Pablo Iglesias as Deputy PM in the 2020-2023 government implemented Spain's first guaranteed minimum income (IMV). The 9-year arc from Puerta del Sol to government participation represents one of the most successful movement-to-institution conversions in recent European political history."
+  },
+  {
+    "id": 57,
+    "name": "Urgenda Climate Victory — Netherlands",
+    "outcome_score": 4,
+    "outcome_summary": "Historic legal victory: Dutch Supreme Court (December 2019) confirmed government must cut emissions 25% by 2020 — binding legal order. First time a court ordered a government to act on climate based on human rights. Dutch government implemented policy changes to comply. International replication across 30+ countries created the global climate litigation movement. Score 4 (not 5) because compliance has been incomplete and subsequent Dutch governments have partly backtracked.",
+    "progress_markers": [
+      {"year": 2012, "type": "BUILDUP", "event": "Urgenda Foundation (founded 2008) begins developing the legal theory: could Dutch civil liability law force the government to cut emissions at the rate science requires?"},
+      {"year": 2013, "type": "BUILDUP", "event": "Lawsuit filed against Dutch state by Urgenda Foundation on behalf of 900 Dutch citizens. Novel legal theory: duty of care under Dutch civil law + ECHR human rights"},
+      {"year": 2015, "type": "WIN", "event": "June 24, 2015: District Court of The Hague rules in Urgenda's favor. Government must reduce greenhouse gas emissions at least 25% by end of 2020 (compared to 1990 levels). Historic first"},
+      {"year": 2015, "type": "MILESTONE", "event": "International replication begins immediately: climate lawyers in Belgium, Ireland, UK, Australia, Colombia, Pakistan begin studying the Urgenda template"},
+      {"year": 2018, "type": "WIN", "event": "October 9, 2018: Hague Court of Appeal upholds the lower court ruling. Government's appeal fails. 25% by 2020 confirmed"},
+      {"year": 2019, "type": "WIN", "event": "December 20, 2019: Dutch Supreme Court upholds ruling in landmark decision — first national supreme court to order climate action on human rights grounds. Ruling is final and binding"},
+      {"year": 2020, "type": "PARTIAL-WIN", "event": "Dutch government implements emergency policy measures to meet the 2020 target: coal plants partly curtailed, additional renewable policies accelerated"},
+      {"year": 2020, "type": "CONSOLIDATION", "event": "Netherlands reaches approximately 25% reduction target by 2020 — the legal order was formally met, though critics note partial compliance"},
+      {"year": 2021, "type": "CONSOLIDATION", "event": "Neubauer v. Germany (German Constitutional Court ruling April 2021) directly inspired by Urgenda. Torres Strait Islanders (Australia), Sharma v. Minister (Australia), and dozens more cases follow the template"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "By 2022: 30+ countries have Urgenda-style climate litigation. Roughly 2,000 climate lawsuits globally — Urgenda as the founding case"},
+      {"year": 2023, "type": "SETBACK", "event": "Dutch farming/nitrogen crisis and political upheaval (BBB party, Wilders rise) creates political backlash against environmental regulation; new Dutch government (2024) weakening climate ambition"},
+      {"year": 2024, "type": "REVERSAL", "event": "Geert Wilders' PVV leads new Dutch coalition government (2024); announces rollback of climate and nitrogen reduction policies. Urgenda legal win being eroded by political shift"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Urgenda Foundation", "description": "NGO founded by Marjan Minnesma; designed and ran the 8-year litigation strategy"},
+        {"name": "Milieudefensie (Friends of the Earth Netherlands)", "description": "Complementary organization; ran parallel Shell liability case (won in 2021)"},
+        {"name": "Climate Litigation Accelerator (later Sabin Center for Climate Change Law)", "description": "Amplified the Urgenda template internationally to 30+ countries"}
+      ],
+      "funders": ["Dutch public donations (small-donor crowdfunding)", "European Climate Foundation (strategy support)", "Novo Nordisk Foundation and other philanthropy for replication"],
+      "celebrities": [],
+      "government_champions": ["Dennis Burger (original legal team lead)", "International climate lawyers who adopted the template globally"],
+      "corporate_actors": {
+        "villains": ["Shell (separate Milieudefensie case won in 2021 — Shell ordered to cut emissions 45% by 2030)", "Dutch fossil fuel industry lobby"],
+        "allies": []
+      },
+      "international": ["UN Human Rights Committee (confirmed human rights-climate link)", "ECHR (used as legal basis in the ruling)", "UN Special Rapporteur on Human Rights and Environment (supported legal theory)"]
+    },
+    "what_actually_changed": "The Urgenda ruling established: (1) Governments can be legally ordered to take climate action under human rights law; (2) IPCC science can be used as a legal standard; (3) Dutch civil law duty of care applies to government climate inaction. Netherlands approximately met the 2020 25% target. More important globally: 2,000+ climate lawsuits now filed in 65+ countries using the Urgenda template. The Shell ruling (2021, separate case) ordered a major oil company to cut emissions by 45% by 2030 — the most significant corporate climate liability ruling ever. Urgenda's lasting contribution is the legal framework, not just the Dutch policy win."
+  },
+  {
+    "id": 58,
+    "name": "Germany Constitutional Climate Ruling (Neubauer v. Germany)",
+    "outcome_score": 4,
+    "outcome_summary": "Federal Constitutional Court ruled April 2021 that Germany's Climate Protection Act was partially unconstitutional: insufficient targets shifted the burden of sharp cuts unfairly onto future generations. Germany revised its Climate Protection Act within weeks, adopting 'net zero by 2045' target. Rights-of-future-generations framework established in German jurisprudence and spreading globally. Score 4 because implementation is ongoing and the incoming CDU/CSU-led government (2025) is weakening targets.",
+    "progress_markers": [
+      {"year": 2019, "type": "BUILDUP", "event": "Fridays for Future peaks globally; German government passes Climate Protection Act (November 2019) — widely criticized as insufficient by scientists. NDCs inadequate for 1.5°C pathway"},
+      {"year": 2020, "type": "BUILDUP", "event": "Constitutional complaints filed by: Deutsche Umwelthilfe + BUND (German environmental federation), Greenpeace Germany, and individual FFF activists including Luisa Neubauer (lead petitioner)"},
+      {"year": 2020, "type": "BUILDUP", "event": "Complementary cases filed in Netherlands (Milieudefensie v Shell), France (L'Affaire du Siècle), and UK — building international pressure environment"},
+      {"year": 2021, "type": "TIP", "event": "April 29, 2021: Federal Constitutional Court (Bundesverfassungsgericht) rules 2019 Climate Protection Act partially unconstitutional. Insufficient emissions reduction targets after 2030 violate fundamental rights of younger generations"},
+      {"year": 2021, "type": "WIN", "event": "June 2021: Bundestag passes amended Climate Protection Act within 6 weeks of ruling. Net zero by 2045 target (5 years earlier than previous 2050 target). Binding annual sector targets established"},
+      {"year": 2021, "type": "CONSOLIDATION", "event": "Ruling explicitly uses 'rights of future generations' framework — first major constitutional court to do so for climate. Influences constitutional interpretation globally"},
+      {"year": 2021, "type": "CONSOLIDATION", "event": "Neubauer ruling cited in subsequent cases: Montana (US, Held v. Montana 2023), New Zealand, Brazil, and others adopt rights-of-future-generations framing"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "German government (Scholz coalition) sets interim targets and begins renewables acceleration. But Russian invasion of Ukraine (Feb 2022) triggers gas infrastructure backslide"},
+      {"year": 2023, "type": "SETBACK", "event": "Constitutional Court strikes down climate fund (November 2023) — ruling against off-budget climate spending ends €60B Klima- und Transformationsfonds"},
+      {"year": 2024, "type": "SETBACK", "event": "Scholz coalition collapses; snap elections (February 2025). CDU/CSU wins; new government announced rollback of some climate measures"},
+      {"year": 2025, "type": "ONGOING", "event": "Net zero 2045 target formally retained in new coalition agreement but implementation timelines stretched; renewables investment commitments reduced"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Deutsche Umwelthilfe (German Environmental Aid)", "description": "Lead petitioner in the constitutional complaint; environmental NGO known for aggressive legal strategy"},
+        {"name": "BUND (Friends of the Earth Germany)", "description": "Co-petitioner; major environmental federation with legal capacity"},
+        {"name": "Greenpeace Germany", "description": "Filed separate but parallel complaint; provided media amplification"}
+      ],
+      "funders": ["German Climate Fund (philanthropic)", "European Climate Foundation", "Small donor networks from FFF community"],
+      "celebrities": ["Luisa Neubauer (lead named petitioner; Germany's most prominent FFF activist)", "Greta Thunberg (international amplification)"],
+      "government_champions": ["Robert Habeck (Green Party, Economy and Climate Minister 2021-2025) — key implementation champion"],
+      "corporate_actors": {
+        "villains": ["RWE (major coal operator)", "BASF (major industrial emitter)"],
+        "allies": ["German renewable energy sector (BDEW)"]
+      },
+      "international": ["Urgenda Foundation (provided legal template and strategic advice)", "UN Human Rights Committee", "IPCC (scientific standard used in legal argument)"]
+    },
+    "what_actually_changed": "German Climate Protection Act amended within 6 weeks (rare speed for major legislation). Net zero 2045 target is legally binding. Annual sectoral budgets (industry, transport, buildings, agriculture) are legally enforceable. The rights-of-future-generations framework is now part of German constitutional jurisprudence — the most durable contribution. Implementation under the post-2025 CDU-led government is being slowed, but the 2045 target has not been formally abandoned. The international replication (30+ cases citing Neubauer's rights-of-future-generations framework) represents the ruling's most significant lasting impact."
+  },
+  {
+    "id": 59,
+    "name": "Anti-Austerity Greece (SYRIZA/Oxi)",
+    "outcome_score": 1,
+    "outcome_summary": "Complete failure of democratic expression to override economic coercion. Despite 61.3% 'No' vote in the July 2015 referendum, Greece accepted a third bailout more austere than what voters rejected. SYRIZA governed as austerity implementer for the next four years. The movement demonstrated the limits of national democratic sovereignty within the eurozone architecture — economic coercion (threat of bank closures, euro exit) overrode democratic mandate. Score 1: Awareness only — the movement surfaced the democratic deficit of eurozone governance but produced no structural change.",
+    "progress_markers": [
+      {"year": 2010, "type": "BUILDUP", "event": "Greece's first bailout (May 2010): €110B + sweeping austerity memorandum. Cuts to pensions, public sector wages, healthcare. GDP begins multi-year contraction"},
+      {"year": 2010, "type": "MILESTONE", "event": "Syntagma Square occupation begins; Indignants (Aganaktismenoi) movement. 100,000+ gathered regularly. 'Real democracy now' framing"},
+      {"year": 2011, "type": "BUILDUP", "event": "Second bailout (July 2011): €130B + deeper austerity. Youth unemployment reaches 50%+. SYRIZA coalition begins growing electorally from 4.6% to 16.8%"},
+      {"year": 2012, "type": "BUILDUP", "event": "Third bailout negotiations; austerity deepens. SYRIZA emerges as main opposition party. Greece's GDP contracted 25% — equivalent to Great Depression scale"},
+      {"year": 2014, "type": "BUILDUP", "event": "SYRIZA leads polls; global Keynesian economists (Stiglitz, Piketty, Varoufakis) build public case that austerity is counterproductive"},
+      {"year": 2015, "type": "TIP", "event": "January 25, 2015: SYRIZA wins elections on explicit anti-austerity platform. Alexis Tsipras becomes PM. Yanis Varoufakis becomes Finance Minister. 'Oxi' (No) to austerity the mandate"},
+      {"year": 2015, "type": "WIN", "event": "Five months of intense negotiations with Troika (ECB, EU, IMF). Varoufakis develops alternative economic proposals. International solidarity from Podemos, Corbyn, Sanders"},
+      {"year": 2015, "type": "MILESTONE", "event": "June 27, 2015: Tsipras calls surprise referendum on whether Greece should accept creditor terms. ECB immediately cuts emergency liquidity to Greek banks — capital controls imposed"},
+      {"year": 2015, "type": "WIN", "event": "July 5, 2015: Greeks vote 61.3% 'Oxi' (No) to creditor demands. One of the largest democratic anti-austerity mandates in European history"},
+      {"year": 2015, "type": "REVERSAL", "event": "July 13, 2015: Despite referendum result, Tsipras accepts third bailout — harsher than what voters rejected. Varoufakis resigns. Germany/Schäuble's economic coercion prevails over Greek democracy"},
+      {"year": 2015, "type": "SETBACK", "event": "September 2015: Tsipras wins elections again — now as austerity implementer. SYRIZA's capitulation legitimizes the memorandum from within the left"},
+      {"year": 2019, "type": "REVERSAL", "event": "July 2019: New Democracy (conservative) wins elections. SYRIZA loses power having governed as managers of austerity. The anti-austerity movement produced no structural change to eurozone governance"},
+      {"year": 2022, "type": "CONSOLIDATION", "event": "Greek debt restructured; some austerity requirements relaxed as EU recognizes counterproductiveness. But this came from EU political evolution, not Greek protest pressure"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "SYRIZA (Coalition of the Radical Left)", "description": "Electoral vehicle for anti-austerity movement; grew from 4.6% to 36% 2009-2015"},
+        {"name": "ADEDY and GSEE (public and private sector unions)", "description": "Organized general strikes; provided organizational infrastructure"},
+        {"name": "Popular Unity (splinter from SYRIZA)", "description": "Formed after SYRIZA capitulation; party of those who refused to accept the memorandum"}
+      ],
+      "funders": ["Small donor fundraising", "Union support"],
+      "celebrities": ["Yanis Varoufakis (celebrity economist; international media profile)", "Ken Loach, Naomi Klein, international left solidarity"],
+      "government_champions": ["Alexis Tsipras (before capitulation)", "Yanis Varoufakis (resigned rather than sign)"],
+      "corporate_actors": {
+        "villains": ["Goldman Sachs (arranged the original debt concealment that enabled Greek deficit to be hidden)", "German export industry (major beneficiary of euro architecture that hurt Greece)"],
+        "allies": []
+      },
+      "international": ["IMF (disputed with EU over austerity depth; later admitted austerity was excessive)", "Wolfgang Schäuble (German Finance Minister; architect of coercion strategy)", "ECB (used emergency liquidity as weapon — unprecedented use of monetary policy as political coercion)"]
+    },
+    "what_actually_changed": "Almost nothing structurally. The Oxi referendum result was ignored. Austerity continued until 2018 (when bailout formally ended). Greek GDP shrank 25% and has only partially recovered. Public debt (the original problem) actually increased as % of GDP during the bailout period — demonstrating austerity's macroeconomic counterproductiveness. What DID change: the democratic deficit of eurozone governance became globally visible; Varoufakis founded DiEM25 (Democracy in Europe Movement) attempting to build a European democratic political project; the analytical case for Keynesian alternatives was legitimized globally."
+  },
+  {
+    "id": 60,
+    "name": "Extinction Rebellion — UK Launch",
+    "outcome_score": 2,
+    "outcome_summary": "UK Parliament declared 'climate emergency' (largely symbolic). Net Zero by 2050 target legislated (but less ambitious than demanded). No Citizens' Assembly on climate. XR's direct civil disobedience model produced extensive media coverage but limited policy conversion. Post-2020, XR internally fractured (Just Stop Oil splinter); UK government designated XR as 'extremist' organization (2023). Score 2: Partial win — contributed to policy vocabulary shift and net zero legislation but demands not met.",
+    "progress_markers": [
+      {"year": 2018, "type": "BUILDUP", "event": "Roger Hallam and Gail Bradbrook develop XR from Momentum organizing infrastructure; academic research on civil disobedience effectiveness informs tactics. Extinction Symbol (hourglass) designed"},
+      {"year": 2018, "type": "TIP", "event": "October 31, 2018: 'Declaration of Rebellion' outside UK Parliament. Simultaneous with IPCC 1.5°C report — perfect narrative timing"},
+      {"year": 2018, "type": "MILESTONE", "event": "November 2018: Five Thames bridges (Westminster, Waterloo, Lambeth, Blackfriars, Millennium) blockaded simultaneously — first major action"},
+      {"year": 2019, "type": "MILESTONE", "event": "April 2019: International Rebellion — London shut down for 11 days. Waterloo Bridge occupation creates 'garden protest.' Oxford Circus blockaded. 1,000+ arrests. Simultaneously: 33 countries, 80 cities"},
+      {"year": 2019, "type": "WIN", "event": "May 1, 2019: UK Parliament declares 'climate emergency' — first national parliament globally. Largely symbolic but politically significant"},
+      {"year": 2019, "type": "WIN", "event": "June 2019: UK legislates Net Zero by 2050 target — first major economy to do so. XR's April disruption directly preceded this (though causality contested)"},
+      {"year": 2019, "type": "SETBACK", "event": "October 2019 London rebellion — police use section 14 Public Order Act to ban protests. Courts later rule ban unlawful, but chilling effect registered"},
+      {"year": 2020, "type": "SETBACK", "event": "COVID-19 ends street protest model. XR unable to adapt digital strategy effectively. Internal tension over whether non-violence was sufficient tactic"},
+      {"year": 2021, "type": "SETBACK", "event": "August 2021: 'Impossible Rebellion' in London — smaller scale, more confrontational (targeting banks, newspapers). Public sympathy declining"},
+      {"year": 2022, "type": "SETBACK", "event": "Just Stop Oil (JSO) splinter forms, taking more radical tactics (slow marching, soup on van Gogh). XR's 'radical flank' effect disputed — JSO arguably reduces public support for broader climate action"},
+      {"year": 2023, "type": "SUPPRESSED", "event": "UK Counter-Terrorism Police puts XR on 'extremist' monitoring list (later retracted under pressure). Police, Crime, Sentencing and Courts Act (2022) severely restricts protest rights"},
+      {"year": 2024, "type": "REVERSAL", "event": "UK Rishi Sunak government delays EV mandate, weakens boiler heat pump targets, issues new North Sea oil licenses. Net Zero 2050 target retained but implementation timeline stretched"},
+      {"year": 2025, "type": "ONGOING", "event": "XR continues but at significantly reduced scale. Climate litigation (Client Earth, Urgenda-model) increasingly effective alternative to direct action in UK context"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Extinction Rebellion UK", "description": "Founded by Roger Hallam and Gail Bradbrook. Novel model: mass arrest acceptance as tactic; three specific demands; global replication template"},
+        {"name": "Just Stop Oil", "description": "Splinter group (2022); more radical tactics; debates within XR about whether this helps or hurts"},
+        {"name": "Rising Up!", "description": "Predecessor organization from which XR emerged"}
+      ],
+      "funders": ["Noel Coward Foundation (early funding)", "Joschka Tulloch and other individual donors", "Climate Emergency Fund (US-based funder of disruptive climate activism)"],
+      "celebrities": ["Emma Thompson (arrested at XR action)", "Joanna Lumley (public support)", "George Monbiot (intellectual supporter)"],
+      "government_champions": ["Caroline Lucas (Green MP, most consistent parliamentary ally)"],
+      "corporate_actors": {
+        "villains": ["News UK/News International (targeted by XR for climate denial coverage)", "Barclays and HSBC (targeted for fossil fuel financing)", "London Stock Exchange (blockaded 2019)"],
+        "allies": []
+      },
+      "international": ["XR chapters in 70+ countries", "Supported by 350.org, Climate Emergency Fund (US)", "International Civil Disobedience research (Harvard, Gene Sharp's work)"]
+    },
+    "what_actually_changed": "UK net zero 2050 target legislated (the most durable outcome). UK Parliament climate emergency declaration. But: no Citizens' Assembly. No 2025 net-zero requirement. No 2030 emissions target ambitious enough for 1.5°C. XR's most specific policy demand (Citizens' Assembly) was never met. The Public Order Act (2022) restricts protest rights in ways that directly responded to XR tactics — the movement changed the law against itself as much as for its goals. The direct action model contributed to the Net Zero legislation but was insufficient for the transformation demanded."
+  },
+  {
+    "id": 61,
+    "name": "Montreal Protocol — Ozone Layer",
+    "outcome_score": 5,
+    "outcome_summary": "The most successful environmental treaty in history. CFCs phased out by all 197 signatory parties. Ozone layer measurably recovering — projected fully healed by 2065 (southern hemisphere) to 2045 (northern hemisphere). The only case of humanity successfully reversing a planetary-scale environmental crisis. Score 5 — full policy change, globally sustained, with measurable physical improvement.",
+    "progress_markers": [
+      {"year": 1974, "type": "BUILDUP", "event": "Rowland and Molina publish CFC ozone-depletion theory in Nature. DuPont and aerosol industry immediately attack the science — same playbook as tobacco industry"},
+      {"year": 1976, "type": "BUILDUP", "event": "National Academy of Sciences confirms Rowland-Molina theory. US ban on CFC aerosols proposed"},
+      {"year": 1978, "type": "PARTIAL-WIN", "event": "US, Canada, and Sweden ban CFC aerosols in consumer products. Industry lobbying prevents global action"},
+      {"year": 1983, "type": "BUILDUP", "event": "NASA satellite data confirms significant Antarctic ozone depletion. Industry continues to dispute"},
+      {"year": 1985, "type": "TIP", "event": "Farman, Gardiner, and Shanklin publish 'ozone hole' discovery in Nature (May 1985). Simultaneous: Vienna Convention for Protection of the Ozone Layer signed — framework without specific targets"},
+      {"year": 1985, "type": "MILESTONE", "event": "'Ozone hole' visual — literally a hole visible from satellite over Antarctica — becomes one of the most powerful environmental communication breakthroughs in history. Connected to skin cancer personally"},
+      {"year": 1986, "type": "BUILDUP", "event": "DuPont business calculation shifts: the company has developed CFC alternatives (HFCs) and begins recognizing the market opportunity in phasing out CFCs it controls"},
+      {"year": 1987, "type": "WIN", "event": "September 16, 1987: Montreal Protocol signed by 46 nations. CFC production to be halved by 1998. 'Ozone hole' having made the harm personally understandable to mass audiences"},
+      {"year": 1990, "type": "WIN", "event": "London Amendment: Phase-out of CFCs accelerated and extended; Multilateral Fund created to help developing countries transition. Full CFC phase-out by 2000 for developed countries"},
+      {"year": 1992, "type": "WIN", "event": "Copenhagen Amendment: Phase-out accelerated further; HCFCs (transitional substitutes) also scheduled for phase-out. Treaty demonstrating ability to self-strengthen"},
+      {"year": 1996, "type": "WIN", "event": "Developed countries complete CFC phase-out. DuPont and other companies profit from selling CFC alternatives — industry transformation complete"},
+      {"year": 1999, "type": "CONSOLIDATION", "event": "Beijing Amendment: Controls extended to new substances. Universal ratification achieved — 197 parties, making Montreal Protocol the only UN treaty with universal participation"},
+      {"year": 2009, "type": "CONSOLIDATION", "event": "Scientific evidence: ozone layer showing measurable recovery in northern hemisphere. The first planet-scale environmental repair underway"},
+      {"year": 2016, "type": "WIN", "event": "Kigali Amendment: HFCs (greenhouse gases used as CFC replacements) also scheduled for phase-down — inadvertently turning ozone treaty into climate treaty"},
+      {"year": 2023, "type": "CONSOLIDATION", "event": "UN report: ozone layer on track for full recovery by 2066 (Antarctic), 2045 (Arctic), 2040 (rest of world). Planet-scale physical proof of treaty effectiveness"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "UNEP (United Nations Environment Programme)", "description": "Secretariat host; Mostafa Tolba's leadership as UNEP Executive Director was decisive in pushing the protocol"},
+        {"name": "Natural Resources Defense Council (NRDC)", "description": "Key US environmental NGO that pushed for domestic action and international negotiations"},
+        {"name": "Environmental Defense Fund", "description": "Built the economic case for CFC alternatives being profitable"}
+      ],
+      "funders": ["US EPA (key funder of ozone science)", "NASA (ozone monitoring satellite data)", "Multilateral Fund under Montreal Protocol ($3.3B for developing country transition)"],
+      "celebrities": [],
+      "government_champions": ["Lee Thomas (EPA Administrator 1985-89, key US negotiator)", "Mostafa Tolba (UNEP Executive Director, the most important individual in achieving the treaty)", "Margaret Thatcher (unexpectedly became champion — first major leader to frame ozone as global crisis)"],
+      "corporate_actors": {
+        "villains": ["DuPont (1974-1986 — funded industry attacks on Rowland-Molina science)"],
+        "allies": ["DuPont (1986-1987 — switched to champion once it held CFC alternatives patents)", "Reckitt Benckiser and major aerosol companies (switched after US ban)"]
+      },
+      "international": ["WMO (monitoring)", "Vienna Convention (1985 framework)", "197 UN Member States (universal ratification — unique)", "Multilateral Fund (technology transfer to Global South)"]
+    },
+    "what_actually_changed": "CFC production reduced from 1.1 million tonnes/year (1987) to near zero. Equivalent of 135 billion tonnes of CO2 avoided (climate co-benefit larger than Paris Agreement projected impact in same period). Ozone layer recovering on schedule. Skin cancer rates from ozone depletion averted — estimated 2 million skin cancer cases prevented annually. The treaty's key success factors: (1) visible, visceral harm with personal resonance (skin cancer); (2) alternatives already available; (3) industry calculation shifted; (4) small number of key producing countries; (5) Mostafa Tolba's extraordinary personal diplomatic skill."
+  },
+  {
+    "id": 62,
+    "name": "Ottawa Treaty — Anti-Personnel Landmines",
+    "outcome_score": 4,
+    "outcome_summary": "Ottawa Treaty (Mine Ban Treaty) signed December 1997; 164 state parties as of 2024. Anti-personnel landmine production and use by signatories effectively eliminated. Annual civilian casualties dropped from ~26,000/year (1997) to ~5,720/year (2022). But: US, Russia, China, India, Pakistan not signatories. Active use continues in non-signatory conflicts (Russia-Ukraine, Myanmar). Score 4 — major policy win, partially implemented (significant majority but not universal).",
+    "progress_markers": [
+      {"year": 1992, "type": "BUILDUP", "event": "International Campaign to Ban Landmines (ICBL) founded by Jody Williams and six NGOs. Novel strategy: bypass traditional UN disarmament forums; work directly with willing states"},
+      {"year": 1993, "type": "BUILDUP", "event": "ICBL coalition grows to 350+ organizations in 40 countries. Extensive documentation of civilian casualties, especially children and farmers"},
+      {"year": 1995, "type": "BUILDUP", "event": "Belgium becomes first country to unilaterally ban anti-personnel landmines. 'Ottawa process' concept emerges — Canadian government offers to host conference"},
+      {"year": 1996, "type": "BUILDUP", "event": "October 1996: Ottawa Strategy Conference — 50 countries declare intent to ban. Canada announces will host treaty signing conference in 1997. US excluded from 'fast track' process"},
+      {"year": 1997, "type": "TIP", "event": "January 1997: Princess Diana visits Angola minefield — photos of Diana among landmine victims become global front pages. Unprecedented celebrity-cause moment"},
+      {"year": 1997, "type": "TIP", "event": "January 1997: Jody Williams coordinates 1,000+ NGOs via email — one of the first major international movements coordinated primarily by email"},
+      {"year": 1997, "type": "MILESTONE", "event": "August 31, 1997: Princess Diana dies in Paris. Her landmine advocacy had just been filmed in Bosnia. Legacy becomes inseparable from the cause. Treaty signing four months later"},
+      {"year": 1997, "type": "WIN", "event": "December 3-4, 1997: Ottawa Treaty signed by 122 nations. Jody Williams and ICBL awarded Nobel Peace Prize"},
+      {"year": 1999, "type": "WIN", "event": "March 1, 1999: Treaty enters into force — record speed for major disarmament treaty (fastest entry into force of any disarmament treaty ever at that time)"},
+      {"year": 2000, "type": "CONSOLIDATION", "event": "International mine clearance underway. Mine Risk Education programs established globally. Mine Action enters development mainstream"},
+      {"year": 2005, "type": "PARTIAL-WIN", "event": "Signatories required to destroy stockpiles within 4 years. Major producers (UK, France, Germany, etc.) complete destruction. 48 million stockpiled mines destroyed by signatories"},
+      {"year": 2011, "type": "SETBACK", "event": "Libya uses anti-personnel mines during civil war. First signatory to use mines after ratification. Enforcement mechanisms weak"},
+      {"year": 2022, "type": "SETBACK", "event": "Russia uses anti-personnel mines extensively in Ukraine. Russia was never a signatory. Demonstrates treaty's limitation without universal membership"},
+      {"year": 2024, "type": "ONGOING", "event": "164 state parties (as of 2024). Annual casualties: ~5,720 (2022) vs. 26,000 (1997). Mine-affected land cleared: 9+ million mines cleared in cleared states. Goal: mine-free world by 2025 (not achieved; extended)"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "International Campaign to Ban Landmines (ICBL)", "description": "1997 Nobel Peace Prize laureate. Founded by Jody Williams; coordinated 1,000+ NGOs in 60 countries via email"},
+        {"name": "Handicap International (now Humanity & Inclusion)", "description": "Key NGO documenting civilian casualties and conducting survivor assistance"},
+        {"name": "Human Rights Watch Arms Division", "description": "Documentation, advocacy, and monitoring of treaty compliance"}
+      ],
+      "funders": ["Norwegian government (key early funder)", "Canadian government (hosted Ottawa process)", "Diana, Princess of Wales Memorial Fund (post-1997)"],
+      "celebrities": ["Princess Diana (visits to Angola, January 1997, and Bosnia — defining campaign images)", "Paul McCartney (later ambassador for landmine victim support)"],
+      "government_champions": ["Lloyd Axworthy (Canadian Foreign Minister — architect of Ottawa process)", "Robin Cook (UK Foreign Secretary 1997 — reversed UK position)", "Cornelio Sommaruga (ICRC President)"],
+      "corporate_actors": {
+        "villains": ["Anti-personnel landmine manufacturers (primarily state-owned; US, Russian, Chinese companies major producers)", "Mil-Tec (UK private trader — prosecuted for trading)"],
+        "allies": []
+      },
+      "international": ["ICRC (International Committee of the Red Cross — key advocacy partner)", "UN Mine Action Service (UNMAS)", "GICHD (Geneva International Centre for Humanitarian Demining)", "Non-signatories: US, Russia, China, India, Pakistan, Israel"]
+    },
+    "what_actually_changed": "Production by signatory states effectively ended. 164 countries have never used them since ratification. 53 million stockpiled mines destroyed. Civilian casualties dropped from ~26,000/year to ~5,720/year (2022). Significant mine clearance in former conflict zones (Cambodia, Angola, Bosnia). The norm against their use is now overwhelming — even non-signatories are politically constrained. The US stopped producing in 1997 despite not signing. Major limitation: Russia, China, India, US non-participation means 60%+ of global population not covered. Ukraine conflict (2022-) shows the reality of non-universal treaties."
+  },
+  {
+    "id": 63,
+    "name": "Paris Agreement",
+    "outcome_score": 3,
+    "outcome_summary": "Historic diplomatic achievement: 196 parties signed; first universal climate agreement. But: NDCs are not legally binding; aggregate pledges still put world on 2.7-3°C trajectory (far from 1.5°C goal); US withdrew under Trump (2017-2021) and is withdrawing again under Trump (2025); enforcement mechanisms essentially absent. Score 3 — cultural/institutional shift without binding policy. The agreement exists; it is not working at the required speed.",
+    "progress_markers": [
+      {"year": 2009, "type": "SETBACK", "event": "Copenhagen Climate Summit (COP15) fails catastrophically. Developed vs. developing country impasse. Obama's hallway diplomacy produces non-binding 'accord.' Trust in UNFCCC process collapses"},
+      {"year": 2010, "type": "BUILDUP", "event": "Post-Copenhagen: UNFCCC develops 'bottom-up' nationally determined contributions (NDCs) model — each country sets its own targets. Circumvents the top-down caps deadlock"},
+      {"year": 2012, "type": "BUILDUP", "event": "Durban Platform: countries agree to negotiate a new agreement applicable to all parties (unlike Kyoto, which only bound developed countries) by 2015"},
+      {"year": 2013, "type": "BUILDUP", "event": "Typhoon Haiyan (November 2013): Yeb Saño's (Philippines) tearful speech at Warsaw COP creates global moral pressure moment. Saño fasts for 2 weeks during negotiations"},
+      {"year": 2014, "type": "TIP", "event": "November 2014: US-China bilateral climate deal — removes the 'why should we if they don't?' deadlock that had blocked global agreement for 20 years"},
+      {"year": 2014, "type": "MILESTONE", "event": "September 2014: People's Climate March — 400,000 in NYC, 2,500+ events globally. Largest climate march in history to that date. Political signal ahead of COP negotiations"},
+      {"year": 2015, "type": "WIN", "event": "December 12, 2015: Paris Agreement adopted by 196 parties at COP21. 'Well below 2°C, pursuing efforts toward 1.5°C' goal. Laurent Fabius gavels adoption"},
+      {"year": 2015, "type": "MILESTONE", "event": "Red Lines action: thousands lie in Paris streets holding red cloth creating aerial red-line image — one of the most successful visual activist moments at a treaty negotiation"},
+      {"year": 2016, "type": "WIN", "event": "November 4, 2016: Paris Agreement enters into force (fastest major UN treaty to enter into force)"},
+      {"year": 2017, "type": "REVERSAL", "event": "June 1, 2017: Trump announces US withdrawal from Paris Agreement — 'America First' rationale"},
+      {"year": 2019, "type": "CONSOLIDATION", "event": "Despite US withdrawal: subnational commitments maintained (US Climate Alliance — 25 states). Most NDCs updated. Green financing accelerating"},
+      {"year": 2021, "type": "WIN", "event": "February 2021: Biden administration rejoins Paris Agreement on day one"},
+      {"year": 2021, "type": "CONSOLIDATION", "event": "COP26 Glasgow: NDCs updated but still aggregate to 2.4-2.7°C. Loss and damage discussed but not funded. 1.5°C alive but barely"},
+      {"year": 2022, "type": "WIN", "event": "COP27 Sharm el-Sheikh: Loss and Damage Fund established — first time wealthy nations acknowledge financial responsibility for climate harm. Considered Paris Agreement's most significant advance"},
+      {"year": 2025, "type": "REVERSAL", "event": "January 2025: Trump withdraws US from Paris Agreement again. US also withdraws from international climate finance commitments. Second US withdrawal in 8 years"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "UNFCCC Secretariat (Christiana Figueres)", "description": "Figueres as Executive Secretary 2010-2016 transformed the institutional culture from failure (Copenhagen) to success (Paris). Personal leadership matter enormously"},
+        {"name": "High Ambition Coalition (EU + vulnerable states)", "description": "80+ countries (EU, Marshall Islands, et al.) who pushed for 1.5°C ambition and legally binding elements"},
+        {"name": "Small Island Developing States (SIDS/AOSIS)", "description": "Moral authority coalition that made 1.5°C a non-negotiable demand ('1.5 to stay alive')"}
+      ],
+      "funders": ["French government (COP21 host, €180M organizational budget)", "European Climate Foundation", "Bloomberg Philanthropies", "ClimateWorks Foundation"],
+      "celebrities": ["Leonardo DiCaprio (UN Messenger of Peace)", "Ban Ki-moon (UN Secretary-General, strong champion)"],
+      "government_champions": ["Laurent Fabius (French Foreign Minister — COP21 President)", "John Kerry (US Special Envoy)", "Xie Zhenhua (China's climate negotiator)", "Todd Stern (US State Department)"],
+      "corporate_actors": {
+        "villains": ["Saudi Aramco", "Koch Industries", "American Petroleum Institute — lobbied for non-binding provisions"],
+        "allies": ["Majority of S&P 500 companies backed Paris Agreement", "Insurance industry (liability risk)"]
+      },
+      "international": ["UN Security Council resolution (2014 recognizing climate as security threat)", "G7/G20 political commitments", "World Bank (climate co-benefits alignment)", "IMF (carbon pricing advocacy)"]
+    },
+    "what_actually_changed": "The Paris Agreement changed the global norm: climate action is now a universal expectation, not a developed-country obligation. NDC ratchet mechanism provides review pressure. Green finance has accelerated enormously (renewable energy investment >$350B/year). Loss and Damage Fund (COP27) is the first structural recognition of climate reparations. What has NOT changed: actual emissions. Global CO2 emissions have continued rising since Paris. The agreement is the diplomatic achievement of the century — a treaty with 196 parties — that is not working fast enough to achieve its stated goal."
+  },
+  {
+    "id": 64,
+    "name": "Plastics Treaty Negotiations",
+    "outcome_score": 1,
+    "outcome_summary": "INC-5 (Busan, November-December 2024) collapsed without treaty. Petrostate bloc (Saudi Arabia, Russia, Iran, US) blocked production caps. Petrochemical industry lobbyists outnumbered environmental NGOs 4:1 at negotiations. INC-6 tentatively planned but without US under Trump administration, prospects are severely weakened. Score 1: Awareness only — the campaign succeeded in putting plastics treaty on global agenda but has not achieved binding agreement.",
+    "progress_markers": [
+      {"year": 2016, "type": "BUILDUP", "event": "Break Free From Plastic coalition formed. Sea turtle straw video (2015) had demonstrated mass public concern. Scientific evidence of microplastics in ocean, seafood, blood, fetal tissue accumulating"},
+      {"year": 2018, "type": "BUILDUP", "event": "EU Single-Use Plastics Directive proposed. Ocean plastic becomes mainstream political issue. David Attenborough's Blue Planet II (2017) reaches 100M+ viewers"},
+      {"year": 2022, "type": "TIP", "event": "March 2022: UNEA-5 resolution in Nairobi — 175 countries vote to start plastics treaty negotiations. Landmark: first time production caps even discussed at UNEP level"},
+      {"year": 2022, "type": "MILESTONE", "event": "INC-1 (Punta del Este, Uruguay, November 2022): First negotiations. High Ambition Coalition forms (EU + 70+ countries pushing for production caps). Industry shows up in force"},
+      {"year": 2023, "type": "MILESTONE", "event": "INC-2 (Paris, May 2023): Technical discussions. Petrostate bloc (Saudi Arabia, Russia, Iran) begin systematically blocking production cap language. Industry lobbying documented"},
+      {"year": 2023, "type": "SETBACK", "event": "INC-3 (Nairobi, November 2023): Countries remain deeply divided. 'Like-minded group' of oil-producing states demands treaty only address waste management, not production"},
+      {"year": 2024, "type": "SETBACK", "event": "INC-4 (Ottawa, April 2024): Progress on text but fundamental disagreement on production caps unresolved. US signals ambivalence under domestic political pressure"},
+      {"year": 2024, "type": "SUPPRESSED", "event": "INC-5 (Busan, November-December 2024): Negotiations collapse without agreement. Petrostate bloc used procedural tactics to block binding production caps. Industry lobbyist outnumber NGOs 4:1 in delegation count"},
+      {"year": 2025, "type": "SETBACK", "event": "January 2025: Trump administration signals pullback from international environmental agreements. US role in plastics treaty negotiations thrown into question"},
+      {"year": 2025, "type": "ONGOING", "event": "High Ambition Coalition (EU + 70+ countries) maintains commitment. INC-6 planning underway but timeline, location, and prospect of achieving agreement uncertain"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "High Ambition Coalition (HAC)", "description": "70+ countries pushing for binding production caps; EU leadership with Marshall Islands, UK, Canada"},
+        {"name": "Break Free From Plastic", "description": "1,900+ NGO coalition that provides civil society pressure; annual Brand Audit names corporate plastic polluters"},
+        {"name": "IUCN (International Union for Conservation of Nature)", "description": "Scientific credibility for treaty negotiations; microplastics harm documentation"}
+      ],
+      "funders": ["Bloomberg Philanthropies", "European Climate Foundation", "Minderoo Foundation (Australia — major plastics treaty funder)"],
+      "celebrities": ["David Attenborough (Blue Planet II impact)", "Various Surfrider Foundation celebrity ambassadors"],
+      "government_champions": ["EU (Frans Timmermans, then Wopke Hoekstra, climate commissioner)", "Norway (consistent treaty champion)", "Rwanda (African champion; domestic plastic ban model)"],
+      "corporate_actors": {
+        "villains": ["Saudi Aramco/SABIC", "ExxonMobil", "Dow Chemical", "American Chemistry Council (ACC)", "PlasticsEurope"],
+        "allies": ["Unilever, Nestlé, Danone (support treaty in principle to avoid stricter national regulations)"]
+      },
+      "international": ["UNEP (treaty secretariat)", "WHO (health impacts documentation)", "Scientific consensus from 500+ scientists calling for production caps"]
+    },
+    "what_actually_changed": "No treaty. Plastic production continues on trajectory to triple by 2050. However: the UNEA-5 resolution did establish the treaty mandate (not nothing); national plastic bans have accelerated globally (70+ countries with some form of ban); EU Single-Use Plastics Directive in force; Extended Producer Responsibility (EPR) legislation expanding in many countries. The treaty campaign's most important contribution is keeping production caps on the negotiating table — preventing the industry's preferred outcome of a 'waste management only' treaty."
+  },
+  {
+    "id": 65,
+    "name": "COVAX — Vaccine Equity",
+    "outcome_score": 1,
+    "outcome_summary": "COVAX failed to meet its 2021 target of 2 billion doses to 92 GAVI-eligible countries. Delivered 1.9 billion doses — less than half the 2021 target. Vaccine nationalism prevailed. IP waiver battle at WTO produced minimal practical result. Omicron variant emerged in under-vaccinated South Africa, demonstrating strategic idiocy of vaccine inequity. Score 1: Awareness only — the campaign surfaced vaccine equity as an issue but produced no structural change to pharmaceutical monopoly power.",
+    "progress_markers": [
+      {"year": 2020, "type": "BUILDUP", "event": "April 2020: ACT-Accelerator established by WHO/Gavi/CEPI/World Bank. COVAX Facility announced June 2020 as mechanism for equitable vaccine distribution"},
+      {"year": 2020, "type": "BUILDUP", "event": "May 2020: WHO Resolution on IP sharing for COVID tools. US (under Trump) refuses to join COVAX; EU joins. Unprecedented pharmaceutical mobilization"},
+      {"year": 2020, "type": "SETBACK", "event": "Rich countries (US, UK, EU, Canada) pre-order 3-4x their populations in vaccine doses via bilateral deals — 'vaccine nationalism' establishes fait accompli"},
+      {"year": 2021, "type": "SETBACK", "event": "February 2021: COVAX delivers first vaccines but faces manufacturing shortfalls. Serum Institute of India (largest COVAX supplier) blocks exports due to domestic Delta wave (April 2021)"},
+      {"year": 2021, "type": "PARTIAL-WIN", "event": "May 2021: US announces support for IP waiver at WTO (surprise announcement). Raises hopes for TRIPS waiver on COVID vaccines"},
+      {"year": 2021, "type": "SETBACK", "event": "EU blocks comprehensive IP waiver at WTO. Pharma lobbying (BioNTech/Pfizer, Moderna) prevents meaningful transfer of mRNA technology"},
+      {"year": 2021, "type": "SETBACK", "event": "Mid-2021: Africa vaccination rate remains below 3% while rich countries offering booster shots. People's Vaccine Alliance, MSF, Oxfam document and publicize the inequity"},
+      {"year": 2021, "type": "SETBACK", "event": "November 2021: Omicron variant emerges in South Africa — widely under-vaccinated due to COVAX failures. 'Vaccine apartheid' produces the very outcome experts warned of: new variants"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "June 2022: WTO agrees limited IP waiver — for COVID vaccines only, for 5 years, for developing countries. Considered inadequate by public health advocates; no mRNA technology transfer"},
+      {"year": 2022, "type": "CONSOLIDATION", "event": "COVAX eventually delivers 1.9 billion doses (vs. 2 billion target for 2021 alone). Africa Centres for Disease Control works on continent-wide vaccine manufacturing (Aspen Pharmacare, etc.)"},
+      {"year": 2023, "type": "ONGOING", "event": "COVID-19 vaccination: Africa at ~30% fully vaccinated (vs. 70%+ in wealthy countries). mRNA Technology Transfer Hub in South Africa receives limited industry cooperation"},
+      {"year": 2024, "type": "CONSOLIDATION", "event": "WHO Treaty on Pandemic Prevention, Preparedness and Response (PPR) negotiations ongoing — explicitly addresses COVAX failure; still not agreed as of 2025"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "People's Vaccine Alliance", "description": "Amnesty International, Oxfam, MSF and 100+ NGOs demanding IP waiver and COVAX reform"},
+        {"name": "MSF (Médecins Sans Frontières / Doctors Without Borders)", "description": "Leading voice on IP access; 'Access Campaign' applied AIDS-era lessons to COVID"},
+        {"name": "Gavi/WHO/CEPI (COVAX operational co-leads)", "description": "Multilateral bodies responsible for COVAX; partly captured by pharmaceutical interests in their governance structures"}
+      ],
+      "funders": ["Bill & Melinda Gates Foundation ($1.75B to COVAX)", "Wellcome Trust", "US government ($4B), EU ($1.2B to COVAX — though bilateral deals undercut COVAX)"],
+      "celebrities": ["Archbishop Desmond Tutu (IP waiver champion)", "Gordon Brown (COVAX advocate)"],
+      "government_champions": ["Cyril Ramaphosa (South Africa — led African IP waiver push)", "Ngozi Okonjo-Iweala (WTO DG — pushed for equity)", "Biden administration (US IP waiver support, May 2021)"],
+      "corporate_actors": {
+        "villains": ["Pfizer/BioNTech (refused technology transfer)", "Moderna (refused technology transfer despite NIH funding)", "AstraZeneca (relatively better on equity but still protected IP)"],
+        "allies": []
+      },
+      "international": ["WHO", "WTO (IP waiver negotiations)", "UN Secretary-General Guterres ('vaccine apartheid' language)", "AU (African Union — established own vaccine manufacturing goals)"]
+    },
+    "what_actually_changed": "The COVAX failure established the terms of the next debate: the WHO Pandemic Treaty (still being negotiated in 2025) explicitly addresses technology transfer and IP flexibility. The mRNA Technology Transfer Hub in South Africa is a direct COVAX failure response. Africa CDC's ambition for 60% African vaccine manufacturing by 2040 is a direct response. Structural pharmaceutical monopoly power over global health — the core problem — was not changed. The Omicron lesson (vaccine inequity produces new variants that endanger rich countries) was absorbed intellectually but not institutionally."
+  },
+  {
+    "id": 66,
+    "name": "Arab Spring — Syria",
+    "outcome_score": 0,
+    "outcome_summary": "Catastrophic failure. 500,000+ killed. 13+ million displaced. Chemical weapons used multiple times. Assad survived until December 2024 when he fled (HTS/rebel forces took Damascus). But the post-Assad transition is fraught; HTS is a former al-Qaeda affiliate. No accountability for chemical weapons use. Syria is the most catastrophic outcome in the movement dataset — a peaceful democracy demand ignited a proxy war that destroyed the country.",
+    "progress_markers": [
+      {"year": 2011, "type": "BUILDUP", "event": "January-February 2011: Tunisia and Egypt provide permission window. Syrian activists, inspired by Arab Spring, begin planning demonstrations. Bashar al-Assad initially dismissive — 'Syria is different'"},
+      {"year": 2011, "type": "TIP", "event": "March 2011: Teenage boys (ages 10-15) in Daraa spray anti-Assad graffiti. Arrested; tortured. Parents' protests met with live ammunition. First deaths. Protests spread nationally"},
+      {"year": 2011, "type": "MILESTONE", "event": "April-June 2011: Massive Friday protests across Syria. Security forces kill hundreds. Defections begin from Syrian army. 'Army of Free Syria' forms June 2011"},
+      {"year": 2011, "type": "SETBACK", "event": "Assad's Maher al-Assad (brother, 4th Division commander) leads brutal crackdowns in Daraa, Hama, Homs. Russia and China veto UN Security Council resolutions"},
+      {"year": 2012, "type": "SUPPRESSED", "event": "Movement transforms from protest to civil war. Houla massacre (May 2012, 108 civilians including 49 children). UN Supervisory Mission suspended. International community paralyzed"},
+      {"year": 2013, "type": "SUPPRESSED", "event": "August 21, 2013: Ghouta chemical attack near Damascus — 1,400+ civilians killed with sarin. Obama's 'red line' crossed; no military response. International credibility collapses"},
+      {"year": 2014, "type": "SUPPRESSED", "event": "ISIS (ISIL) declares caliphate; conflict multiplies. US, Turkey, Jordan, Gulf states intervene against ISIS. Russia, Iran, Hezbollah intervene for Assad. Syria becomes proxy battlefield"},
+      {"year": 2016, "type": "SUPPRESSED", "event": "Battle of Aleppo: Assad-Russia-Iran forces retake city with massive civilian casualties. 400,000 besieged; barrel bombing of hospitals documented. Movement's urban strongholds fall"},
+      {"year": 2017, "type": "SUPPRESSED", "event": "Khan Shaykhun chemical attack (April 2017). Trump orders 59 Tomahawk missiles on Syrian airbase — one-time response, no strategic change"},
+      {"year": 2018, "type": "SUPPRESSED", "event": "Douma chemical attack (April 2018). Assad consolidates control over most of Syria. HTS controls Idlib. Turkish-backed forces in north"},
+      {"year": 2020, "type": "SETBACK", "event": "13 million Syrians displaced (6.7M externally, 6.7M internally) — second largest displacement crisis globally. Reconstruction blocked by Western sanctions on Assad"},
+      {"year": 2024, "type": "WIN", "event": "December 2024: HTS-led offensive captures Aleppo (November 28), then Damascus (December 8). Assad flees to Russia. 50-year Assad family dictatorship ends. But post-Assad transition deeply uncertain — HTS's governance record in Idlib mixed"},
+      {"year": 2025, "type": "ONGOING", "event": "Post-Assad Syria: new transitional government trying to consolidate; ISIS still active in desert; Turkish, Israeli, US military still present; reconstruction requires billions with no clear funding source"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Local Coordination Committees (LCCs)", "description": "Original civilian protest networks; maintained peaceful framing early in the movement"},
+        {"name": "Free Syrian Army (FSA)", "description": "Initial armed resistance; fragmented into dozens of factions"},
+        {"name": "Syrian National Council / Syrian Opposition Coalition", "description": "Political exile organizations; never achieved unified leadership or territorial control"}
+      ],
+      "funders": ["Gulf states (Qatar, Saudi Arabia, UAE — funded various armed factions)", "Turkey (FSA and Islamist factions)", "US CIA (vetted moderate rebel groups)", "Iran and Russia (Assad regime)"],
+      "celebrities": [],
+      "government_champions": ["Riad Hijab (first PM to defect, 2012)", "General Manaf Tlass (defected to France, 2012)"],
+      "corporate_actors": {
+        "villains": ["Russian defense industry (weapons for Assad)", "Iranian Revolutionary Guard (direct military intervention)"],
+        "allies": []
+      },
+      "international": ["Russia and China (UNSC vetoes — 16 times on Syria)", "UN OPCW (documented chemical weapons use)", "ICC (no referral for Syria; Russia/China vetoed)"]
+    },
+    "what_actually_changed": "The immediate goal (removal of Assad) was achieved in December 2024 — 13 years after the uprising began. But at catastrophic cost: 500,000+ dead, 13M+ displaced, country in ruins. No accountability for chemical weapons. No reconstruction plan. The original movement's civilian democratic leaders were largely killed, imprisoned, or exiled — the post-Assad Syria is being shaped by armed factions, not the 2011 democracy advocates. Syria represents the failure mode when a movement ignites armed conflict in a geopolitically contested space with a sponsor state (Russia) willing to use unlimited force."
+  },
+  {
+    "id": 67,
+    "name": "West Papua Independence Movement",
+    "outcome_score": 0,
+    "outcome_summary": "One of the world's most persistent suppressed independence movements. No self-determination achieved. Armed resistance (OPM/TPNPB) continues but militarily weak. Indonesian military operations ongoing. Media access to Papua restricted — creating systematic invisibility. International community (Australia, US, EU) unwilling to antagonize Indonesia. Score 0: Suppressed.",
+    "progress_markers": [
+      {"year": 1963, "type": "BUILDUP", "event": "Indonesia administers West Papua (Dutch New Guinea) following UN resolution. Papuan independence activists banned from organizing"},
+      {"year": 1969, "type": "SUPPRESSED", "event": "'Act of Free Choice': 1,025 selected Papuan representatives (not general election) vote for integration with Indonesia. UN General Assembly 'takes note' — widely seen as fraudulent. Resistance begins"},
+      {"year": 1973, "type": "SUPPRESSED", "event": "Freeport-McMoRan copper/gold mine begins operations in Puncak Jaya — one of world's largest. Revenue sharing with local communities minimal; environmental damage significant"},
+      {"year": 1977, "type": "SUPPRESSED", "event": "Freeport Mine pipeline explosion — blamed on OPM (Free Papua Movement). Major military response; many civilian casualties. Pattern of collective punishment established"},
+      {"year": 1984, "type": "SUPPRESSED", "event": "Major Papuan cross-border flight to Papua New Guinea following military operations. UNHCR establishes refugee camps"},
+      {"year": 1998, "type": "BUILDUP", "event": "Suharto falls; Reformasi era opens political space briefly. Papuan People's Congress formed; Papua National Congress 2000 attracts 5,000+ delegates"},
+      {"year": 2000, "type": "PARTIAL-WIN", "event": "Papua People's Congress (June 2000) raises independence flag, restores name 'Papua' — briefly before military crackdown. President Wahid briefly open to dialogue"},
+      {"year": 2001, "type": "SETBACK", "event": "Special Autonomy Law passed — more resources to Papua but no self-determination. Theys Eluay (Papuan independence leader) assassinated by Kopassus (Indonesian special forces)"},
+      {"year": 2010, "type": "SUPPRESSED", "event": "Papuan Spring: massive peaceful demonstrations 2010-2013 for self-determination. Police use live ammunition; dozens killed. International media barely covers due to access restrictions"},
+      {"year": 2019, "type": "BUILDUP", "event": "August 2019: Racist slurs against Papuan students in Surabaya spark massive protests in Papua and across Indonesia. 'Papua is not a monkey' becomes central slogan"},
+      {"year": 2019, "type": "SUPPRESSED", "event": "Internet shutdown in Papua (6 months — longest in Indonesian history). Military operations in Nduga district displace 40,000+. UN Special Rapporteurs denied access"},
+      {"year": 2021, "type": "SUPPRESSED", "event": "Lucus Enembe (Papua Governor, independence-sympathetic) arrested. Dozens of activists imprisoned under treason laws. New military command ('Kogabwilhan III') established in Papua"},
+      {"year": 2023, "type": "SUPPRESSED", "event": "New Zealand news footage of Indonesian military abuses viral; Indonesia withdraws NZ military training cooperation briefly. No structural change. TPNPB kidnaps New Zealand pilot"},
+      {"year": 2024, "type": "ONGOING", "event": "TPNPB holds NZ pilot hostage 19+ months (record duration); killed February 2025. Military operations ongoing. Papua province divided into 6 provinces — 'divide and rule' strategy"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "United Liberation Movement for West Papua (ULMWP)", "description": "Umbrella political organization; Benny Wenda as international spokesperson"},
+        {"name": "TPNPB (West Papua National Liberation Army)", "description": "Armed wing; limited military capacity but maintains visibility through targeted actions"},
+        {"name": "KNPB (National Committee for West Papua)", "description": "Nonviolent political organization; members routinely arrested"}
+      ],
+      "funders": ["Diaspora Papuan communities (primarily in Australia, Netherlands, Pacific Islands)", "No state sponsors of independence movement"],
+      "celebrities": ["Benny Wenda (international spokesperson; UK-based)", "Archbishop Desmond Tutu expressed solidarity before his death"],
+      "government_champions": ["Pacific Island Forum (regional organization; has called for UN Human Rights monitoring)", "Vanuatu (most consistent state voice for West Papua at UN)"],
+      "corporate_actors": {
+        "villains": ["Freeport-McMoRan (Grasberg mine — one of world's largest gold/copper mines; ongoing environmental damage)", "BP (Tangguh LNG project)", "Rio Tinto (divested but previously involved)"],
+        "allies": []
+      },
+      "international": ["Pacific Islands Forum (2021 issued concern)", "UN Human Rights Council (procedures used; Indonesia rarely cooperates)", "OHCHR (denied access 2018-present)"]
+    },
+    "what_actually_changed": "Nothing fundamental. Indonesia remains in control. Mining continues. Military operations continue. Self-determination rights remain denied. The main achievement is international awareness among human rights communities and Pacific Island governments. Australia, the most important potential advocate, consistently prioritizes economic and security relationships with Indonesia over West Papua. The movement continues to exist after 55+ years — demonstrating extraordinary resilience — but no political progress toward self-determination."
+  },
+  {
+    "id": 68,
+    "name": "HIV/AIDS: ACT UP Treatment Access",
+    "outcome_score": 5,
+    "outcome_summary": "Complete success. FDA drug approval process accelerated from 10+ years to ~6 months. Combination antiretroviral therapy approved 1996; HIV became a manageable chronic condition. AZT price reduced through activism. 'Silence = Death' visual became among the most effective activist communication designs in history. ACT UP's scientific literacy model (patient-experts challenging FDA trial design) was revolutionary. Score 5 — full sustained policy change.",
+    "progress_markers": [
+      {"year": 1981, "type": "BUILDUP", "event": "First CDC reports of AIDS (June 1981). By 1982, 1,000+ cases. Reagan White House never publicly mentions AIDS. Press Secretary Larry Speakes jokes about it at press conferences"},
+      {"year": 1982, "type": "BUILDUP", "event": "GMHC (Gay Men's Health Crisis) founded by Larry Kramer and others — first AIDS service organization. Crisis continues without government response"},
+      {"year": 1983, "type": "BUILDUP", "event": "12,000+ dead. Larry Kramer publishes '1,112 and Counting' in New York Native — explosive polemic demanding action. Expelled from GMHC for 'too confrontational' stance"},
+      {"year": 1985, "type": "BUILDUP", "event": "Rock Hudson dies of AIDS — first major celebrity death; briefly shifts media coverage. Reagan finally mentions AIDS publicly 1985 (after 20,000+ US deaths)"},
+      {"year": 1987, "type": "TIP", "event": "March 10, 1987: Larry Kramer speech at Lesbian and Gay Community Services Center, NYC — 'Two-thirds of you could be dead within five years.' ACT UP (AIDS Coalition to Unleash Power) founded March 12, 1987"},
+      {"year": 1987, "type": "MILESTONE", "event": "'Silence = Death' project (Gran Fury collective): pink triangle on black background — the most recognized AIDS symbol. Designed before ACT UP but immediately adopted as its visual identity"},
+      {"year": 1987, "type": "WIN", "event": "April 25, 1987: ACT UP's first demonstration on Wall Street — 17 arrested. Demands: FDA accelerate drug approvals. Burroughs Wellcome targeted for AZT pricing ($10,000/year)"},
+      {"year": 1988, "type": "WIN", "event": "October 11, 1988: FDA Headquarters (Rockville, MD) stormed by 1,000 ACT UP members. Die-in outside building. 176 arrested. Protesters hold 'FDA: Murderers' signs. FDA accelerates parallel track approval"},
+      {"year": 1989, "type": "WIN", "event": "September 14, 1989: ACT UP shuts down New York Stock Exchange for 4 minutes — first-ever market disruption by activists. Target: Burroughs Wellcome (AZT maker). Stock drops. AZT price cut 20%"},
+      {"year": 1989, "type": "WIN", "event": "AIDS Treatment Registry established — ACT UP members learn to read FDA trial protocols, identify flaws, and propose alternatives. Patient-expert model revolutionizes drug trial advocacy"},
+      {"year": 1990, "type": "WIN", "event": "Ryan White CARE Act signed — first major federal AIDS funding. The ashes of people who died of AIDS scattered on White House lawn (November 1, 1992)"},
+      {"year": 1991, "type": "WIN", "event": "ACT UP pressure achieves 'parallel track' for AIDS drugs — can be accessed outside formal trials by those who can't meet trial criteria. FDA accelerated approval pathway created"},
+      {"year": 1992, "type": "CONSOLIDATION", "event": "FDA approval process for AIDS drugs accelerated to under 2 years (was 10+ years). ACT UP's scientific technical knowledge becomes indispensable to FDA process"},
+      {"year": 1996, "type": "WIN", "event": "Combination antiretroviral therapy (HAART) approved. Annual AIDS deaths in US fall from 50,000 (1995) to 18,000 (1997) — 64% drop. HIV becomes manageable chronic condition"},
+      {"year": 1996, "type": "WIN", "event": "AZT price reduced from $10,000/year to $3,000/year through sustained campaign pressure and generic competition"},
+      {"year": 2001, "type": "CONSOLIDATION", "event": "Treatment Action Campaign (South Africa — Case #69) wins pharmaceutical patent battle for generic ARVs — direct organizational descendant of ACT UP"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "ACT UP (AIDS Coalition to Unleash Power)", "description": "Founded 1987 NYC; peak 10,000 members. Pioneered 'scientific activist' model — members became pharmaceutical trial experts"},
+        {"name": "Gran Fury (ACT UP art collective)", "description": "Designed 'Silence = Death,' 'Read My Lips,' and other campaign visuals — the most effective activist art collective in American history"},
+        {"name": "TAG (Treatment Action Group)", "description": "1992 spinoff from ACT UP — focused on FDA trial design reform; achieved most durable policy changes"}
+      ],
+      "funders": ["Small donations from members and community", "Elizabeth Taylor AIDS Foundation (awareness)", "American Foundation for AIDS Research (AmfAR)"],
+      "celebrities": ["Elizabeth Taylor (early and consistent celebrity advocate)", "Madonna (fundraising, memorial)", "Barbra Streisand"],
+      "government_champions": ["Rep. Henry Waxman (D-CA) — only consistent Congressional voice demanding AIDS response 1983-1990", "David Kessler (FDA Commissioner 1990-97) — implemented ACT UP-demanded reforms"],
+      "corporate_actors": {
+        "villains": ["Burroughs Wellcome (AZT at $10,000/year)", "Hoffman-La Roche, Bristol-Myers Squibb (parallel pricing targets)"],
+        "allies": ["National Institutes of Health (eventually, after ACT UP forced engagement)", "FDA (eventually; PDUFA 1992 funded expedited review)"]
+      },
+      "international": ["ACT UP chapters in 70+ cities globally", "AIDS activist networks in UK, Australia, France", "Treatment Action Campaign (South Africa) — direct descendant"]
+    },
+    "what_actually_changed": "FDA drug approval process transformed: 'accelerated approval' pathway created (still exists) specifically from ACT UP pressure. 'Parallel track' for terminal illness access created. Patient advocates required on FDA advisory panels. HIV treatment outcomes: from universal death sentence (1987) to manageable chronic condition (1996 onward). 'Silence = Death' established visual activism as a serious discipline. ACT UP's scientific literacy model (sick people becoming pharmaceutical experts) became the template for patient advocacy globally. Annual US AIDS deaths: 50,000 (1995) → <7,000 (2023)."
+  },
+  {
+    "id": 69,
+    "name": "South Africa: Treatment Action Campaign / AIDS Treatment",
+    "outcome_score": 5,
+    "outcome_summary": "Complete success. 39 pharmaceutical companies dropped lawsuit; South Africa began world's largest ARV treatment program (2004). Zackie Achmat's personal sacrifice (refusing ARVs until all could access them) created unimpeachable moral authority. Doha Declaration (2001) established the global framework for pharmaceutical patents vs. public health — still the foundational legal instrument for access-to-medicines debates globally. Score 5 — full policy change, sustained, with global impact.",
+    "progress_markers": [
+      {"year": 1994, "type": "BUILDUP", "event": "Post-apartheid South Africa faces HIV epidemic (already 12% prevalence in 1994). Mandela government does not prioritize AIDS — the beginning of a multi-year failure"},
+      {"year": 1998, "type": "TIP", "event": "Treatment Action Campaign (TAC) founded by Zackie Achmat (December 1998). TAC strategy: make HIV-positive people visibly political actors, not passive victims. 'HIV Positive' T-shirts as radical visibility"},
+      {"year": 1998, "type": "SETBACK", "event": "39 pharmaceutical companies sue South African government over Medicines Act allowing generic ARV production. Mbeki's AIDS denialism begins emerging"},
+      {"year": 1999, "type": "BUILDUP", "event": "Zackie Achmat publicly announces he is HIV-positive and refuses to take ARVs until they are available to all South Africans. Achmat's personal sacrifice creates a moral clarity no advocacy campaign could manufacture"},
+      {"year": 2000, "type": "BUILDUP", "event": "13th AIDS Conference in Durban (July 2000): TAC and global AIDS activists descend on Durban. 12,000+ delegates. ACT UP graduates present. Mbeki defends denialism at opening — globally condemned"},
+      {"year": 2001, "type": "WIN", "event": "April 2001: 39 pharmaceutical companies drop the lawsuit against South Africa after global public pressure becomes untenable. Iconic victory — corporations suing poor country over dying patients"},
+      {"year": 2001, "type": "WIN", "event": "November 2001: Doha Declaration on TRIPS and Public Health — WTO declares that intellectual property rules cannot prevent countries from protecting public health. TAC's campaign was central to creating the political climate for this"},
+      {"year": 2002, "type": "WIN", "event": "Constitutional Court rules government must provide nevirapine to prevent mother-to-child HIV transmission — first major judicial victory for TAC (Minister of Health v. Treatment Action Campaign)"},
+      {"year": 2003, "type": "WIN", "event": "August 2003: South African government finally commits to ARV rollout after sustained TAC pressure, court rulings, and political isolation of Mbeki's denialism"},
+      {"year": 2004, "type": "WIN", "event": "ARV rollout begins April 2004. Within 5 years becomes world's largest ARV program — 5+ million people on treatment"},
+      {"year": 2004, "type": "WIN", "event": "Zackie Achmat finally takes ARVs — treatment is available. His personal commitment kept. 7 years of personal sacrifice completed"},
+      {"year": 2008, "type": "CONSOLIDATION", "event": "Thabo Mbeki removed as ANC president (2007); AIDS denialism ends officially. Kgalema Motlanthe and then Jacob Zuma expand ARV program"},
+      {"year": 2010, "type": "CONSOLIDATION", "event": "South Africa's ARV program: 1 million+ people on treatment. Annual AIDS deaths declining. The movement's central goal achieved"},
+      {"year": 2024, "type": "CONSOLIDATION", "event": "6+ million South Africans on ARVs (world's largest program). HIV incidence declining. Doha Declaration still the global framework for generic medicine access debates 23 years later"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Treatment Action Campaign (TAC)", "description": "Founded by Zackie Achmat. Peak 60,000+ members, predominantly Black women. Combined legal, street, and international pressure strategies"},
+        {"name": "Medicins Sans Frontieres (MSF) / Doctors Without Borders", "description": "Key international partner; ran 'Campaign for Access to Essential Medicines' in parallel"},
+        {"name": "Oxfam International", "description": "Trade policy expertise; central to Doha Declaration negotiations"}
+      ],
+      "funders": ["Ford Foundation", "Atlantic Philanthropies", "Rockefeller Foundation", "Southern African Grantmakers' Association"],
+      "celebrities": ["Archbishop Desmond Tutu (public supporter)", "Nelson Mandela (publicly took ARVs in 2005 after his son died of AIDS — decisive cultural moment)", "Charlize Theron (later)"],
+      "government_champions": ["Justice Edwin Cameron (openly HIV-positive judge; global advocate)", "Barbara Hogan (post-Mbeki Health Minister; reversed denialism)"],
+      "corporate_actors": {
+        "villains": ["Bristol-Myers Squibb", "GlaxoSmithKline", "Merck — the 39 companies that sued South Africa"],
+        "allies": ["Cipla (Indian generic manufacturer — offered generic ARVs at $1/day; broke the pricing model)", "Aspen Pharmacare (South African generic producer)"]
+      },
+      "international": ["WTO (Doha Declaration negotiations)", "WHO (3 by 5 initiative — ARVs for 3M in developing world by 2005)", "PEPFAR (US bilateral AIDS funding — $15B+ from 2003)"]
+    },
+    "what_actually_changed": "ARV prices globally reduced 99% (from $10,000/year to <$100/year for generics) between 2000 and 2010, primarily through the Doha Declaration framework TAC helped create. South Africa's ARV program (6M+ on treatment) is the world's largest. Constitutional Court ruling on nevirapine established that South Africans have a right to healthcare, not just an interest in it. The Doha Declaration is still cited in every access-to-medicines debate globally. PEPFAR ($15B+ US program, bipartisan) was partly a political response to the shaming of the US position in the pharmaceutical lawsuit."
+  },
+  {
+    "id": 70,
+    "name": "Jubilee 2000 — Debt Cancellation",
+    "outcome_score": 3,
+    "outcome_summary": "Significant debt relief achieved ($100B in G7 Cologne Initiative + HIPC Enhanced Initiative for 41 countries), but not the full cancellation demanded. The 24 million signature petition was the largest in history at that time. Bono's political access was transformative. However, Jubilee South (Global South-led movement) argued the debt relief design was insufficient and unjust. Score 3 — major cultural shift and policy progress, but structural debt architecture unchanged.",
+    "progress_markers": [
+      {"year": 1990, "type": "BUILDUP", "event": "Growing academic and NGO literature on 'odious debt' — debt incurred by dictators, not owed by their populations. Jubilee concept (biblical 50-year debt cancellation) developed by Martin Dent"},
+      {"year": 1996, "type": "BUILDUP", "event": "Jubilee 2000 campaign formally launched in UK. Church networks (Catholic, Anglican, Methodist, Baptist) provide organizational base. Trade unions, development NGOs join"},
+      {"year": 1997, "type": "BUILDUP", "event": "Campaign begins building around 'Drop the Debt' slogan for G8 Birmingham (1998). 24 million signature petition campaign begins. Biblical 'Jubilee' frame gives moral authority transcending secular politics"},
+      {"year": 1998, "type": "TIP", "event": "May 1998: G8 Birmingham Summit. 70,000 people form human chain around the conference center — 'rings' the summit. Unprecedented civil society pressure at G8"},
+      {"year": 1998, "type": "WIN", "event": "G8 Birmingham: Cologne Debt Initiative announced — $100B in debt relief for 41 countries. First major G8 concession to international development civil society pressure"},
+      {"year": 1999, "type": "MILESTONE", "event": "Bono (U2) and Muhammad Ali publicly champion Jubilee 2000. Bono meets every G8 leader personally — unprecedented celebrity political access achieved"},
+      {"year": 1999, "type": "WIN", "event": "G8 Cologne: Enhanced HIPC Initiative — broader relief for more countries. World Bank and IMF create Fast Track for debt relief for poorest countries"},
+      {"year": 2000, "type": "WIN", "event": "24 million signatures presented to G8 Okinawa summit. Millennium Development Goals adopted (September 2000) — Jubilee framing directly influenced goal #1 (poverty) and debt components"},
+      {"year": 2001, "type": "PARTIAL-WIN", "event": "HIPC completion point: 22 countries reach full debt relief eligibility. But process slow, conditions attached (IMF-required economic reforms)"},
+      {"year": 2005, "type": "WIN", "event": "G8 Gleneagles (2005): Multilateral Debt Relief Initiative (MDRI) — complete debt cancellation for 18 countries (all debt to World Bank, IMF, African Development Bank). Bono's continued engagement key"},
+      {"year": 2005, "type": "CONSOLIDATION", "event": "'Make Poverty History' (2005) coalition — direct descendant of Jubilee 2000. White wristbands, Live 8 concert. Bono, Geldof, and celebrity advocacy model reaching its institutional peak"},
+      {"year": 2010, "type": "SETBACK", "event": "New debt crisis emerging in Global South — Jubilee 2000's relief was insufficient; new lending (China, private markets) replacing cancelled debt"},
+      {"year": 2022, "type": "ONGOING", "event": "Global sovereign debt crisis: 60% of low-income countries in or near debt distress. Zambia, Sri Lanka, Ethiopia, Ghana defaults. Jubilee 2000's structural critique (debt architecture itself unjust) validated but unsolved"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Jubilee 2000 Coalition (UK)", "description": "Launched by Ann Pettifor and others; church networks, trade unions, development NGOs"},
+        {"name": "Jubilee South", "description": "Global South-led movement that argued Northern-designed debt relief was insufficient; included Jubilee Africa, Jubilee USA, Jubilee Latin America"},
+        {"name": "DATA (Debt, AIDS, Trade, Africa)", "description": "Bono and Jamie Driscoll's organization, founded 2002 as successor to Jubilee lobbying"}
+      ],
+      "funders": ["UK church denominations (in-kind and direct)", "Oxfam GB", "Christian Aid"],
+      "celebrities": ["Bono (U2) — the most significant single celebrity in international development campaign history", "Muhammad Ali (iconic image at Birmingham G8)", "Bob Geldof (Live Aid lineage; Make Poverty History)"],
+      "government_champions": ["Gordon Brown (UK Chancellor, key architect of HIPC/MDRI)", "Clare Short (UK International Development Secretary)", "Horst Köhler (IMF Managing Director, 1999-2004)"],
+      "corporate_actors": {
+        "villains": ["Vulture funds (bought developing country debt at discount and sued for full repayment — specifically targeted by post-Jubilee advocacy)", "Private creditors who resisted debt relief deals"],
+        "allies": ["World Bank and IMF (eventually became partners in HIPC process)"]
+      },
+      "international": ["G8 (primary target and result)", "IMF and World Bank (HIPC/MDRI implementation)", "African Development Bank (MDRI member)"]
+    },
+    "what_actually_changed": "$100B+ in debt relief for 41 countries through HIPC/MDRI by 2015. 35 countries reached completion point, receiving full debt cancellation on eligible debts to World Bank, IMF, African Development Bank. The G8's Cologne and Gleneagles commitments were real (unlike many G8 promises). The 'Drop the Debt' frame permanently changed international development language. However: new debt accumulated rapidly; structural power imbalances in sovereign debt architecture unchanged; as of 2022-2024, Global South debt crisis as bad as 1990s in many dimensions. The victories were real but insufficient."
+  },
+  {
+    "id": 71,
+    "name": "Fossil Fuel Divestment Movement",
+    "outcome_score": 3,
+    "outcome_summary": "$40+ trillion in assets divested by 2022 (1,500+ institutions). Major universities, pension funds, sovereign wealth funds divested. But: actual fossil fuel investment simultaneously increased globally — divestment shifted ownership without reducing production. The movement's reputational and social license impact is documented; its direct emissions impact is not. Score 3 — cultural/institutional shift without binding emissions reduction.",
+    "progress_markers": [
+      {"year": 2011, "type": "BUILDUP", "event": "Bill McKibben's 'Global Warming's Terrifying New Math' (Rolling Stone, July 2012 — retroactively the founding document) establishes 'carbon bubble' concept: fossil fuels already booked exceed safe carbon budget by 5x"},
+      {"year": 2012, "type": "TIP", "event": "November 2012: 350.org launches 'Do the Math' tour. Swarthmore College students launch divestment campaign against their endowment — the first campus divestment campaign to gain mainstream attention"},
+      {"year": 2013, "type": "MILESTONE", "event": "Stanford University faculty vote to recommend divestment from coal. 17 US colleges have active campaigns. The campus model spreads internationally"},
+      {"year": 2014, "type": "WIN", "event": "Stanford University divests from coal (April 2014) — first major research university. Rockefeller Brothers Fund divests (September 2014) — symbolically powerful given Rockefeller oil money origins"},
+      {"year": 2015, "type": "WIN", "event": "Norway sovereign wealth fund (world's largest, $900B) divests from coal (June 2015). Most significant institutional divestment signal to date. Germany's Allianz, Australia's ANU follow"},
+      {"year": 2016, "type": "MILESTONE", "event": "Paris Agreement (December 2015) provides policy context for fiduciary arguments. 'Stranded assets' concept (fossil fuel reserves that cannot be burned) gains traction with financial regulators"},
+      {"year": 2018, "type": "MILESTONE", "event": "Total divested assets: $8 trillion. UK pension funds, Dutch pension giants (ABP eventually, after campus pressure), French insurance companies announcing divestment"},
+      {"year": 2020, "type": "WIN", "event": "University of California system ($126B endowment) announces full fossil fuel divestment. Harvard announces divestment (September 2021) after years of campus protest"},
+      {"year": 2021, "type": "WIN", "event": "Total divested assets: $14 trillion. Norway full sovereign wealth fund ($1.3T) divestment from fossil fuel upstream operations (September 2021)"},
+      {"year": 2022, "type": "WIN", "event": "Total divested assets: $40+ trillion (1,500+ institutions). The movement has gone mainstream — major banks and asset managers now have ESG fossil fuel reduction targets"},
+      {"year": 2023, "type": "SETBACK", "event": "ESG backlash in US: Republican-led states target 'ESG investing' as political ideology; some pension funds forced to re-invest in fossil fuels under state law pressure"},
+      {"year": 2023, "type": "SETBACK", "event": "Global fossil fuel investment reaches record high ($1+ trillion in 2023) — divestment has shifted ownership but not reduced production. Production gap between Paris targets and actual investment widening"},
+      {"year": 2024, "type": "ONGOING", "event": "COP28 (Dubai, 2023) 'transitioning away from fossil fuels' language represents normative shift; but no binding production cap. Divestment movement credited with making this language politically achievable"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "350.org", "description": "Founded by Bill McKibben; central hub for the divestment movement globally. Campaigns in 188 countries"},
+        {"name": "Fossil Free (350.org campaign)", "description": "Specific divestment campaign platform; coordinated campus, city, and institutional campaigns globally"},
+        {"name": "Carbon Tracker Initiative", "description": "Provided the financial analysis (carbon bubble, stranded assets) that gave divestment campaigns a fiduciary argument"}
+      ],
+      "funders": ["Rockefeller Brothers Fund (ironically, the first major funder)", "ClimateWorks Foundation", "European Climate Foundation", "Bloomberg Philanthropies"],
+      "celebrities": ["Bill McKibben (intellectual godfather)", "Desmond Tutu ('apartheid of our age' framing)", "Leonardo DiCaprio"],
+      "government_champions": ["Mark Carney (Bank of England, then FSB — 'stranded assets' and 'climate risk' financial regulatory discourse)", "Nicholas Stern (climate economics)"],
+      "corporate_actors": {
+        "villains": ["ExxonMobil", "Shell", "BP", "Total — primary institutional campaign targets"],
+        "allies": ["Aviva Investors", "Legal & General", "BlackRock (partial, grudging)"]
+      },
+      "international": ["OECD Guidelines on Responsible Business", "TCFD (Task Force on Climate-related Financial Disclosures — Mark Carney)", "UN Principles for Responsible Investment (PRI)"]
+    },
+    "what_actually_changed": "$40+ trillion in committed divestment by 1,500+ institutions. Fossil fuel companies' cost of capital increased. Social license for new fossil fuel infrastructure projects significantly reduced. Harvard divestment (2021) after 8 years of student protest represented the ultimate symbolic victory. Shell, BP, and others changed their public narrative (net zero commitments) partly under divestment pressure. What has not changed: global fossil fuel production, which increased to record levels in 2023. The movement's most significant impact may be what has NOT been built (new fossil fuel infrastructure that faced opposition from investors) rather than what existing reserves were sold."
+  },
+  {
+    "id": 72,
+    "name": "Bangladesh Climate Litigation / Youth v. Government",
+    "outcome_score": 2,
+    "outcome_summary": "Ongoing as of 2025. Landmark case filed by youth climate activists challenging coal plant approvals on constitutional grounds. Case precedent-building phase. Bangladesh represents the starkest case of extreme climate vulnerability (30M+ people at sea-level rise risk) combined with continued domestic fossil fuel development. Score 2 reflects partial win in establishing the legal framework, with policy outcome pending.",
+    "progress_markers": [
+      {"year": 2013, "type": "BUILDUP", "event": "Urgenda (Netherlands) case filed — providing international template for climate litigation that would inspire Bangladesh and others"},
+      {"year": 2017, "type": "BUILDUP", "event": "Bangladesh government approves Rampal coal power plant (near Sundarbans mangrove forest — UNESCO-designated, one of world's largest). Despite massive civil society opposition"},
+      {"year": 2019, "type": "BUILDUP", "event": "Bangladesh announces ten new coal power plants in National Electricity Plan. Climate activists note contradiction: most climate-vulnerable nation building most carbon-intensive infrastructure"},
+      {"year": 2021, "type": "BUILDUP", "event": "Bangladesh Youth Climate Action and human rights organizations begin developing legal arguments. Sabin Center for Climate Change Law (Columbia) provides international legal expertise"},
+      {"year": 2022, "type": "BUILDUP", "event": "Bangladesh signs Bridgetown Initiative (climate finance reform) and declares itself climate vulnerable — diplomatic recognition of vulnerability while building coal plants domestically"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "Bangladesh cancels 10 planned coal projects citing financing difficulties and 'global coal phase-out' — partially responding to international pressure and financial constraints"},
+      {"year": 2023, "type": "TIP", "event": "Youth climate activists file landmark constitutional challenge: coal plant approvals violate rights to life and livelihood guaranteed in Bangladesh constitution, disproportionately harm climate-vulnerable communities"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "High Court issues initial rule requiring government to show cause. Bangladesh's worst flooding (2022-2023 monsoons) provides ongoing visual evidence of harm"},
+      {"year": 2024, "type": "ONGOING", "event": "Case proceeding through courts. August 2024 student revolution (unrelated to climate — overthrew Hasina government over quota system) creates political uncertainty but new government potentially more open to climate arguments"},
+      {"year": 2025, "type": "ONGOING", "event": "New interim Bangladesh government under Muhammad Yunus signals interest in climate justice framing. Case continues. Rampal plant now operational — litigation seeking prospective rather than retrospective relief"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Bangladesh Youth Climate Action (BYCA)", "description": "Student-led organization; primary petitioners in climate litigation"},
+        {"name": "Human Rights and Peace for Bangladesh (HRPB)", "description": "Legal NGO supporting the litigation"},
+        {"name": "Bangladesh Legal Aid and Services Trust (BLAST)", "description": "Legal support organization with climate case expertise"}
+      ],
+      "funders": ["Sabin Center for Climate Change Law (technical support)", "International Foundation for Electoral Systems", "Open Society Foundation (Bangladesh programs)"],
+      "celebrities": [],
+      "government_champions": ["Muhammad Yunus (new interim PM, 2024 — more climate-open than Hasina government)"],
+      "corporate_actors": {
+        "villains": ["Adani Group (Godda coal power plant — supplying Rampal)", "Bangladesh Power Development Board (state utility, coal plant operator)"],
+        "allies": []
+      },
+      "international": ["IPCC (science basis for litigation)", "UN Human Rights Council (Bangladesh climate vulnerability documentation)", "ICJ (Vanuatu advisory opinion — potential precedent for Bangladesh case)", "Climate Litigation Accelerator Network"]
+    },
+    "what_actually_changed": "Bangladesh government cancelled 10 planned coal power plants in 2022 (financial/political context but climate pressure contributed). Constitutional framework for climate rights being established through litigation. The case's most significant contribution may be to Bangladesh's constitutional jurisprudence — establishing that climate harm is a constitutional rights violation, providing a framework for future challenges. Physical conditions continue deteriorating: 2022-2023 floods displaced millions; Sundarbans facing accelerating damage."
+  },
+  {
+    "id": 73,
+    "name": "Pacific Islands: Climate Change as Existential Threat",
+    "outcome_score": 3,
+    "outcome_summary": "Loss and Damage Fund established at COP27 (2022) — historic first: wealthy nations acknowledge financial responsibility for climate harm. 1.5°C target embedded in Paris Agreement partly due to Pacific leadership. Vanuatu ICJ advisory opinion campaign (case #100) represents the movement's latest legal escalation. Score 3 — major cultural/normative shift (1.5°C language, loss and damage) but no physical protection achieved. Islands continue to flood.",
+    "progress_markers": [
+      {"year": 1990, "type": "BUILDUP", "event": "Alliance of Small Island States (AOSIS) founded — 44 low-lying coastal and small island countries. First time small island nations organized as a bloc in climate negotiations"},
+      {"year": 1994, "type": "BUILDUP", "event": "UNFCCC enters into force. AOSIS submits first-ever proposal for binding emissions reduction targets — ignored by major emitters. 20% by 2005 proposal rejected"},
+      {"year": 2009, "type": "MILESTONE", "event": "November 2009: Maldives cabinet meeting underwater (scuba gear) — environment minister Mohamed Aslam signs declaration calling for global emissions cuts. Globally viral image. One of the most effective pieces of environmental performance activism ever"},
+      {"year": 2009, "type": "SETBACK", "event": "COP15 Copenhagen collapse. Pacific Islands delegation weeps as 2°C (not 1.5°C) is the only surviving target. Lumumba Di-Aping (Sudan) calls the Copenhagen Accord 'a suicide pact'"},
+      {"year": 2013, "type": "MILESTONE", "event": "Yeb Saño (Philippines) weeps at Warsaw COP13 following Typhoon Hainan — most watched climate speech in COP history. Fasts for 2 weeks during negotiations. '1.5 to stay alive' becomes defining slogan"},
+      {"year": 2014, "type": "BUILDUP", "event": "Kiribati President Anote Tong purchases land in Fiji as 'land bank' for climate migration — first state to do so. Reframes climate change as displacement not just adaptation"},
+      {"year": 2015, "type": "WIN", "event": "Paris Agreement includes '1.5°C' language — direct result of Pacific/AOSIS/vulnerable nations pressure. Without Pacific lobbying, Paris would have been 2°C only. Considered Pacific's greatest diplomatic achievement"},
+      {"year": 2018, "type": "WIN", "event": "IPCC Special Report on 1.5°C (October 2018): the difference between 1.5°C and 2°C is existential for Pacific Islands (coral bleaching, sea level rise). Pacific advocacy had made this the key scientific question"},
+      {"year": 2019, "type": "MILESTONE", "event": "Pacific Climate Warriors ('We are not drowning, we are fighting') — youth movement reframes Pacific identity from victim to fighter. Stand.earth and 350 Pacific partnership"},
+      {"year": 2022, "type": "WIN", "event": "COP27 Sharm el-Sheikh: Loss and Damage Fund established after 30 years of Pacific/AOSIS demands. Wealthy nations formally acknowledge financial responsibility for climate harm they caused to vulnerable countries"},
+      {"year": 2023, "type": "WIN", "event": "Vanuatu leads UNGA resolution requesting ICJ advisory opinion on states' climate obligations (132 co-sponsors). The most ambitious legal escalation in Pacific climate advocacy"},
+      {"year": 2023, "type": "MILESTONE", "event": "Tuvalu Prime Minister Kausea Natano signs 'Falepili Union' with Australia — first climate-migration treaty. Australia offers pathway for Tuvaluans to migrate as climate refugees"},
+      {"year": 2023, "type": "MILESTONE", "event": "Tuvalu announces 'digital nation' — first country establishing digital statehood in preparation for physical loss. Extraordinary reimagining of sovereignty"},
+      {"year": 2024, "type": "WIN", "event": "September 2024: ICJ hearings in The Hague on climate obligations — 98 countries argue, largest state participation in ICJ history. Advisory opinion expected 2025"},
+      {"year": 2024, "type": "SETBACK", "event": "COP28 Dubai: Loss and Damage Fund operationalized but initial capitalization ($700M) described as 'rounding error' by Pacific advocates. Fund mechanism exists; funding inadequate"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Alliance of Small Island States (AOSIS)", "description": "44-member coalition; the most consistent and principled voice in climate negotiations for 30+ years"},
+        {"name": "Pacific Climate Warriors (350 Pacific)", "description": "Youth-led movement reframing Pacific identity from victim to fighter. Stand.earth partnership"},
+        {"name": "Vanuatu government", "description": "Led the ICJ advisory opinion campaign; consistent multilateral champion"}
+      ],
+      "funders": ["European Climate Foundation (Pacific advocacy support)", "William and Flora Hewlett Foundation", "Australia Aid (development, not advocacy)"],
+      "celebrities": ["Yeb Saño (Philippines climate delegate — tearful Warsaw speech reached 100M+ viewers)", "Marshallese poet Kathy Jetñil-Kijiner (performed at COP21)"],
+      "government_champions": ["Anote Tong (Kiribati President, most prominent Pacific climate leader 2003-2016)", "Frank Bainimarama (Fiji PM, COP23 President 2017)", "Enele Sopoaga (Tuvalu PM, most forceful negotiating voice)"],
+      "corporate_actors": {
+        "villains": ["ExxonMobil", "Saudi Aramco", "Coal Australia"],
+        "allies": []
+      },
+      "international": ["IPCC (1.5°C scientific basis)", "ICJ (advisory opinion proceedings)", "UN Secretary-General Guterres (strong Pacific advocate)", "WWF, Greenpeace (amplification)"]
+    },
+    "what_actually_changed": "The '1.5°C' target in Paris Agreement is the Pacific's most significant diplomatic achievement — without Pacific pressure, it would have been 2°C only. Loss and Damage Fund (COP27) is the first structural acknowledgment of climate reparations. Tuvalu's Australia migration treaty is the first climate-migration legal framework. ICJ advisory opinion (expected 2025) may establish the most authoritative legal statement on climate obligations ever. What has NOT changed: emissions trajectories, sea levels, coral bleaching. Pacific islands will be uninhabitable within 50-100 years under current trajectories regardless of these diplomatic wins."
+  },
+  {
+    "id": 74,
+    "name": "Global Anti-Apartheid Movement",
+    "outcome_score": 5,
+    "outcome_summary": "Complete success: apartheid dismantled through negotiation 1990-1994; Nelson Mandela freed 1990; first democratic elections April 1994. One of the most successful long-term international solidarity campaigns in history. The combination of armed resistance (ANC), internal mass organizing (UDF), international economic pressure (divestment, sanctions), and cultural boycotts demonstrated the multi-track model at scale. Score 5 — full sustained systemic change.",
+    "progress_markers": [
+      {"year": 1948, "type": "BUILDUP", "event": "National Party wins South African elections; apartheid system formalized. ANC (founded 1912) begins systematic resistance"},
+      {"year": 1960, "type": "MILESTONE", "event": "Sharpeville Massacre (March 21, 1960): 69 anti-pass-law protesters killed by police. International condemnation. ANC and PAC banned"},
+      {"year": 1964, "type": "SETBACK", "event": "Nelson Mandela imprisoned (Robben Island). Anti-Apartheid Movement founded in UK (1959). International isolation campaign begins"},
+      {"year": 1969, "type": "BUILDUP", "event": "South Africa expelled from Olympics. Commonwealth Games boycotts begin. Sports boycott becomes most visceral public face of international pressure"},
+      {"year": 1976, "type": "TIP", "event": "Soweto Uprising (June 16, 1976): students protest Afrikaans instruction; 176+ killed. Global outrage. Sam Nzima's photograph of Hector Pieterson dying becomes iconic"},
+      {"year": 1977, "type": "MILESTONE", "event": "Steve Biko tortured to death in police detention. International outrage. UN mandatory arms embargo (1977) — first mandatory UN sanctions in history"},
+      {"year": 1979, "type": "BUILDUP", "event": "Student divestment campaigns begin on US campuses (Columbia University, Michigan). 'Apartheid' becomes globally understood term"},
+      {"year": 1984, "type": "TIP", "event": "'Free Nelson Mandela' by The Specials reaches #1 in UK (June 1984). Wembley Concert for Mandela (1988, 72,000 in stadium, 600M TV viewers). Cultural isolation made visceral"},
+      {"year": 1985, "type": "MILESTONE", "event": "State of emergency in South Africa. Township TV footage reaches Western audiences despite censorship attempts. US Comprehensive Anti-Apartheid Act (1986) — passed over Reagan's veto"},
+      {"year": 1986, "type": "WIN", "event": "US CAAA (1986): comprehensive sanctions on South Africa; divestment by US institutions required. Symbolic power: Congress overrides sitting President to impose sanctions"},
+      {"year": 1987, "type": "BUILDUP", "event": "UDF (United Democratic Front) inside South Africa coordinates mass resistance. Internal and external resistance increasingly synchronized. ANC's Oliver Tambo's global diplomacy reaching peak effectiveness"},
+      {"year": 1988, "type": "CONSOLIDATION", "event": "Wembley Stadium Nelson Mandela 70th Birthday Tribute Concert — 72,000 audience, 600M+ TV viewers in 67 countries. 'Free Mandela' becomes the most widely heard political demand in pop history"},
+      {"year": 1989, "type": "WIN", "event": "F.W. de Klerk elected; begins behind-the-scenes negotiations with Mandela. Global sanctions and economic pressure reaching critical mass — South African business community breaks with apartheid government"},
+      {"year": 1990, "type": "WIN", "event": "February 2, 1990: de Klerk unbans ANC, PAC, SACP. February 11: Nelson Mandela walks free after 27 years. Global celebration"},
+      {"year": 1994, "type": "WIN", "event": "April 27, 1994: First democratic elections. 19.7 million South Africans vote; ANC wins 62.6%. Nelson Mandela inaugurated May 10 as first democratically elected President of South Africa"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "African National Congress (ANC)", "description": "Founded 1912; the organizational backbone of the anti-apartheid struggle. Oliver Tambo's exile diplomacy was central to the international campaign"},
+        {"name": "Anti-Apartheid Movement (AAM — UK)", "description": "Founded 1959; coordinated the international solidarity movement in the UK and Commonwealth"},
+        {"name": "United Democratic Front (UDF — South Africa)", "description": "Internal resistance coalition 1983-1991; coordinated mass action inside South Africa during the state of emergency"}
+      ],
+      "funders": ["Nordic governments (Sweden, Norway, Denmark — early funders of ANC in exile)", "World Council of Churches", "UN General Assembly (1962 resolution supporting divestment)"],
+      "celebrities": ["Nelson Mandela (the defining symbolic figure)", "Desmond Tutu (global moral authority)", "The Specials, Peter Gabriel, Simple Minds (cultural boycott / 'Free Mandela' anthem)"],
+      "government_champions": ["Oliver Tambo (ANC President in exile)", "Olof Palme (Swedish PM — ANC champion assassinated 1986)", "Kenneth Kaunda (Zambia, ANC sanctuary)"],
+      "corporate_actors": {
+        "villains": ["Shell (continued South Africa operations)", "IBM and other US tech companies (supplied apartheid government)", "Barclays Bank (major divestment campaign target — withdrew 1986)"],
+        "allies": ["Barclays Bank (withdrew from South Africa 1986 under UK student/church pressure)", "Major US corporations that divested 1986-1988 after CAAA"]
+      },
+      "international": ["UN General Assembly (mandatory arms embargo 1977, multiple resolutions)", "Commonwealth (South Africa expelled 1961)", "Organization of African Unity", "Soviet Union (ANC military training, MK)"]
+    },
+    "what_actually_changed": "Apartheid system dismantled. One person one vote democracy established. All apartheid-era laws repealed. Truth and Reconciliation Commission (1996-1998) — partially successful accountability mechanism. Constitutional protection of LGBTQ rights (first in Africa). What has NOT fully changed: economic apartheid persists — South Africa remains among world's most unequal economies (GINI ~0.63). ANC governance has disappointed on corruption and service delivery. Mandela's legacy overshadows structural failures. But the political transformation was complete — apartheid as a legal system ended. The divestment model here directly influenced fossil fuel divestment 30 years later."
+  },
+  {
+    "id": 75,
+    "name": "Haiti Earthquake Response → Supply Chain Critique / NGO Accountability",
+    "outcome_score": 1,
+    "outcome_summary": "The '6 houses for $500 million' ProPublica/NPR investigation (2015) became the defining accountability story for international humanitarian NGOs. Red Cross CEO resigned. Debate about aid industrial complex entered mainstream. But: no structural change to international humanitarian system. Haiti descended into gang-controlled chaos by 2022-2024. Score 1: Awareness only — the campaign surfaced NGO accountability as an issue but produced no structural change.",
+    "progress_markers": [
+      {"year": 2010, "type": "BUILDUP", "event": "January 12, 2010: 7.0 magnitude earthquake. 220,000 killed (disputed; possibly 100,000-316,000). 300,000 injured. 1.5 million displaced. Port-au-Prince devastated"},
+      {"year": 2010, "type": "TIP", "event": "International response: $13 billion pledged — largest humanitarian response in history at that point. Text-to-donate technology raises $43M for Red Cross in 48 hours. 'We are all Haitian' moment"},
+      {"year": 2010, "type": "SETBACK", "event": "October 2010: Cholera outbreak — traced to UN peacekeepers (MINUSTAH). UN denies responsibility for years. 820,000 infected, 10,000+ dead. Accountability gap exposed early"},
+      {"year": 2011, "type": "SETBACK", "event": "One year later: 800,000 still in tent camps. Reconstruction promises largely unmet. Interim Haiti Recovery Commission (co-chaired by Bill Clinton) dysfunction documented by journalists"},
+      {"year": 2012, "type": "SETBACK", "event": "$6 billion in post-quake aid delivered; living conditions remain catastrophic. Aid system's parallel structures (bypassing Haitian government) criticized by local civil society"},
+      {"year": 2015, "type": "TIP", "event": "June 2015: ProPublica/NPR investigation publishes 'How the Red Cross Raised Half a Billion Dollars for Haiti and Built 6 Homes.' The '6 houses' story goes globally viral — devastating accountability story"},
+      {"year": 2015, "type": "WIN", "event": "Red Cross CEO Gail McGovern faces congressional testimony. Red Cross forced to release some financial information previously withheld. American Red Cross donations drop 24% following the story"},
+      {"year": 2015, "type": "PARTIAL-WIN", "event": "Broader NGO accountability debate: effectiveness, overhead ratios, 'white saviorism' in aid. Organizations including Oxfam publish 'localisation' commitments"},
+      {"year": 2016, "type": "SETBACK", "event": "Haiti presidential elections disputed; political instability accelerates. Clinton Foundation's Haiti projects also scrutinized during US presidential election — mixed accountability outcomes"},
+      {"year": 2021, "type": "SETBACK", "event": "July 7, 2021: President Jovenel Moïse assassinated. August 14: 7.2 magnitude earthquake (72% as powerful as 2010) hits southwestern Haiti. International response smaller than 2010"},
+      {"year": 2022, "type": "ONGOING", "event": "Haiti descends into gang-controlled chaos: Ariel Henry government absent; gangs control 80%+ of Port-au-Prince by 2023. 'G9' and other gang federations effectively govern parts of the country"},
+      {"year": 2023, "type": "SETBACK", "event": "UN Security Council authorizes multinational security mission (Kenyan-led). Kenya Supreme Court initially blocks deployment; eventually proceeds 2024"},
+      {"year": 2024, "type": "ONGOING", "event": "Haiti crisis: 5M+ facing acute food insecurity. Gang violence kills 5,600+ in 2023. International security mission (MSS) deployed but insufficient. Full state collapse ongoing"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "American Red Cross", "description": "Raised $500M for Haiti; later subject of devastating accountability journalism. Most prominent case study in NGO failure"},
+        {"name": "Bill Clinton (UN Special Envoy for Haiti)", "description": "Co-chaired Interim Haiti Recovery Commission; Clinton Foundation ran Haiti programs — both became accountability targets"},
+        {"name": "ProPublica/NPR (Justin Elliott, Laura Sullivan)", "description": "Journalists whose investigation ('6 houses') created the defining accountability moment for international humanitarian response"}
+      ],
+      "funders": ["American Red Cross ($500M from donors)", "Clinton Foundation ($36M in Haiti programs)", "USAID ($651M US government Haiti aid)", "World Bank ($479M)"],
+      "celebrities": ["Wyclef Jean (Haitian-American musician; ran Yéle Haiti charity — separately exposed for financial mismanagement)", "Sean Penn (established J/P Haitian Relief Organization — more accountable model; operated in Haiti for years)"],
+      "government_champions": [],
+      "corporate_actors": {
+        "villains": ["Digicel (Irish telecommunications monopoly in Haiti; Denis O'Brien donated but also profited enormously from post-quake Haiti)"],
+        "allies": []
+      },
+      "international": ["MINUSTAH (UN peacekeepers who introduced cholera — UN eventually acknowledged and apologized in 2016)", "IHRC (Interim Haiti Recovery Commission — dysfunctional)", "IMF (structural adjustment conditions attached to Haiti reconstruction loans)"]
+    },
+    "what_actually_changed": "The '6 houses' story produced: Red Cross forced to increase financial transparency; congressional oversight hearings; some NGO sector soul-searching on accountability and effectiveness metrics. Several organizations published 'localization' commitments. The 'overhead ratio' debate produced GiveWell and effective altruism as accountability frameworks (though separately). What did NOT change: the international humanitarian system's architecture (foreign NGOs controlling funding over local organizations), Haiti's structural crisis, or the accountability-free zone for humanitarian failures. Haiti's 2024 total state collapse occurred while international humanitarian organizations continued operating inside the country — the ultimate test of the 'aid industrial complex' critique."
+  }
+]

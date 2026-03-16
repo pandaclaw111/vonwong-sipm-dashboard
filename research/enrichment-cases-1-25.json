@@ -1,0 +1,926 @@
+[
+  {
+    "id": 1,
+    "name": "MeToo",
+    "outcome_score": 4,
+    "outcome_summary": "Major cultural shift plus substantive policy wins on NDAs and workplace harassment law, but structural power in entertainment, media, and politics largely intact. Weinstein's NY conviction overturned in 2024. Time's Up shut down in 2023. The cultural conversation was permanently altered; the power structures were not.",
+    "progress_markers": [
+      {"year": 2006, "type": "BUILDUP", "event": "Tarana Burke coins 'Me Too' on Myspace, focused on young Black and brown survivors in low-income communities"},
+      {"year": 2014, "type": "BUILDUP", "event": "Dylan Farrow's open letter about Woody Allen; Cosby accusers speak publicly — momentum builds with no institutional response"},
+      {"year": 2016, "type": "BUILDUP", "event": "Access Hollywood tape demonstrates elite impunity; Roger Ailes forced from Fox News after harassment settlements revealed"},
+      {"year": 2017, "type": "TIP", "event": "Ronan Farrow/NYT Weinstein exposé Oct 5-10; Alyssa Milano's tweet Oct 15 — 19 million uses of hashtag in 24 hours"},
+      {"year": 2017, "type": "WIN", "event": "Dozens of high-profile firings within weeks: Matt Lauer (NBC), Charlie Rose (CBS), Louis C.K., Kevin Spacey, Al Franken"},
+      {"year": 2018, "type": "WIN", "event": "Time's Up legal defense fund launched Jan 1; $24M raised for low-income survivors' legal costs"},
+      {"year": 2018, "type": "WIN", "event": "12+ US states pass NDA reform laws restricting secret settlements in harassment cases"},
+      {"year": 2019, "type": "SETBACK", "event": "Aziz Ansari and Junot Diaz cases generate 'witch hunt' and 'due process' counter-narrative; movement fragmentation"},
+      {"year": 2020, "type": "WIN", "event": "Harvey Weinstein convicted of rape and sexual assault in New York; sentenced to 23 years"},
+      {"year": 2022, "type": "WIN", "event": "Speak Out Act passes US Congress restricting NDAs in workplace sexual harassment cases"},
+      {"year": 2022, "type": "WIN", "event": "Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act signed — survivors can access courts"},
+      {"year": 2023, "type": "SETBACK", "event": "Time's Up foundation shuts down after leadership scandals and financial mismanagement revelations"},
+      {"year": 2023, "type": "WIN", "event": "Weinstein convicted in Los Angeles on additional rape charges, sentenced to 16 years"},
+      {"year": 2024, "type": "REVERSAL", "event": "New York Court of Appeals overturns Weinstein NY conviction on grounds of improper testimony; retrial ordered"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "MeToo Movement (Tarana Burke)", "description": "Original org, community-based, focused on Black and brown survivors; Burke reclaimed leadership after 2017"},
+        {"name": "Time's Up", "description": "Hollywood-led legal defense fund raising $24M; created industry accountability mechanisms; shut down 2023"},
+        {"name": "RAINN", "description": "Largest anti-sexual violence org in US; provided survivor support infrastructure during tipping moment"}
+      ],
+      "funders": ["Ford Foundation", "Open Society Foundations", "Sundance Institute", "individual Hollywood donors (Shonda Rhimes, Ava DuVernay)", "Time Warner Foundation"],
+      "celebrities": ["Alyssa Milano", "Tarana Burke", "Oprah Winfrey", "Reese Witherspoon", "Gwyneth Paltrow", "Ashley Judd", "Rose McGowan", "Ronan Farrow"],
+      "government_champions": ["Sen. Kirsten Gillibrand (D-NY)", "Sen. Dianne Feinstein (D-CA)", "Rep. Jackie Speier (D-CA)"],
+      "corporate_actors": {
+        "villains": ["Weinstein Company (protected Weinstein for decades)", "Fox News (Roger Ailes/Bill O'Reilly NDA culture)", "NBC News (Matt Lauer)", "CBS (Charlie Rose, Les Moonves)"],
+        "allies": ["Netflix (removed Kevin Spacey projects)", "Amazon Studios (fired Roy Price)", "Multiple studios adopting mandatory harassment training"]
+      },
+      "international": ["UN Women (issued statement and tracked legislation)", "ILO Convention 190 (2019) on violence at work directly linked to MeToo momentum"]
+    },
+    "what_actually_changed": "The US legal landscape on workplace harassment has materially changed: NDAs can no longer silence sexual harassment victims in many states, forced arbitration clauses are unenforceable for sexual assault claims, and dozens of serial predators lost careers. However, structural power in entertainment and media institutions was not dismantled — Hollywood leadership remains predominantly male, and Time's Up collapsed by 2023. Weinstein's New York conviction being overturned represents the limits of criminal accountability even in the highest-profile case."
+  },
+  {
+    "id": 2,
+    "name": "Black Lives Matter — 2020 Tipping",
+    "outcome_score": 3,
+    "outcome_summary": "The largest protest movement in American history generated enormous institutional pledges and some policy changes, but most concrete policing reforms were reversed by 2021-2022. BLMGNF financial scandals damaged the organization. Cultural shift is permanent and generational; structural change to policing is minimal. The 2024 election saw backlash politics partly fueled by anti-BLM sentiment.",
+    "progress_markers": [
+      {"year": 2013, "type": "BUILDUP", "event": "BLM founded by Patrisse Cullors, Alicia Garza, Opal Tometi after Trayvon Martin acquittal"},
+      {"year": 2014, "type": "BUILDUP", "event": "Michael Brown (Ferguson) and Eric Garner killings; Ferguson uprising; BLM chapter network begins building in 30+ cities"},
+      {"year": 2016, "type": "BUILDUP", "event": "Alton Sterling and Philando Castile killings; Colin Kaepernick kneels during NFL anthem — broadens cultural front"},
+      {"year": 2020, "type": "BUILDUP", "event": "COVID reveals racial health disparities; Breonna Taylor killed March 13; Ahmaud Arbery killed Feb 23"},
+      {"year": 2020, "type": "TIP", "event": "George Floyd killed May 25; bystander video of Derek Chauvin kneeling on neck for 8:46 min; protests in all 50 states within days"},
+      {"year": 2020, "type": "WIN", "event": "15-26 million US participants; 4,000+ protests in 60 countries; largest protest movement in US history"},
+      {"year": 2020, "type": "WIN", "event": "$10.6 billion pledged to racial justice orgs by major corporations and foundations"},
+      {"year": 2020, "type": "WIN", "event": "Minneapolis City Council voted to defund police; Portland, NYC, LA cut budgets; dozens of cities adopted reform measures"},
+      {"year": 2020, "type": "WIN", "event": "Confederate statues removed across US and UK (Cecil Rhodes, Edward Colston in Bristol)"},
+      {"year": 2021, "type": "WIN", "event": "Derek Chauvin convicted of murder April 20 — rare conviction of a police officer"},
+      {"year": 2021, "type": "REVERSAL", "event": "Minneapolis voters reject ballot measure to replace police department Nov 2021; most 'defund' measures reversed"},
+      {"year": 2022, "type": "SETBACK", "event": "BLMGNF financial scandal: Patrisse Cullors accused of misusing $6M in funds; resignations and factional splits"},
+      {"year": 2023, "type": "SETBACK", "event": "SCOTUS ends affirmative action; DEI programs rolled back at major corporations under political pressure"},
+      {"year": 2025, "type": "REVERSAL", "event": "Trump administration executive orders ban DEI in federal agencies; private sector follows; many police reform laws repealed"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Black Lives Matter Global Network Foundation (BLMGNF)", "description": "Central org founded by Cullors, Garza, Tometi; raised $90M in 2020; faced major financial scandal 2021-22"},
+        {"name": "Movement for Black Lives (M4BL)", "description": "Coalition of 150+ organizations with comprehensive policy platform; produced detailed defund/invest demands"},
+        {"name": "Color of Change", "description": "Digital racial justice org; major fundraiser and policy advocate; 7M+ members"}
+      ],
+      "funders": ["Ford Foundation ($100M pledge)", "Open Society Foundations ($220M pledge)", "JPMorgan Chase ($30B racial equity commitment)", "MacArthur Foundation", "W.K. Kellogg Foundation"],
+      "celebrities": ["Colin Kaepernick", "LeBron James", "Beyonce", "Taylor Swift", "John Legend", "virtually entire Hollywood and music industry"],
+      "government_champions": ["Rep. Karen Bass (D-CA) — George Floyd Justice in Policing Act passed House 2021", "Sen. Cory Booker (D-NJ)", "VP Kamala Harris"],
+      "corporate_actors": {
+        "villains": ["Police unions (NYPD PBA, LAPD union) — blocked reform", "Private prison corporations (GEO Group, CoreCivic)"],
+        "allies": ["Ben & Jerry's (outspoken BLM supporter)", "Nike (Kaepernick deal 2018)", "Patagonia", "Netflix, Amazon, Apple (racial equity pledges)"]
+      },
+      "international": ["UN High Commissioner for Human Rights called for inquiry", "UN Special Rapporteur on Racism", "Council of Europe resolutions on racial profiling"]
+    },
+    "what_actually_changed": "Derek Chauvin's conviction set a precedent for police accountability, and some jurisdictions passed meaningful reform laws (Minnesota, Colorado, California). The cultural conversation around systemic racism reached mainstream audiences at unprecedented scale, and 'police abolition' entered the policy debate. However, most 'defund' measures were reversed within 18 months, the George Floyd Justice in Policing Act never passed the Senate, BLMGNF's financial scandals damaged credibility, and the subsequent backlash contributed to the 2024 rightward political shift. The generational consciousness change is real; the structural change to American policing is minimal."
+  },
+  {
+    "id": 3,
+    "name": "Plastic Straw / Single-Use Plastic Movement",
+    "outcome_score": 3,
+    "outcome_summary": "Major corporate and legislative action on single-use plastics globally — 70+ countries banned plastic straws and/or bags. EU Single-Use Plastics Directive 2021 is comprehensive legislation. But straws represent approximately 0.025% of ocean plastic by weight; the narrative win exceeded the material win. The global plastics treaty collapsed in 2024. Ocean plastic levels still rising.",
+    "progress_markers": [
+      {"year": 1997, "type": "BUILDUP", "event": "Captain Charles Moore discovers Great Pacific Garbage Patch; ocean plastic enters scientific mainstream"},
+      {"year": 2014, "type": "BUILDUP", "event": "California first US state to ban single-use plastic bags; demonstrates legislative viability"},
+      {"year": 2015, "type": "TIP", "event": "Marine biologist Christine Figgener's video removing plastic straw from sea turtle nostril goes viral — 28M+ views; emotional trigger crystallized"},
+      {"year": 2016, "type": "BUILDUP", "event": "Break Free From Plastic coalition formed globally; 1,300+ organizations; NGO infrastructure ready to convert attention to policy"},
+      {"year": 2017, "type": "WIN", "event": "UK PM Theresa May announces intention to eliminate avoidable plastic waste; Scotland announces ban"},
+      {"year": 2018, "type": "WIN", "event": "Starbucks pledges to eliminate plastic straws by 2020; McDonald's follows; corporate pledge race begins"},
+      {"year": 2018, "type": "WIN", "event": "Seattle and San Francisco become first major US cities to ban plastic straws"},
+      {"year": 2019, "type": "WIN", "event": "EU Single-Use Plastics Directive adopted — bans 10 most common single-use plastic items"},
+      {"year": 2019, "type": "SETBACK", "event": "Disability advocates object that straw bans harm people who need flexible plastic straws; exemptions required, complicating enforcement"},
+      {"year": 2021, "type": "WIN", "event": "EU ban enters force; 70+ countries have some form of single-use plastic legislation"},
+      {"year": 2022, "type": "MILESTONE", "event": "UNEA resolution to negotiate global plastics treaty — first potential legally binding international instrument"},
+      {"year": 2023, "type": "SETBACK", "event": "Starbucks paper straws fail; company abandons for strawless lids; consumer frustration with alternatives undermines narrative"},
+      {"year": 2024, "type": "SETBACK", "event": "Global Plastics Treaty negotiations collapse in Busan, South Korea — oil-producing nations block binding reduction targets"},
+      {"year": 2025, "type": "ONGOING", "event": "Treaty negotiations continue; ocean plastic levels still rising despite bans; upstream production not addressed"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Break Free From Plastic", "description": "Global coalition of 1,300+ orgs; annual brand audit documenting top plastic polluters by volume"},
+        {"name": "Ocean Conservancy", "description": "Led public awareness and coastal cleanup campaigns; data on beach plastic quantities"},
+        {"name": "Plastic Pollution Coalition", "description": "US-based advocacy connecting consumer to corporate to policy campaigns"}
+      ],
+      "funders": ["Bloomberg Philanthropies (ocean health focus)", "Patagonia Environmental Grants", "European Commission (EU Directive)", "5 Gyres (grassroots ocean research)"],
+      "celebrities": ["David Attenborough (Blue Planet II 2017 — pivotal documentary)", "Ellen DeGeneres", "Russell Crowe"],
+      "government_champions": ["EU Commissioner Frans Timmermans", "UK PM Theresa May (announced ban 2018)", "California Gov. Gavin Newsom"],
+      "corporate_actors": {
+        "villains": ["Coca-Cola, PepsiCo, Nestle (top plastic polluters per annual brand audits)", "ExxonMobil, Dow (fought global treaty)"],
+        "allies": ["Starbucks (straw pledge, mixed execution)", "IKEA (eliminated single-use plastic by 2020)", "Unilever (public pledges)"]
+      },
+      "international": ["UNEP (led global plastics treaty process)", "IUCN (ocean plastic science)", "WHO (microplastics health research)"]
+    },
+    "what_actually_changed": "Plastic straw bans exist in 70+ countries and thousands of cities, and the EU Single-Use Plastics Directive is genuine binding legislation covering 10 product categories. Consumer consciousness about single-use plastic has fundamentally shifted, and 'single-use' is now a regulated legal category. However, straws are less than 0.025% of ocean plastic by weight, the global plastics treaty collapsed in 2024, and ocean plastic levels continue rising because the campaign was more effective at banning visible consumer items than addressing upstream industrial production. A massive narrative win with modest material impact."
+  },
+  {
+    "id": 4,
+    "name": "Fridays for Future",
+    "outcome_score": 3,
+    "outcome_summary": "The largest climate mobilization in history and a generation of youth climate activists normalized as political actors. 2,000+ climate emergency declarations. The EU Green Deal and US Inflation Reduction Act were partly driven by movement pressure. But no major new international climate deal emerged, post-COVID momentum stalled significantly, fossil fuel production increased globally 2023-2024.",
+    "progress_markers": [
+      {"year": 2018, "type": "BUILDUP", "event": "IPCC 1.5°C Special Report published October 2018 — 12-year deadline for action enters mainstream"},
+      {"year": 2018, "type": "TIP", "event": "Greta Thunberg's solo strike outside Swedish parliament August 20 2018 — 'Skolstrejk for klimatet' sign"},
+      {"year": 2018, "type": "MILESTONE", "event": "Greta's COP24 Katowice speech goes viral; movement spreads internationally via social media"},
+      {"year": 2019, "type": "WIN", "event": "March 15 2019: first global student climate strike — 1.4 million students in 100+ countries"},
+      {"year": 2019, "type": "WIN", "event": "May 2019: climate emergency declarations spread — UK parliament first national parliament to declare"},
+      {"year": 2019, "type": "TIP", "event": "September 20 2019: 6 million people globally in climate strikes — largest climate mobilization in history"},
+      {"year": 2019, "type": "WIN", "event": "November 2019: European Green Deal announced by new von der Leyen Commission — partly credited to FFF pressure"},
+      {"year": 2019, "type": "PARTIAL-WIN", "event": "COP25 Madrid: movement pressure visible but no major new commitments; coal and oil nations block progress"},
+      {"year": 2020, "type": "SETBACK", "event": "COVID-19 ends mass street mobilization; online protests have fraction of impact; movement loses momentum"},
+      {"year": 2021, "type": "PARTIAL-WIN", "event": "COP26 Glasgow: 1.5°C commitment formalized, coal phase-out agreed in principle; fossil fuel subsidies continue"},
+      {"year": 2022, "type": "WIN", "event": "US Inflation Reduction Act passes — $369B in climate spending, largest US climate investment in history"},
+      {"year": 2022, "type": "SETBACK", "event": "Ukraine war triggers European gas/coal revival; energy security trumps climate in political discourse"},
+      {"year": 2023, "type": "SETBACK", "event": "COP28 Dubai hosted by UAE oil exec Sultan Al Jaber; 'phaseout' of fossil fuels watered to 'transition away from'"},
+      {"year": 2024, "type": "ONGOING", "event": "FFF continues strikes at reduced scale; Greta pivots to Gaza solidarity; movement aging into political mainstream"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Fridays for Future (FFF)", "description": "Decentralized global network of youth climate strikers; no central organization by design"},
+        {"name": "350.org", "description": "Pre-existing climate org that provided infrastructure and amplified FFF; divestment campaign parallel track"},
+        {"name": "Sunrise Movement (US)", "description": "US youth climate political organization; connected FFF energy to Green New Deal policy demands"}
+      ],
+      "funders": ["FFF deliberately unfunded/grassroots to maintain independence", "350.org: Rockefeller Brothers Fund, European Climate Foundation", "Sunrise: small donors, labor unions"],
+      "celebrities": ["Greta Thunberg", "Jane Fonda (Fire Drill Fridays — arrested at US Capitol)", "Malala Yousafzai (expressed solidarity)"],
+      "government_champions": ["Rep. Alexandria Ocasio-Cortez (D-NY) — Green New Deal", "Sen. Ed Markey (D-MA)", "EU Commission President Ursula von der Leyen"],
+      "corporate_actors": {
+        "villains": ["ExxonMobil (climate denial funding)", "Shell (internal climate denial documents revealed 2023)", "Saudi Aramco, ADNOC (blocked COP28 phaseout language)"],
+        "allies": ["Patagonia", "Orsted (wind energy)", "Tesla (energy transition argument)"]
+      },
+      "international": ["UNFCCC (COP process)", "IPCC", "UN Secretary-General Guterres (explicitly credited youth movements)", "WHO (climate-health nexus)"]
+    },
+    "what_actually_changed": "FFF normalized youth as a political actor on climate, accelerated climate emergency declarations in 2,000+ jurisdictions, and contributed to the European Green Deal and US Inflation Reduction Act — substantive policy changes. The framing of climate action as intergenerational justice has permanently shifted media discourse. However, global fossil fuel production grew through 2023, emissions hit record highs, and no binding treaty emerged from the movement's peak years. The global strike format lost effectiveness post-COVID and hasn't recovered its 2019 scale."
+  },
+  {
+    "id": 5,
+    "name": "Standing Rock / NoDAPL",
+    "outcome_score": 2,
+    "outcome_summary": "Won a short-term halt under Obama but the pipeline was approved by Trump 4 days into his presidency and has been operational since 2017. The movement produced lasting cultural effects — water is life became a global indigenous rights slogan, land back movement accelerated, indigenous-environmental alliances deepened — but failed in its primary material objective. Pipeline still flows.",
+    "progress_markers": [
+      {"year": 2014, "type": "BUILDUP", "event": "Iowa farmers and Meskwaki Nation file first objections to DAPL route; legal fights begin"},
+      {"year": 2015, "type": "BUILDUP", "event": "Army Corps routes pipeline near Standing Rock after Bismarck objects to original route — tribe learns of rerouting"},
+      {"year": 2016, "type": "BUILDUP", "event": "Standing Rock Sioux file lawsuit; Sacred Stone Camp established April 2016 by LaDonna Brave Bull Allard"},
+      {"year": 2016, "type": "TIP", "event": "September 3-4 2016: private security dogs attack water protectors on camera; civil rights era resonance"},
+      {"year": 2016, "type": "MILESTONE", "event": "October-November 2016: 300+ tribal nations gather — largest indigenous gathering in a century"},
+      {"year": 2016, "type": "WIN", "event": "November 2016: military veterans stand with Standing Rock; shields imagery goes globally viral"},
+      {"year": 2016, "type": "WIN", "event": "December 4 2016: Obama administration halts pipeline pending Environmental Impact Statement review"},
+      {"year": 2017, "type": "REVERSAL", "event": "January 24 2017: Trump signs executive order approving Dakota Access Pipeline — 4 days into presidency"},
+      {"year": 2017, "type": "SETBACK", "event": "February 2017: protectors forcibly evicted from Oceti Sakowin camp; arrests; pipeline construction continues"},
+      {"year": 2017, "type": "REVERSAL", "event": "April 2017: DAPL becomes operational; oil flowing under Missouri River"},
+      {"year": 2020, "type": "PARTIAL-WIN", "event": "DC federal court orders EIS conducted; pipeline temporarily ordered shut down July 2020"},
+      {"year": 2021, "type": "REVERSAL", "event": "DC Circuit Court reinstates pipeline; Biden administration does not stop it despite campaign promises"},
+      {"year": 2021, "type": "WIN", "event": "Keystone XL pipeline cancelled (Jan 2021 Biden executive order) — NoDAPL energy contributed to this win"},
+      {"year": 2022, "type": "WIN", "event": "Land back movement and indigenous rights consciousness significantly elevated; tribal consultation requirements strengthened in some states"},
+      {"year": 2024, "type": "ONGOING", "event": "DAPL still operational; Standing Rock Sioux water rights case continues; pipeline has had several oil spills"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Standing Rock Sioux Tribe", "description": "Lead plaintiff in legal challenges; hosted the camps; Chairman David Archambault II was face of movement"},
+        {"name": "Indigenous Environmental Network", "description": "Helped establish Sacred Stone Camp; national indigenous environmental advocacy infrastructure"},
+        {"name": "Earthjustice", "description": "Legal arm providing pro bono litigation on pipeline and water rights challenges"}
+      ],
+      "funders": ["Small donors via GoFundMe ($5M+)", "Leonardo DiCaprio Foundation", "Patagonia", "Sierra Club Foundation", "NDN Collective"],
+      "celebrities": ["Leonardo DiCaprio", "Shailene Woodley (arrested at camp)", "Jill Stein (also arrested)", "Mark Ruffalo", "Jane Fonda", "Amy Goodman (Democracy Now journalist, arrested)"],
+      "government_champions": ["Sen. Bernie Sanders", "Rep. Tulsi Gabbard (visited camp)", "President Obama (temporarily halted pipeline Dec 2016)"],
+      "corporate_actors": {
+        "villains": ["Energy Transfer Partners (DAPL developer)", "Sunoco Logistics", "TigerSwan (private security firm that surveilled protesters)"],
+        "allies": ["350 cities that passed divestment from DAPL-financing banks", "17 banks that eventually pulled DAPL financing after pressure campaigns"]
+      },
+      "international": ["UN Special Rapporteur on Rights of Indigenous Peoples visited and criticized US response", "UNDRIP (UN Declaration on Rights of Indigenous Peoples) cited in legal challenges"]
+    },
+    "what_actually_changed": "The Dakota Access Pipeline has been operational since April 2017 and the Standing Rock Sioux's primary demand was not achieved. However, the movement permanently elevated the land back movement, made 'Mni Wiconi' (water is life) a global slogan, accelerated indigenous-environmental alliance-building, and contributed to Keystone XL's cancellation. The Biden administration's failure to stop DAPL despite promises is a key lesson: electoral victories don't automatically translate to movement wins. Court challenges continue but the pipeline keeps flowing."
+  },
+  {
+    "id": 6,
+    "name": "Marriage Equality — The Long Arc",
+    "outcome_score": 5,
+    "outcome_summary": "Full legal victory at the Supreme Court in 2015, sustained by Respect for Marriage Act in 2022. Public support went from 27% (1996) to 70%+ (2024). Gold standard for deliberate narrative engineering producing cultural tipping before legal tipping. Currently vulnerable to SCOTUS reversal if Obergefell is reconsidered, but the 2022 federal statute provides additional protection.",
+    "progress_markers": [
+      {"year": 1993, "type": "BUILDUP", "event": "Hawaii Supreme Court rules ban on same-sex marriage may be discriminatory — first legal opening; triggers national backlash"},
+      {"year": 1996, "type": "SETBACK", "event": "DOMA (Defense of Marriage Act) signed by Clinton; federal definition of marriage as one man, one woman"},
+      {"year": 2000, "type": "PARTIAL-WIN", "event": "Vermont creates civil unions — first legal recognition; 'separate but equal' compromise"},
+      {"year": 2003, "type": "WIN", "event": "Massachusetts becomes first US state to legalize same-sex marriage (Goodridge v. Dept of Public Health)"},
+      {"year": 2004, "type": "SETBACK", "event": "11 state constitutional amendments banning same-sex marriage pass on Election Day — Karl Rove uses as mobilization tool"},
+      {"year": 2008, "type": "SETBACK", "event": "California Prop 8 passes (52-48), banning same-sex marriage after brief legalization — $100M campaign on both sides"},
+      {"year": 2011, "type": "MILESTONE", "event": "Public support crosses 50% majority for first time; New York legalizes same-sex marriage"},
+      {"year": 2012, "type": "WIN", "event": "Obama becomes first sitting president to support marriage equality; 3 states approve at ballot"},
+      {"year": 2013, "type": "WIN", "event": "SCOTUS Windsor decision strikes down DOMA; Prop 8 dismissed on standing; California marriages resume"},
+      {"year": 2015, "type": "WIN", "event": "Obergefell v. Hodges (June 26 2015): SCOTUS rules nationwide marriage equality in 5-4 decision"},
+      {"year": 2022, "type": "WIN", "event": "Respect for Marriage Act passes Congress with bipartisan support; provides federal backup if Obergefell overturned"},
+      {"year": 2023, "type": "ONGOING", "event": "SCOTUS justices Thomas and Alito signal openness to reconsidering Obergefell; movement remains vigilant on trans rights rollbacks"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Freedom to Marry", "description": "Founded by Evan Wolfson; strategic 'win in states, win nationally' campaign; dissolved after Obergefell as mission achieved"},
+        {"name": "Lambda Legal", "description": "Legal organization that litigated key cases including Goodridge and federal challenges"},
+        {"name": "Human Rights Campaign (HRC)", "description": "Largest LGBTQ advocacy org; grassroots and corporate pressure campaigns; $50M+ annual budget"}
+      ],
+      "funders": ["Tim Gill (Gill Foundation — $500M+ to LGBTQ causes)", "Arcus Foundation", "Evelyn & Walter Haas Jr. Fund", "Major tech corporations (Apple, Google, Microsoft)"],
+      "celebrities": ["Ellen DeGeneres (came out 1997 — pivotal cultural moment)", "Sir Elton John", "George Takei", "Edie Windsor (plaintiff in Windsor case)"],
+      "government_champions": ["President Obama (2012 endorsement)", "VP Biden (slightly ahead of Obama)", "Sen. Ted Kennedy (longtime champion)", "Rep. Barney Frank"],
+      "corporate_actors": {
+        "villains": ["National Organization for Marriage (NOM — opposition)", "Mormon Church (Prop 8 funding)", "Catholic Church hierarchy"],
+        "allies": ["Apple, Google, Facebook, Microsoft, Amazon (all filed amicus briefs in Obergefell)", "100+ Fortune 500 companies signed amicus briefs"]
+      },
+      "international": ["Netherlands (first country to legalize, 2001)", "Canada (2005)", "UN Human Rights Council (LGBTQ rights resolutions)"]
+    },
+    "what_actually_changed": "Same-sex couples can marry in all 50 US states, access federal marriage benefits, and are protected by the Respect for Marriage Act even if Obergefell is reconsidered. Public support went from 27% to 70%+ in three decades — one of the fastest opinion shifts in polling history. The movement demonstrated that a 30-year strategic campaign can transform majoritarian opinion from opposition to support. The remaining gap: marriage equality has not translated to full non-discrimination protections in all states, and trans rights have faced significant legislative rollback since 2021."
+  },
+  {
+    "id": 7,
+    "name": "Chile Estallido Social",
+    "outcome_score": 2,
+    "outcome_summary": "A historic constitutional process was launched but failed twice — both new constitutions rejected by referendum. Gabriel Boric elected president. The 1980 Pinochet constitution remains in effect. Minor social concessions. Political landscape permanently altered but the neoliberal structural model — privatized water, health, education, pensions — not dismantled.",
+    "progress_markers": [
+      {"year": 2006, "type": "BUILDUP", "event": "'Penguin Revolution' — high school students protest education system; first major youth uprising of this generation"},
+      {"year": 2011, "type": "BUILDUP", "event": "Massive student protests for free public education; Gabriel Boric and Camila Vallejo emerge as student leaders"},
+      {"year": 2015, "type": "BUILDUP", "event": "No+AFP (anti-privatized pension) movement organizes; demonstrates organizational capacity"},
+      {"year": 2019, "type": "BUILDUP", "event": "Student 'evasion' fare-jump protests grow for weeks; CPI shows mounting inequality; multiple sectors simultaneously aggrieved"},
+      {"year": 2019, "type": "TIP", "event": "October 18 2019: subway fare increase of 30 pesos ($0.04); state of emergency; military in streets for first time since Pinochet"},
+      {"year": 2019, "type": "TIP", "event": "October 25: one million people march in Santiago — largest demonstration in Chilean history"},
+      {"year": 2019, "type": "WIN", "event": "Las Tesis feminist collective performs 'Un Violador en tu Camino' — goes globally viral; performed in 50+ countries"},
+      {"year": 2019, "type": "SETBACK", "event": "Police violence: 7,000+ injured, 2,500 arrested, 30+ killed, hundreds with eye injuries from rubber bullets"},
+      {"year": 2019, "type": "WIN", "event": "November 15: 'Acuerdo por la Paz Social y la Nueva Constitucion' — agreement for constitutional referendum"},
+      {"year": 2020, "type": "WIN", "event": "October 25 2020 plebiscite: 78% vote for new constitution; 79% vote for elected constitutional convention"},
+      {"year": 2021, "type": "WIN", "event": "Gabriel Boric elected president November 2021 — former student leader, youngest president in Chilean history"},
+      {"year": 2022, "type": "REVERSAL", "event": "September 4 2022: first new constitution rejected in referendum — 62% against, 38% for"},
+      {"year": 2023, "type": "REVERSAL", "event": "December 17 2023: second constitutional draft rejected — 55% against; process ends; Pinochet constitution remains"},
+      {"year": 2024, "type": "ONGOING", "event": "Boric government continues reform efforts within existing constitution; movement energy dissipated without constitutional victory"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "No+AFP Movement", "description": "Anti-privatized pension movement that built organizing infrastructure before 2019"},
+        {"name": "Las Tesis (feminist collective)", "description": "Valparaiso-based feminist collective who created 'Un Violador en tu Camino' — performed in 50+ countries"},
+        {"name": "Coordinadora Feminista 8M", "description": "Feminist coalition central to movement identity; organized March 8 strikes"}
+      ],
+      "funders": ["Decentralized grassroots; no centralized funding", "International solidarity from labor unions", "Some funding from left political parties"],
+      "celebrities": ["Camila Vallejo (student leader turned minister)", "Gabriel Boric (student leader turned president)", "Mon Laferte (musician — exposed breast at VMAs in protest)"],
+      "government_champions": ["Gabriel Boric (Frente Amplio)", "Camila Vallejo (Communist Party)", "Elisa Loncon (Mapuche leader, head of constitutional convention)"],
+      "corporate_actors": {
+        "villains": ["AFP pension managers", "Aguas Andinas (water privatization)", "Enel (electricity — rate rises contributed to grievances)"],
+        "allies": ["Few — movement was explicitly anti-corporate"]
+      },
+      "international": ["UN Secretary-General condemned police violence", "Inter-American Commission on Human Rights monitored abuses", "International observation of constitutional process"]
+    },
+    "what_actually_changed": "The 1980 Pinochet constitution remains in effect after two failed referendum processes — the movement's core failure. However, Chile elected its youngest president in history (Boric, a movement figure), demonstrated that mass mobilization can force constitutional conversations previously unthinkable, and produced 'Un Violador en tu Camino' as a globally replicated feminist tool. Minor social policy improvements occurred but the structural neoliberal model has not been dismantled. The political landscape is permanently altered; the system is not."
+  },
+  {
+    "id": 8,
+    "name": "EndSARS Nigeria",
+    "outcome_score": 2,
+    "outcome_summary": "SARS officially disbanded within 8 days — a nominal victory. But SWAT replaced it with similar practices, the Lekki Toll Gate massacre killed an unknown number of protesters, no soldiers were held accountable, and structural police brutality continues. Most durable legacy: Nigerian youth political awakening that shaped 2023 elections.",
+    "progress_markers": [
+      {"year": 1992, "type": "BUILDUP", "event": "SARS established; begins targeting young men for extortion and 'looking criminal' (laptops, dreadlocks)"},
+      {"year": 2017, "type": "BUILDUP", "event": "#EndSARS hashtag first appears; Segun Awosanya begins systematic documentation of abuses"},
+      {"year": 2017, "type": "SETBACK", "event": "First government promise to reform SARS — ignored; pattern repeats in 2019"},
+      {"year": 2020, "type": "BUILDUP", "event": "COVID creates unemployed youth with nothing to lose; SARS abuses accelerate during lockdowns"},
+      {"year": 2020, "type": "TIP", "event": "October 3 2020: video of SARS killing young man in Delta State goes viral on Twitter within hours"},
+      {"year": 2020, "type": "TIP", "event": "October 8-11: spontaneous nationwide protests; no central organization; Twitter coordination via #EndSARS"},
+      {"year": 2020, "type": "WIN", "event": "October 11: Nigerian Police Force officially disbands SARS nationwide — fastest capitulation in recent Nigerian history"},
+      {"year": 2020, "type": "MILESTONE", "event": "Feminist Coalition raises 150M+ naira ($400K) in 72 hours via crowdfunding for protest logistics and injured protesters"},
+      {"year": 2020, "type": "SETBACK", "event": "October 14: SWAT announced as SARS replacement — widely seen as rebranding without reform"},
+      {"year": 2020, "type": "SETBACK", "event": "October 20: Lekki Toll Gate massacre — military opens fire on peaceful protesters; 12-60+ killed"},
+      {"year": 2020, "type": "REVERSAL", "event": "October 21: nationwide curfew; movement suppressed by force; organizers arrested"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "Lagos judicial panel confirms Lekki killings; government ordered to pay compensation — largely unpaid"},
+      {"year": 2023, "type": "WIN", "event": "Peter Obi / Labour Party surge in presidential election driven by EndSARS generation — political awakening affects electoral landscape"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Feminist Coalition", "description": "Anonymous group of Nigerian women who provided financial infrastructure — raised $400K for protesters in 72 hours"},
+        {"name": "Paradigm Initiative", "description": "Digital rights organization that documented police abuses and provided tech infrastructure"},
+        {"name": "Amnesty International Nigeria", "description": "Documented 56 deaths during protests; provided international human rights accountability pressure"}
+      ],
+      "funders": ["Crowdfunded $400K via Feminist Coalition (bitcoin and bank transfers)", "Flutterwave (Nigerian fintech company provided infrastructure)", "International diaspora donations"],
+      "celebrities": ["Runtown (musician who led early marches)", "Davido (amplified internationally)", "Wizkid", "Tiwa Savage", "Tems"],
+      "government_champions": ["Peter Obi emerged post-EndSARS as political beneficiary rather than champion during protests"],
+      "corporate_actors": {
+        "villains": ["Lagos State Government (denied massacre)", "Nigerian Army (conducted Lekki massacre)"],
+        "allies": ["Flutterwave (payment infrastructure)", "Twitter CEO Jack Dorsey (actively supported, enabled Bitcoin donations)"]
+      },
+      "international": ["Amnesty International (56 deaths documented)", "US State Department (called for peaceful response)", "UN Human Rights Office", "Jack Dorsey (Twitter CEO)"]
+    },
+    "what_actually_changed": "SARS was officially disbanded — a nominal victory. But SWAT replicated SARS practices, no officers were held accountable for Lekki, and structural police brutality in Nigeria has not materially changed. The most durable legacy is political: a generation of Nigerian youth who organized outside traditional party structures developed digital activism infrastructure and in 2023 nearly elected Peter Obi as an outsider presidential candidate through the same organizational methods. The Feminist Coalition model of anonymous, tech-enabled movement finance is a lasting innovation."
+  },
+  {
+    "id": 9,
+    "name": "India Farmers' Protest",
+    "outcome_score": 5,
+    "outcome_summary": "Complete victory: PM Modi announced repeal of all three Farm Laws on national television November 19, 2021 — 13 months into the protest. One of the most significant democratic reversals in Indian history. However, the MSP guarantee was promised but not legislated. A 2024 follow-up protest demanding legal MSP confirms the secondary demand remains unfulfilled.",
+    "progress_markers": [
+      {"year": 1995, "type": "BUILDUP", "event": "Farmer debt crisis deepens; 300,000+ farmer suicides documented 1995-2020; structural agrarian crisis established"},
+      {"year": 2020, "type": "BUILDUP", "event": "September 2020: Three Farm Acts passed by Parliament in 24 hours with no public consultation — shock to farming communities"},
+      {"year": 2020, "type": "BUILDUP", "event": "October-November 2020: Punjab farmers organize; tractor rallies; state-level mobilization builds"},
+      {"year": 2020, "type": "TIP", "event": "November 26-27 2020: 'Dilli Chalo' — farmers march on Delhi; police use tear gas and water cannons; farmers block highways"},
+      {"year": 2020, "type": "MILESTONE", "event": "December 2020: Samyukt Kisan Morcha coalition of 40+ unions forms with unified demands"},
+      {"year": 2021, "type": "SETBACK", "event": "January 26 2021: Tractor parade turns chaotic; some protesters breach Red Fort; government uses incident to delegitimize movement"},
+      {"year": 2021, "type": "SETBACK", "event": "February 2021: Rihanna and Greta tweet support; Indian government's nationalist counter-response amplifies movement globally"},
+      {"year": 2021, "type": "SETBACK", "event": "Internet shutdowns at protest sites; sedition charges filed against journalist Disha Ravi for sharing toolkit"},
+      {"year": 2021, "type": "SETBACK", "event": "October 2021: Lakhimpur Kheri violence — BJP minister's son allegedly runs over farmers; 4 killed"},
+      {"year": 2021, "type": "WIN", "event": "November 19 2021: PM Modi announces repeal of all three Farm Acts on national TV — unprecedented capitulation"},
+      {"year": 2021, "type": "WIN", "event": "December 2021: farmers end 13-month sit-in after government commits to MSP committee"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "Punjab state elections: BJP loses; AAP sweeps — movement's political effect visible"},
+      {"year": 2024, "type": "ONGOING", "event": "Second farmers' protest begins February 2024 demanding legal MSP guarantee; blocked at Shambhu border"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Samyukt Kisan Morcha (SKM)", "description": "Coalition of 40+ farmer unions; provided unified platform and discipline across 13-month sit-in"},
+        {"name": "Bharatiya Kisan Union (BKU)", "description": "Largest farmer union; Rakesh Tikait's emotional breakdown on national TV reinvigorated movement January 2021"},
+        {"name": "All India Kisan Sabha (CPIM)", "description": "Communist-affiliated farmer organization; provided left organizational infrastructure"}
+      ],
+      "funders": ["Sikh diaspora (UK, Canada, US) sent millions in food/supply support", "Gurdwaras in Punjab provided food and logistics", "Grassroots donations from farmers themselves"],
+      "celebrities": ["Rihanna (tweet: 'Why aren't we talking about this?' — went global)", "Greta Thunberg (shared toolkit)", "Meena Harris", "hundreds of Indian musicians and athletes"],
+      "government_champions": ["Arvind Kejriwal (Delhi CM — logistical support)", "Rahul Gandhi (Congress opposition)", "Bhagwant Mann (AAP Punjab)"],
+      "corporate_actors": {
+        "villains": ["Adani Group (accused of being primary beneficiary of Farm Acts)", "Ambani/Reliance (accused of same)"],
+        "allies": ["Few — movement was explicitly anti-corporate deregulation"]
+      },
+      "international": ["Sikh diaspora globally (World Sikh Organisation)", "Canadian PM Trudeau (expressed support — India recalled ambassador)", "UN Special Rapporteurs on food and freedom of assembly"]
+    },
+    "what_actually_changed": "All three Farm Acts were repealed in November 2021 — a complete and historic victory on the primary demand. The laws literally ceased to exist, and the government that passed them publicly capitulated. However, the MSP guarantee (minimum support price legally mandated) was promised in committee form but never legislated, meaning farmers' income security remains structurally vulnerable. The 2024 follow-up protest demonstrates the incomplete nature of the win. The movement proved that 13 months of disciplined physical presence can overcome one of the most popular governments in Indian history."
+  },
+  {
+    "id": 10,
+    "name": "South Korea Candlelight Revolution",
+    "outcome_score": 5,
+    "outcome_summary": "Complete success: President Park Geun-hye impeached by parliament December 2016, upheld by Constitutional Court March 2017, arrested and convicted, Moon Jae-in elected. The movement achieved every goal through peaceful democratic means. One of the cleanest examples of mass nonviolent democratic accountability in modern history. The 2024 Yoon Suk-yeol martial law episode showed the model still works.",
+    "progress_markers": [
+      {"year": 2014, "type": "BUILDUP", "event": "Sewol ferry disaster kills 304 mostly students; government response delayed and dishonest; trust in Park collapses"},
+      {"year": 2015, "type": "BUILDUP", "event": "Park approval ratings decline; corruption allegations accumulate; 'blacklist' of critical artists exposed"},
+      {"year": 2016, "type": "BUILDUP", "event": "'Hell Joseon' discourse peaks among youth; economic discontent; democratic backsliding perceived"},
+      {"year": 2016, "type": "TIP", "event": "October 24-29: JTBC broadcaster reveals Choi Soon-sil possessed and edited classified presidential speeches and policy documents"},
+      {"year": 2016, "type": "TIP", "event": "October 29: First candlelight vigil — 30,000 people in Gwanghwamun Square"},
+      {"year": 2016, "type": "WIN", "event": "November 5: Second vigil — 200,000 people; multigenerational, peaceful, families with children"},
+      {"year": 2016, "type": "WIN", "event": "November 12: Third vigil — 1 million in Seoul, 2 million nationwide; largest protest since democratization"},
+      {"year": 2016, "type": "WIN", "event": "November 26: 1.9 million nationwide; Park approval rating hits 4%"},
+      {"year": 2016, "type": "WIN", "event": "December 9: National Assembly votes to impeach Park 234-56; suspended from duties"},
+      {"year": 2017, "type": "WIN", "event": "March 10: Constitutional Court upholds impeachment unanimously 8-0; Park removed from office"},
+      {"year": 2017, "type": "WIN", "event": "April: Park arrested on corruption and abuse of power charges"},
+      {"year": 2017, "type": "WIN", "event": "May 9: Moon Jae-in elected president — first liberal president in 10 years"},
+      {"year": 2018, "type": "WIN", "event": "Park convicted and sentenced to 25 years (later reduced); Samsung's Lee Jae-yong also convicted"},
+      {"year": 2024, "type": "WIN", "event": "President Yoon declares martial law December 3 2024; rapidly reversed; National Assembly impeaches Yoon December 14 — model works again"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Citizens' Action Emergency Committee for Resignation", "description": "Coalition of civic organizations coordinating the candlelight vigils"},
+        {"name": "Korean Confederation of Trade Unions (KCTU)", "description": "Labor unions provided organizational backbone for rallies"},
+        {"name": "Opposition parties (Democratic Party, People's Party)", "description": "Supported impeachment vote in National Assembly; institutional pathway"}
+      ],
+      "funders": ["Broadly crowdfunded; civic society contributions", "Labor unions (KCTU provided logistical support)"],
+      "celebrities": ["K-pop artists expressed solidarity", "JTBC (broadcaster) — Sohn Suk-hee's investigative journalism was the catalyst"],
+      "government_champions": ["Moon Jae-in (became president)", "National Assembly majority voted to impeach", "Constitutional Court (upheld unanimously)"],
+      "corporate_actors": {
+        "villains": ["Samsung (Lee Jae-yong convicted in Choi scandal — bribery of Park administration)", "Lotte (also implicated in Choi donations)"],
+        "allies": ["JTBC (independent broadcaster whose investigative reporting triggered the crisis)"]
+      },
+      "international": ["Minimal international involvement — domestic democratic process worked as designed"]
+    },
+    "what_actually_changed": "President Park was removed from office, convicted, and imprisoned. The constitutional process worked as designed. Samsung's Lee Jae-yong was convicted of bribery and served time (later pardoned — ongoing controversy). The 2024 Yoon martial law episode confirmed the model is durable: civil society and parliament rapidly removed an overreaching executive again. South Korea demonstrated that a peaceful, aesthetically compelling mass mobilization can hold even the most powerful president accountable through legal democratic mechanisms — and that the model can be replicated within the same political system less than a decade later."
+  },
+  {
+    "id": 11,
+    "name": "Argentina Abortion / Green Wave",
+    "outcome_score": 5,
+    "outcome_summary": "Full legislative victory: Argentina legalized abortion on demand up to 14 weeks (Law 27,610) on December 30, 2020, entering force January 14, 2021. The Green Wave visual template spread across Latin America and directly influenced Mexico (2021), Colombia (2022). Law remains in effect despite Milei opposition.",
+    "progress_markers": [
+      {"year": 2015, "type": "BUILDUP", "event": "NiUnaMenos (June 3 2015) establishes feminist coalition infrastructure; organizational base for abortion campaign"},
+      {"year": 2016, "type": "BUILDUP", "event": "Campana Nacional por el Derecho al Aborto Legal forms; annual bill presentations begin; green handkerchief adopted as symbol"},
+      {"year": 2018, "type": "TIP", "event": "First abortion bill reaches Senate floor: 'Green tide' — massive street mobilization; Senate votes June-August 2018"},
+      {"year": 2018, "type": "SETBACK", "event": "August 9 2018: Senate rejects bill 38-31; protesters weep but immediately recommit — defeat transformed into momentum"},
+      {"year": 2019, "type": "BUILDUP", "event": "Alberto Fernandez elected president on platform including abortion rights — political pathway opens"},
+      {"year": 2020, "type": "WIN", "event": "November 2020: Fernandez government submits abortion bill to parliament with presidential support"},
+      {"year": 2020, "type": "WIN", "event": "December 11 2020: Chamber of Deputies passes 131-117; green handkerchiefs wave in the rain outside parliament"},
+      {"year": 2020, "type": "WIN", "event": "December 30 2020: Senate passes 38-29; Law 27,610 signed — abortion legal to 14 weeks"},
+      {"year": 2021, "type": "WIN", "event": "September 2021: Mexico Supreme Court rules unanimously that criminalization of abortion is unconstitutional — Green Wave direct influence"},
+      {"year": 2022, "type": "WIN", "event": "February 2022: Colombia Constitutional Court legalizes abortion up to 24 weeks — Green Wave influence cited"},
+      {"year": 2022, "type": "WIN", "event": "US Dobbs decision overturning Roe v. Wade creates global backlash; Green Wave becomes symbol of resistance"},
+      {"year": 2023, "type": "SETBACK", "event": "Javier Milei elected president November 2023; vows to roll back abortion law; has not succeeded legislatively"},
+      {"year": 2024, "type": "ONGOING", "event": "Law remains in effect; implementation uneven in conservative provinces; regional movement continues expanding"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Campana Nacional por el Derecho al Aborto Legal", "description": "National coalition that submitted bills annually for years; professional activist infrastructure built over a decade"},
+        {"name": "Socorristas en Red", "description": "Clandestine abortion accompaniment network; provided safe abortions before legalization; ensured implementation knowledge"},
+        {"name": "UNFPA Argentina", "description": "UN agency that supported legal framework and implementation"}
+      ],
+      "funders": ["Grassroots feminist fundraising", "Ipas (international abortion access org)", "Population Council", "UNFPA Argentina"],
+      "celebrities": ["Mercedes Moran", "Ursula Corbero", "Natalia Oreiro", "Lali Esposito"],
+      "government_champions": ["President Alberto Fernandez", "Health Minister Carla Vizzotti", "Senator Juliana Di Tullio (floor manager)"],
+      "corporate_actors": {
+        "villains": ["Catholic Church hierarchy (organized 'celeste' blue counter-movement)"],
+        "allies": ["Medical associations eventually supported access to legal abortion services"]
+      },
+      "international": ["UNFPA", "WHO (supported abortion access as healthcare)", "Inter-American Commission on Human Rights", "UN treaty bodies"]
+    },
+    "what_actually_changed": "Argentina legalized abortion up to 14 weeks of pregnancy — a complete and binding legislative victory. The law is in effect and funded through the public health system (though implementation varies by province due to conscientious objector provisions). The visual template — green handkerchief, 'panuelezo' mass wave — became the signal for feminist movements from Mexico to the Philippines. Mexico decriminalized at the federal level, Colombia expanded access to 24 weeks. The Milei government opposes the law but has not been able to repeal it."
+  },
+  {
+    "id": 12,
+    "name": "NiUnaMenos — Anti-Femicide",
+    "outcome_score": 3,
+    "outcome_summary": "Created the framework for femicide as a named systemic crime. Influenced legislation across Latin America. Generated global feminist organizing language. Built the infrastructure that won the Green Wave abortion victory. Femicide rates have not dramatically declined — the awareness and framing win is real; the structural violence continues.",
+    "progress_markers": [
+      {"year": 2011, "type": "BUILDUP", "event": "Susana Chavez, Mexican poet who coined 'Ni Una Menos,' murdered in Juarez — slogan becomes memorial to its own author"},
+      {"year": 2014, "type": "BUILDUP", "event": "Chiara Paez (14, pregnant) found buried in boyfriend's backyard in Argentina — case galvanizes feminist networks"},
+      {"year": 2015, "type": "TIP", "event": "June 3 2015: First NiUnaMenos march — 200,000+ in Buenos Aires and 80 cities; journalists, artists, activists organized in 10 days"},
+      {"year": 2015, "type": "WIN", "event": "Argentina's 2012 femicide law gains enforcement focus; femicide as distinct crime category enters legal/media vocabulary"},
+      {"year": 2015, "type": "WIN", "event": "Movement spreads: Chile, Mexico, Uruguay, Peru, Bolivia all hold NiUnaMenos marches within weeks"},
+      {"year": 2016, "type": "WIN", "event": "National strike (paro nacional de mujeres) in Argentina October 19 2016 — first women's strike against femicide"},
+      {"year": 2017, "type": "WIN", "event": "International Women's Strike March 8 2017 — NiUnaMenos contributes to global feminist resurgence parallel to MeToo"},
+      {"year": 2019, "type": "WIN", "event": "Mexico NiUnaMenos march after spate of femicides; 'glitter protest' at CNDH — police chief glitter-bombed"},
+      {"year": 2020, "type": "WIN", "event": "Argentine National Femicide Register publishes annual data — making the pattern visible through official statistics"},
+      {"year": 2020, "type": "WIN", "event": "Movement organizational infrastructure directly enables Green Wave abortion law victory"},
+      {"year": 2022, "type": "SETBACK", "event": "Femicide rates in Argentina: 2020=298, 2021=295, 2022=280 — declining slightly but not dramatically"},
+      {"year": 2023, "type": "ONGOING", "event": "Movement continues; March 8 marches in Latin America remain some of world's largest feminist mobilizations"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Colectivo NiUnaMenos", "description": "Original organizing collective of Argentine journalists, artists, and activists; decentralized model from the start"},
+        {"name": "Marea Feminista", "description": "Broader feminist coordination body that emerged from NiUnaMenos infrastructure"},
+        {"name": "Mumala (Mujeres de la Matria Latinoamericana)", "description": "Published annual femicide registry; turned anecdotal cases into systematized data"}
+      ],
+      "funders": ["Grassroots and self-funded", "UNFPA for data and research support", "International feminist foundations"],
+      "celebrities": ["Mercedes Moran", "Ursula Corbero", "journalists Ingrid Beck and Marcela Ojeda (key organizers)"],
+      "government_champions": ["Argentine government adopted femicide registry legislation", "IACHR (Inter-American Commission)"],
+      "corporate_actors": {
+        "villains": ["Media outlets that initially covered femicides as 'crimen pasional' (crime of passion)"],
+        "allies": ["Argentine newspapers that shifted coverage framing after movement pressure"]
+      },
+      "international": ["UN Special Rapporteur on Violence Against Women", "ECLAC (UN Latin American economic commission) — publishes regional femicide data", "Inter-American Convention on Violence Against Women (Belem do Para)"]
+    },
+    "what_actually_changed": "Femicide is now legally recognized as a distinct crime category across most of Latin America, with enhanced penalties. Official femicide registries exist in multiple countries, making the pattern visible through data. Media coverage of gender-based killings has fundamentally shifted from 'domestic tragedy' to systemic analysis. However, femicide rates have not dramatically declined — between 200-300 women are killed in Argentina alone annually. The movement created the cultural and organizational infrastructure for the Green Wave, its most tangible policy legacy."
+  },
+  {
+    "id": 13,
+    "name": "Fees Must Fall",
+    "outcome_score": 3,
+    "outcome_summary": "Fee-free higher education for students from families earning under R350,000/year introduced in 2018 — a significant policy win. But the 2015 zero fee increase was only a one-year victory; decolonization demands were largely unmet; NSFAS implementation is chronically underfunded; the 'missing middle' problem persists. Leaders faced criminal charges.",
+    "progress_markers": [
+      {"year": 2015, "type": "BUILDUP", "event": "#RhodesMustFall: UCT students demand Cecil Rhodes statue removal March 2015; statue falls April 9 — confidence boost for student activism"},
+      {"year": 2015, "type": "BUILDUP", "event": "RMF movement spreads to Oxford (Rhodes Must Fall Oxford); decolonization agenda gets international traction"},
+      {"year": 2015, "type": "TIP", "event": "October 14: Wits University announces 10.5% fee increase; student council VP storms administration building"},
+      {"year": 2015, "type": "WIN", "event": "October 23: Thousands march on parliament in Cape Town; police use stun grenades; national attention"},
+      {"year": 2015, "type": "WIN", "event": "October 23: President Zuma announces zero fee increase for 2016 — movement's core immediate demand met"},
+      {"year": 2016, "type": "SETBACK", "event": "#FeesMustFall 2016 relaunched; demands escalate to zero fees permanently; campus fires and violence"},
+      {"year": 2016, "type": "SETBACK", "event": "Government deploys private security on campuses; hundreds arrested; movement facing criticism for divisive tactics"},
+      {"year": 2017, "type": "WIN", "event": "December 2017: Zuma announces fee-free higher education for students from families earning under R350,000/year"},
+      {"year": 2018, "type": "WIN", "event": "NSFAS (student loans) expanded to cover more students; implementation begins"},
+      {"year": 2019, "type": "SETBACK", "event": "NSFAS implementation plagued by administrative failures; many students excluded; 'missing middle' problem remains"},
+      {"year": 2022, "type": "SETBACK", "event": "Movement leaders face criminal charges; institutional decolonization remains mainly symbolic (curriculum changes, some statue removals)"},
+      {"year": 2023, "type": "ONGOING", "event": "NSFAS remains underfunded and administratively dysfunctional; free education policy exists but delivery is inconsistent"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "South African Students' Congress (SASCO)", "description": "ANC-aligned student organization; part of movement but sometimes in tension with more radical elements"},
+        {"name": "#RhodesMustFall Movement", "description": "Decentralized decolonization movement; intersected with Fees Must Fall organizational infrastructure"},
+        {"name": "Progressive Youth Alliance", "description": "Coalition of student organizations that coordinated demands and marches"}
+      ],
+      "funders": ["Grassroots student organizing; no major institutional funders", "Solidarity from academic staff unions", "COSATU support"],
+      "celebrities": ["Julius Malema (EFF leader — political champion)", "Naledi Chirwa (student leader who later became MP)"],
+      "government_champions": ["President Zuma (capitulated on fees — not a champion but responded)", "President Ramaphosa (expanded NSFAS)"],
+      "corporate_actors": {
+        "villains": ["University management associations (initially resisted all demands)"],
+        "allies": ["Some academic staff unions (supported students)"]
+      },
+      "international": ["#RhodesMustFall Oxford (cross-campus solidarity)", "UNESCO education access frameworks", "Global decolonization movements"]
+    },
+    "what_actually_changed": "Fee-free higher education for students from low-income households is now policy — a genuine change that directly benefits hundreds of thousands of students annually. Some statues removed, some curriculum decolonization. However, the 'missing middle' remains a problem, NSFAS implementation is chronically underfunded and badly administered, and university culture and curriculum remain largely unchanged from apartheid-era patterns. The decolonization agenda is ongoing without institutional resolution."
+  },
+  {
+    "id": 14,
+    "name": "Sudan Revolution",
+    "outcome_score": 1,
+    "outcome_summary": "Al-Bashir's 30-year rule ended April 2019. For approximately 2 years there was a civilian-led transitional government. Then a 2021 military coup reversed the democratic transition. The subsequent SAF-RSF civil war (April 2023) has caused catastrophic humanitarian disaster — 8M+ displaced, world's largest displacement crisis. The revolution succeeded in removing Bashir and led to a civil war.",
+    "progress_markers": [
+      {"year": 1989, "type": "BUILDUP", "event": "Omar al-Bashir seizes power in military coup; 30-year Islamist authoritarian rule begins"},
+      {"year": 2009, "type": "BUILDUP", "event": "ICC issues arrest warrant for al-Bashir for genocide in Darfur; regime internationally isolated"},
+      {"year": 2018, "type": "BUILDUP", "event": "Bread and fuel prices triple; economy in freefall; Sudanese Professional Association begins organizing"},
+      {"year": 2018, "type": "TIP", "event": "December 19 2018: Protests begin in Atbara after bread price tripling; security kills protesters; spreads to Khartoum"},
+      {"year": 2019, "type": "WIN", "event": "April 6 2019: Massive sit-in begins outside military HQ — city within a city with library, clinic, music stage"},
+      {"year": 2019, "type": "WIN", "event": "April 11 2019: Military removes and arrests al-Bashir — ending 30-year rule"},
+      {"year": 2019, "type": "SETBACK", "event": "June 3 2019: RSF (Rapid Support Forces) massacres sit-in protesters — 60-128+ killed, hundreds raped, thousands injured"},
+      {"year": 2019, "type": "PARTIAL-WIN", "event": "July-August 2019: International pressure secures civilian-military 'Sovereignty Council' power-sharing deal"},
+      {"year": 2019, "type": "WIN", "event": "Abdalla Hamdok (civilian economist) appointed PM; democratic transition begins; ICC cooperation on Bashir"},
+      {"year": 2021, "type": "REVERSAL", "event": "October 25 2021: Military coup by Burhan and Hemeti; Hamdok arrested; democratic transition ended"},
+      {"year": 2022, "type": "SETBACK", "event": "Hamdok resigned January 2022; protests suppressed; activists arrested and tortured"},
+      {"year": 2023, "type": "REVERSAL", "event": "April 15 2023: SAF-RSF civil war breaks out; Khartoum becomes war zone; 8M+ displaced"},
+      {"year": 2024, "type": "ONGOING", "event": "Civil war continues; RSF commits atrocities in Darfur; revolution's gains entirely erased by catastrophic conflict"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Sudanese Professional Association (SPA)", "description": "Coalition of doctors, lawyers, engineers; provided organizational backbone and credibility to protests"},
+        {"name": "Sudan Women's Union", "description": "Women estimated 70% of protesters; women's organizations central to movement character"},
+        {"name": "Resistance Committees", "description": "Grassroots neighborhood democracy structures that maintained protests through coups and crackdowns"}
+      ],
+      "funders": ["Broadly grassroots and diaspora-funded", "Some international human rights organizations"],
+      "celebrities": ["Alaa Salah ('Kandaka' — iconic image of woman in white leading protest chants)", "Mohamed Nour (musician)"],
+      "government_champions": ["Abdalla Hamdok (civilian PM 2019-2022 — ultimately failed)", "African Union mediators"],
+      "corporate_actors": {
+        "villains": ["RSF/Hemeti (major business empire in gold mining)", "Wagner Group (supported RSF in civil war)", "UAE (accused of backing RSF)"],
+        "allies": ["Few — international business supported civilian transition mostly symbolically"]
+      },
+      "international": ["African Union (mediated power-sharing deal)", "UN UNITAMS (transition assistance mission)", "ICC (Bashir indictment)", "US Treasury (sanctions on RSF leaders)"]
+    },
+    "what_actually_changed": "Al-Bashir's 30-year dictatorship ended — a genuine historic achievement. For approximately 2 years Sudan had a civilian-led transitional government pursuing democratic institutions. All of this was reversed by the 2021 coup and then catastrophically destroyed by the 2023 civil war, producing one of the world's worst humanitarian crises. Sudan in 2025 is in a dramatically worse humanitarian and political state than in 2018. The revolution succeeded in removing Bashir and failed to prevent what followed."
+  },
+  {
+    "id": 15,
+    "name": "Malawi Election Protests",
+    "outcome_score": 5,
+    "outcome_summary": "Complete legal and democratic victory: Constitutional Court annulled the fraudulent 2019 election, fresh elections held June 2020, incumbent Mutharika lost, Chakwera inaugurated. First time in African history a court annulled a presidential election and the outcome was peacefully accepted. A landmark continental democratic precedent.",
+    "progress_markers": [
+      {"year": 2014, "type": "BUILDUP", "event": "Peter Mutharika elected president; corruption allegations and governance concerns begin accumulating"},
+      {"year": 2018, "type": "BUILDUP", "event": "Human Rights Defenders Coalition (HRDC) active; civil society monitoring institutions strengthening"},
+      {"year": 2019, "type": "TIP", "event": "May 21 2019: Elections held; MEC announces Mutharika wins; immediate concerns from observers about irregularities"},
+      {"year": 2019, "type": "TIP", "event": "Evidence emerges: ballot tallying sheets show tipp-ex corrections; photographs circulate on social media — undeniable physical evidence"},
+      {"year": 2019, "type": "WIN", "event": "Chakwera and Chilima challenge election in Constitutional Court; HRDC organizes sustained street protests"},
+      {"year": 2019, "type": "WIN", "event": "Massive sustained protests in Blantyre and Lilongwe; tear gas, clashes — civil society maintains pressure for months"},
+      {"year": 2019, "type": "PARTIAL-WIN", "event": "MEC Chairwoman Jane Ansah resigns under pressure — first institutional accountability"},
+      {"year": 2020, "type": "WIN", "event": "February 3 2020: Constitutional Court annuls 2019 election unanimously — landmark ruling citing widespread fraud including tipp-ex alterations"},
+      {"year": 2020, "type": "WIN", "event": "Malawi Electoral Commission reconstituted with new leadership"},
+      {"year": 2020, "type": "WIN", "event": "June 23 2020: Fresh elections held; Lazarus Chakwera wins 58.57% — clean result accepted by all parties"},
+      {"year": 2020, "type": "WIN", "event": "June 28 2020: Mutharika accepts results; Chakwera inaugurated — peaceful democratic transition"},
+      {"year": 2020, "type": "MILESTONE", "event": "SADC election observation praises process; becomes continental precedent for democratic accountability"},
+      {"year": 2022, "type": "SETBACK", "event": "Chakwera government faces corruption allegations — democratic process intact but governance disappoints"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Human Rights Defenders Coalition (HRDC)", "description": "Led street protests; maintained sustained pressure; Timothy Mtambo as key spokesperson"},
+        {"name": "Malawi Law Society", "description": "Supported legal challenges to election results"},
+        {"name": "Public Affairs Committee (PAC)", "description": "Interfaith body that coordinated civic engagement and monitored process"}
+      ],
+      "funders": ["Civil society largely self-funded", "International support for election monitoring (EU, SADC)", "US and UK democracy support programs"],
+      "celebrities": ["Timothy Mtambo (HRDC leader — civic leader rather than celebrity)", "Catholic bishops (vocal supporters of democratic process)"],
+      "government_champions": ["Constitutional Court judges (maintained independence under enormous pressure)", "Lazarus Chakwera (opposition leader)", "Saulos Chilima (VP running mate)"],
+      "corporate_actors": {
+        "villains": ["Mutharika-aligned business interests"],
+        "allies": ["Independent media (created space for evidence sharing)"]
+      },
+      "international": ["SADC (Southern African Development Community) observer mission", "African Union", "EU Election Observation Mission", "Commonwealth"]
+    },
+    "what_actually_changed": "A fraudulent election was legally annulled, a new election was held, the incumbent lost and accepted the result, and a new president was peacefully inaugurated. The Malawi Constitutional Court ruling is a continental landmark — referenced in subsequent African election disputes. Civil society sustained pressure plus independent judiciary can work even against an incumbent who controls state resources. Long-term: democratic norms strengthened; governance quality of new government is debated but the democratic process was preserved."
+  },
+  {
+    "id": 16,
+    "name": "Zimbabwe — Fall of Mugabe",
+    "outcome_score": 2,
+    "outcome_summary": "Robert Mugabe's 37-year rule ended November 2017. But the removal was primarily a military/elite operation enabled by popular celebration, not a democratic revolution. Emmerson Mnangagwa has continued authoritarian governance. 2023 elections deeply flawed. Zimbabwe traded one ZANU-PF ruler for another. Economic crisis continues.",
+    "progress_markers": [
+      {"year": 2000, "type": "BUILDUP", "event": "Farm seizures; economic collapse begins; Zimbabwe loses most of its economic value over following decade"},
+      {"year": 2008, "type": "BUILDUP", "event": "Hyperinflation peaks at 89 sextillion percent; Z$100 trillion notes issued; economy completely destroyed"},
+      {"year": 2009, "type": "BUILDUP", "event": "Unity government with MDC briefly stabilizes economy using foreign currencies; collapse averted temporarily"},
+      {"year": 2017, "type": "BUILDUP", "event": "Mugabe, 93, visibly declining; wife Grace Mugabe (G40 faction) positions for succession; military (Lacoste faction) alarmed"},
+      {"year": 2017, "type": "TIP", "event": "November 6: Mugabe sacks VP Mnangagwa; military sees this as existential threat to their interests"},
+      {"year": 2017, "type": "TIP", "event": "November 14-15: Military takes over ZBC broadcaster; announces 'not a coup'; places Mugabe under house arrest"},
+      {"year": 2017, "type": "WIN", "event": "November 18: 100,000+ march in Harare celebrating military action; war veterans and civil society join"},
+      {"year": 2017, "type": "WIN", "event": "November 21: Mugabe resigns after parliament begins impeachment proceedings; nation celebrates"},
+      {"year": 2018, "type": "SETBACK", "event": "July 2018 elections: Mnangagwa wins narrowly; post-election protests met with military force; 6 killed"},
+      {"year": 2019, "type": "SETBACK", "event": "January 2019 fuel price protests; military cracks down; internet shut down; 12+ killed"},
+      {"year": 2020, "type": "SETBACK", "event": "COVID used as pretext to arrest journalists and opposition figures; Hopewell Chin'ono arrested"},
+      {"year": 2023, "type": "REVERSAL", "event": "August 2023: Elections widely condemned as fraudulent; Mnangagwa declared winner; SADC observers cite irregularities"},
+      {"year": 2024, "type": "ONGOING", "event": "Economic crisis continues; brain drain; authoritarian rule entrenched; no meaningful democratic progress"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Zimbabwe National Army / ZDF", "description": "Primary actor in Mugabe removal — military operation that enabled popular celebration"},
+        {"name": "Zimbabwe National War Veterans Association", "description": "War veterans turned against Mugabe; gave military action popular legitimacy"},
+        {"name": "MDC (Movement for Democratic Change)", "description": "Long-standing opposition; not the primary force of removal; benefited temporarily"}
+      ],
+      "funders": ["Military self-funded; no movement funding structure"],
+      "celebrities": ["Grace Mugabe (villain; her ambition triggered the coup)", "Mnangagwa (beneficiary)"],
+      "government_champions": ["SADC and AU gave the transition regional legitimacy after the fact"],
+      "corporate_actors": {
+        "villains": ["ZANU-PF business network maintained control", "Military-associated business interests"],
+        "allies": ["Few independent businesses"]
+      },
+      "international": ["SADC (recognized transition)", "African Union", "UK (cautious welcome)", "US (cautious engagement then sanctions maintained)"]
+    },
+    "what_actually_changed": "Robert Mugabe's 37-year personal rule ended — a genuine historic milestone. However, ZANU-PF remains in power under Mnangagwa, who has continued authoritarian methods including election manipulation, press suppression, and using security forces against protesters. The economic model has not changed. There is no meaningful democratic progress. What changed: one old man left power. What didn't change: the system that sustained him."
+  },
+  {
+    "id": 17,
+    "name": "Green Belt Movement — Kenya",
+    "outcome_score": 4,
+    "outcome_summary": "51 million trees planted, constitutional environmental rights secured, model replicated in 30+ countries, Nobel Peace Prize 2004. A 27-year movement built from zero that genuinely changed Kenya's landscape and governance and created an enduring international institution. One of the most complete grassroots environmental-democracy victories of the 20th century. Continues under new leadership.",
+    "progress_markers": [
+      {"year": 1977, "type": "BUILDUP", "event": "Wangari Maathai founds Green Belt Movement; organizes rural women to plant trees; links environment to democracy and women's empowerment"},
+      {"year": 1982, "type": "SETBACK", "event": "Maathai challenges Moi regime; GBM declared subversive; organizers harassed and monitored"},
+      {"year": 1989, "type": "WIN", "event": "Maathai blocks Uhuru Park skyscraper development — trees saved; Moi government retreats under international pressure"},
+      {"year": 1991, "type": "SETBACK", "event": "Maathai beaten and arrested during protests for multiparty democracy; jailed briefly; movement continues"},
+      {"year": 1992, "type": "WIN", "event": "Pro-democracy hunger strike in Uhuru Park by mothers of political prisoners; succeeded in pressuring releases"},
+      {"year": 1998, "type": "WIN", "event": "30,000 women organized; 20 million trees planted; model being replicated internationally across Africa"},
+      {"year": 2002, "type": "WIN", "event": "End of Moi era; multi-party democracy restored; political space for movement expands dramatically"},
+      {"year": 2004, "type": "WIN", "event": "Wangari Maathai wins Nobel Peace Prize — first environmentalist, first African woman to receive Nobel Peace Prize"},
+      {"year": 2005, "type": "WIN", "event": "Maathai appointed Assistant Minister for Environment; 40 million trees planted; movement inside government"},
+      {"year": 2010, "type": "WIN", "event": "New Kenyan constitution includes environmental rights — movement's advocacy contributed to constitutional provision"},
+      {"year": 2011, "type": "MILESTONE", "event": "Maathai dies September 25 2011; Green Belt Movement continues as permanent institution"},
+      {"year": 2015, "type": "WIN", "event": "51+ million trees planted since 1977; movement operating in 30+ African countries"},
+      {"year": 2022, "type": "ONGOING", "event": "Kenya's newly elected Ruto government announces massive tree-planting program — GBM legacy influences national policy"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Green Belt Movement", "description": "Founded 1977; permanent institution; operates community tree nurseries and environmental democracy advocacy across Africa"},
+        {"name": "National Council of Women of Kenya (NCWK)", "description": "Umbrella body through which GBM was initially launched"},
+        {"name": "UNEP", "description": "Headquartered in Nairobi; supported GBM; Maathai was active in UNEP governance"}
+      ],
+      "funders": ["Norwegian government (long-term core funder)", "UNEP", "Ford Foundation", "MacArthur Foundation", "individual international donors"],
+      "celebrities": ["Wangari Maathai herself — Nobel laureate was the ambassador", "Nelson Mandela (solidarity)"],
+      "government_champions": ["Mwai Kibaki (allowed Maathai into government)", "Wangari Maathai as Assistant Minister for Environment"],
+      "corporate_actors": {
+        "villains": ["Moi regime business allies (real estate developers threatening Uhuru Park)", "Logging companies"],
+        "allies": ["International environmental organizations"]
+      },
+      "international": ["UNEP (critical institutional partner)", "Nobel Committee", "Pan-African Parliament", "IUCN"]
+    },
+    "what_actually_changed": "51+ million trees planted — a genuine, verifiable, physical change to Kenya's landscape. Environmental rights in the 2010 Kenyan constitution. An enduring institution (GBM) that has operated continuously for 47 years. The Nobel Prize validated the model that environmental work, political corruption, and women's empowerment are a unified justice framework — a conceptual contribution that influenced environmental movements globally. Women in 30+ African countries organized through GBM-inspired models."
+  },
+  {
+    "id": 18,
+    "name": "Kenya Maandamano / Finance Bill Protests 2024",
+    "outcome_score": 4,
+    "outcome_summary": "Finance Bill 2024 fully withdrawn by President Ruto within 8 days — a rapid and complete capitulation on the primary demand. Cabinet reshuffled. Represents Gen Z's first major political victory via TikTok-organized movement in Africa — a new model of decentralized digital organizing with real-world policy consequences.",
+    "progress_markers": [
+      {"year": 2022, "type": "BUILDUP", "event": "Ruto elected president on 'hustler economy' pro-poor platform; expectations of economic relief"},
+      {"year": 2023, "type": "BUILDUP", "event": "Cost of living crisis deepens; Finance Bill 2023 includes harsh tax measures; smaller protests; precedent set"},
+      {"year": 2024, "type": "BUILDUP", "event": "Finance Bill 2024 proposed: cooking oil tax, bread tax, mobile money tax — hitting daily survival costs"},
+      {"year": 2024, "type": "TIP", "event": "June 18 2024: Gen Z organizers call protest via TikTok; larger than expected; police use live ammunition — 3 killed, dozens wounded"},
+      {"year": 2024, "type": "WIN", "event": "June 25: Protesters breach parliament; parliament set alight; 13 killed overall in protest week; global media attention"},
+      {"year": 2024, "type": "WIN", "event": "June 26: President Ruto signs withdrawal of Finance Bill — complete reversal of flagship tax policy"},
+      {"year": 2024, "type": "WIN", "event": "July: Ruto dismisses most of his cabinet; announces national dialogue and new government formation"},
+      {"year": 2024, "type": "PARTIAL-WIN", "event": "Ruto invites opposition into government; broad-based government formed — criticized as co-optation by some protesters"},
+      {"year": 2024, "type": "SETBACK", "event": "Subsequent protest demands (Ruto resignation, accountability) not met; some protest leaders arrested"},
+      {"year": 2024, "type": "ONGOING", "event": "Movement continues pressing accountability demands; new Finance Bill passed with fewer controversial measures"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Decentralized Gen Z Network (no formal organization)", "description": "Protests organized via TikTok and X; deliberately leaderless to prevent co-optation or targeted arrests"},
+        {"name": "Okoa Uchumi (Save the Economy)", "description": "Civil society coalition that amplified demands and provided some organizational structure"},
+        {"name": "Law Society of Kenya", "description": "Filed legal challenges and supported protesters' rights"}
+      ],
+      "funders": ["Crowdfunded bail funds via M-Pesa", "Diaspora contributions", "Essentially self-funded through digital small donations"],
+      "celebrities": ["No single champion — decentralized identity was strategic", "Boniface Mwangi (activist photographer) provided visibility"],
+      "government_champions": ["None initially — government was the target"],
+      "corporate_actors": {
+        "villains": ["Ruto government financiers whose tax relief was embedded in the Finance Bill"],
+        "allies": ["Safaricom M-Pesa enabled protest fundraising", "Independent Kenyan media provided live coverage"]
+      },
+      "international": ["Amnesty International documented police killings", "UN Human Rights Office called for investigation", "US Embassy expressed concern"]
+    },
+    "what_actually_changed": "The Finance Bill 2024 was withdrawn — complete reversal of flagship government policy within 8 days. Ruto's cabinet was dismissed and reconstructed. The movement demonstrated that TikTok-era organizing, intentionally leaderless, can win material policy victories against sitting governments. Finance bill withdrawal saved Kenyan households from significant additional tax burden. Long-term structural change to Kenya's fiscal governance remains incomplete, but the precedent of rapid capitulation to youth protest pressure is established."
+  },
+  {
+    "id": 19,
+    "name": "Burkina Faso Popular Uprising",
+    "outcome_score": 1,
+    "outcome_summary": "Compaoré's 27-year rule ended in 24 hours. A civilian government was elected and governed for 7 years. But by 2025 Burkina Faso is under military rule aligned with Russia, experiencing one of the world's worst jihadist insurgencies, with press suppressed and democracy suspended. The uprising succeeded in removing a dictator and failed entirely to build institutional foundations for democracy.",
+    "progress_markers": [
+      {"year": 1987, "type": "BUILDUP", "event": "Blaise Compaore seizes power by assassinating Thomas Sankara; begins 27-year rule"},
+      {"year": 2011, "type": "BUILDUP", "event": "Arab Spring inspires protests in Burkina Faso; Compaore makes concessions but maintains power"},
+      {"year": 2013, "type": "BUILDUP", "event": "Balai Citoyen (Citizen's Broom) civil society movement founded by Smockey (rapper) and Serge Bambara; organizes resistance to constitutional amendment"},
+      {"year": 2014, "type": "TIP", "event": "October 30: Parliament session to vote on constitutional amendment; thousands storm parliament; building set on fire; soldiers pull back"},
+      {"year": 2014, "type": "WIN", "event": "October 31: Compaore flees to Ivory Coast within 24 hours; military announces transitional authority"},
+      {"year": 2015, "type": "SETBACK", "event": "Presidential guard (RSP) attempts coup September 2015; defeated; RSP dissolved"},
+      {"year": 2015, "type": "WIN", "event": "November 2015: Transition elections; Roch Marc Christian Kabore elected president — civilian government established"},
+      {"year": 2016, "type": "SETBACK", "event": "Jihadist attacks begin in north; Kabore government unable to control deteriorating security situation"},
+      {"year": 2020, "type": "SETBACK", "event": "Security catastrophically deteriorates; millions displaced; jihadists control large swaths of territory"},
+      {"year": 2022, "type": "REVERSAL", "event": "January 24 2022: Military coup — Kabore removed; Lt. Col. Damiba takes power"},
+      {"year": 2022, "type": "REVERSAL", "event": "September 30 2022: Second military coup — Capt. Ibrahim Traore removes Damiba"},
+      {"year": 2023, "type": "REVERSAL", "event": "Traore government expels French forces; invites Wagner Group/Russia; suspends civilian press freedom"},
+      {"year": 2024, "type": "ONGOING", "event": "40%+ of territory under jihadist control; 2M+ displaced; democracy suspended; 2014 revolution's gains entirely erased"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Balai Citoyen (Citizen's Broom)", "description": "Civil society movement founded 2013 by Smockey (rapper) and Serge Bambara; organized anti-Compaore resistance"},
+        {"name": "Confederation Generale du Travail du Burkina (CGTB)", "description": "Trade union confederation that coordinated with civil society during uprising"},
+        {"name": "Burkina Faso Bar Association and professional associations", "description": "Lent legitimacy to anti-Compaore campaign"}
+      ],
+      "funders": ["Grassroots; no major external funders disclosed"],
+      "celebrities": ["Smockey (rapper, co-founder of Balai Citoyen)", "Sams'K Le Jah (reggae musician, activist)"],
+      "government_champions": ["ECOWAS recognized transition; transitional authorities filled vacuum after Compaore fled"],
+      "corporate_actors": {
+        "villains": ["Compaore family business interests", "French mining companies (accumulated resentment)"],
+        "allies": ["ECOWAS (recognized transition)"]
+      },
+      "international": ["ECOWAS (recognized transition; later imposed sanctions after 2022 coups)", "African Union (suspended Burkina Faso after 2022 coups)", "France (later expelled)", "Russia/Wagner (invited in 2023)"]
+    },
+    "what_actually_changed": "Compaore's 27-year rule ended in a single day. A civilian government was elected and governed for 7 years. This was the entire positive legacy. By 2025, Burkina Faso is under military rule, aligned with Russia, experiencing one of the world's worst jihadist insurgencies, with press suppressed and democracy suspended. The 2014 uprising succeeded in removing a dictator and failed entirely to build institutional foundations for democracy that could survive security crisis. A textbook case of revolutionary success without institutional consolidation."
+  },
+  {
+    "id": 20,
+    "name": "Ethiopia Oromo Protests / Abiy Ahmed Rise",
+    "outcome_score": 3,
+    "outcome_summary": "Protests forced sweeping reforms and produced Africa's youngest Nobel Peace Prize winner as PM. Abiy Ahmed released political prisoners, liberalized media, and negotiated Eritrea peace. However, the Tigray war (2020-2022) caused 500,000+ deaths. Oromo marginalization continues; ethnic federalism remains contested. Reform was real but partial.",
+    "progress_markers": [
+      {"year": 2014, "type": "BUILDUP", "event": "'Addis Ababa Integrated Development Master Plan' threatens Oromo farmland absorption without compensation"},
+      {"year": 2015, "type": "TIP", "event": "November 2015: student protests against master plan; security forces kill protesters; protests escalate across Oromia"},
+      {"year": 2016, "type": "WIN", "event": "Master Plan officially abandoned January 2016 — first major concession to protesters"},
+      {"year": 2016, "type": "TIP", "event": "October 2 2016: Irreecha festival massacre — security fires on crowd; 52+ killed in stampede and shooting"},
+      {"year": 2016, "type": "WIN", "event": "Irreecha massacre triggers nationwide uprising; international media; EPRDF under maximum pressure"},
+      {"year": 2016, "type": "SETBACK", "event": "State of emergency declared October 2016; internet shutdowns; mass arrests; 1,000+ detained"},
+      {"year": 2018, "type": "WIN", "event": "February 2018: PM Hailemariam Desalegn resigns — extraordinary concession to protest pressure"},
+      {"year": 2018, "type": "WIN", "event": "April 2018: Abiy Ahmed (Oromo reformer) becomes PM; releases 60,000 political prisoners; lifts state of emergency"},
+      {"year": 2019, "type": "WIN", "event": "October 2019: Abiy Ahmed wins Nobel Peace Prize for Eritrea peace deal"},
+      {"year": 2020, "type": "SETBACK", "event": "June 2020: murder of musician Hachalu Hundessa triggers Oromo protests; 239 killed in crackdown"},
+      {"year": 2020, "type": "REVERSAL", "event": "November 2020: Tigray war begins; Abiy orders military offensive; atrocities documented by UN"},
+      {"year": 2022, "type": "SETBACK", "event": "Pretoria Agreement ends Tigray war November 2022; 500,000+ dead; Abiy's human rights record destroyed"},
+      {"year": 2023, "type": "ONGOING", "event": "Amhara conflict continues; Oromo Liberation Army active; ethnic tensions unresolved; Abiy governing increasingly autocratically"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Qeerroo (Oromo Youth Movement)", "description": "Decentralized Oromo youth network that sustained protests; operated with disciplined non-violence"},
+        {"name": "Macha-Tulama Self-Help Association", "description": "Oromo advocacy organization; provided institutional backing before being disbanded"},
+        {"name": "Oromo Liberation Front (OLF)", "description": "Armed movement that returned from exile under Abiy; later re-designated terrorist organization"}
+      ],
+      "funders": ["Ethiopian diaspora (US, Europe, Australia) significant funder", "No major institutional funders — regime suppressed organized civil society"],
+      "celebrities": ["Hachalu Hundessa (murdered musician whose death triggered 2020 Oromo protests — 239 killed)", "Bekele Gerba (opposition leader, repeatedly imprisoned)"],
+      "government_champions": ["Abiy Ahmed (former activist turned PM — complicated legacy)", "Lemma Megersa (Oromo Democratic Party leader)"],
+      "corporate_actors": {
+        "villains": ["METEC (military-industrial conglomerate that controlled economy)", "Chinese infrastructure companies (SOE contracts)"],
+        "allies": ["Few — economic system was state-dominated"]
+      },
+      "international": ["African Union (headquarters in Addis; complicated role in Tigray war)", "US State Department (oscillated between engagement and pressure)", "EU (suspended some aid during Tigray war)", "Nobel Committee (2019 prize — ultimately embarrassing given Tigray war)"]
+    },
+    "what_actually_changed": "The EPRDF coalition that dominated Ethiopia for 27 years was transformed under protest pressure: Abiy Ahmed's reforms — releasing political prisoners, allowing diaspora opposition return, liberalizing media, making peace with Eritrea — were genuinely historic. But the Tigray war revealed these reforms as partial, and Abiy's government has been accused of serious human rights violations. Oromo land rights and political representation remain contested. The movement succeeded in changing who held power; it did not succeed in building accountable democratic institutions."
+  },
+  {
+    "id": 21,
+    "name": "Ghana #FixTheCountry",
+    "outcome_score": 1,
+    "outcome_summary": "Limited structural change — protests occurred after successful challenge to police injunction, government announced some infrastructure investment, no major policy change. Primarily an awareness and discourse-shifting movement. Contributed to political climate that saw Mahama defeat Bawumia in December 2024 elections.",
+    "progress_markers": [
+      {"year": 2020, "type": "BUILDUP", "event": "COVID exposes infrastructure gaps in Ghana; fuel prices rise; cost of living crisis develops"},
+      {"year": 2021, "type": "BUILDUP", "event": "#FixTheCountry begins as social media commentary on infrastructure failures, corruption, and poor governance"},
+      {"year": 2021, "type": "TIP", "event": "May 2021: Heavy rains and flooding in Accra kills 6; hashtag trends nationally; protest proposed"},
+      {"year": 2021, "type": "WIN", "event": "Police obtain court injunction blocking protest; civil society challenges it — court battles attract more attention than the flood"},
+      {"year": 2021, "type": "WIN", "event": "Injunction successfully challenged; protests proceed legally — August 4 2021 protest in Accra"},
+      {"year": 2021, "type": "SETBACK", "event": "Government response: announces road and drainage projects but no structural change in accountability"},
+      {"year": 2021, "type": "SETBACK", "event": "Movement lacks organizational depth; protests relatively small given hashtag's national prominence"},
+      {"year": 2022, "type": "BUILDUP", "event": "Ghana's economic crisis deepens; IMF bailout required; 'dumsor' (power cuts) return; movement discourse continues"},
+      {"year": 2023, "type": "SETBACK", "event": "Formal movement energy dissipated; economic crisis continues under Akufo-Addo government"},
+      {"year": 2024, "type": "PARTIAL-WIN", "event": "December 2024: John Mahama (NDC) wins presidential election; partly driven by #FixTheCountry sentiment in electorate"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "#FixTheCountry Core (informal network)", "description": "Social media activists without formal organizational structure; Ameyaw Kwesi Koffie prominent"},
+        {"name": "OccupyGhana", "description": "Established civil society watchdog that provided some organizational backing"},
+        {"name": "Ghana Bar Association", "description": "Challenged police injunction against protest; legal advocacy"}
+      ],
+      "funders": ["Crowdfunded; diaspora support via social media"],
+      "celebrities": ["Ameyaw Kwesi Koffie (social media influencer)", "Ghanaian musicians expressed solidarity"],
+      "government_champions": ["Minority in parliament (NDC opposition) supported right to protest"],
+      "corporate_actors": {
+        "villains": ["Government contractors implicated in infrastructure failures"],
+        "allies": ["Independent Ghanaian media provided coverage"]
+      },
+      "international": ["Pan-African solidarity from diaspora", "Limited international engagement — primarily domestic"]
+    },
+    "what_actually_changed": "No major structural policy change resulted. The court victory over the injunction is a procedural win for protest rights. The movement's primary lasting impact was contributing to a political discourse that held the Akufo-Addo government accountable through the 2024 elections, which NDC won partly on 'fix the economy' messaging. Ghana's economic crisis and infrastructure failures remain ongoing structural problems."
+  },
+  {
+    "id": 22,
+    "name": "Morocco Hirak Rif Movement",
+    "outcome_score": 1,
+    "outcome_summary": "Nine months of sustained protests, some regional investment announcements, then mass trials and long prison sentences for leaders — Nasser Zefzafi sentenced to 20 years. No structural reform of the relationship between the Rif region and the Moroccan state. Movement effectively suppressed through legal prosecution of its leadership.",
+    "progress_markers": [
+      {"year": 1958, "type": "BUILDUP", "event": "Rif rebellion crushed by King Hassan II; memory of state violence against Berber north embedded in regional identity"},
+      {"year": 2011, "type": "BUILDUP", "event": "Arab Spring: February 20 Movement protests in Morocco; King Mohammed VI offers constitutional reforms widely seen as cosmetic"},
+      {"year": 2016, "type": "TIP", "event": "October 28 2016: Mouhcine Fikri, fish vendor, crushed to death in garbage truck trying to retrieve confiscated swordfish; video goes viral"},
+      {"year": 2016, "type": "TIP", "event": "Thousands protest regional neglect and police impunity in Al Hoceima and Rif cities within days"},
+      {"year": 2017, "type": "WIN", "event": "Sustained protests through winter; Hirak Rif movement formalizes under Nasser Zefzafi; 'Haqquna' (our right) chant sustained"},
+      {"year": 2017, "type": "WIN", "event": "Movement grows to tens of thousands; government announces $12B Rif development plan — inadequately implemented"},
+      {"year": 2017, "type": "SETBACK", "event": "May 26 2017: Zefzafi arrested after interrupting Friday prayer to address worshippers; mass arrests follow"},
+      {"year": 2017, "type": "SETBACK", "event": "June 2017: 25,000+ protest in Rabat and Casablanca in solidarity; government does not respond"},
+      {"year": 2018, "type": "REVERSAL", "event": "June 2018: Mass trial; Zefzafi and 5 other leaders sentenced to 20 years; 47 activists total sentenced"},
+      {"year": 2019, "type": "SETBACK", "event": "Appeals uphold sentences; international criticism from Amnesty International, Human Rights Watch"},
+      {"year": 2022, "type": "ONGOING", "event": "Zefzafi and core leaders remain imprisoned; some prisoner releases; Rif structural underdevelopment continues"},
+      {"year": 2024, "type": "SETBACK", "event": "Morocco's 2030 World Cup investment focuses on major cities; Rif marginalization continues structurally"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Hirak Rif Movement (informal)", "description": "Decentralized protest movement led by Nasser Zefzafi; no formal organization — did not protect against mass trials"},
+        {"name": "Association des droits de l'Homme au Maroc (AMDH)", "description": "Moroccan human rights organization that documented arrests and supported detainees"},
+        {"name": "Solidarity committees in diaspora (Europe)", "description": "Moroccan diaspora in Netherlands, Belgium, France organized pressure campaigns"}
+      ],
+      "funders": ["Diaspora fundraising for legal defense", "International human rights organizations provided documentation support"],
+      "celebrities": ["Nasser Zefzafi (leader — now prisoner)", "Diaspora musicians and artists expressed solidarity"],
+      "government_champions": ["No significant political allies within Moroccan government"],
+      "corporate_actors": {
+        "villains": ["Moroccan state (prosecution and imprisonment)", "Police who enforced crackdown"],
+        "allies": ["None significant"]
+      },
+      "international": ["Amnesty International (named Zefzafi prisoner of conscience)", "Human Rights Watch (documented crackdown)", "EU Parliament (resolution calling for release)", "UN Special Rapporteurs (expressed concern)"]
+    },
+    "what_actually_changed": "Some regional development investment was announced for the Rif region — inadequately implemented. Movement leaders remain imprisoned on 20-year sentences. No structural reform of Morocco's political system or Berber cultural rights. International pressure has not secured prisoner releases. The Fikri case created significant momentary awareness but without institutional protection — visual power alone could not protect the movement from patient state repression."
+  },
+  {
+    "id": 23,
+    "name": "Mali Protests / IBK Resignation",
+    "outcome_score": 0,
+    "outcome_summary": "President IBK resigned following a military coup on August 18, 2020 — the nominal demand was met, but by the military. Mali has subsequently had two more coups, expelled French forces, invited Wagner Group, withdrawn from ECOWAS, and experienced catastrophic security deterioration. The movement that removed IBK set the conditions for arguably worse governance.",
+    "progress_markers": [
+      {"year": 2012, "type": "BUILDUP", "event": "Tuareg rebellion and jihadist seizure of northern Mali; French intervention saves the south; state credibility damaged"},
+      {"year": 2013, "type": "BUILDUP", "event": "IBK elected president on anti-corruption platform; promises not delivered; security deteriorates"},
+      {"year": 2020, "type": "BUILDUP", "event": "March 2020 legislative elections marred by fraud; Supreme Court reinstates contested results; June 5 Movement forms"},
+      {"year": 2020, "type": "TIP", "event": "June 5 2020: Massive protests in Bamako; Imam Dicko leads diverse coalition of secular and religious groups"},
+      {"year": 2020, "type": "WIN", "event": "July 10-11: Protesters attack and briefly occupy parliament and state TV — government in crisis"},
+      {"year": 2020, "type": "PARTIAL-WIN", "event": "ECOWAS mediates; IBK offers national unity government — protesters reject, demand full resignation"},
+      {"year": 2020, "type": "REVERSAL", "event": "August 18 2020: Military coup removes IBK; CNSP junta takes power; protesters celebrate — military, not civilians, now govern"},
+      {"year": 2021, "type": "REVERSAL", "event": "May 2021: Coup within coup — Colonel Assimi Goita removes transitional civilian president; fully military government"},
+      {"year": 2022, "type": "REVERSAL", "event": "French Operation Barkhane expelled; Wagner Group invited; ECOWAS imposes sanctions"},
+      {"year": 2023, "type": "REVERSAL", "event": "ECOWAS and UN peacekeeping mission (MINUSMA) expelled; Mali isolated internationally"},
+      {"year": 2024, "type": "REVERSAL", "event": "Mali withdraws from ECOWAS along with Burkina Faso and Niger; jihadist insurgency controls large territories"},
+      {"year": 2024, "type": "ONGOING", "event": "Goita government continues military rule; no civilian transition timeline; Wagner/Russia entrenched"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "M5-RFP (June 5 Movement — Rally of Patriotic Forces)", "description": "Coalition of opposition parties, civil society, and religious leaders; led street protests"},
+        {"name": "High Islamic Council of Mali (HCIM)", "description": "Imam Dicko's institutional base; provided religious legitimacy to protests"},
+        {"name": "CMAS (Imam Dicko's direct political vehicle)", "description": "Coordination of movements and associations supporting Imam Dicko"}
+      ],
+      "funders": ["Grassroots movement; unclear foreign funding"],
+      "celebrities": ["Imam Mahmoud Dicko (the central figure — Islamic leader turned protest symbol)"],
+      "government_champions": ["ECOWAS tried to mediate but failed; AU condemned coup"],
+      "corporate_actors": {
+        "villains": ["French state and corporations (accumulated resentment among Malians)", "Wagner Group (beneficiary of expulsion of French forces)"],
+        "allies": ["Few independent actors"]
+      },
+      "international": ["ECOWAS (mediated, then sanctioned)", "African Union (condemned coup)", "France (eventually expelled)", "Russia/Wagner (invited as replacement)", "UN MINUSMA (peacekeeping mission — expelled 2023)"]
+    },
+    "what_actually_changed": "IBK's government was removed — the stated demand. But democracy was not the outcome. Mali in 2025 is under military rule, aligned with Russia, experiencing a worse jihadist insurgency, isolated from regional institutions, and with no civilian democratic transition in sight. Imam Dicko, who helped lead the movement, became politically marginalized after the coup. The movement's success in removing IBK directly enabled the conditions that led to three successive military governments and regional isolation. Net outcome score: 0."
+  },
+  {
+    "id": 24,
+    "name": "South Africa Marikana — Platinum Belt Massacre",
+    "outcome_score": 2,
+    "outcome_summary": "34 miners killed by state police in democratic South Africa. Workers received a partial wage increase. No police were criminally convicted. ANC's moral authority among Black working-class South Africans severely damaged. Economic Freedom Fighters founded on the footage. Lonmin closed. Massacre is a lasting symbol of post-apartheid inequality's brutality.",
+    "progress_markers": [
+      {"year": 2000, "type": "BUILDUP", "event": "Post-apartheid South Africa: racial wage gap persists in mining; rock drillers — most dangerous job — still earning poverty wages"},
+      {"year": 2007, "type": "BUILDUP", "event": "Julius Malema rises in ANC Youth League; begins articulating economic transformation beyond Rainbow Nation narrative"},
+      {"year": 2012, "type": "BUILDUP", "event": "Platinum belt wildcat strikes spread; workers reject NUM as too cozy with ANC; AMCU growing as alternative union"},
+      {"year": 2012, "type": "BUILDUP", "event": "Lonmin workers demand wage increase from R4,000 to R12,500/month; management refuses; strike enters second week"},
+      {"year": 2012, "type": "TIP", "event": "August 16 2012: South African police open fire on striking miners; 34 killed, 78 wounded; filmed from multiple angles"},
+      {"year": 2012, "type": "TIP", "event": "Images of miners being shot while retreating circulate globally — first post-apartheid massacre of Black workers by Black government"},
+      {"year": 2012, "type": "PARTIAL-WIN", "event": "Lonmin eventually grants 22% wage increase — partial demand met, far short of R12,500 demand"},
+      {"year": 2012, "type": "WIN", "event": "Cyril Ramaphosa (Lonmin board member, former NUM leader) faces intense public scrutiny for role in calling in police"},
+      {"year": 2013, "type": "WIN", "event": "Julius Malema founds Economic Freedom Fighters (EFF) directly on Marikana platform; wins parliament seats 2014"},
+      {"year": 2015, "type": "SETBACK", "event": "Farlam Commission report: criticizes police leadership but recommends no criminal prosecutions; effectively a whitewash"},
+      {"year": 2016, "type": "SETBACK", "event": "National Prosecuting Authority declines to prosecute police officers; no criminal accountability"},
+      {"year": 2018, "type": "SETBACK", "event": "Lonmin sold to Sibanye-Stillwater; eventually mine closed; workers who survived now unemployed"},
+      {"year": 2022, "type": "ONGOING", "event": "Marikana Memorial maintained; families still seeking accountability; Ramaphosa presidency shadowed by massacre"},
+      {"year": 2024, "type": "ONGOING", "event": "Mining sector wages remain inadequate relative to cost of living; AMCU vs NUM rivalry continues; no systemic change"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Association of Mineworkers and Construction Union (AMCU)", "description": "Breakaway union that represented Marikana workers; grew from 9,000 to 300,000 members post-massacre"},
+        {"name": "Marikana Support Campaign", "description": "Civil society coalition that provided legal and moral support to survivors and families"},
+        {"name": "Economic Freedom Fighters (EFF)", "description": "Political party founded by Malema on Marikana platform; now major opposition party in South Africa"}
+      ],
+      "funders": ["Marikana families largely self-funded through crowdfunding", "Legal aid from civil society organizations", "Some solidarity from international mining unions"],
+      "celebrities": ["Julius Malema (used Marikana as founding platform for EFF)", "Archbishop Desmond Tutu (expressed horror)"],
+      "government_champions": ["None — government was complicit; Ramaphosa's role as Lonmin board member made ANC government defensive"],
+      "corporate_actors": {
+        "villains": ["Lonmin (management that requested police intervention)", "Cyril Ramaphosa (board member — 'shoot the bastards' email controversy)", "Mining industry broadly for poverty wages"],
+        "allies": ["Few — mining sector was largely united against workers' demands"]
+      },
+      "international": ["International Labour Organization (condemned conditions)", "UK media (Lonmin was London-listed; extensive British coverage)", "Amnesty International (called for accountability)"]
+    },
+    "what_actually_changed": "A partial wage increase was granted. AMCU grew into a major mining union. The EFF was founded and is now a significant parliamentary force. Public consciousness about post-apartheid inequality was permanently sharpened — the myth of post-apartheid as a complete economic transformation was definitively punctured. However, no police officers were held criminally accountable, no systemic change to mining sector wage structure occurred, and Lonmin eventually closed. Ramaphosa became president despite his role — illustrating the limits of moral accountability in South African politics."
+  },
+  {
+    "id": 25,
+    "name": "Liberia Peace Women / Leymah Gbowee",
+    "outcome_score": 5,
+    "outcome_summary": "Charles Taylor was forced from power, a peace deal was signed, Ellen Johnson Sirleaf was elected (first female African head of state), and Leymah Gbowee won the Nobel Peace Prize. One of the clearest cases in modern history of direct nonviolent action by women changing the outcome of a violent conflict. The movement achieved every goal.",
+    "progress_markers": [
+      {"year": 1989, "type": "BUILDUP", "event": "First Liberian Civil War begins under Charles Taylor; 250,000+ killed over 14 years of intermittent conflict"},
+      {"year": 1999, "type": "BUILDUP", "event": "Second Civil War begins; Taylor's forces committing atrocities; women and children primary victims of sexual violence"},
+      {"year": 2002, "type": "BUILDUP", "event": "Leymah Gbowee organizes Women in Peacebuilding Network (WIPNET); brings Muslim and Christian women together under shared identity as mothers"},
+      {"year": 2003, "type": "BUILDUP", "event": "Women begin prayer vigils in white T-shirts at Monrovia fish market — white = purity + visibility; sex strike announced as pressure tactic"},
+      {"year": 2003, "type": "WIN", "event": "April 2003: 'sex strike' gains international media attention; Taylor summoned women to State House; they hand him a peace petition"},
+      {"year": 2003, "type": "TIP", "event": "Peace talks in Ghana, July 2003: Women's delegation surrounds the building; when talks stall they chain themselves in the hall"},
+      {"year": 2003, "type": "WIN", "event": "Gbowee threatens to invoke traditional 'bad luck' through disrobing — powerful cultural curse when mothers direct it at men; negotiators return to table"},
+      {"year": 2003, "type": "WIN", "event": "August 2003: Taylor agrees to exile in Nigeria; peace deal signed; second civil war ends"},
+      {"year": 2005, "type": "WIN", "event": "November 2005: Ellen Johnson Sirleaf elected president — first female head of state in Africa"},
+      {"year": 2006, "type": "WIN", "event": "Taylor indicted by Special Court for Sierra Leone for war crimes; arrested when he attempts return"},
+      {"year": 2011, "type": "WIN", "event": "Leymah Gbowee wins Nobel Peace Prize (shared with Ellen Johnson Sirleaf and Tawakkol Karman of Yemen)"},
+      {"year": 2012, "type": "WIN", "event": "Charles Taylor convicted by Special Court for Sierra Leone — first sitting head of state convicted by international court since Nuremberg"},
+      {"year": 2018, "type": "SETBACK", "event": "Ellen Johnson Sirleaf's presidency ends amid corruption allegations; George Weah elected; women's representation drops in government"},
+      {"year": 2024, "type": "ONGOING", "event": "Liberia remains fragile but peaceful; Women in Peacebuilding Network continues; Gbowee's model replicated globally"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Women in Peacebuilding Network (WIPNET)", "description": "Leymah Gbowee's organizing vehicle; brought Muslim and Christian women together; logistically organized the movement"},
+        {"name": "Women of Liberia Mass Action for Peace (WLMAP)", "description": "Broader coalition that expanded WIPNET's work into mass nonviolent action"},
+        {"name": "Mano River Women's Peace Network", "description": "Regional West African women's peace network that provided cross-border solidarity"}
+      ],
+      "funders": ["USAID and US State Department (peacebuilding programs)", "International Women's Peace Service", "UNIFEM (now UN Women)", "Grassroots fundraising by Liberian women themselves"],
+      "celebrities": ["Leymah Gbowee (Nobel laureate)", "Ellen Johnson Sirleaf (Nobel laureate, first female African president)", "Tawakkol Karman (Yemen — shared Nobel)"],
+      "government_champions": ["Kofi Annan (UN Secretary-General facilitated Ghana peace talks)", "ECOWAS (provided Ghana venue and diplomatic pressure)", "Nigerian President Obasanjo (hosted Taylor in exile)"],
+      "corporate_actors": {
+        "villains": ["Charles Taylor's timber and diamond interests that funded the war", "International logging and mining companies operating during conflict"],
+        "allies": ["Few corporate allies — war context"]
+      },
+      "international": ["UN Secretary-General Kofi Annan (direct engagement)", "ECOWAS (convened peace talks)", "Special Court for Sierra Leone (Taylor prosecution)", "UN Women (UNIFEM supported women's organizing)", "Nobel Committee (recognized women's peace work)"]
+    },
+    "what_actually_changed": "Charles Taylor was removed from power, exiled, indicted, and ultimately convicted of war crimes — a complete accountability arc. A peace deal was signed that held. Ellen Johnson Sirleaf was elected as Africa's first female head of state. Leymah Gbowee's model of cross-religious women's nonviolent peacebuilding has been replicated in conflict zones from Syria to South Sudan. Liberia has maintained fragile but real peace since 2003 — now more than 20 years. The Women of Liberia Mass Action for Peace changed the outcome of a civil war, making it one of the most documented and complete examples of nonviolent women's action producing historic political change."
+  }
+]

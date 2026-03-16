@@ -1,0 +1,821 @@
+[
+  {
+    "id": 76,
+    "name": "Uganda Anti-LGBTQ Law — International Response",
+    "outcome_score": 1,
+    "outcome_summary": "Despite unprecedented international economic pressure — World Bank suspended lending (Aug 2023), US visa restrictions, EU aid reviews — Uganda's Anti-Homosexuality Act 2023 remained law as of 2025. Uganda's Constitutional Court struck some provisions (April 2024) but declined to invalidate the law entirely. World Bank resumed lending June 2025 citing 'mitigation measures', which activists criticized as capitulation. The law is enforced; LGBTQ Ugandans face increased police violence, evictions, and social persecution. HIV prevention services fell 40%+ after enactment. The international campaign demonstrated that external pressure without strong domestic organizational capacity is insufficient to change laws where governments have domestic political incentives to maintain them.",
+    "progress_markers": [
+      {"year": 2009, "type": "BUILDUP", "event": "Scott Lively and American evangelical organizations actively lobby Ugandan parliament to pass 'Kill the Gays' bill — establishing external anti-LGBTQ political infrastructure in Uganda"},
+      {"year": 2009, "type": "BUILDUP", "event": "Uganda's original Anti-Homosexuality Bill introduced with death penalty provisions; international condemnation forces temporary shelving"},
+      {"year": 2011, "type": "BUILDUP", "event": "David Kato, Uganda's first openly gay activist, murdered; Ugandan tabloids had published his name and address in 'Hang Them' feature"},
+      {"year": 2014, "type": "SETBACK", "event": "Anti-Homosexuality Act 2014 signed by President Museveni. World Bank, US, UK, Denmark suspend ~$110M in aid. Uganda's Constitutional Court strikes down law on procedural grounds (August) — reprieve but movement suppressed"},
+      {"year": 2022, "type": "BUILDUP", "event": "New Anti-Homosexuality Bill introduced; broader than 2014 version with expanded 'promotion' clauses targeting civil society organizations and health workers"},
+      {"year": 2023, "type": "SETBACK", "event": "Parliament passes Anti-Homosexuality Act 2023 (March). Death penalty for 'aggravated homosexuality', life imprisonment for same-sex relations, 20 years for 'promotion'"},
+      {"year": 2023, "type": "SETBACK", "event": "President Museveni signs Act May 26, 2023 despite UN Human Rights Commissioner calling it 'devastating and deeply disturbing'"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "World Bank announces suspension of new public lending to Uganda (August 2023) — $300M+ in projects paused. US imposes visa restrictions. EU reviews budget support"},
+      {"year": 2023, "type": "ONGOING", "event": "International AIDS Society documents 40%+ drop in LGBTQ Ugandans seeking HIV services. Sexual Minorities Uganda (underground) documents arrests, evictions, violence"},
+      {"year": 2024, "type": "PARTIAL-WIN", "event": "Uganda Constitutional Court nullifies some provisions (April 2024) — narrows 'aggravated' definition — but declines to strike down the law. Life imprisonment for same-sex relations remains"},
+      {"year": 2025, "type": "REVERSAL", "event": "World Bank resumes lending to Uganda (June 2025) citing 'mitigation measures' — widely criticized by LGBTQ activists as capitulation. Law remains enforced"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Sexual Minorities Uganda (SMUG)", "description": "Primary Ugandan LGBTQ rights organization; operates largely underground for safety; brought international legal cases"},
+        {"name": "Human Rights Watch", "description": "Documented abuses; published enforcement reports; international advocacy"},
+        {"name": "Amnesty International", "description": "Global campaigning; prisoner of conscience designations for targeted activists"}
+      ],
+      "funders": ["Open Society Foundations (LGBTQ rights globally)", "Rainbow Railroad (evacuation support for at-risk Ugandans)", "Ford Foundation"],
+      "celebrities": ["Elton John (public condemnation)", "Archbishop Desmond Tutu (condemned earlier bill before death 2021)"],
+      "government_champions": ["US State Department (visa restrictions)", "EU (aid review)", "UK (bilateral pressure)"],
+      "corporate_actors": {
+        "villains": ["American evangelical organizations (Scott Lively's Abiding Truth Ministries, Family Watch International)", "Museveni government / NRM Party"],
+        "allies": ["World Bank (temporarily 2023-2025)", "UNAIDS", "WHO"]
+      },
+      "international": ["UN Human Rights Council", "World Bank (paused then resumed)", "OHCHR", "African Commission on Human and Peoples' Rights (largely silent)"]
+    }
+  },
+  {
+    "id": 77,
+    "name": "Colombia: Peace Accord Plebiscite and Implementation",
+    "outcome_score": 3,
+    "outcome_summary": "The 2016 peace accord produced genuine transformation: ~7,000 FARC combatants demobilized, ex-FARC party (Comunes) allowed to contest elections, and Special Jurisdiction for Peace (JEP) established as transitional justice mechanism. Santos won Nobel Peace Prize. However, Duque's government (2018-2022) severely undermined implementation — rural reform stalled, 300+ social leaders murdered annually, FARC dissidents (Estado Mayor Central, Segunda Marquetalia) rearm with 3,000-5,000 fighters. Petro's 'Total Peace' agenda (2022-) relaunched implementation. Kroc Institute estimates 25-30% implementation of accord. The 52-year FARC war formally ended; structural violence continues through new actors. Score 3: institutional shift, no binding structural change.",
+    "progress_markers": [
+      {"year": 1964, "type": "BUILDUP", "event": "FARC founded. 52 years of civil war, 220,000+ killed, 7 million displaced — Latin America's longest internal armed conflict"},
+      {"year": 2012, "type": "BUILDUP", "event": "Secret peace negotiations begin in Havana. Cuba and Norway as guarantors. Santos takes political risk for peace"},
+      {"year": 2015, "type": "MILESTONE", "event": "Agreement on transitional justice: Special Jurisdiction for Peace (JEP) — truth-telling with reduced sentences for acknowledgment of crimes"},
+      {"year": 2016, "type": "TIP", "event": "August: Peace accord signed in Cartagena. Santos awarded Nobel Peace Prize October 2016"},
+      {"year": 2016, "type": "SETBACK", "event": "October 2: Plebiscite fails — 50.2% No (49.8% Yes). Uribe's disinformation campaign about 'gender ideology' and FARC impunity swings narrow defeat"},
+      {"year": 2016, "type": "REVERSAL_OF_SETBACK", "event": "December: Revised accord ratified by Congress. FARC begins demobilizing into transition zones"},
+      {"year": 2017, "type": "WIN", "event": "~7,000 FARC combatants demobilize; 8,994 weapons collected and verified by UN. FARC party Comunes contests elections"},
+      {"year": 2018, "type": "SETBACK", "event": "Duque (Uribe ally) wins presidency — openly hostile to accord. Slows rural reform, cuts reintegration budget, undermines JEP. Ex-combatant assassination rate rises"},
+      {"year": 2019, "type": "SETBACK", "event": "Iván Márquez and 'Jesús Santrich' announce return to arms (Segunda Marquetalia) — implementation failures cited. ~2,000 fighters rearm"},
+      {"year": 2019, "type": "ONGOING", "event": "300-400+ social leaders, human rights defenders, and ex-combatants murdered annually. Land reform nearly non-existent. Rural security vacuum filled by FARC dissidents, ELN, and criminal groups"},
+      {"year": 2022, "type": "CONSOLIDATION", "event": "Petro elected as first leftist president (former M-19 member). 'Total Peace' agenda: negotiations with ELN, Estado Mayor Central, smaller criminal groups"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "JEP produces first landmark verdicts acknowledging FARC crimes against humanity. Truth Commission report documents 450,000+ victims in detail"},
+      {"year": 2024, "type": "ONGOING", "event": "Accord implementation at 25-30% (Kroc Institute). Rural reform minimal. But formal armed conflict with FARC generation ended — major historical achievement despite incomplete peace"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Colombian Government / High Commissioner for Peace", "description": "Santos government negotiated; Petro government relaunching implementation"},
+        {"name": "FARC-EP / Comunes", "description": "Armed group that demobilized; political party now in democratic participation"},
+        {"name": "Kroc Institute for International Peace Studies (Notre Dame)", "description": "UN-designated independent monitor publishing annual compliance reports"}
+      ],
+      "funders": ["European Union (largest donor to implementation)", "UN Verification Mission in Colombia", "USAID", "Norway and Cuba (guarantor states)"],
+      "celebrities": ["Santos himself as Nobel laureate", "Shakira (cultural peace ambassador)"],
+      "government_champions": ["Juan Manuel Santos (architect, Nobel laureate)", "Cuba and Norway (guarantors)", "Gustavo Petro (current implementation)"],
+      "corporate_actors": {
+        "villains": ["Álvaro Uribe / Centro Democrático party (led 'No' campaign with disinformation)", "Landowner associations opposing rural reform", "Paramilitaries (continued killing social leaders)"],
+        "allies": ["Inter-American Development Bank", "UN Development Programme"]
+      },
+      "international": ["UN Verification Mission in Colombia", "Inter-American Court of Human Rights", "EU", "OAS"]
+    }
+  },
+  {
+    "id": 78,
+    "name": "Bangladesh 1971 Genocide Awareness",
+    "outcome_score": 2,
+    "outcome_summary": "Bangladesh achieved independence (December 16, 1971 — Pakistani surrender). George Harrison's Concert for Bangladesh (August 1, 1971) was the first major rock charity concert, raising $12 million and establishing the celebrity-as-crisis-witness model used in every subsequent humanitarian campaign (Live Aid, Band Aid, etc.). But: Pakistan has never recognized the 1971 atrocities as genocide. No Pakistani military officers faced international criminal accountability. Bangladesh's domestic International Crimes Tribunal (2010-) prosecuted local Razakar collaborators — international due process concerns raised. Sheikh Hasina's government was toppled by mass student protests (August 2024), creating uncertainty about ICT convictions. Score 2: independence achieved (WIN); international accountability campaign produced partial wins at best.",
+    "progress_markers": [
+      {"year": 1971, "type": "BUILDUP", "event": "March 25: Pakistani military Operation Searchlight begins. 300,000-3 million killed; 200,000-400,000 women raped; 10 million refugees flee to India"},
+      {"year": 1971, "type": "BUILDUP", "event": "US government (Nixon/Kissinger) blocks UN action — Pakistan is Cold War ally. Blood Telegram from US Consul General Archer Blood condemns US inaction as genocide"},
+      {"year": 1971, "type": "TIP", "event": "August 1: Concert for Bangladesh at Madison Square Garden. George Harrison and Ravi Shankar; Bob Dylan, Eric Clapton, Ringo Starr. First major rock charity concert. $12 million raised. First use of celebrity concert as crisis advocacy tool"},
+      {"year": 1971, "type": "WIN", "event": "December 16: Pakistan surrenders to Indian forces and Mukti Bahini. Bangladesh independence. 93,000 Pakistani POWs captured"},
+      {"year": 1973, "type": "SETBACK", "event": "Simla Agreement: India-Pakistan deal repatriates POWs without war crimes trials. No international accountability. Bangladesh excluded from key negotiations"},
+      {"year": 2009, "type": "BUILDUP", "event": "Bangladesh establishes International Crimes Tribunal (ICT) — domestic tribunal to prosecute Razakar and al-Badr collaborators"},
+      {"year": 2013, "type": "PARTIAL-WIN", "event": "Shahbag protests (February 2013): massive youth demonstrations demanding death penalty for convicted war criminals. ICT issues multiple convictions"},
+      {"year": 2013, "type": "SETBACK", "event": "Hefazat-e-Islam counter-protests; ICT proceedings criticized internationally for due process concerns. Multiple Jamaat-e-Islami leaders executed following convictions"},
+      {"year": 2021, "type": "MILESTONE", "event": "50th independence anniversary. Canada, several European parliaments pass non-binding genocide recognition motions. Pakistan still refuses genocide characterization"},
+      {"year": 2024, "type": "REVERSAL", "event": "August: Sheikh Hasina toppled by mass student protests (quota reform uprising). Military caretaker government. Fate of ICT convictions and genocide recognition agenda uncertain in political transition"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Muktijoddha Sangsad (Freedom Fighters' Association)", "description": "Primary organization of 1971 freedom fighters maintaining historical memory"},
+        {"name": "Genocide Watch", "description": "International organization campaigning for formal genocide recognition"},
+        {"name": "Bangladesh International Crimes Tribunal", "description": "Domestic tribunal prosecuting Razakar collaborators 2009-present"}
+      ],
+      "funders": ["Concert for Bangladesh proceeds ($12M, 1971)", "US-based Bangladesh diaspora organizations", "UK Bangladesh community organizations"],
+      "celebrities": ["George Harrison (concert organizer)", "Ravi Shankar (initiator)", "Bob Dylan, Eric Clapton, Ringo Starr (performers)", "Allen Ginsberg ('September on Jessore Road')"],
+      "government_champions": ["Indira Gandhi (India — provided military support)", "Sheikh Mujibur Rahman (founding leader)", "Tajuddin Ahmad (PM in exile during liberation)"],
+      "corporate_actors": {
+        "villains": ["Nixon/Kissinger administration (blocked UN action)", "Pakistani military establishment (perpetrators)"],
+        "allies": ["Soviet Union (vetoed US/Pakistani positions at UN)", "India (military intervention)"]
+      },
+      "international": ["UN Security Council (deadlocked)", "International Court of Justice (Gambia vs. Pakistan case on Rohingya — different issue)", "ICC (limited retroactive jurisdiction)"]
+    }
+  },
+  {
+    "id": 79,
+    "name": "India: Right to Information Movement",
+    "outcome_score": 4,
+    "outcome_summary": "The Right to Information Act (2005) is one of the most consequential transparency laws enacted in any democracy. By 2015, 6+ million RTI applications were filed annually; the law enabled hundreds of thousands of corruption accountability cases and was extensively used by investigative journalists. However, success made it a target: 80+ RTI activists killed 2005-2022 for filing inconvenient applications; the 2019 RTI Amendment Act (Modi's BJP government) weakened Information Commissioners' independence by making them government-removable and reducing tenure security. Courts upheld the amendments. PM CARES Fund was excluded from RTI scrutiny. Score 4: major policy win, now partially vulnerable to executive pressure.",
+    "progress_markers": [
+      {"year": 1990, "type": "BUILDUP", "event": "MKSS (Mazdoor Kisan Shakti Sangathan) founded by Aruna Roy and Nikhil De in Rajasthan — begins 'jan sunwais' (public hearings) demanding government muster rolls for wage workers"},
+      {"year": 1994, "type": "BUILDUP", "event": "Rajasthan state RTI campaign — 'Show us the records' becomes mass movement among rural workers"},
+      {"year": 1996, "type": "MILESTONE", "event": "National Campaign for People's Right to Information (NCPRI) formed — national coalition of civil society organizations"},
+      {"year": 2000, "type": "BUILDUP", "event": "Aruna Roy wins Ramon Magsaysay Award — international visibility for RTI movement"},
+      {"year": 2002, "type": "PARTIAL-WIN", "event": "Freedom of Information Act passed — weak version with many exemptions. Civil society rejects as inadequate, continues campaigning"},
+      {"year": 2004, "type": "TIP", "event": "UPA coalition government (Congress + Left) wins election — both had supported stronger RTI. Political window opens"},
+      {"year": 2005, "type": "WIN", "event": "Right to Information Act passed June 2005 — 30-day response requirement, Public Information Officers designated, Central Information Commission with judicial-equivalent powers"},
+      {"year": 2010, "type": "MILESTONE", "event": "6+ million RTI applications filed annually. RTI cited in Supreme Court judgments. Commonwealth Games corruption exposed via RTI. Model studied globally"},
+      {"year": 2012, "type": "SETBACK", "event": "RTI activists begin being systematically murdered for filing inconvenient applications — land records, mining, PDS fraud. 67 killed 2005-2015 (CHRI data)"},
+      {"year": 2019, "type": "SETBACK", "event": "RTI Amendment Act passed (August 2019) — reduces Chief Information Commissioner tenure from 5 years to government's discretion; salary linked to government scale. Effectively makes commissioners government-removable"},
+      {"year": 2020, "type": "SETBACK", "event": "Supreme Court upholds 2019 amendments. PM CARES Fund ruled not subject to RTI. CICs increasingly reluctant to order compliance by central government departments"},
+      {"year": 2024, "type": "ONGOING", "event": "7+ million applications/year — mechanism operational but institutional independence weakened. Electoral bonds excluded from RTI scrutiny until Supreme Court struck them down (2024) on other grounds"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "MKSS (Mazdoor Kisan Shakti Sangathan)", "description": "Founded the jan sunwai model; Aruna Roy and Nikhil De's Rajasthan grassroots base"},
+        {"name": "National Campaign for People's Right to Information (NCPRI)", "description": "Coalition that drafted the 2005 bill and continues monitoring implementation"},
+        {"name": "Commonwealth Human Rights Initiative (CHRI)", "description": "Documents RTI activist killings; promotes RTI in Commonwealth countries"}
+      ],
+      "funders": ["Ford Foundation", "Oxfam India", "Grassroots donations via MKSS"],
+      "celebrities": ["Anna Hazare (used RTI framework in anti-corruption movement 2011)", "Arundhati Roy (public supporter of transparency rights)"],
+      "government_champions": ["Aruna Roy (led campaign; later National Advisory Council)", "Sonia Gandhi / NAC (supported strong RTI)", "Manmohan Singh government (passed law)", "Left Front (key supporters)"],
+      "corporate_actors": {
+        "villains": ["BJP/Modi government (2019 amendment to weaken)", "Mining and construction industries that have killed RTI activists", "State governments that harass applicants"],
+        "allies": ["National Informatics Centre (technical implementation)", "Media organizations (investigative journalism tool)"]
+      },
+      "international": ["Transparency International (recognized India RTI as global model)", "Access Info Europe (international replication)", "World Bank (promoted RTI globally following India model)"]
+    }
+  },
+  {
+    "id": 80,
+    "name": "Congo: Conflict Minerals / Raise Hope for Congo",
+    "outcome_score": 2,
+    "outcome_summary": "Section 1502 of Dodd-Frank (2010) established the first US law requiring supply chain transparency for conflict minerals (tin, tantalum, tungsten, gold — 3TG from DRC). A certified smelter program (RMAP) emerged; 300+ smelters certified. EU Conflict Minerals Regulation followed (effective 2021). However: actual impact on DRC conflict was limited — M23 resurgence in 2022-2024 demonstrated structural conflict drivers unresolved. Trump's 2017 'no action' guidance suspended enforcement temporarily. Battery metals (cobalt, lithium) emerged as a new conflict mineral vector outside the 3TG framework. DRC conflict is at its worst since Second Congo War (2024-2025). Score 2: disclosure infrastructure created; limited impact on ground violence.",
+    "progress_markers": [
+      {"year": 1996, "type": "BUILDUP", "event": "First Congo War begins. Mineral wealth in eastern DRC becomes central to conflict financing. Coltan demand surges with mobile phone boom — first 'blood mineral' linkage documented"},
+      {"year": 2001, "type": "BUILDUP", "event": "UN Expert Panel reports document coltan financing of armed groups in eastern DRC — first formal supply chain documentation"},
+      {"year": 2004, "type": "BUILDUP", "event": "Enough Project founded by John Prendergast — advocacy organization focused on DRC conflict financing"},
+      {"year": 2007, "type": "BUILDUP", "event": "Raise Hope for Congo campaign launched. Ben Affleck visits DRC. Consumer electronics connection to conflict minerals articulated for mass audiences"},
+      {"year": 2010, "type": "WIN", "event": "Dodd-Frank Act Section 1502 passes — requires SEC to mandate conflict mineral disclosure from US publicly traded companies. Historic first"},
+      {"year": 2012, "type": "WIN", "event": "SEC issues final rules implementing Section 1502. RMAP (Responsible Minerals Assurance Process) certified smelter program scales globally"},
+      {"year": 2013, "type": "PARTIAL-WIN", "event": "Intel announces 'conflict-free' supply chain. Apple, Samsung, HP begin smelter auditing. First corporate supply chain accountability legislation showing results"},
+      {"year": 2015, "type": "MILESTONE", "event": "300+ smelters/refiners RMAP-certified. EU Conflict Minerals Regulation proposed"},
+      {"year": 2017, "type": "SETBACK", "event": "Trump SEC issues 'no action' guidance on Section 1502 — effectively suspending enforcement for 4 years"},
+      {"year": 2021, "type": "CONSOLIDATION", "event": "EU Conflict Minerals Regulation enters force — broader scope than US law. Biden SEC restores enforcement"},
+      {"year": 2022, "type": "SETBACK", "event": "M23 rebels (Rwandan-backed) relaunch major offensive in eastern DRC — worst since 2012. Supply chain transparency did not resolve political conflict drivers"},
+      {"year": 2025, "type": "SETBACK", "event": "M23 captures Goma (January 2025) — DRC conflict at worst level since Second Congo War. Cobalt and lithium (battery metals for EVs — not in 3TG framework) emerge as new conflict mineral vector without existing accountability infrastructure"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Enough Project", "description": "Developed Raise Hope for Congo campaign and Section 1502 strategy"},
+        {"name": "Global Witness", "description": "UK-based investigative organization documenting conflict mineral supply chains"},
+        {"name": "Responsible Minerals Initiative (RMI)", "description": "Industry-led certification program for conflict-free smelters"}
+      ],
+      "funders": ["Not On Our Watch (George Clooney / Prendergast)", "Humanity United (Pierre Omidyar)", "Open Society Foundations"],
+      "celebrities": ["Ben Affleck (DRC visits)", "George Clooney (co-founded Not On Our Watch)", "Robin Wright"],
+      "government_champions": ["Senators Brownback and Durbin (Section 1502 co-sponsors)", "Congolese civil society Washington advocates"],
+      "corporate_actors": {
+        "villains": ["National Conflict Minerals Coalition (industry opposition to 1502)", "Armed groups (M23, FDLR, ADF) financing through minerals", "Rwanda government (backing M23)"],
+        "allies": ["Intel (first conflict-free supply chain certification)", "Apple, Samsung, HP (RMAP auditing participants)"]
+      },
+      "international": ["UN Group of Experts on DRC (annual conflict financing reports)", "OECD (Due Diligence Guidance)", "African Union", "ICGLR (Great Lakes Region Conference)"]
+    }
+  },
+  {
+    "id": 81,
+    "name": "Philippines: Marcos Disinformation vs. Democracy Movement [FAILED TIP]",
+    "outcome_score": 0,
+    "outcome_summary": "One of history's most consequential disinformation victories: Bongbong Marcos won the 2022 Philippine presidential election with 58.7% despite documented crimes of the Marcos dictatorship (10,000+ tortured, 3,000+ killed, $5-10 billion stolen, 1972-1986). A systematic 6-year social media campaign rehabilitated the Marcos legacy among a generation with no memory of martial law. The 'pink revolution' pro-Robredo rallies were among the largest in Philippine history — and lost by a landslide. Maria Ressa (Nobel laureate) and Rappler were forced to cease operations December 2023. Rodrigo Duterte was arrested in Manila for ICC proceedings (March 2025) — partial accountability for drug war deaths. Score 0: democracy movement definitively defeated; disinformation won.",
+    "progress_markers": [
+      {"year": 1986, "type": "BUILDUP", "event": "People Power Revolution ousts Marcos Sr. Family exiles to Hawaii. Democratic restoration. Marcos family eventually returns — gradual political rehabilitation"},
+      {"year": 1995, "type": "BUILDUP", "event": "Imelda Marcos returns, elected to Congress. Marcos family normalizes political presence — rehabilitation by persistence"},
+      {"year": 2016, "type": "BUILDUP", "event": "Bongbong Marcos runs for VP — loses to Leni Robredo by ~200,000 votes. Launches electoral protest; loses but builds political machine and detailed voter data"},
+      {"year": 2016, "type": "BUILDUP", "event": "Duterte wins presidency; permissive environment for historical revisionism. ABS-CBN eventually shut down (2020), removing major independent media platform"},
+      {"year": 2016, "type": "BUILDUP", "event": "Systematic Facebook/YouTube disinformation campaign: 'Marcos Golden Age' content, fabricated development statistics, historical revisionism funded at scale by Marcos political operatives"},
+      {"year": 2019, "type": "SETBACK", "event": "Maria Ressa and Rappler charged with cyber-libel by Duterte government — creating chilling effect on independent journalism"},
+      {"year": 2021, "type": "MILESTONE", "event": "Ressa wins Nobel Peace Prize — international amplification of Philippine press freedom crisis, but no domestic reversal"},
+      {"year": 2022, "type": "SETBACK", "event": "May 9 elections: Bongbong Marcos wins 58.7%, Robredo 27.9%. Despite massive pink revolution rallies (1M+ in events), disinformation exceeded mass democratic mobilization"},
+      {"year": 2023, "type": "SETBACK", "event": "Rappler forced to cease operations December 2023. Marcos-Duterte alliance fractures — Sara Duterte threatens to impeach Marcos"},
+      {"year": 2025, "type": "PARTIAL-WIN", "event": "Rodrigo Duterte arrested in Manila (March 2025) for ICC extradition proceedings for drug war killings — first Southeast Asian head of government arrested for ICC purposes"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Rappler / Maria Ressa", "description": "Primary independent media documenting disinformation; Nobel Prize winner; forced to close operations"},
+        {"name": "Leni Robredo / OVP Network", "description": "Pink revolution center; her vice presidential office built civil society infrastructure"},
+        {"name": "Vera Files", "description": "Local fact-checking organization; documented systematic Marcos disinformation"}
+      ],
+      "funders": ["Catholic Church networks (pro-Robredo)", "OFW diaspora (pink movement)", "Liberal Party donors"],
+      "celebrities": ["Lea Salonga (pink revolution supporter)", "Filipino-American diaspora entertainers"],
+      "government_champions": ["Leni Robredo (opposition leader)", "Senate minority bloc"],
+      "corporate_actors": {
+        "villains": ["Nic Gabunada's Facebook disinformation network (paid Marcos social media operators)", "Facebook/Meta (algorithmically amplified disinformation for engagement)", "YouTube (recommended Marcos propaganda)"],
+        "allies": ["AFP Fact Check", "Reuters Philippines", "VERA Files (local fact-checking)"]
+      },
+      "international": ["International Criminal Court (arrested Duterte 2025)", "US Congress (hearings on Philippine press freedom)", "Nobel Committee (Ressa prize)"]
+    }
+  },
+  {
+    "id": 82,
+    "name": "Turkey Gezi Park Protests",
+    "outcome_score": 2,
+    "outcome_summary": "Gezi Park was saved from demolition — the immediate demand was won. But Erdoğan weaponized the protests to justify security crackdowns, consolidate his conservative base, and prosecute civil society for years. The iconic 'woman in the red dress' photograph became globally viral, but Ceyda Sungur and hundreds of others were subsequently prosecuted. Osman Kavala (cultural philanthropist) was imprisoned from 2017 and received a life sentence in 2022 — Turkey's refusal to comply with ECHR release order led to the worst member state confrontation in Council of Europe history. Turkey's democratic trajectory continued downward; the 2016 coup and subsequent purges eliminated whatever political opening Gezi created. Score 2: partial win (park saved), broader political loss.",
+    "progress_markers": [
+      {"year": 2013, "type": "BUILDUP", "event": "Gezi Park (central Istanbul, Taksim area) targeted for redevelopment — shopping mall replacing one of Istanbul's last central green spaces under AKP urban development pattern"},
+      {"year": 2013, "type": "TIP", "event": "May 28: 40 environmentalists begin sit-in. Police teargas them. Overnight: tens of thousands fill Taksim. June 1-2: protests spread to 78 of Turkey's 81 provinces"},
+      {"year": 2013, "type": "TIP", "event": "Ceyda Sungur ('woman in the red dress') — academic standing quietly — is pepper-sprayed at close range by police officer. Photograph becomes global symbol within 24 hours. Visceral image of disproportionate force"},
+      {"year": 2013, "type": "PARTIAL-WIN", "event": "Gezi Park demolition halted. Court order blocks shopping mall. Park preserved as green space — immediate demand won"},
+      {"year": 2013, "type": "SETBACK", "event": "June 11-12: Police retake Taksim. 5,000+ injured, 4,000+ arrested. Erdoğan calls protesters 'çapulcu' (looters), mobilizes conservative counter-narrative"},
+      {"year": 2017, "type": "SETBACK", "event": "Osman Kavala (cultural philanthropist, falsely accused of financing Gezi and 2016 coup) arrested — widely seen as politically motivated, baseless"},
+      {"year": 2019, "type": "SETBACK", "event": "European Court of Human Rights rules Turkey must release Kavala — Turkey refuses"},
+      {"year": 2022, "type": "SETBACK", "event": "Kavala sentenced to aggravated life imprisonment (April 2022). Turkey expels 10 ambassadors who jointly demanded release per ECHR ruling. Worst Council of Europe member state confrontation"},
+      {"year": 2023, "type": "ONGOING", "event": "Erdoğan wins 2023 elections. Istanbul Mayor İmamoğlu faces criminal prosecution — connected to same civil society targeting pattern. Gezi as symbol continues to define Erdoğan's framing of opposition as foreign-backed 'color revolution'"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Taksim Solidarity Platform", "description": "Coalition of 124 civil society organizations coordinating Gezi response"},
+        {"name": "Anadolu Kültür / Osman Kavala", "description": "Cultural institution; Kavala imprisoned as political scapegoat"},
+        {"name": "Turkish Medical Association (TTB)", "description": "Provided medical support during protests; subsequently targeted for prosecution"}
+      ],
+      "funders": ["Domestic civil society fundraising", "European cultural foundations (Kavala's work received European cultural grants)"],
+      "celebrities": ["Cem Yılmaz (comedian, public supporter)", "International art community solidarity letters"],
+      "government_champions": ["CHP (opposition party)", "Istanbul Bar Association", "Turkish Medical Association"],
+      "corporate_actors": {
+        "villains": ["AKP government / Erdoğan", "Development interests in Taksim area"],
+        "allies": ["Twitter (refused to take down protest tweets)"]
+      },
+      "international": ["European Court of Human Rights (ruled for Kavala release — ignored)", "Council of Europe (infringement proceedings)", "Amnesty International", "Human Rights Watch"]
+    }
+  },
+  {
+    "id": 83,
+    "name": "Colombia: Biodiversity Conservation at COP16",
+    "outcome_score": 3,
+    "outcome_summary": "Colombia's hosting of COP16 (Cali, October 2024) produced genuine institutional achievements: the historic DSI (Digital Sequence Information) benefit-sharing agreement — first mechanism ensuring developing countries receive revenue when commercial entities use genetic data from their biodiversity (estimated $100M+/year). Record 23,000+ civil society attendees. Indigenous peoples formally integrated into biodiversity governance for the first time (Article 8(j) subsidiary body). However, the plenary ran out of time without completing all agenda items — a resumed session was required. Under Petro, Colombia reduced Amazon deforestation by 40% vs. Duque. Structural pressures (coca, illegal mining, FARC dissidents) persist. Score 3: important institutional and normative shifts, no fully binding implementation framework yet.",
+    "progress_markers": [
+      {"year": 2022, "type": "TIP", "event": "COP15 Montreal: Kunming-Montreal Global Biodiversity Framework adopted — 30x30 targets (protect 30% land/sea by 2030). Colombia designated as COP16 host"},
+      {"year": 2022, "type": "TIP", "event": "Petro elected Colombia's first leftist president — pledges to end new oil exploration, protect Amazon, pursue 'total peace' with armed groups in forest areas"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "Colombia Amazon deforestation falls 40% in first year (2022-2023) under Petro vs. Duque baseline — significant policy achievement"},
+      {"year": 2024, "type": "TIP", "event": "COP16 Cali (October 21 - November 1, 2024): 23,000+ attendees — largest biodiversity COP ever. Susana Muhamad as COP16 president delivers strong political leadership"},
+      {"year": 2024, "type": "WIN", "event": "Historic DSI agreement: mechanism to share benefits of commercial genetic data use with source countries — first ever. Estimated $100M+/year to developing countries"},
+      {"year": 2024, "type": "WIN", "event": "Article 8(j) subsidiary body established — indigenous peoples formally integrated into global biodiversity governance for first time in CBD history"},
+      {"year": 2024, "type": "SETBACK", "event": "COP16 plenary runs out of time early November 1. Several key items — national biodiversity strategy review, resource mobilization framework — not completed. Resumed session required"},
+      {"year": 2025, "type": "ONGOING", "event": "Resumed COP16 session scheduled. Colombia maintains biodiversity leadership positioning. Structural pressures on forest (coca, mining, dissidents) continue"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Colombian Ministry of Environment (MADS)", "description": "Hosted COP16; Minister Susana Muhamad as COP16 President — exceptional political leadership"},
+        {"name": "COICA (Coordination of Indigenous Peoples' Organizations of the Amazon Basin)", "description": "Indigenous Amazon organizations; achieved historic recognition at COP16"},
+        {"name": "WWF Colombia / Conservation International Colombia", "description": "Major international NGOs with strong Colombia programs"}
+      ],
+      "funders": ["German BMU", "Jeff Bezos Earth Fund ($10B pledge)", "Moore Foundation", "EU biodiversity funding"],
+      "celebrities": ["Gustavo Petro (president as biodiversity champion)"],
+      "government_champions": ["Petro government", "High Ambition Coalition for Nature and People", "Colombia's Chocó and Amazonian regional governments"],
+      "corporate_actors": {
+        "villains": ["Illegal mining (garimpo/barequeo)", "Dissident FARC (controls forest economy in some areas)", "Palm oil and cattle ranching industry"],
+        "allies": ["Ecopetrol (transitioning)", "Colombian flower and coffee export industry"]
+      },
+      "international": ["Convention on Biological Diversity secretariat", "IUCN", "UNEP", "Global Biodiversity Framework Fund (GEF)"]
+    }
+  },
+  {
+    "id": 84,
+    "name": "Bhopal Disaster — Ongoing Accountability",
+    "outcome_score": 1,
+    "outcome_summary": "Forty years of one of the most sustained corporate accountability campaigns in history has produced almost no meaningful justice. The 1984 Union Carbide gas leak killed 3,500-15,000 immediately; 500,000+ suffer long-term health effects. The 1989 settlement — $470 million — averaged ~$600 per victim for lifetime injury or death. Warren Anderson (CEO) died in 2014 having never been extradited. Dow Chemical (acquired Union Carbide 2001) refuses all liability for cleanup or additional compensation. The 2010 Indian court conviction — 2-year sentences for local executives — was universally condemned as inadequate. Third-generation birth defects documented. Site remains contaminated 40 years on. Score 1: awareness maintained for 40 years; zero adequate accountability achieved.",
+    "progress_markers": [
+      {"year": 1984, "type": "TIP", "event": "December 2-3: Methyl isocyanate gas leak from Union Carbide plant. 3,500-15,000 killed immediately. 500,000+ exposed. Largest industrial disaster in history"},
+      {"year": 1984, "type": "SETBACK", "event": "Warren Anderson (CEO) arrested on arrival in Bhopal, immediately bailed, escorted to Delhi, allowed to leave India. Begins 30 years of impunity"},
+      {"year": 1985, "type": "BUILDUP", "event": "Survivors of Bhopal (SOS) and Bhopal Gas Peedit Mahila Udyog Sangathan (women's organization) begin organizing — the longest-running corporate accountability movement in history"},
+      {"year": 1989, "type": "SETBACK", "event": "Settlement: $470 million paid to Indian government. ~$600 per death/injury. Victims' organizations not consulted. 15% of original claim. Widely condemned as wholly inadequate"},
+      {"year": 1999, "type": "ONGOING", "event": "Greenpeace study confirms persistent groundwater contamination at Bhopal site — mercury, lead, hexachlorobenzene. Union Carbide/Dow refuses cleanup"},
+      {"year": 2001, "type": "SETBACK", "event": "Dow Chemical acquires Union Carbide. Immediately declares 'no liability' for Bhopal — neither remediation nor additional compensation"},
+      {"year": 2010, "type": "SETBACK", "event": "Bhopal court convicts 8 former Union Carbide executives (all Indian, all elderly) to 2-year sentences — maximum under applicable Indian law. Universally condemned as grotesque"},
+      {"year": 2012, "type": "MILESTONE", "event": "Campaign targets Dow's London Olympics sponsorship: 'Who will run the Olympic torch past the Bhopal survivors?' Creative advocacy generates global coverage but Dow does not withdraw"},
+      {"year": 2014, "type": "SETBACK", "event": "Warren Anderson dies (September 2014) without facing Indian justice. 30 years of impunity ends with natural death"},
+      {"year": 2024, "type": "ONGOING", "event": "Site still contaminated after 40 years. Dow (merged with DuPont as Dow Inc.) maintains no liability. Third-generation birth defects studied and documented. Survivors organizations continue annual marches — no adequate cleanup, compensation, or accountability"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Survivors of Bhopal (SOS) / International Campaign for Justice in Bhopal", "description": "Primary survivor-led organization; 40-year accountability campaign"},
+        {"name": "Bhopal Gas Peedit Mahila Udyog Sangathan", "description": "Women's organization — primary grassroots base"},
+        {"name": "Greenpeace India", "description": "Environmental testing, contamination documentation, international amplification"}
+      ],
+      "funders": ["International solidarity fundraising", "Amnesty International (advocacy support)"],
+      "celebrities": ["Aamir Khan (Indian film — documentary support)", "Martin Sheen (US solidarity)"],
+      "government_champions": ["Some Indian Supreme Court justices (ordered cleanup, largely unenforced)", "Madhya Pradesh state government (limited)"],
+      "corporate_actors": {
+        "villains": ["Union Carbide (responsible party, fled accountability)", "Dow Chemical / DuPont (refused inherited liability)", "Warren Anderson (CEO, died without accountability)"],
+        "allies": []
+      },
+      "international": ["UN Human Rights Council (reports on corporate accountability)", "UN Special Rapporteur on toxic waste", "International Commission of Jurists (legal support)"]
+    }
+  },
+  {
+    "id": 85,
+    "name": "Thailand: Save the Ocean / Marium the Dugong",
+    "outcome_score": 3,
+    "outcome_summary": "Marium, a baby dugong rescued and hand-reared by Thai marine biologists, died August 2019 after ingesting plastic waste. Her death created national grief and was a key trigger for Thailand's plastic bag ban (January 2020) and subsequent single-use plastic bans (2022). Thailand's plastic policy trajectory aligned with international trends but Marium's story provided the emotional catalyst and specific political cover. However, plastic pollution in Thai seas remains severe; tourism-dependent coastal areas continue to face crises; dugong population remains critically endangered (~250 individuals in Thailand). Score 3: genuine policy change, awareness elevated, structural plastic production unchanged.",
+    "progress_markers": [
+      {"year": 2018, "type": "BUILDUP", "event": "Pilot whale dies in Thailand with 80 plastic bags in stomach — national media coverage, public environmental concern rising"},
+      {"year": 2019, "type": "BUILDUP", "event": "Marium, injured baby dugong, rescued near Krabi by marine biologists. Becomes social media celebrity with live updates. Named 'daughter of the sea'"},
+      {"year": 2019, "type": "TIP", "event": "August 17: Marium dies. Autopsy shows plastic waste ingestion and inflammation. Biologists' emotional announcement goes nationally viral. Unprecedented national conservation grief"},
+      {"year": 2019, "type": "WIN", "event": "Government announces plastic bag ban at major retailers (department stores, convenience stores, supermarkets) effective January 1, 2020"},
+      {"year": 2020, "type": "WIN", "event": "January 1: Plastic bag ban takes effect at major retailers. Compliance largely observed at 7-Eleven, Tesco-Lotus, Central Group"},
+      {"year": 2020, "type": "SETBACK", "event": "COVID-19: single-use plastic for takeout and delivery surges. Some progress reversed"},
+      {"year": 2022, "type": "WIN", "event": "Thailand bans 3 types of single-use plastics: foam food containers, PVC food wrapping, plastic-stemmed cotton buds"},
+      {"year": 2023, "type": "ONGOING", "event": "Ocean plastic in Gulf of Thailand and Andaman Sea remains severe. Dugong population critically endangered. Marine biologists continue documenting plastic ingestion in megafauna"},
+      {"year": 2024, "type": "ONGOING", "event": "Single-use plastic bans enforced variably — wet markets and informal food vendors largely exempt. Tourism coastal areas improving. Structural plastic production unresolved"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Department of Marine and Coastal Resources (DMCR)", "description": "Thai government agency — rescued Marium; marine biologists became movement's public face"},
+        {"name": "Environmental Justice Foundation (EJF)", "description": "International NGO with Thailand operations documenting ocean plastic"},
+        {"name": "Trash Hero World", "description": "Community beach cleanup organization with strong Thailand presence"}
+      ],
+      "funders": ["Thailand Ministry of Natural Resources", "International ocean conservation donors", "Tourism industry (reef/ocean health motivation)"],
+      "celebrities": ["Thai marine biologists became media figures", "Thai royal family expressed support for marine conservation"],
+      "government_champions": ["Minister Varawut Silpa-archa (championed plastic bans)", "PM Prayuth Chan-ocha (signed roadmap)"],
+      "corporate_actors": {
+        "villains": ["Thai plastic packaging industry (lobbied against bans)", "Informal food sector (plastic bag distribution continued)"],
+        "allies": ["7-Eleven Thailand (visible compliance)", "Central Group (major retail)", "PTT (corporate sustainability pledges)"]
+      },
+      "international": ["UNEP (Asia-Pacific Bangkok office)", "WWF Thailand", "Global Ghost Gear Initiative"]
+    }
+  },
+  {
+    "id": 86,
+    "name": "Global Anti-Dam Movement / Narmada",
+    "outcome_score": 2,
+    "outcome_summary": "The Narmada Bachao Andolan achieved a landmark international victory when the World Bank withdrew from Sardar Sarovar funding (October 1993) — the first time ever the Bank withdrew from a major project under civil society pressure. This produced the World Bank Inspection Panel (1993), which remains operational today as a global accountability innovation. The World Commission on Dams (2000) established international standards still referenced globally. But: India built the dam with national funding. Supreme Court allowed multiple height increases. 320,000+ people were displaced with deeply inadequate rehabilitation. The dam is operational. Score 2: international accountability standards permanently changed; the dam was built, people were displaced.",
+    "progress_markers": [
+      {"year": 1979, "type": "BUILDUP", "event": "Sardar Sarovar Project approved by World Bank — would displace 200,000+ people (later revised to 320,000+) across 245 villages in three states"},
+      {"year": 1985, "type": "BUILDUP", "event": "Narmada Bachao Andolan (NBA) founded by Medha Patkar and Baba Amte — coalition of displaced communities, environmentalists, and Gandhians"},
+      {"year": 1988, "type": "BUILDUP", "event": "NBA grows nationally — hunger strikes, jal samarpan (drowning in rising waters as moral witness), march from Madhya Pradesh to Gujarat"},
+      {"year": 1990, "type": "MILESTONE", "event": "World Bank-commissioned Morse Commission (Bradford Morse) begins independent review — unprecedented Bank self-accountability mechanism"},
+      {"year": 1993, "type": "WIN", "event": "Morse Commission finds dam not in compliance with Bank policies on involuntary resettlement. World Bank withdraws (October 1993) — historic first. World Bank Inspection Panel established as direct result"},
+      {"year": 1993, "type": "WIN", "event": "World Bank Inspection Panel established — formal mechanism for communities affected by Bank projects to seek review. Still operational globally today"},
+      {"year": 1995, "type": "SETBACK", "event": "India continues construction with national funding. Supreme Court interim stay (1995) — temporary halt only"},
+      {"year": 1999, "type": "MILESTONE", "event": "Arundhati Roy publishes 'The Greater Common Good' — reaches global literary audience. World Commission on Dams established (1998), reports 2000 — standards still globally referenced"},
+      {"year": 2000, "type": "SETBACK", "event": "Supreme Court allows dam height increase to 90 meters. Displacement begins in earnest"},
+      {"year": 2006, "type": "SETBACK", "event": "Supreme Court allows height increase to 121 meters. Tens of thousands displaced. Medha Patkar arrested during protest"},
+      {"year": 2017, "type": "SETBACK", "event": "Supreme Court allows final height increase to 138 meters. Last villages submerged. 320,000+ people displaced total. Dam fully operational"},
+      {"year": 2019, "type": "ONGOING", "event": "Medha Patkar continues advocacy for adequate rehabilitation. Many remain without promised land-for-land resettlement. The dam was built; the institutional legacy was real"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Narmada Bachao Andolan (NBA)", "description": "Led by Medha Patkar — coalition of displaced communities, environmentalists, and Gandhians"},
+        {"name": "International Rivers Network (now International Rivers)", "description": "US-based NGO coordinating international pressure on World Bank"},
+        {"name": "Lokayan", "description": "Political support and mobilization for broader anti-dam framing"}
+      ],
+      "funders": ["German Evangelical Development Service (EED)", "Brot für die Welt (Bread for the World)", "Netherlands NGO Co-Financing Programme"],
+      "celebrities": ["Baba Amte (Gandhian leader)", "Arundhati Roy (literary amplification)", "George Fernandes (Indian politician)"],
+      "government_champions": ["Medha Patkar (led movement; contested elections)", "Some Madhya Pradesh opposition politicians"],
+      "corporate_actors": {
+        "villains": ["Sardar Sarovar Narmada Nigam Ltd.", "Indian government construction contractors"],
+        "allies": ["World Bank (withdrew temporarily)", "German KfW Bank (declined further funding)"]
+      },
+      "international": ["World Bank Inspection Panel (created as direct result)", "World Commission on Dams", "UN Human Rights Committee (found India violated ICCPR)", "International Rivers Network"]
+    }
+  },
+  {
+    "id": 87,
+    "name": "Wangari Maathai: Karura Forest Defense",
+    "outcome_score": 4,
+    "outcome_summary": "Karura Forest — 1,000+ hectares of indigenous forest in central Nairobi — was saved from cronyism development and is now a protected, fully accessible urban forest park serving 10,000+ visitors daily. Maathai's January 1999 tree-planting action (met with beatings before international diplomats) created the visual that reversed the land allocations. The campaign contributed to political pressure ending Moi's regime. Kenya's 2010 constitution includes environmental rights. Wangari Maathai won the 2004 Nobel Peace Prize (first time awarded to an environmental activist). Score 4: the forest was saved, the institutional gains were embedded in constitutional law, and the movement created a globally replicated model.",
+    "progress_markers": [
+      {"year": 1977, "type": "BUILDUP", "event": "Green Belt Movement founded by Wangari Maathai — rural women planting trees, linking environmental degradation to political corruption and women's powerlessness"},
+      {"year": 1990, "type": "PARTIAL-WIN", "event": "Green Belt Movement campaigns against Uhuru Park development — Moi government attempted 60-story skyscraper in central Nairobi park. International pressure, Maathai's hunger strike succeeded in reversing"},
+      {"year": 1995, "type": "BUILDUP", "event": "Karura Forest land allocations begin — government cronies receive gazetted indigenous forest parcels. Legal challenges fail. Logging and construction begin"},
+      {"year": 1999, "type": "TIP", "event": "January 8: Maathai leads tree-planting action inside Karura Forest. Police and private security attack group — Maathai beaten with clubs. German ambassador among diplomatic witnesses. International press present"},
+      {"year": 1999, "type": "WIN", "event": "Kenya Wildlife Service takes over Karura Forest management. Land allocations reversed. Private construction halted. International diplomatic community protests formally"},
+      {"year": 2001, "type": "CONSOLIDATION", "event": "Karura Forest designated protected under Kenya Forests Act. Community trails and public access programs established"},
+      {"year": 2002, "type": "CONSOLIDATION", "event": "Moi does not contest 2002 elections (term limits + political pressure). Kibaki wins. Maathai elected to parliament"},
+      {"year": 2004, "type": "WIN", "event": "Wangari Maathai wins Nobel Peace Prize — first time awarded to environmental activist. Appointed Assistant Minister for Environment"},
+      {"year": 2010, "type": "WIN", "event": "Kenya's new constitution includes environmental rights provisions — direct legacy of Green Belt and Karura advocacy"},
+      {"year": 2019, "type": "CONSOLIDATION", "event": "Karura Forest: fully accessible urban forest, 10,000+ daily visitors, wildlife, hiking trails. Model for African urban forest conservation. Green Belt Movement: 51+ million trees planted"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Green Belt Movement", "description": "Maathai's organization — 30,000+ women, 51M trees; Karura was one battle in a 30-year campaign"},
+        {"name": "Karura Forest Alliance", "description": "Coalition of environmental NGOs formed specifically for the Karura campaign"},
+        {"name": "Kenya Human Rights Commission", "description": "Legal support for Maathai and movement"}
+      ],
+      "funders": ["UNEP (Nairobi-based — critical institutional ally)", "Heinrich Böll Foundation", "Norwegian government", "US-based environmental foundations"],
+      "celebrities": ["Wangari Maathai herself", "International community of environmentalists and feminists"],
+      "government_champions": ["Western ambassadors in Nairobi (publicly witnessed and supported)", "Post-Moi Kibaki government (supported forest protection)", "UNEP Executive Director Klaus Töpfer"],
+      "corporate_actors": {
+        "villains": ["Daniel arap Moi government and cronies (allocated forest land)", "Private developers with Karura Forest title deeds"],
+        "allies": ["Kenya Wildlife Service (took over Karura management)"]
+      },
+      "international": ["UNEP (headquarters in Nairobi — unusual direct institutional pressure)", "Nobel Committee (2004 prize)", "Diplomatic community in Nairobi"]
+    }
+  },
+  {
+    "id": 88,
+    "name": "Uganda: Stop Kony / KONY 2012",
+    "outcome_score": 2,
+    "outcome_summary": "KONY 2012 reached 100 million views in 6 days (fastest video to that milestone at the time), but 'Cover the Night' (April 20, 2012) failed; director Jason Russell's public breakdown consumed the cycle. Longer-term: LRA attacks declined 92% from 2012-2021; Invisible Children invested $13.7M+ in defection programs and early warning systems; Caesar Achellam (senior LRA commander) captured May 2012. ICC began in absentia hearings against Kony (November 2025). However: Kony remains at large in CAR/Sudan borderlands with ~12-20 fighters. The 'slacktivism' critique entered mainstream discourse — KONY 2012 became the definitive case study of viral awareness without policy conversion. Score 2: LRA significantly weakened, advocacy infrastructure built, Kony not captured.",
+    "progress_markers": [
+      {"year": 1987, "type": "BUILDUP", "event": "Joseph Kony founds Lord's Resistance Army — 30,000+ child soldiers abducted over decades, 2 million displaced"},
+      {"year": 2005, "type": "MILESTONE", "event": "ICC issues arrest warrants for Kony, Otti, Odhiambo, Ongwen, and Lukwiya — first ICC warrants. Kony indicted for crimes against humanity"},
+      {"year": 2009, "type": "MILESTONE", "event": "Obama signs LRA Disarmament and Northern Uganda Recovery Act — framework for US engagement. Invisible Children campus lobbying contributed"},
+      {"year": 2011, "type": "PARTIAL-WIN", "event": "Obama deploys 100 US military advisers to Uganda — African Union regional task force established. Kony hunting begins with US intelligence support"},
+      {"year": 2012, "type": "TIP", "event": "March 5: KONY 2012 video released. 100 million views in 6 days — fastest ever. #KONY2012 trends globally. Celebrity endorsements: Angelina Jolie, George Clooney, Rihanna, Oprah"},
+      {"year": 2012, "type": "SETBACK", "event": "March 15: Jason Russell has public psychiatric breakdown. Media shifts to campaign credibility crisis. Ugandan civil society and African scholars criticize 'white savior' narrative"},
+      {"year": 2012, "type": "SETBACK", "event": "April 20: 'Cover the Night' largely fails — minimal physical turnout vs. massive online engagement. 'Slacktivism' enters mainstream discourse"},
+      {"year": 2012, "type": "PARTIAL-WIN", "event": "Caesar Achellam (senior LRA commander) captured May 2012. US Senate passes KONY 2012 resolution unanimously. Invisible Children invests $13.7M+ in defection programs and early warning systems"},
+      {"year": 2017, "type": "SETBACK", "event": "Trump withdraws US military advisers from Uganda. Regional task force reduces operations. LRA territory less monitored"},
+      {"year": 2021, "type": "CONSOLIDATION", "event": "LRA attacks down 92% from 2012 (IC data). LRA estimated fewer than 100 fighters. 2023: largest LRA defection in group's history"},
+      {"year": 2025, "type": "MILESTONE", "event": "ICC begins in absentia hearings against Kony (November 2025). Wagner Group reportedly attempted and failed to capture him in CAR (April 2024). Kony believed in CAR/Sudan borderlands with ~12-20 fighters"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Invisible Children", "description": "Founded campaign; invested in LRA defection programs, early warning systems, rehabilitation centers"},
+        {"name": "African Union Regional Task Force", "description": "Military coordination body (Uganda, DRC, CAR, South Sudan) tracking LRA"},
+        {"name": "International Criminal Court", "description": "Issued warrants 2005; began in absentia proceedings 2025"}
+      ],
+      "funders": ["Individual donors to Invisible Children ($32M+ in 2012)", "US State Department", "USAID Northern Uganda Recovery Act"],
+      "celebrities": ["Angelina Jolie", "George Clooney", "Rihanna", "Oprah Winfrey (tweet amplification)"],
+      "government_champions": ["US Congress (LRA Act)", "Obama administration (military advisers)", "Uganda's Museveni (backed campaign cautiously)"],
+      "corporate_actors": {
+        "villains": ["LRA supply chain supporters (ivory/diamond trafficking)"],
+        "allies": []
+      },
+      "international": ["ICC (indictments, in absentia proceedings)", "African Union (regional task force)", "UNHCR (displaced populations)", "UNICEF (child soldiers rehabilitation)"]
+    }
+  },
+  {
+    "id": 89,
+    "name": "Indonesia: Peatland Fires / Haze Crisis Accountability",
+    "outcome_score": 3,
+    "outcome_summary": "The 2015 Indonesian peatland fires killed ~100,000 people prematurely (Harvard/Columbia study), emitted ~1.75 billion tons CO2, and caused hazardous air across Malaysia and Singapore. The campaign produced: Peatland Restoration Agency (BRG), Jokowi's moratorium on new oil palm plantation permits (2018, made permanent 2019), and NDPE (No Deforestation, No Peat, No Exploitation) commitments from 75%+ of global palm oil buyers. But 2019 fires were nearly identical in scale to 2015 — demonstrating commitments weren't enforced. EU Deforestation Regulation (2021) adds new market pressure. Score 3: institutional and corporate policy shifts; structural palm oil expansion on peat unresolved.",
+    "progress_markers": [
+      {"year": 1997, "type": "BUILDUP", "event": "First catastrophic El Niño peatland fire year — 150,000+ km² burned. Haze crisis pattern established but largely ignored internationally"},
+      {"year": 2010, "type": "BUILDUP", "event": "Greenpeace 'Ask Nestlé' campaign targets Kit Kat palm oil supply chain — first major consumer-facing corporate accountability campaign on Indonesian deforestation"},
+      {"year": 2013, "type": "MILESTONE", "event": "Golden Agri-Resources (GAR) commits to No Deforestation, No Peat, No Exploitation (NDPE) — first major palm oil producer pledge. Wilmar follows"},
+      {"year": 2015, "type": "TIP", "event": "September-October: Catastrophic fires. 2.6 million hectares burned. Harvard/Columbia: 100,000+ premature deaths. ~1.75 billion tons CO2 emitted in 6 weeks"},
+      {"year": 2015, "type": "TIP", "event": "Singapore Hazardous air for weeks — affecting 5+ million affluent, networked city-state residents. #HazeShame. Satellite fire data allows corporate attribution"},
+      {"year": 2016, "type": "WIN", "event": "Indonesia establishes Peatland Restoration Agency (BRG) — mandate to restore 2 million hectares of degraded peatland"},
+      {"year": 2018, "type": "WIN", "event": "Jokowi moratorium on new oil palm permits. Made permanent 2019"},
+      {"year": 2019, "type": "SETBACK", "event": "2019 fire season: 942,000 hectares burned — nearly identical to 2015 scale. Demonstrates moratorium enforcement inadequate"},
+      {"year": 2021, "type": "CONSOLIDATION", "event": "EU Deforestation Regulation passed — requires companies selling into EU to certify palm oil not from recently deforested land. Major market pressure on Indonesia"},
+      {"year": 2023, "type": "ONGOING", "event": "Indonesia requests EUDR delay (granted 12 months). Palm oil industry resistance continues. Deforestation rates lower than 2016-2019 peak in some zones but structural tension unresolved"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Greenpeace Southeast Asia", "description": "Led deforestation accountability campaigns; satellite fire data; corporate pressure"},
+        {"name": "Rainforest Action Network (RAN)", "description": "US-based; consumer pressure on brands using Indonesian palm oil"},
+        {"name": "WWF Indonesia", "description": "RSPO process; sustainable palm oil standards; policy engagement"}
+      ],
+      "funders": ["Norwegian Government (REDD+ Indonesia — $1 billion committed)", "UK International Climate Finance", "Walton Family Foundation"],
+      "celebrities": ["Leonardo DiCaprio (Sumatra orangutan and deforestation — major donor and amplifier)"],
+      "government_champions": ["Jokowi government (moratorium)", "Singapore government (pushed Indonesia after haze impacts)", "Norway (bilateral REDD+ agreement)"],
+      "corporate_actors": {
+        "villains": ["APP (Asia Pulp & Paper)", "Indofood", "Genting Plantations"],
+        "allies": ["Wilmar International (NDPE commitment)", "Golden Agri-Resources (first to commit)", "Unilever, Nestlé, L'Oréal (buyer pressure)"]
+      },
+      "international": ["RSPO", "EU Deforestation Regulation", "CIFOR (research)", "Global Forest Watch / World Resources Institute (satellite monitoring)"]
+    }
+  },
+  {
+    "id": 90,
+    "name": "Mexico: Women's Movement and Day Without Women",
+    "outcome_score": 3,
+    "outcome_summary": "Mexico's 2020 feminist mobilizations (March 8 march + March 9 Day of Absence) did not produce immediate anti-femicide legislation under López Obrador's dismissive government. But the movement's legal strategy bore major fruit: the Supreme Court ruled abortion bans unconstitutional (September 2021); by 2024, 20+ of 32 Mexican states had decriminalized abortion — a direct legacy of the feminist movement's infrastructure and framing. Femicide rates remain ~10/day. Claudia Sheinbaum became Mexico's first female president (June 2024) — more receptive to gender violence agenda. The Day of Absence tactic was widely replicated internationally. Score 3: major cultural and legal shifts (abortion), structural femicide unchanged.",
+    "progress_markers": [
+      {"year": 2015, "type": "BUILDUP", "event": "Argentina's NiUnaMenos movement arrives in Mexico. Mexican feminist movement accelerates with similar framing"},
+      {"year": 2017, "type": "BUILDUP", "event": "Feminist collectives organize. Femicide data: 10+ women murdered daily. Less than 1% of femicide cases result in conviction — culture of impunity documented"},
+      {"year": 2019, "type": "BUILDUP", "event": "Feminist groups protest Mexico City police after officer sexual assault. 'Feminist glitter' becomes tactical innovation — throwing glitter at police/officials who dismiss violence"},
+      {"year": 2020, "type": "TIP", "event": "February 9: Murder of Ingrid Escamilla (25). Tabloids publish gruesome front-page photos. National outrage at both murder and media sensationalism"},
+      {"year": 2020, "type": "TIP", "event": "March 8: IWD march in Mexico City — 80,000+ women. Buildings vandalized as symbolic protest. AMLO dismisses as 'coup attempt'"},
+      {"year": 2020, "type": "TIP", "event": "March 9: 'Un Día Sin Nosotras' — national women's strike. UNAM, government offices, private sector visibly empty. Economic and social absence made women's invisible labor visible"},
+      {"year": 2021, "type": "WIN", "event": "Mexican Supreme Court rules criminal penalties for abortion unconstitutional (September 2021) — direct result of feminist legal strategy running alongside street movement"},
+      {"year": 2022, "type": "WIN", "event": "Domino effect: multiple states (Coahuila, Sinaloa, Hidalgo, Baja California, Veracruz) decriminalize abortion following ruling"},
+      {"year": 2024, "type": "CONSOLIDATION", "event": "20+ of 32 states decriminalize abortion. Claudia Sheinbaum elected Mexico's first female president (June 2024) — more receptive than AMLO to gender violence agenda"},
+      {"year": 2024, "type": "ONGOING", "event": "Femicide rate remains ~10/day. Some states declare 'feminist emergency'. National femicide tracking improved. Structural impunity culture unchanged"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Marea Verde México", "description": "Feminist coalition for abortion rights — imported green handkerchief symbol from Argentina"},
+        {"name": "Las Brujas del Mar (Veracruz)", "description": "Feminist collective known for creative and confrontational tactics"},
+        {"name": "Consorcio para el Diálogo Parlamentario y la Equidad Oaxaca", "description": "Legal strategy organization for reproductive rights litigation"}
+      ],
+      "funders": ["Fondo Semillas (Mexico's women's fund)", "Global Fund for Women", "Ford Foundation Mexico"],
+      "celebrities": ["Fempop (feminist musicians)", "Rigoberta Menchú (regional solidarity)"],
+      "government_champions": ["Mexican Supreme Court justices", "Claudia Sheinbaum (post-2024)", "Mexico City government (pre-2024)"],
+      "corporate_actors": {
+        "villains": ["Tabloid media (sensationalist femicide coverage)", "AMLO government (dismissive response)", "Federal police culture of impunity"],
+        "allies": ["Some private sector employers supporting Day of Absence without penalty"]
+      },
+      "international": ["UN Women Mexico", "Amnesty International", "IACHR (femicide reports)"]
+    }
+  },
+  {
+    "id": 91,
+    "name": "Occupy Hong Kong 2014 — Umbrella Movement [FAILED TIP]",
+    "outcome_score": 1,
+    "outcome_summary": "The 79-day occupation of three Hong Kong districts produced zero policy concessions. Beijing did not change the election framework. But the movement built organizational networks and political consciousness that produced the larger 2019 protests — directly: Joshua Wong (17 during 2014) became a key 2019 leader; the 'Lennon Wall' tactic was replicated globally; the 'five demands, not one less' formulation built on Umbrella experience. The Umbrella Movement is scored 1 on direct policy impact but 3 for the infrastructure and culture it seeded for 2019.",
+    "progress_markers": [
+      {"year": 2003, "type": "BUILDUP", "event": "500,000 march against Article 23 national security legislation — successfully shelved. HK civil society demonstrates mass mobilization capacity"},
+      {"year": 2012, "type": "BUILDUP", "event": "Joshua Wong (15) and Scholarism mobilize against national patriotic education — win curriculum reversal. First major youth movement victory"},
+      {"year": 2013, "type": "BUILDUP", "event": "Benny Tai proposes 'Occupy Central with Love and Peace' — civil disobedience for universal suffrage. Planning begins"},
+      {"year": 2014, "type": "TIP", "event": "August 31: China's Standing Committee announces pre-screening of CE candidates — seen as breaking Basic Law promise of universal suffrage"},
+      {"year": 2014, "type": "TIP", "event": "September 28: Police teargas students. Instead of dispersing, hundreds of thousands fill Admiralty. Umbrella (against teargas) becomes symbol globally"},
+      {"year": 2014, "type": "MILESTONE", "event": "Admiralty occupation creates remarkable community: Lennon Walls, study areas, art installations, free meals, medical station, outdoor library. 'World's most beautiful protest' coverage globally"},
+      {"year": 2014, "type": "SETBACK", "event": "December 15: Last protesters removed after 79 days. Zero concessions. Beijing did not change framework. Court injunctions cleared sites"},
+      {"year": 2017, "type": "SETBACK", "event": "Benny Tai, Chan Kin-man, Reverend Chu convicted of public nuisance. Multiple 2014 leaders imprisoned. Pro-democracy legislators disqualified"},
+      {"year": 2019, "type": "REVERSAL_OF_SETBACK", "event": "2014 networks directly seed 2019: Umbrella's 5-year organizational legacy produces 2 million-person march — direct infrastructure inheritance"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Occupy Central with Love and Peace (OCLP)", "description": "Benny Tai's organizing platform — provided planning infrastructure"},
+        {"name": "HKFS (Hong Kong Federation of Students)", "description": "University students — Alex Chow, Nathan Law as leaders"},
+        {"name": "Scholarism", "description": "High school student group — Joshua Wong (17) as spokesperson"}
+      ],
+      "funders": ["Civil society donations", "Trade unions (partial)", "Religious organizations"],
+      "celebrities": ["Joshua Wong (global speaking tours)", "Nathan Law (exile advocacy post-2020)"],
+      "government_champions": ["None — all HK government actors hostile"],
+      "corporate_actors": {
+        "villains": ["HK government (CY Leung administration)", "Pro-Beijing media", "Physical attacks by pro-government groups at Mong Kok"],
+        "allies": ["International academic community solidarity"]
+      },
+      "international": ["US Congress (resolutions)", "UK Parliament (debates)", "UN Human Rights Council (concerns expressed)"]
+    }
+  },
+  {
+    "id": 92,
+    "name": "Hong Kong 2019 [FAILED TIP — crushed]",
+    "outcome_score": 1,
+    "outcome_summary": "Hong Kong 2019 had near-perfect SIPM conditions (24/25) and achieved its immediate stated demand — the Extradition Bill was withdrawn September 2019. Then the National Security Law was imposed June 30, 2020. Mass arrests followed: 10,000+ arrested 2019-2023; 47 pro-democracy figures convicted (2024, most imprisoned); Jimmy Lai on trial for life; Apple Daily and Stand News forced to close; pro-democracy parties disbanded; electoral system overhauled to admit only 'patriots.' Hong Kong's democratic character is functionally destroyed. The movement's visual legacy (Lennon Walls, umbrellas, be-water tactics) traveled to Belarus, Thailand, Myanmar, and beyond — but did not protect local participants. Score 1: immediate demand won; everything else was taken and more.",
+    "progress_markers": [
+      {"year": 2019, "type": "TIP", "event": "June 9: 1 million march. June 12: Police fire rubber bullets. June 16: 2 million march — 27% of Hong Kong population. 'Five demands, not one less'"},
+      {"year": 2019, "type": "WIN", "event": "September 4: Carrie Lam announces withdrawal of Extradition Bill — immediate demand conceded under mass pressure"},
+      {"year": 2019, "type": "WIN", "event": "November: District Council elections — pro-democracy landslide (389 of 452 seats). Demonstrates democratic majority"},
+      {"year": 2020, "type": "SETBACK", "event": "June 30: National Security Law imposed by Beijing — effective immediately, retroactively. Maximum life imprisonment for secession, subversion, terrorism, collusion"},
+      {"year": 2020, "type": "SETBACK", "event": "Apple Daily raided, assets frozen, forced to close (June 2021). Stand News closed. Pro-democracy organizations disband"},
+      {"year": 2022, "type": "SETBACK", "event": "Electoral system overhauled — only 'patriots' may stand. LegCo with only 20 directly elected seats. Pro-democracy representation eliminated"},
+      {"year": 2024, "type": "SETBACK", "event": "47 pro-democracy figures convicted under NSL (May 2024) — 45 of 47 imprisoned. Benny Tai sentenced to 10 years. Largest single conviction in HK history"},
+      {"year": 2025, "type": "ONGOING", "event": "Jimmy Lai trial ongoing — faces possible life imprisonment for Apple Daily articles. HK government places bounties on exiled activists. Diaspora continues advocacy from UK, US, Canada, Australia"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Civil Human Rights Front (CHRF)", "description": "Coalition that organized million/two million marches. Dissolved under NSL"},
+        {"name": "Apple Daily / Next Media (Jimmy Lai)", "description": "Pro-democracy media; forced to close June 2021"},
+        {"name": "Hong Kong 47 defendants", "description": "Largest pro-democracy organizing group — convicted under NSL"}
+      ],
+      "funders": ["HK diaspora fundraising internationally", "Civil society solidarity funds in exile"],
+      "celebrities": ["Joshua Wong (imprisoned)", "Nathan Law (UK exile advocate)", "Jimmy Lai (imprisoned)"],
+      "government_champions": ["US (HK Human Rights and Democracy Act 2019)", "UK (BN(O) residency pathway for 160,000+ HKers)", "EU (statements, limited action)"],
+      "corporate_actors": {
+        "villains": ["Carrie Lam / HK government", "Beijing / CCP", "Pro-Beijing Triads (attacked protesters)"],
+        "allies": ["Twitter/Facebook temporarily refused HK government data requests"]
+      },
+      "international": ["US Congress (multiple acts)", "UK Parliament", "IPAC (Inter-Parliamentary Alliance on China)", "UN Human Rights Council (China blocked accountability)"]
+    }
+  },
+  {
+    "id": 93,
+    "name": "Russia Anti-War Movement [FAILED TIP — impossible conditions]",
+    "outcome_score": 0,
+    "outcome_summary": "Russia's anti-war movement was crushed within weeks of the February 24, 2022 Ukraine invasion. 19,000+ arrested in first year; 'discrediting the military' law imposed up to 15-year sentences for anti-war speech. Independent media (Novaya Gazeta, Dozhd, Echo Moskvy) closed or fled. Alexei Navalny died in Arctic prison colony (February 2024). 700,000-900,000 anti-war Russians emigrated in 2022. The Anti-Corruption Foundation operates from exile. Ukraine war continues through 2025 with Russia controlling ~20% of Ukraine. Score 0: fully suppressed; SIPM score of 13/25 predicts the failure accurately.",
+    "progress_markers": [
+      {"year": 2011, "type": "BUILDUP", "event": "Bolotnaya Square protests — largest Russian protests in decades against Duma election fraud. Navalny emerges as opposition leader. Subsequently imprisoned"},
+      {"year": 2021, "type": "BUILDUP", "event": "Navalny returns after Novichok poisoning (survived in Germany), immediately arrested. 'Navalny Palace' corruption video gets 100M+ views. Nationwide protests — 11,000+ arrested. Memorial forcibly dissolved December 2021"},
+      {"year": 2022, "type": "SETBACK", "event": "February 24: Russia invades Ukraine. Within hours: anti-war protests in Moscow, St. Petersburg. Some with blank signs (to avoid law)"},
+      {"year": 2022, "type": "SETBACK", "event": "March: 'Discrediting the military' law (15 years). Independent media closed or fled. 19,000+ arrested in first weeks"},
+      {"year": 2022, "type": "SETBACK", "event": "September: Partial mobilization announcement — 700,000-900,000 Russians emigrate. Anti-war movement's social base hollowed out"},
+      {"year": 2024, "type": "SETBACK", "event": "February 16: Alexei Navalny dies in Polar Wolf Arctic penal colony. Memorial gatherings across Russia; hundreds arrested. Yulia Navalnaya assumes anti-Putin advocacy"},
+      {"year": 2025, "type": "ONGOING", "event": "Anti-Corruption Foundation in exile (Vilnius/US). Navalny Team documents corruption remotely. Diaspora organizations in Tbilisi, Berlin, Amsterdam, Vilnius. No organized domestic resistance possible"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Anti-Corruption Foundation (FBK) / Navalny Team", "description": "Led by Navalny until death; Leonid Volkov continues from exile"},
+        {"name": "OVD-Info", "description": "Human rights monitoring documenting arrests; operates in semi-exile"},
+        {"name": "Feminist Anti-War Resistance", "description": "Decentralized network; high-risk small actions"}
+      ],
+      "funders": ["Russian diaspora donations", "International human rights foundations", "Navalny crowdfunding (restricted)"],
+      "celebrities": ["Navalny (martyrdom)", "Yulia Navalnaya (continues advocacy)", "Emigrated Russian artists and intellectuals"],
+      "government_champions": ["EU/US sanctions on Russian officials", "Ukrainian government"],
+      "corporate_actors": {
+        "villains": ["Putin government", "FSB (poisoning Navalny, managing prison system)", "Prigozhin/Wagner Group (until Prigozhin killed August 2023)"],
+        "allies": ["VPN providers enabling communication", "Signal (secure messaging)"]
+      },
+      "international": ["ECHR (ruled Russia violated rights in Navalny cases)", "ICC (Putin arrest warrant for Ukrainian children deportation)", "Council of Europe (expelled Russia)", "UN General Assembly (Ukraine resolutions)"]
+    }
+  },
+  {
+    "id": 94,
+    "name": "US No Kings Anti-Trump Resistance",
+    "outcome_score": 2,
+    "outcome_summary": "The anti-Trump resistance of Trump's second term represents historically sustained mobilization — the 'No Kings' protests and predecessors may be the largest sustained US movement since Vietnam. Federal courts have blocked hundreds of executive actions via injunctions. Some Republican senators have broken with the administration on specific issues. However: structural policy changes (EPA gutting, Paris Agreement withdrawal, IRA rollback, immigration enforcement) have proceeded. DOGE cuts to federal agencies continue. The 2026 midterm elections are the proximate institutional converting mechanism. Score 2: partial wins via courts, ongoing — outcome TBD by 2026.",
+    "progress_markers": [
+      {"year": 2017, "type": "BUILDUP", "event": "Women's March (January 21, 2017) — 3-5 million; largest single-day protest in US history at that time. Indivisible founded. Town hall protests begin"},
+      {"year": 2018, "type": "BUILDUP", "event": "Democrats flip House. Teachers' strikes across Republican states. March for Our Lives. Organizational infrastructure builds"},
+      {"year": 2024, "type": "SETBACK", "event": "November: Trump wins with 312 electoral votes. Republicans control House and Senate. Mandate claimed for sweeping changes"},
+      {"year": 2025, "type": "TIP", "event": "January 20: Inauguration. Executive order flood: DOGE (Elon Musk), federal worker buyouts, NIH freezes, CDC pauses, USAID dismantling, immigration enforcement surge"},
+      {"year": 2025, "type": "PARTIAL-WIN", "event": "Federal courts issue hundreds of injunctions blocking executive actions — DOGE cuts, birthright citizenship order, transgender military ban, NIH freezes (partial). Circuit courts uphold many"},
+      {"year": 2025, "type": "TIP", "event": "Town halls fill to overflow. 'No Kings' protests across 50 states. Farmers angered by USDA cuts; veterans by VA cuts; researchers by NIH cuts — unusually broad coalition"},
+      {"year": 2025, "type": "SETBACK", "event": "Supreme Court (6-3 conservative) overturns some injunctions. Paris Agreement withdrawal complete. IRA renewable subsidies partially clawed back via reconciliation"},
+      {"year": 2026, "type": "ONGOING", "event": "2026 midterm elections approaching. Voter registration surges. Whether sustained mobilization converts to electoral change is the defining question of the movement's success"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Indivisible", "description": "Congressional district-level organizing; 5,000+ local chapters"},
+        {"name": "MoveOn", "description": "Online mobilization; rapid response to executive actions"},
+        {"name": "ACLU", "description": "Litigation center — filed hundreds of cases against executive actions"}
+      ],
+      "funders": ["Small donors (ActBlue)", "George Soros / Democracy Alliance", "Progressive foundations", "Labor unions"],
+      "celebrities": ["Taylor Swift (voter registration)", "Mark Ruffalo, Billie Eilish (environmental focus)", "Entertainment industry broadly"],
+      "government_champions": ["Senate Democrats (minority)", "Federal judges across circuits", "State Attorneys General coalition"],
+      "corporate_actors": {
+        "villains": ["Elon Musk / DOGE", "Meta, X (reduced fact-checking)", "Fossil fuel industry (benefiting from rollbacks)"],
+        "allies": ["Clean energy industry (opposing IRA rollback)", "Universities (opposing NIH cuts)", "Some pharmaceutical companies (opposing Medicaid cuts)"]
+      },
+      "international": ["EU (concerns about NATO, trade)", "UN (US withdrawal from WHO, Paris Agreement)", "Allies expressing concern about US democratic institutions"]
+    }
+  },
+  {
+    "id": 95,
+    "name": "Sudan Revolution Phase II — Civil War [FAILED TIP]",
+    "outcome_score": 0,
+    "outcome_summary": "The April 2023 war between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) produced the world's largest displacement crisis by 2024: 12 million+ displaced (2M+ refugees), famine in multiple regions, and RSF mass atrocities in Darfur described by UN officials as genocide. The civilian democratic movement that ousted Bashir (2019) was caught between two military factions competing for sole control. All ceasefire negotiations (Jeddah, Geneva, Cairo) collapsed. As of 2025: no peace deal, no functioning central government. Sudan is the most catastrophic 'after the revolution' failure in this dataset.",
+    "progress_markers": [
+      {"year": 2019, "type": "BUILDUP", "event": "Revolution ousts Bashir (April 2019). But: SAF-RSF military council forms. Sit-in massacre (June 3): 60-100 killed. Fragile civilian-military sovereignty council established"},
+      {"year": 2021, "type": "SETBACK", "event": "October 25, 2021: SAF-RSF joint coup — civilian transitional government dissolved. PM Hamdok arrested. International community suspends Sudan from African Union"},
+      {"year": 2022, "type": "BUILDUP", "event": "Framework Agreement (December 2022) — SAF and civilian factions agree to civilian governance return. RSF agrees. But negotiations stall over RSF integration timeline into national army"},
+      {"year": 2023, "type": "TIP", "event": "April 15: War begins — SAF and RSF fight for Khartoum. Fighter jets and heavy weapons in the capital. Within days: entire country destabilized. All embassies evacuate"},
+      {"year": 2023, "type": "SETBACK", "event": "May-June: RSF captures most of Khartoum. El Geneina (West Darfur) massacres — thousands killed; widespread rape. UN officials describe as genocide"},
+      {"year": 2023, "type": "SETBACK", "event": "Jeddah talks (May-October 2023): US/Saudi-brokered ceasefire. Both sides sign, violate immediately. No lasting ceasefire achieved"},
+      {"year": 2024, "type": "SETBACK", "event": "8 million internally displaced + 2 million refugees. IPC Phase 5 famine in Darfur. El Fasher (last major Darfur city not under RSF) under siege"},
+      {"year": 2024, "type": "SETBACK", "event": "Geneva talks (August 2024) collapse without agreement. RSF announces intent to form parallel government. African Union, IGAD, Qatar all fail to mediate"},
+      {"year": 2025, "type": "ONGOING", "event": "12+ million displaced. 150,000+ killed. Largest displacement crisis globally. International community largely ineffective. Civilian democratic movement in exile with no clear path to power"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Forces of Freedom and Change (FFC)", "description": "Civilian political coalition — in exile, still nominally claims legitimacy"},
+        {"name": "Sudanese Professionals Association (SPA)", "description": "Led 2018-2019 revolution; decimated by war and exile"},
+        {"name": "Emergency Lawyers Sudan", "description": "Human rights documentation from inside Sudan despite extreme risk"}
+      ],
+      "funders": ["Sudanese diaspora (US, UK, Gulf)", "International humanitarian organizations (ICRC, UNHCR)", "UN emergency funding"],
+      "celebrities": ["Alaa Salah ('woman in white' from 2019 protests — in exile)"],
+      "government_champions": ["No external government effectively championing civilian governance outcome"],
+      "corporate_actors": {
+        "villains": ["SAF (military faction)", "RSF / Dagalo 'Hemeti' (military faction, Darfur atrocities)", "UAE (backing RSF materially)"],
+        "allies": ["Saudi Arabia (attempted mediation)", "Egypt (SAF-aligned, complicates neutrality)"]
+      },
+      "international": ["African Union (suspended Sudan, mediation failed)", "IGAD (mediation attempts)", "UN OCHA (humanitarian response)", "ICC (issued Bashir warrant 2009 — enforcement never achieved)"]
+    }
+  },
+  {
+    "id": 96,
+    "name": "New Zealand: Zero Carbon Act / Climate Governance Leadership",
+    "outcome_score": 5,
+    "outcome_summary": "New Zealand's Climate Change Response (Zero Carbon) Amendment Act (November 2019) is one of the most durable and technically credible climate laws globally. It passed 119-1 in parliament (unprecedented cross-party support), established an independent Climate Change Commission with legally binding advisory status, and set net-zero by 2050 for all gases except biogenic methane (reduction target by 2050). Subsequent National Party government (2023-) maintained core commitments despite campaigning on economic grounds. The act's institutional design — independent commission, legally binding emissions budgets, required government response to commission advice — is studied globally as a model of durable climate governance that can outlast changes in government.",
+    "progress_markers": [
+      {"year": 2017, "type": "BUILDUP", "event": "Jacinda Ardern's Labour government wins election — climate change declared a 'nuclear-free moment for our generation.' Climate Change Commission concept included in Labour platform"},
+      {"year": 2018, "type": "BUILDUP", "event": "Two-year consultation and stakeholder process — building genuine cross-party consensus rather than forcing through narrow majority. Business sector, Māori communities, agricultural sector all consulted"},
+      {"year": 2019, "type": "TIP", "event": "Zero Carbon Act passes November 2019 — 119-1 in parliament. Climate Change Commission established with legally binding advisory status. Net zero by 2050 (CO2), methane reduction targets"},
+      {"year": 2020, "type": "CONSOLIDATION", "event": "Climate Change Commission begins work — independent, technically credible, cross-spectrum membership. First emissions budgets published 2021"},
+      {"year": 2021, "type": "WIN", "event": "First NZ Emissions Budget (2022-2025) — government legally required to publish implementation plans in response to Commission advice"},
+      {"year": 2023, "type": "CONSOLIDATION", "event": "National Party wins election (October 2023) — more cautious on climate but does not repeal the Act. Core institutional framework maintained despite government change. Demonstrates institutional durability"},
+      {"year": 2024, "type": "CONSOLIDATION", "event": "Commission continues to publish advice. Government required to respond. Emissions trading scheme maintained. Renewable energy investment continues. Act survives government change — key test passed"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "New Zealand Climate Change Commission (Himā Whakaaro Āhuarangi)", "description": "Established by the Act — independent technical body, legally binding advisory role"},
+        {"name": "Greenpeace New Zealand", "description": "Campaigned for ambitious legislation and continued accountability"},
+        {"name": "Generation Zero", "description": "Youth climate organization that mobilized for strong legislation"}
+      ],
+      "funders": ["Government-funded Commission", "Climate advocacy philanthropy"],
+      "celebrities": ["Jacinda Ardern (global profile amplified domestically)", "Sir David Attenborough (supportive framing)"],
+      "government_champions": ["Jacinda Ardern (architect)", "James Shaw (Green Party, Climate Change Minister)", "Cross-party parliamentary support"],
+      "corporate_actors": {
+        "villains": ["Agricultural sector lobbying for weaker methane targets (partially successful)", "National Party initially opposed elements (softened position)"],
+        "allies": ["Business New Zealand (accepted the framework)", "NZ renewable energy sector"]
+      },
+      "international": ["IPCC (scientific base)", "Climate Change Commission network (global)", "New Zealand studied as global model by Germany, UK, Scotland, others"]
+    }
+  },
+  {
+    "id": 97,
+    "name": "Tanzania: Women's Land Rights",
+    "outcome_score": 2,
+    "outcome_summary": "Tanzania's women's land rights movement has been a 20+ year sustained campaign combining documentation, legal advocacy, and community organizing without a single tipping point. The Land Act (1999) formally recognized women's rights but customary law frequently overrode this in practice. HakiArdhi, LEAT, and international allies built a 'parallel legal system' of women's land rights documentation and clinics over two decades. Gains have been incremental: Land Tenure Support Program (LTSP) — joint government/donor initiative — registered millions of plots with women's names as co-owners (2014-2022). Pastoralist communities (Maasai women) remain particularly vulnerable. Score 2: incremental gains, no binding national transformation.",
+    "progress_markers": [
+      {"year": 1999, "type": "BUILDUP", "event": "Tanzania Land Act passed — formally recognizes women's right to own land. But customary law in practice overrides statutory right in most rural areas"},
+      {"year": 2000, "type": "BUILDUP", "event": "HakiArdhi (Land Rights Research and Resources Institute) and LEAT (Lawyers' Environmental Action Team) begin systematic documentation of women's land dispossession cases"},
+      {"year": 2007, "type": "BUILDUP", "event": "Tanzania National Land Policy review — civil society organizations including women's groups advocate for strengthened implementation mechanisms"},
+      {"year": 2009, "type": "MILESTONE", "event": "Participatory Land Use Management (PLUM) processes begin to include women's representation requirements in village land administration"},
+      {"year": 2013, "type": "BUILDUP", "event": "Large-scale land acquisitions for agriculture and mining (especially Maasai pastoralist territories) create new dispossession wave. International attention through Oakland Institute research"},
+      {"year": 2014, "type": "WIN", "event": "Land Tenure Support Program (LTSP) launched — government/donor initiative registers millions of plots with women's names as co-owners. First systematic national effort"},
+      {"year": 2015, "type": "BUILDUP", "event": "Land Acquisition Bill proposed — civil society mobilization creates advocacy window. Amendment advocates use SDG framing (SDG 5 — women's economic rights)"},
+      {"year": 2019, "type": "PARTIAL-WIN", "event": "LTSP certificates issued in 80+ districts — millions of women receive co-ownership certificates for the first time. Significant but enforcement and divorce protections remain weak"},
+      {"year": 2022, "type": "ONGOING", "event": "LTSP coverage expanded. But Maasai evictions in Ngorongoro area (2022) for wildlife conservation expose continued vulnerability of pastoralist women's land security"},
+      {"year": 2024, "type": "ONGOING", "event": "Women's land rights in Tanzania: significant progress in formal registration, persistent gaps in customary inheritance, divorce, and community allocation. The 20-year campaign has produced real gains without a single national tipping point"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "HakiArdhi (Land Rights Research and Resources Institute)", "description": "Primary national land rights organization — documentation, legal advocacy, community organizing"},
+        {"name": "LEAT (Lawyers' Environmental Action Team)", "description": "Environmental and land law litigation organization"},
+        {"name": "Tanzania Women Lawyers Association (TAWLA)", "description": "Legal aid for women's land rights cases"}
+      ],
+      "funders": ["Swedish International Development Cooperation Agency (Sida)", "UN Women Tanzania", "International Land Coalition", "Oxfam Tanzania"],
+      "celebrities": ["Graça Machel (Pan-African women's rights advocate — regional solidarity)"],
+      "government_champions": ["Ministry of Lands (LTSP implementation)", "Some regional commissioners in LTSP districts"],
+      "corporate_actors": {
+        "villains": ["Large-scale agricultural land investors (displacing smallholders)", "Ngorongoro Conservation Area Authority (disputed Maasai evictions)", "Mining companies (land acquisition without adequate FPIC)"],
+        "allies": ["USAID Tanzania (LTSP co-funder)", "UK DFID / FCDO (land reform support)"]
+      },
+      "international": ["International Land Coalition", "UN Women", "FAO (Voluntary Guidelines on Land Tenure)", "World Bank (land administration reform support)"]
+    }
+  },
+  {
+    "id": 98,
+    "name": "Tajikistan/Central Asia: Water Rights and Climate Displacement",
+    "outcome_score": 1,
+    "outcome_summary": "The Aral Sea has shrunk 90% since 1960 — one of the 20th century's worst ecological disasters. Amu Darya and Syr Darya rivers remain heavily diverted for cotton agriculture. Climate change is accelerating Himalayan and Tian Shan glacial melt — providing short-term water surge then long-term shortage. Communities face acute water scarcity and agricultural collapse in Tajikistan, Uzbekistan, Kyrgyzstan, Kazakhstan. No political tipping has occurred because authoritarian governance in most countries prevents organized civil society response. No visual campaign of sufficient scale has made the catastrophe internationally legible. Score 1: awareness campaigns exist; no political tipping; crisis accelerating.",
+    "progress_markers": [
+      {"year": 1960, "type": "BUILDUP", "event": "Soviet cotton expansion intensifies Amu Darya and Syr Darya river diversion. Aral Sea begins shrinking — 90% gone by 2010"},
+      {"year": 1991, "type": "BUILDUP", "event": "Soviet collapse leaves five new Central Asian states sharing the river systems with no functioning governance framework"},
+      {"year": 1992, "type": "MILESTONE", "event": "Interstate Commission for Water Coordination (ICWC) established — first post-Soviet water governance body. Functions partially; not binding on major uses"},
+      {"year": 2000, "type": "BUILDUP", "event": "Climate change begins accelerating glacial melt — Tian Shan glaciers retreating at 1% per year. Short-term water surge, long-term devastating shortage predicted"},
+      {"year": 2008, "type": "BUILDUP", "event": "UN Special Programme for the Economies of Central Asia (SPECA) documents accelerating water stress. No regional political response"},
+      {"year": 2018, "type": "MILESTONE", "event": "Aral Sea declared 'dead' for most practical purposes — the southern basin essentially gone. Kazakhstan's 'small Aral' restoration (Kok-Aral dam) partial success — northern section partially restored"},
+      {"year": 2021, "type": "ONGOING", "event": "Tajik-Kyrgyz water border conflicts escalate to armed clashes (April 2021, September 2022) — 50+ killed. Water scarcity emerging as conflict driver"},
+      {"year": 2022, "type": "ONGOING", "event": "Tajikistan glacier melt rate accelerating. Communities facing agriculture failure. Internal displacement beginning but not yet large-scale refugee movements"},
+      {"year": 2024, "type": "ONGOING", "event": "No political tipping. Authoritarian governance (Tajikistan, Uzbekistan, Turkmenistan) prevents organized civil society. International donors provide water efficiency aid without addressing governance root causes"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Interstate Commission for Water Coordination (ICWC)", "description": "Post-Soviet regional water governance body — functions but not binding"},
+        {"name": "UN Special Programme for the Economies of Central Asia (SPECA)", "description": "Documentation and capacity building"},
+        {"name": "Local environmental organizations in Kyrgyzstan (most open political context)", "description": "Civil society advocacy — limited space in authoritarian states"}
+      ],
+      "funders": ["UNDP (Central Asia water programs)", "World Bank (water management projects)", "EU (Central Asia climate adaptation)"],
+      "celebrities": ["None identified — crisis has no visible international champion"],
+      "government_champions": ["Kazakhstan (led Aral Sea restoration initiatives)", "Kyrgyzstan (most democratic — some civil society space)"],
+      "corporate_actors": {
+        "villains": ["Cotton industry (historical and ongoing over-extraction)", "Government irrigation authorities in each state", "Rosneft/Lukoil (upstream energy affecting water flows)"],
+        "allies": ["GIZ Germany (water efficiency programs)", "USAID (water governance support)"]
+      },
+      "international": ["UNEP (Aral Sea documentation)", "World Bank (Central Asia Energy and Water Development Program)", "SCO (Shanghai Cooperation Organization — water not seriously addressed)"]
+    }
+  },
+  {
+    "id": 99,
+    "name": "Global: Digital Rights / Edward Snowden Revelations",
+    "outcome_score": 3,
+    "outcome_summary": "Snowden's June 2013 revelations about NSA/GCHQ mass surveillance produced: the USA FREEDOM Act (2015) reforming some NSA collection authorities; end-to-end encryption becoming mainstream (WhatsApp, Signal, iMessage adoption surged); GDPR (2018) partly influenced by post-Snowden privacy discourse; Tech companies' major encryption investments. However: mass surveillance systems largely continued; no criminal accountability for NSA officials; Snowden remains in Russia exile; subsequent US surveillance programs authorized under different authorities. Score 3: permanent cultural/institutional shift in encryption expectation; surveillance state itself largely unchanged.",
+    "progress_markers": [
+      {"year": 2006, "type": "BUILDUP", "event": "NSA mass surveillance systems (PRISM, XKeyscore, MUSCULAR) expanding post-9/11. EFF and privacy organizations filing legal challenges without evidence needed to proceed"},
+      {"year": 2012, "type": "BUILDUP", "event": "Snowden, NSA contractor, begins collecting documents. Contacts Glenn Greenwald, Laura Poitras. Months of document collection and journalist preparation"},
+      {"year": 2013, "type": "TIP", "event": "June 5: Guardian publishes PRISM program revelations. June 9: Snowden identifies himself from Hong Kong hotel. Subsequent weeks: XKeyscore, MUSCULAR, Tempora (UK), mass phone metadata collection revealed"},
+      {"year": 2013, "type": "MILESTONE", "event": "Snowden flees to Moscow airport (June 23) after US cancels his passport. Granted temporary then permanent Russian asylum. Becomes permanent exile symbol"},
+      {"year": 2013, "type": "MILESTONE", "event": "Tech companies (Apple, Google, Microsoft, Facebook) publicly distance from NSA cooperation — invest heavily in encryption. User trust crisis creates business incentive for privacy"},
+      {"year": 2014, "type": "WIN", "event": "EU Court of Justice invalidates Safe Harbor Framework (later in 2015) — holding US surveillance incompatible with EU data rights. Pre-GDPR privacy landmark"},
+      {"year": 2015, "type": "WIN", "event": "USA FREEDOM Act (June 2015) — ends NSA's bulk telephone metadata collection program; requires targeted collection orders. First surveillance reform since 1978 FISA"},
+      {"year": 2016, "type": "WIN", "event": "WhatsApp enables end-to-end encryption for all 1 billion users (April 2016). Signal becomes mainstream. Encryption normalization reaches mass market"},
+      {"year": 2018, "type": "WIN", "event": "GDPR enters force (May 2018) — the world's strongest data protection law, partly influenced by post-Snowden discourse. Applies to all EU citizens globally"},
+      {"year": 2022, "type": "ONGOING", "event": "Section 702 FISA reauthorization debates. Snowden's documents continue to be published/analyzed. US surveillance programs continued under different authorities. Snowden remains in Russia"},
+      {"year": 2024, "type": "ONGOING", "event": "US renews Section 702 (April 2024) — mass collection continues. Snowden remains in Russia, granted citizenship. The institutional surveillance state was reformed at margins, not fundamentally constrained"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Electronic Frontier Foundation (EFF)", "description": "Filed legal challenges; had infrastructure ready to capitalize on Snowden revelations"},
+        {"name": "The Guardian / Glenn Greenwald / Laura Poitras", "description": "Journalists who published revelations — publication strategy was carefully staged for maximum impact"},
+        {"name": "ACLU", "description": "Litigation on surveillance programs using Snowden documents as evidence"}
+      ],
+      "funders": ["EFF membership donations", "First Look Media (Omidyar — Greenwald founded The Intercept)", "Journalism foundations"],
+      "celebrities": ["Snowden himself (martyrdom/exile narrative)", "Oliver Stone (2016 film 'Snowden')", "Maggie Gyllenhaal, Joseph Gordon-Levitt (film)"],
+      "government_champions": ["Senator Ron Wyden (longstanding NSA critic)", "Rand Paul (civil liberties bloc)", "EU Parliament privacy advocates"],
+      "corporate_actors": {
+        "villains": ["NSA (surveillance programs)", "GCHQ (UK equivalent)", "Major tech companies (passive cooperation — shifted after revelations)"],
+        "allies": ["Apple (publicly refused FBI encryption backdoor 2016)", "Signal Foundation", "WhatsApp (end-to-end encryption decision)"]
+      },
+      "international": ["European Court of Justice (Safe Harbor, Privacy Shield invalidations)", "EU Parliament (post-Snowden surveillance hearings)", "UN Human Rights Committee (digital privacy reports)"]
+    }
+  },
+  {
+    "id": 100,
+    "name": "Climate Justice: Vanuatu ICJ Advisory Opinion Campaign",
+    "outcome_score": 4,
+    "outcome_summary": "Vanuatu led a multi-year diplomatic campaign producing a UNGA resolution (April 2024, 132 co-sponsors) requesting an ICJ advisory opinion on states' climate obligations — the most states ever to participate in an ICJ proceeding (98 countries and 9 international organizations presented in September 2024 hearings). The advisory opinion is expected 2025-2026. While non-binding, an ICJ opinion on climate obligations would be the most authoritative legal statement ever made on the issue — providing the foundation for climate reparations, loss-and-damage financing, and future litigation globally. The diplomatic achievement itself (132-nation coalition built by a Pacific Island nation of 340,000) is already a landmark. Score 4: major institutional achievement, implementation pending opinion.",
+    "progress_markers": [
+      {"year": 2019, "type": "BUILDUP", "event": "Pacific Island Students Fighting Climate Change (Fiji law students) develop idea of ICJ advisory opinion as accountability mechanism. Vanuatu government adopts idea"},
+      {"year": 2021, "type": "BUILDUP", "event": "Vanuatu begins systematic diplomatic campaign — briefings at UNGA, bilateral meetings, building co-sponsor coalition. Climate Vulnerable Forum provides early support"},
+      {"year": 2022, "type": "BUILDUP", "event": "COP27 (November 2022): Loss and damage fund established — Vanuatu's ICJ campaign creates halo effect on climate reparations framing. Coalition grows to 90+ states"},
+      {"year": 2023, "type": "MILESTONE", "event": "CARICOM, African Union, G77 bloc officially endorse ICJ advisory opinion request. Coalition crosses 120 states — sufficient for UNGA majority"},
+      {"year": 2024, "type": "TIP", "event": "April 29: UN General Assembly adopts resolution requesting ICJ advisory opinion — 132 co-sponsors. Largest co-sponsorship coalition in ICJ history. Pacific Island leadership of global majority"},
+      {"year": 2024, "type": "WIN", "event": "September 2024: ICJ public hearings at The Hague. 98 countries and 9 international organizations present oral arguments — largest ICJ proceeding in history. 'Pacific Warriors' youth activists featured"},
+      {"year": 2024, "type": "MILESTONE", "event": "Hearings produce global legal record: state practice on climate obligations, loss and damage, intergenerational equity, rights of nature arguments all entered into international legal record"},
+      {"year": 2025, "type": "ONGOING", "event": "ICJ advisory opinion expected mid-2025 to early 2026. Climate litigation networks (Sabin Center, ClientEarth) have adaptation strategies ready for opinion. 132-nation coalition prepares accountability uses of the opinion"},
+      {"year": 2026, "type": "ONGOING", "event": "Advisory opinion expected to define the legal landscape for climate litigation globally for decades — feeding into national courts, ITLOS fisheries case, and future treaty negotiations"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Government of Vanuatu (especially PM Ishmael Kalsakau and climate teams)", "description": "Led diplomatic campaign; provided moral authority and sustained commitment"},
+        {"name": "Pacific Island Students Fighting Climate Change (PISFCC)", "description": "Fiji law students who originated the idea; continue as youth advocates"},
+        {"name": "Climate Action Network International", "description": "NGO coalition amplifying the campaign globally"}
+      ],
+      "funders": ["Pacific Islands Forum", "Climate Vulnerable Forum (co-funding)", "European foundations supporting climate litigation"],
+      "celebrities": ["Vanuatu's youth climate warriors", "Pacific Island leaders as moral authorities globally"],
+      "government_champions": ["Vanuatu (architect)", "CARICOM states", "African Union", "High Ambition Coalition on Nature and People", "G77/China bloc (majority)"],
+      "corporate_actors": {
+        "villains": ["Fossil fuel producing states (resisted broader framing during hearings)", "Industrial agriculture lobby"],
+        "allies": ["EU (supported resolution)", "Small Island Developing States collectively"]
+      },
+      "international": ["International Court of Justice (seized of the matter)", "International Tribunal for the Law of the Sea (ITLOS — issued earlier climate advisory opinion on ocean rights)", "UN General Assembly", "UNFCCC (separate track)", "UN Human Rights Council (human rights-climate nexus)"]
+    }
+  }
+]

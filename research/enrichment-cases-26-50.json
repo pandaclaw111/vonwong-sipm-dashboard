@@ -1,0 +1,897 @@
+[
+  {
+    "id": 26,
+    "name": "Taiwan Sunflower Movement",
+    "outcome_score": 4,
+    "outcome_summary": "The CSSTA trade agreement was indefinitely shelved—a clear win on the immediate demand. New cross-strait oversight legislation was passed. The movement catalyzed a generation of civic activists, several of whom entered formal politics through the New Power Party. The KMT lost the 2016 election partly due to youth political awakening. However, the longer-term structural issue—Taiwan's democratic sovereignty under pressure from Beijing—remains existential and unresolved.",
+    "progress_markers": [
+      {"year": 2008, "type": "BUILDUP", "event": "Ma Ying-jeou elected on cross-strait economic normalization platform; KMT begins Economic Cooperation Framework Agreement with China"},
+      {"year": 2010, "type": "BUILDUP", "event": "ECFA (Economic Cooperation Framework Agreement) signed with China; critics warn of increasing economic dependence on Beijing"},
+      {"year": 2012, "type": "BUILDUP", "event": "Ma Ying-jeou re-elected; youth political disillusionment growing among DPP-leaning urban youth"},
+      {"year": 2013, "type": "BUILDUP", "event": "Cross-Strait Services Trade Agreement (CSSTA) negotiations completed; critics warn it opens sensitive service sectors to Chinese capital without adequate public debate"},
+      {"year": 2014, "type": "BUILDUP", "event": "February-March: student groups and civic organizations form to oppose the CSSTA; Black Island Nation Youth Front mobilizes campus opposition"},
+      {"year": 2014, "type": "TIP", "event": "March 18: KMT committee chair passes CSSTA in under 60 seconds without clause-by-clause review; students storm and occupy Legislative Yuan"},
+      {"year": 2014, "type": "WIN", "event": "March 30: 500,000 march outside Legislative Yuan—largest protest in Taiwan history at that point; public support for students strong"},
+      {"year": 2014, "type": "WIN", "event": "April 6: Legislative Yuan Speaker Wang Jin-pyng promises to pass cross-strait oversight bill before reviewing CSSTA; students agree to leave"},
+      {"year": 2014, "type": "WIN", "event": "April 10: Occupation ends; CSSTA indefinitely shelved; Ma government agrees to oversight legislation requirement"},
+      {"year": 2014, "type": "MILESTONE", "event": "Lin Fei-fan and other leaders launch civic organizations; Chen Wei-ting joins Freddy Lim's music-to-politics networks"},
+      {"year": 2015, "type": "MILESTONE", "event": "New Power Party (NPP) founded by Sunflower leaders including Huang Kuo-chang and musician Freddy Lim"},
+      {"year": 2016, "type": "WIN", "event": "DPP wins presidential and legislative elections; NPP wins 5 legislative seats—first direct electoral conversion of movement energy"},
+      {"year": 2016, "type": "WIN", "event": "Cross-Strait Oversight Bill framework formally confirmed as legislative priority; CSSTA remains unratified"},
+      {"year": 2019, "type": "CONSOLIDATION", "event": "Hong Kong protests amplify Taiwan's concerns about 'one country, two systems'; Taiwan identity consciousness strengthened further"},
+      {"year": 2024, "type": "ONGOING", "event": "DPP wins third consecutive presidential election (Lai Ching-te); CSSTA has never been ratified; Taiwan civic engagement among youth remains high"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Black Island Nation Youth Front (黑色島國青年陣線)", "description": "Student organization that coordinated the initial occupation of the Legislative Yuan; founded by Chen Wei-ting"},
+        {"name": "Green Citizens' Action Alliance (綠色公民行動聯盟)", "description": "Environmental and civic NGO that joined the coalition; provided organizational logistics support"},
+        {"name": "New Power Party (時代力量)", "description": "Political party founded by Sunflower leaders in 2015 to convert movement energy into electoral politics; won 5 legislative seats in 2016"}
+      ],
+      "funders": ["Civil society crowdfunding during occupation", "DPP-aligned donor networks for post-movement party-building"],
+      "celebrities": ["Freddy Lim (rock musician / activist, later NPP legislator)", "Various Taiwanese artists and cultural figures who supported the occupation publicly"],
+      "government_champions": ["Wang Jin-pyng (Legislative Yuan Speaker, brokered the agreement to leave)", "DPP legislators who supported students' demands"],
+      "corporate_actors": {
+        "villains": ["Kuomintang (KMT) ruling party that pushed CSSTA through without adequate review", "Pro-Beijing business interests who supported CSSTA"],
+        "allies": ["Small and medium Taiwanese businesses opposed to CSSTA"]
+      },
+      "international": ["US expressed quiet concern about Taiwan's economic dependence on China", "Hong Kong pro-democracy groups in solidarity"]
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sri Lanka Aragalaya",
+    "outcome_score": 3,
+    "outcome_summary": "The Aragalaya successfully removed the Rajapaksa family from power—a historic achievement. However, the Parliament that replaced Gotabaya with Ranil Wickremesinghe (a Rajapaksa loyalist) implemented harsh IMF-mandated austerity. The new constitution that protesters demanded was never drafted. In 2024, Anura Kumara Dissanayake (NPP/JVP) won the presidency partly on the Aragalaya's legacy—an indirect but significant political shift. The economic crisis that caused the Aragalaya remains only partially resolved.",
+    "progress_markers": [
+      {"year": 2019, "type": "BUILDUP", "event": "Gotabaya Rajapaksa elected on nationalist platform; implements economic mismanagement including fertilizer ban and tax cuts depleting reserves"},
+      {"year": 2020, "type": "BUILDUP", "event": "COVID-19 destroys tourism (Sri Lanka's major forex earner); foreign reserves collapse from $7.5 billion to near zero"},
+      {"year": 2021, "type": "SETBACK", "event": "Overnight ban on chemical fertilizers destroys rice harvest; food prices surge; Rajapaksa family ignores expert warnings"},
+      {"year": 2022, "type": "BUILDUP", "event": "March: Pharmacies empty of medicines; fuel queues stretch 3km; 13-hour daily power cuts; foreign debt default announced"},
+      {"year": 2022, "type": "TIP", "event": "March 31: Spontaneous gathering outside Gotabaya's private residence without party organization—'GotaGoHome' emerges"},
+      {"year": 2022, "type": "MILESTONE", "event": "GotaGoGama protest camp outside Presidential Secretariat grows into parallel community with library, medical tent, free food, yoga—cross-ethnic, cross-religious"},
+      {"year": 2022, "type": "WIN", "event": "May 9: PM Mahinda Rajapaksa resigns after pro-government thugs attack protest camp; Wickremesinghe appointed PM"},
+      {"year": 2022, "type": "TIP", "event": "July 9: Hundreds of thousands storm Presidential Palace; Gotabaya Rajapaksa flees to Maldives then Singapore"},
+      {"year": 2022, "type": "WIN", "event": "July 14: Gotabaya Rajapaksa resigns—first president in Sri Lankan history removed by popular protest"},
+      {"year": 2022, "type": "SETBACK", "event": "July 20: Parliament elects Ranil Wickremesinghe as president—seen as establishment continuity candidate, not reform"},
+      {"year": 2022, "type": "SUPPRESSED", "event": "July 22: Military raids GotaGoGama, forcibly removes protesters; opposition leaders arrested under PTA (Prevention of Terrorism Act)"},
+      {"year": 2023, "type": "SETBACK", "event": "IMF $2.9 billion bailout secured under harsh austerity conditions; electricity tariffs tripled; VAT increased; civil service wages cut"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "Sri Lanka settles external debt with bilateral creditors; economy stabilizes but poverty rates remain high"},
+      {"year": 2024, "type": "WIN", "event": "September: Anura Kumara Dissanayake (AKD/NPP) wins presidential election—first left-wing president in Sri Lankan history; NPP wins parliamentary supermajority in November"},
+      {"year": 2024, "type": "ONGOING", "event": "AKD government attempts to renegotiate IMF terms and prosecute Rajapaksa-era corruption; accountability for protest crackdown pending"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Inter University Student Federation (IUSF)", "description": "Major student federation that provided organizational backbone for early protest phases"},
+        {"name": "National People's Power (NPP/JVP)", "description": "Marxist-rooted party that absorbed Aragalaya energy into electoral politics; AKD won presidency in 2024"},
+        {"name": "GotaGoGama Collective", "description": "Informal collective of civil society groups that ran the protest camp at Galle Face as a model community space"}
+      ],
+      "funders": ["Sri Lankan diaspora in Australia, UK, US, Canada (significant remittance funding for protesters)", "International human rights organizations for legal support"],
+      "celebrities": ["M.I.A. (Sri Lankan-British musician) amplified internationally", "Various Sri Lankan artists and musicians who performed at GotaGoGama"],
+      "government_champions": ["Anura Kumara Dissanayake (NPP opposition leader, later president)", "Sajith Premadasa (SJB opposition leader)"],
+      "corporate_actors": {
+        "villains": ["Rajapaksa family business networks", "Ceylon Electricity Board (CEB) and mismanaged state enterprises"],
+        "allies": ["Ceylon Chamber of Commerce (initially cautious, eventually supported reform call)"]
+      },
+      "international": ["IMF (conditions controversial but provided fiscal framework)", "World Bank (emergency bridge financing)", "India (emergency credit lines for fuel and medicine)", "China (debt restructuring negotiations)"]
+    }
+  },
+  {
+    "id": 28,
+    "name": "Thailand Student Democracy Movement",
+    "outcome_score": 1,
+    "outcome_summary": "The movement achieved no structural reforms. Constitutional demands were rejected; calls for monarchy reform were ruled unconstitutional by the Constitutional Court. Hundreds of protesters faced lèse-majesté prosecutions. The 2023 elections showed the movement's cultural impact—progressive Move Forward party won the most seats—but was blocked from forming government and its leader subsequently banned. Thailand's democratic regression continued under Prayuth and his successor Srettha Thavisin.",
+    "progress_markers": [
+      {"year": 2014, "type": "BUILDUP", "event": "Military coup (NCPO) overthrows elected government; Prayuth Chan-o-cha seizes power; political opposition driven underground"},
+      {"year": 2019, "type": "BUILDUP", "event": "Junta manipulates 2019 election through constitutional engineering; Prayuth 'wins'; youth anger at rigged transition intensifies"},
+      {"year": 2020, "type": "BUILDUP", "event": "February: Future Forward Party dissolved by Constitutional Court; student 'flash mobs' erupt at universities across Thailand"},
+      {"year": 2020, "type": "BUILDUP", "event": "March-July: COVID-19 suppresses protests temporarily; economic pain from pandemic deepens grievances"},
+      {"year": 2020, "type": "TIP", "event": "August 10: Student protest at Democracy Monument; first public call for monarchy reform in modern Thai history by Panusaya Sithijirawattanakul ('Rung') reading 10-point manifesto"},
+      {"year": 2020, "type": "MILESTONE", "event": "Three-finger Hunger Games salute adopted across Thai protest movement; Harry Potter and Hamtaro memes used to critique monarchy without explicit lèse-majesté violations"},
+      {"year": 2020, "type": "MILESTONE", "event": "October 14-21: Mass protests; state of emergency declared in Bangkok; water cannons with dye used against protesters at Patumwan intersection"},
+      {"year": 2020, "type": "SETBACK", "event": "Constitutional Court rules that monarchy reform demands constitute attempt to 'overthrow' the constitutional monarchy—essentially criminalizing the movement's core demand"},
+      {"year": 2021, "type": "SUPPRESSED", "event": "Mass lèse-majesté charges filed; Arnon Nampa, Parit Chiwarak, Jatupat Boonpattararaksa among hundreds charged; many held in pretrial detention"},
+      {"year": 2021, "type": "SUPPRESSED", "event": "Hunger strikes by imprisoned activists draw international attention; UN Special Rapporteurs condemn prosecutions"},
+      {"year": 2022, "type": "SUPPRESSED", "event": "1,634+ charged under various laws (lèse-majesté, sedition, COVID regulations); movement activists face decade-long legal battles"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "May elections: Move Forward party wins most seats (151/500); shows movement's cultural/electoral impact"},
+      {"year": 2023, "type": "REVERSAL", "event": "Move Forward blocked from forming government by military-appointed Senate; Pheu Thai forms coalition with military parties instead"},
+      {"year": 2024, "type": "REVERSAL", "event": "Move Forward renamed People's Party after Constitutional Court dissolution; leader Pita Limjaroenrat banned from politics for 10 years"},
+      {"year": 2025, "type": "ONGOING", "event": "Lèse-majesté prosecutions continue; People's Party remains largest opposition; structural reforms remain blocked by constitutional design"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "United Front of Thammasat and Demonstration (UFTD)", "description": "Student coalition that organized the August 2020 Thammasat rally where monarchy reform demands were first publicly stated"},
+        {"name": "Free Youth (เยาวชนปลดแอก)", "description": "Core youth activist network that coordinated flash mob tactics and social media organizing"},
+        {"name": "Move Forward Party / People's Party", "description": "Progressive political party that absorbed movement's electoral energy; won most seats in 2023 then was dissolved"}
+      ],
+      "funders": ["Crowdfunding via online platforms for legal defense", "Diaspora Thai communities in US, Australia, Europe"],
+      "celebrities": ["Various Thai music artists who supported openly (at personal legal risk)", "International solidarity from K-pop fan communities"],
+      "government_champions": ["Pita Limjaroenrat (Move Forward leader)", "Pannika Wanich (Thanathorn's ally)"],
+      "corporate_actors": {
+        "villains": ["Thai military (NCPO/government forces)", "Monarchy-aligned business conglomerates (CP Group connections to monarchy)", "State media (MCOT, NBT) suppressing protest coverage"],
+        "allies": ["Some independent Thai media outlets"]
+      },
+      "international": ["Amnesty International (designated protesters as prisoners of conscience)", "UN Human Rights Special Rapporteurs", "US State Department (issued statements of concern)"]
+    }
+  },
+  {
+    "id": 29,
+    "name": "Japan Anti-Nuclear Movement",
+    "outcome_score": 2,
+    "outcome_summary": "The movement achieved its immediate goal—all 50 reactors shut down by 2013. But the Abe government reversed course from 2015 onwards, restarting reactors despite sustained public opposition. As of 2024, approximately 12 reactors are operational with more restarts planned. The movement demonstrated that Japan's democratic culture can mobilize mass public dissent for the first time in decades, but could not ultimately override energy security imperatives when economic and geopolitical pressures (post-Ukraine energy crisis) aligned against them.",
+    "progress_markers": [
+      {"year": 2011, "type": "TIP", "event": "March 11: Magnitude 9.0 earthquake and tsunami triggers Fukushima Daiichi triple meltdown; 150,000 evacuated from 20km exclusion zone"},
+      {"year": 2011, "type": "BUILDUP", "event": "March-June: Government radiation data revealed as systematically understated; independent monitoring shows exclusion zone too small; public betrayal narrative emerges"},
+      {"year": 2011, "type": "WIN", "event": "July: PM Naoto Kan orders stress tests for all nuclear plants; 35 of 54 reactors offline by end of 2011"},
+      {"year": 2011, "type": "MILESTONE", "event": "September 19: 60,000-person anti-nuclear rally at Meiji Shrine complex—first significant political mass protest in Japan in decades"},
+      {"year": 2012, "type": "WIN", "event": "May 5: Last operating reactor (Tomari Unit 3) shut down; Japan briefly achieves 'zero nuclear'"},
+      {"year": 2012, "type": "MILESTONE", "event": "Sayonara Genpatsu petition reaches 7.5 million signatures—largest petition in Japanese history; Nobel laureate Kenzaburo Oe leads protests"},
+      {"year": 2012, "type": "MILESTONE", "event": "July: 200,000 Friday night protests outside PM's residence in Tokyo—largest in decades; cross-generational participation"},
+      {"year": 2012, "type": "WIN", "event": "September: DPJ government announces 'nuclear-free by 2030s' policy; new Nuclear Regulation Authority established"},
+      {"year": 2012, "type": "SETBACK", "event": "December: Abe LDP wins election; explicitly reverses nuclear phase-out and plans reactor restarts"},
+      {"year": 2013, "type": "REVERSAL", "event": "Abe government includes 20-22% nuclear in energy mix by 2030 in draft energy plan; nuclear restart process begins"},
+      {"year": 2015, "type": "REVERSAL", "event": "August: Sendai reactor restarted—first in four years; nuclear restart program begins under new NRA safety standards"},
+      {"year": 2016, "type": "SETBACK", "event": "2011 Kumamoto earthquakes reignite safety fears but do not halt restart program; courts occasionally block specific restarts"},
+      {"year": 2022, "type": "REVERSAL", "event": "Russia-Ukraine war causes energy crisis; Kishida government announces acceleration of reactor restarts and potential new plant construction"},
+      {"year": 2023, "type": "REVERSAL", "event": "GX (Green Transformation) policy approved; Japan reverses decades of post-Fukushima direction; long-term operation extensions approved"},
+      {"year": 2024, "type": "ONGOING", "event": "12+ reactors operational; public opposition remains high (60%+) but overridden by energy security policy; decommissioning of older reactors continues"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Sayonara Genpatsu (さようなら原発)", "description": "Coalition that organized the 7.5 million signature petition and major Tokyo rallies; convened by intellectuals and artists"},
+        {"name": "Metropolitan Coalition Against Nukes (首都圏反原発連合)", "description": "Organized the Friday PM residence protests; peaked at 200,000 participants in July 2012"},
+        {"name": "Citizens' Nuclear Information Center (CNIC)", "description": "Technical expert organization providing independent radiation data that contradicted government; established 1975"}
+      ],
+      "funders": ["Grassroots donations", "Some union support (minority—major unions such as Rengo were ambivalent due to nuclear worker membership)"],
+      "celebrities": ["Kenzaburo Oe (Nobel laureate novelist)", "Ryuichi Sakamoto (musician)", "Haruki Murakami (gave famous Barcelona speech against nuclear power)"],
+      "government_champions": ["Naoto Kan (PM during disaster, became anti-nuclear after leaving office)", "DPJ reformers"],
+      "corporate_actors": {
+        "villains": ["Tokyo Electric Power Company (TEPCO) - operator of Fukushima; suppressed data and mismanaged disaster", "Nuclear power industry consortium", "Major utilities (Kansai Electric, Kyushu Electric) pushing for restarts"],
+        "allies": ["Renewable energy sector benefiting from nuclear phase-out period"]
+      },
+      "international": ["IAEA (sent multiple inspection missions; recommendations largely accepted by NRA)", "German government (Merkel cited Japan in accelerating German nuclear exit)", "US NRC (provided technical assistance)"]
+    }
+  },
+  {
+    "id": 30,
+    "name": "Pakistan Aurat March",
+    "outcome_score": 2,
+    "outcome_summary": "The Aurat March has not produced specific legislation but has fundamentally shifted the public discourse around women's rights in Pakistan. The annual march continues despite violent threats and legal challenges. 'Mera jism meri marzi' (My body my choice) became one of the most contested political slogans in Pakistani history. The Domestic Violence Act was passed in Sindh (2013, strengthened) and Punjab (2021) partly in this movement's wake. However, femicide rates remain high, honor killing protections remain weak, and the movement faces intensifying conservative backlash.",
+    "progress_markers": [
+      {"year": 1981, "type": "BUILDUP", "event": "Women's Action Forum founded in response to Zia ul-Haq's Islamization laws; Pakistan's first organized feminist movement"},
+      {"year": 2014, "type": "BUILDUP", "event": "Malala Yousafzai wins Nobel Peace Prize; global attention on Pakistani women's rights but limited domestic political change"},
+      {"year": 2016, "type": "BUILDUP", "event": "Qandeel Baloch (social media star) murdered in 'honor killing' by brother; murder broadcast on social media creates national shock"},
+      {"year": 2016, "type": "WIN", "event": "Parliament passes Anti-Honor Killing law (Criminal Law Amendment Act)—first explicit criminalization of 'honor' as defense for murder"},
+      {"year": 2017, "type": "BUILDUP", "event": "#MeToo global wave reaches Pakistan; Pakistani women begin speaking publicly about harassment in universities and workplaces"},
+      {"year": 2018, "type": "TIP", "event": "March 8: First Aurat March in Karachi, Lahore, Islamabad—International Women's Day marches explicitly framed as feminist"},
+      {"year": 2019, "type": "MILESTONE", "event": "Second Aurat March; 'Mera jism meri marzi' poster triggers national controversy; religious groups and PTI politicians condemn march; FIRs (police complaints) filed"},
+      {"year": 2019, "type": "WIN", "event": "Backlash paradoxically amplifies movement nationally and internationally; diaspora Pakistanis join globally; march becomes annual fixture"},
+      {"year": 2020, "type": "MILESTONE", "event": "Imran Khan government attempts to frame Aurat March as 'anti-Islamic' and 'Western-funded'; High Court petitions to ban march; courts reject bans"},
+      {"year": 2021, "type": "PARTIAL-WIN", "event": "Punjab Domestic Violence Act passed with stronger provisions than previous law"},
+      {"year": 2022, "type": "ONGOING", "event": "Fifth Aurat March; largest ever; 'Inquilab aurat ka' (Women's revolution) becomes new rallying cry"},
+      {"year": 2023, "type": "SETBACK", "event": "Multiple court challenges to march permits; violence against some participants; Imran Khan-affiliated religious groups organize counter-marches"},
+      {"year": 2024, "type": "ONGOING", "event": "Aurat March continues; no major national legislation; discourse shift measurable in media coverage and political language around women's issues"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Hum Aurtein (We Women)", "description": "Core organizing collective behind the Aurat March in Karachi; intersectional feminist framework including trans rights"},
+        {"name": "Women's Action Forum (WAF)", "description": "Founded 1981; provided institutional memory and networking for the new generation of feminists"},
+        {"name": "Girls at Dhabas", "description": "Feminist movement challenging public space exclusion; contributed to Aurat March visual culture"}
+      ],
+      "funders": ["Grassroots fundraising", "Some international women's rights foundations (Ford Foundation, UN Women—though government attacked these)"],
+      "celebrities": ["Muniba Mazari (artist/activist)", "Mahira Khan (actor, expressed sympathy cautiously)", "Various Pakistani journalists and writers"],
+      "government_champions": ["Sherry Rehman (PPP senator, women's rights advocate)", "Minority voices within PTI and other parties"],
+      "corporate_actors": {
+        "villains": ["Religious right media platforms amplifying backlash", "Some major TV channels that gave disproportionate airtime to movement critics"],
+        "allies": ["Some independent media outlets covering movement sympathetically"]
+      },
+      "international": ["Amnesty International", "Human Rights Watch", "UN Women", "Global solidarity during COVID when march went online"]
+    }
+  },
+  {
+    "id": 31,
+    "name": "Myanmar Civil Disobedience Movement",
+    "outcome_score": 0,
+    "outcome_summary": "The CDM was crushed in urban areas by sustained military violence. By mid-2021, over 1,000 protesters had been killed and thousands imprisoned. The junta maintained control of major cities. The pro-democracy resistance morphed into an armed struggle (People's Defence Force) that has achieved significant territorial control in ethnic areas by 2024-2025, but at enormous civilian cost. Myanmar is in civil war with no near-term path to democratic resolution. The CDM spirit continues in resistance zones but the non-violent movement was definitively suppressed.",
+    "progress_markers": [
+      {"year": 2011, "type": "BUILDUP", "event": "Partial democratic opening under Thein Sein government; Aung San Suu Kyi released from house arrest; NLD participates in politics"},
+      {"year": 2015, "type": "BUILDUP", "event": "NLD wins landslide election; Suu Kyi effectively leads government as State Counsellor; military retains 25% of parliamentary seats by constitutional design"},
+      {"year": 2020, "type": "BUILDUP", "event": "November: NLD wins second landslide election; military claims fraud but election monitors find results credible"},
+      {"year": 2021, "type": "TIP", "event": "February 1 (pre-dawn): Military arrests Suu Kyi, President Win Myint, and elected government members; coup announced on state TV"},
+      {"year": 2021, "type": "WIN", "event": "February 2-5: Civil Disobedience Movement (CDM) launches; doctors, nurses, teachers, civil servants refuse to work for junta—largest professional strike in Myanmar's history"},
+      {"year": 2021, "type": "MILESTONE", "event": "Three-finger salute (borrowed from Thai protesters) adopted; daily street protests with hundreds of thousands; international community condemns coup"},
+      {"year": 2021, "type": "SETBACK", "event": "February 28: Junta uses lethal force; first protesters killed; UN Special Envoy Thomas Andrews reports security forces firing on crowds"},
+      {"year": 2021, "type": "SUPPRESSED", "event": "March-April: Systematic campaign of arrests, torture, killings; internet shutdowns; crackdowns intensify; protests driven underground in cities"},
+      {"year": 2021, "type": "MILESTONE", "event": "May: People's Defence Force (PDF) formed by CRPH; armed resistance begins; ethnic armed organizations ally with pro-democracy forces"},
+      {"year": 2022, "type": "SUPPRESSED", "event": "Junta executes four prominent democracy activists including Ko Jimmy and Phyo Zeya Thaw—first executions in Myanmar in decades"},
+      {"year": 2022, "type": "ONGOING", "event": "Civil war expands; PDF and ethnic armed groups control significant territory in Sagaing, Magway, Chin State, Kayah"},
+      {"year": 2023, "type": "WIN", "event": "Operation 1027: Brotherhood Alliance offensive seizes 200+ military outposts in Shan State; major territorial defeats for junta"},
+      {"year": 2024, "type": "WIN", "event": "Major towns in multiple states fall to resistance forces; junta territory significantly reduced; military under severe pressure"},
+      {"year": 2025, "type": "ONGOING", "event": "Civil war continues; junta controls Naypyidaw and major cities; NUG (National Unity Government) administers resistance areas; outcome uncertain"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Civil Disobedience Movement (CDM)", "description": "Decentralized strikes by government workers, healthcare workers, teachers refusing to work under junta"},
+        {"name": "National Unity Government (NUG)", "description": "Government-in-exile formed by elected MPs and civil society leaders; coordinates armed and diplomatic resistance"},
+        {"name": "People's Defence Force (PDF)", "description": "Armed resistance force formed under NUG; grew to estimated 60,000+ fighters by 2023"}
+      ],
+      "funders": ["Myanmar diaspora worldwide (largest per capita donation to resistance in Asia)", "Cryptocurrency donations to NUG (avoiding sanctions)", "Some ethnic armed organization resources"],
+      "celebrities": ["Aung San Suu Kyi (imprisoned; remains symbolic leader though controversial for Rohingya position)", "Various Myanmar artists and musicians who fled abroad and amplified resistance"],
+      "government_champions": ["NUG leadership (Win Myint, Mahn Win Khaing Than)"],
+      "corporate_actors": {
+        "villains": ["Myanmar military (Tatmadaw) and its business conglomerate MEHL (Myanmar Economic Holdings Limited)", "TotalEnergies, Chevron (initially continued Yadana gas pipeline payments to junta, later withdrew)", "Various Chinese companies maintaining business with junta"],
+        "allies": []
+      },
+      "international": ["ASEAN (largely ineffective; 5-point consensus ignored by junta)", "UN Special Envoy office (limited leverage)", "US, UK, EU (sanctions of limited effect)", "China (maintains relations with junta while claiming neutrality)"]
+    }
+  },
+  {
+    "id": 32,
+    "name": "Philippines Anti-EJK / Duterte Accountability Movement",
+    "outcome_score": 1,
+    "outcome_summary": "The movement raised significant international awareness but failed to stop the drug war killings while Duterte was in power. The ICC opened a preliminary inquiry and then formal investigation, but Philippines withdrew from the ICC in 2019. Killings slowed after Duterte left office (constitutionally barred from re-election in 2022). Leila de Lima was imprisoned for 6 years and released in 2023. No senior official has been prosecuted domestically. Marcos Jr. continued many Duterte-era policies. Environmental defender killings remain among the world's highest.",
+    "progress_markers": [
+      {"year": 2010, "type": "BUILDUP", "event": "Philippines already world's most dangerous country for environmental defenders per Global Witness data; 'red-tagging' of activists established practice under successive governments"},
+      {"year": 2016, "type": "TIP", "event": "May: Rodrigo Duterte wins presidential election on explicit extermination rhetoric; 'war on drugs' begins immediately"},
+      {"year": 2016, "type": "SETBACK", "event": "First months: estimated 3,000-7,000 killed in drug war operations and vigilante killings; police kill alleged drug suspects with near-total impunity"},
+      {"year": 2016, "type": "MILESTONE", "event": "Senator Leila de Lima launches Senate investigation into drug war killings; government targets her in retaliation"},
+      {"year": 2017, "type": "SUPPRESSED", "event": "February: De Lima arrested and imprisoned on drug charges widely seen as fabricated; placed in detention for 6 years"},
+      {"year": 2017, "type": "MILESTONE", "event": "International Criminal Court opens preliminary investigation into Philippines drug war killings"},
+      {"year": 2018, "type": "SUPPRESSED", "event": "Philippines withdraws from ICC Rome Statute (effective March 2019) in response to ICC investigation—first country to withdraw under investigation"},
+      {"year": 2019, "type": "SETBACK", "event": "ABS-CBN (Philippines' largest broadcaster) faces franchise revocation threats for critical coverage; eventually shut down 2020"},
+      {"year": 2020, "type": "MILESTONE", "event": "Maria Ressa (Rappler CEO, documenting drug war and disinformation) convicted of cyber-libel; international press freedom outcry"},
+      {"year": 2021, "type": "WIN", "event": "Maria Ressa wins Nobel Peace Prize—international recognition of Philippines press freedom crisis"},
+      {"year": 2021, "type": "WIN", "event": "ICC Prosecutor Bensouda determines drug war crimes may constitute crimes against humanity; formal investigation authorized"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "Duterte constitutionally barred from re-election; killings drop significantly under Marcos Jr.; de Lima's legal situation improves"},
+      {"year": 2023, "type": "WIN", "event": "February: Leila de Lima released from detention; conviction overturned by Supreme Court"},
+      {"year": 2024, "type": "ONGOING", "event": "ICC investigation continues; Duterte arrested in 2025 and surrendered to ICC—historic development; domestic impunity for most killings continues"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Rappler", "description": "Digital media company led by Maria Ressa that systematically documented drug war killings and disinformation; Nobel Peace Prize 2021"},
+        {"name": "Commission on Human Rights Philippines", "description": "Government body under Chito Gascon that documented killings despite administration pressure; defunded by Duterte-ally Congress"},
+        {"name": "Campaign Against the Return of the Marcoses and Martial Law (CARMMA)", "description": "Coalition of human rights groups documenting EJKs and fighting accountability"}
+      ],
+      "funders": ["International human rights organizations (HRW, Amnesty)", "Press freedom organizations (CPJ, RSF)", "Nordic development funds"],
+      "celebrities": ["Maria Ressa (Nobel laureate 2021)", "Leni Robredo (opposition VP, 'pink revolution' candidate 2022)"],
+      "government_champions": ["Leila de Lima (imprisoned opposition senator)", "Leni Robredo (VP, actively documented killings)"],
+      "corporate_actors": {
+        "villains": ["Duterte administration and Philippine National Police (PNP)", "Facebook/Meta (algorithms amplified pro-Duterte disinformation network)"],
+        "allies": ["ABS-CBN (until closure)", "Rappler", "Philippine Daily Inquirer"]
+      },
+      "international": ["ICC (formal investigation)", "UN Human Rights Council", "EU (removed GSP+ trade preferences over human rights)", "US State Department"]
+    }
+  },
+  {
+    "id": 33,
+    "name": "Indonesia Anti-Corruption KPK Defense",
+    "outcome_score": 1,
+    "outcome_summary": "Students partially succeeded in withdrawing some of the September 2019 legislation package but failed on the most important piece: the KPK revision. The new KPK supervisory board effectively hobbled the body's independence. KPK conviction rates dropped dramatically post-2020. Indonesia's anti-corruption gains from 2003-2019 were significantly reversed. Jokowi's administration continued despite weakened oversight. The movement demonstrated the vulnerability of independent institutions to rapid legislative assault.",
+    "progress_markers": [
+      {"year": 2002, "type": "BUILDUP", "event": "KPK (Corruption Eradication Commission) established by post-Reformasi legislation; becomes most trusted institution in Indonesia"},
+      {"year": 2009, "type": "BUILDUP", "event": "KPK faces first political attack ('Cicak vs. Buaya' — gecko vs. crocodile) when police attempt to frame KPK leaders; public backlash saves KPK"},
+      {"year": 2015, "type": "BUILDUP", "event": "Jokowi first term: KPK prosecutes high-profile politicians including from PDI-P (Jokowi's own party); tensions grow between KPK and political establishment"},
+      {"year": 2019, "type": "BUILDUP", "event": "September: Parliament moves to revise KPK law during brief recess before new parliament takes office; rushed through without public consultation"},
+      {"year": 2019, "type": "TIP", "event": "September 23-24: Student protests at parliament in Senayan; hundreds of thousands mobilize across 20+ cities; police use tear gas, rubber bullets; 2 students killed"},
+      {"year": 2019, "type": "PARTIAL-WIN", "event": "Government withdraws several bills from legislative package under pressure (Criminal Code revisions, Land Bill, Correctional Institution Bill)"},
+      {"year": 2019, "type": "SETBACK", "event": "KPK revision law passes despite protests; new supervisory board (Dewan Pengawas) installed; KPK employees must re-qualify as civil servants—process removes dozens of experienced investigators"},
+      {"year": 2020, "type": "REVERSAL", "event": "Under new KPK structure: conviction rate drops from 100% to around 96%; investigation pace slows; high-profile politicians increasingly escape scrutiny"},
+      {"year": 2021, "type": "REVERSAL", "event": "KPK employee ethics committee clears almost all candidates in competency tests after firing 56 'compromised' employees—widely seen as gutting institutional capacity"},
+      {"year": 2022, "type": "SETBACK", "event": "KPK head Firli Bahuri (installed under new governance structure) faces multiple ethics complaints; investigation of minister leads to bribery accusation against Firli himself"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "Firli Bahuri suspended and named as bribery suspect—shows KPK not entirely dead—but damage to institutional independence is severe"},
+      {"year": 2024, "type": "ONGOING", "event": "Prabowo Subianto (Jokowi son-in-law's father-in-law) becomes president; KPK reform prospects uncertain; Indonesia's Corruption Perceptions Index has worsened"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "BEM (Badan Eksekutif Mahasiswa)", "description": "Student executive bodies across major Indonesian universities; coordinated national protest mobilization"},
+        {"name": "Indonesia Corruption Watch (ICW)", "description": "Leading anti-corruption NGO providing documentation and legal analysis; key voice against KPK revisions"},
+        {"name": "YLBHI (Indonesian Legal Aid Foundation)", "description": "Provided legal support for arrested protesters and filed constitutional challenges"}
+      ],
+      "funders": ["Foundations including Ford Foundation, Transparency International", "USAID democracy programming"],
+      "celebrities": ["Various Indonesian artists and musicians who expressed support", "Former KPK leaders Abraham Samad and Bambang Widjojanto"],
+      "government_champions": ["Some PDI-P minority voices", "Transparency-focused municipal politicians"],
+      "corporate_actors": {
+        "villains": ["Established political parties (Golkar, PDI-P, Gerindra) that pushed KPK revisions", "Oligarch-connected businesses threatened by KPK investigations"],
+        "allies": []
+      },
+      "international": ["Transparency International (global monitoring)", "USAID (institutional support for KPK)", "World Bank (governance programs)"]
+    }
+  },
+  {
+    "id": 34,
+    "name": "Bangladesh Garment Workers / Rana Plaza",
+    "outcome_score": 4,
+    "outcome_summary": "Rana Plaza produced the Bangladesh Accord on Fire and Building Safety—the first legally binding international corporate accountability agreement in garment supply chains. Over 200 brands signed. Factory inspections improved measurably. However, minimum wages remained inadequate ($95/month by 2024 vs. $177 demanded by workers). The Accord's original 5-year mandate required repeated renewal campaigns. Sohel Rana was convicted in 2023 after a decade-long trial. Structural power imbalance between brands and workers persists; Bangladesh brands still compete primarily on price, not safety.",
+    "progress_markers": [
+      {"year": 2005, "type": "BUILDUP", "event": "Clean Clothes Campaign, Worker Rights Consortium, and other labor rights groups begin systematic documentation of Bangladesh garment industry conditions"},
+      {"year": 2010, "type": "BUILDUP", "event": "Bangladesh garment workers' minimum wage increased to $43/month after major strikes; brands resist pressure for supply chain accountability"},
+      {"year": 2012, "type": "BUILDUP", "event": "November 24: Tazreen Fashions fire kills 117 workers; Walmart, Sears labels found in rubble; brands pledge action but don't implement"},
+      {"year": 2012, "type": "SETBACK", "event": "December: Meeting of major brands declines to sign legally binding fire and building safety accord; later described by ILRF as missed prevention opportunity"},
+      {"year": 2013, "type": "TIP", "event": "April 24, 8:45am: Rana Plaza collapses; 1,134 killed—workers had been sent in despite visible cracks the day before; trapped for days in rubble"},
+      {"year": 2013, "type": "WIN", "event": "May 13: Bangladesh Accord on Fire and Building Safety launched; legally binding; first brand signatories within days"},
+      {"year": 2013, "type": "WIN", "event": "June: Over 100 brands sign the Accord; subsequent months over 200 brands sign; ILO involvement; Worker Safety inspectors granted independent access"},
+      {"year": 2013, "type": "WIN", "event": "July: Rana Plaza Donor Trust Fund established; owner Sohel Rana arrested; Bangladesh government launches criminal investigation"},
+      {"year": 2015, "type": "PARTIAL-WIN", "event": "Minimum wage increased to $68/month—still far below living wage but largest increase in history; 100,000+ safety hazards remediated in Accord factories"},
+      {"year": 2018, "type": "PARTIAL-WIN", "event": "Bangladesh Accord transitions to RMG Sustainability Council; original 5-year term ends; advocacy needed for renewal"},
+      {"year": 2021, "type": "WIN", "event": "International Accord on Health and Safety signed—successor to Bangladesh Accord with expanded country scope"},
+      {"year": 2023, "type": "WIN", "event": "March: Sohel Rana convicted of negligence; sentenced to 3 years imprisonment after decade-long trial"},
+      {"year": 2023, "type": "ONGOING", "event": "Minimum wage increased to $95/month after major strikes (workers demanded $208); International Accord continues; EU Corporate Sustainability Due Diligence Directive references Accord model"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Clean Clothes Campaign (CCC)", "description": "International labor rights network coordinating brand accountability pressure; key drafter of the Accord"},
+        {"name": "Worker Rights Consortium (WRC)", "description": "US-based labor rights group providing factory monitoring; participated in Accord development and enforcement"},
+        {"name": "IndustriALL Global Union / UNI Global Union", "description": "Global union federations that signed the Bangladesh Accord as legally binding counterparties to brands"}
+      ],
+      "funders": ["International union federations", "European labor movement", "Some foundation funding for NGO coordination"],
+      "celebrities": ["Various Western fashion industry voices who expressed concern", "Avaaz petition signers (over 1 million)"],
+      "government_champions": ["Bangladesh Minister of Labour (agreed to some reforms)", "EU Trade Commissioner (used GSP+ conditionality)"],
+      "corporate_actors": {
+        "villains": ["Primark, Walmart, Gap (delayed or refused Accord signing initially)", "Sohel Rana and factory owners who sent workers in despite visible cracks", "Building inspection authorities who were complicit"],
+        "allies": ["H&M, Inditex (Zara) (early Accord signatories)", "PVH Corp (signed and advocated others to join)"]
+      },
+      "international": ["ILO (provided technical expertise)", "European Parliament (passed non-binding resolution)", "Bangladesh government (agreed to inspection program)", "OECD (due diligence guidelines referenced Rana Plaza)"]
+    }
+  },
+  {
+    "id": 35,
+    "name": "Fridays for Future Global South Expansion",
+    "outcome_score": 2,
+    "outcome_summary": "The Global South expansion of FFF produced a measurable shift in the movement's racial and geographic politics—Vanessa Nakate, Mitzi Jonelle Tan, Ayisha Siddiqi, and others became central international voices rather than peripheral ones. The AP photo-cropping incident paradoxically accelerated this change. Loss-and-damage language entered UNFCCC negotiations more forcefully. However, no specific policy wins can be attributed to Global South FFF specifically; the movement remains better at cultural influence than policy conversion.",
+    "progress_markers": [
+      {"year": 2018, "type": "BUILDUP", "event": "Fridays for Future begins with Thunberg; largely Global North-framed; Global South activists note the gap between who faces climate harm and who leads the movement"},
+      {"year": 2019, "type": "BUILDUP", "event": "Vanessa Nakate begins FFF strikes in Kampala, Uganda; Mitzi Jonelle Tan in Philippines; Ayisha Siddiqi in Pakistan; 'MAPA' (Most Affected People and Areas) framing develops"},
+      {"year": 2019, "type": "MILESTONE", "event": "September 20: Global Climate Strike—6 million participants; Global South activists prominent but still not centered in international media coverage"},
+      {"year": 2020, "type": "TIP", "event": "January 24: Associated Press wire photo from Davos shows 5 climate activists—4 white Europeans included, Vanessa Nakate cropped out; Nakate's video response goes globally viral"},
+      {"year": 2020, "type": "WIN", "event": "AP photo-cropping incident triggers global media coverage of climate movement's racial politics; 'whose climate crisis is it?' debate reshapes FFF's public identity"},
+      {"year": 2020, "type": "WIN", "event": "Nakate's response: emotionally honest video distinguishing personal pain from structural issue; establishes her as global spokesperson with unique credibility"},
+      {"year": 2020, "type": "MILESTONE", "event": "Nakate founds Rise Up Movement (Uganda) focusing on African climate activism; Amplify Her (later Vash Green Schools) supports African youth climate education"},
+      {"year": 2021, "type": "MILESTONE", "event": "Nakate publishes 'A Bigger Picture' (2021); Global South climate activists become permanent fixtures at UN COP negotiations rather than occasional voices"},
+      {"year": 2021, "type": "WIN", "event": "COP26 Glasgow: Loss and damage financing discussed more prominently than ever before; Santiago Network established; Global South negotiating bloc strengthened"},
+      {"year": 2022, "type": "WIN", "event": "COP27 Sharm el-Sheikh: Loss and damage fund formally established—first time wealthy nations acknowledge financial responsibility for climate harm; historic normative shift"},
+      {"year": 2023, "type": "ONGOING", "event": "COP28 Dubai: Loss and damage fund operationalized with initial $660 million (widely seen as inadequate but precedent-setting); Global South activists continue pressure for adequate scale"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Rise Up Movement (Uganda)", "description": "Founded by Vanessa Nakate; amplifies African youth climate voices and supports climate education in Uganda"},
+        {"name": "Fridays for Future MAPA", "description": "Most Affected People and Areas network within FFF; coordinates Global South activists and centers their demands in climate negotiations"},
+        {"name": "Youth Advocates for Climate Action Philippines (YACAP)", "description": "Led by Mitzi Jonelle Tan; connects climate justice to human rights and frontline community perspectives"}
+      ],
+      "funders": ["350.org", "Environmental Defense Fund", "Some European climate foundations supporting Global South youth voices", "350.org Global South Fund"],
+      "celebrities": ["Vanessa Nakate (Uganda)", "Mitzi Jonelle Tan (Philippines)", "Ayisha Siddiqi (Pakistan)", "Hilda Flavia Nakabuye (Uganda)"],
+      "government_champions": ["Vanuatu, Tuvalu, Fiji and other small island states at UNFCCC", "Kenya, Ethiopia, Nigeria progressive climate negotiators"],
+      "corporate_actors": {
+        "villains": ["Major fossil fuel companies and petrostate bloc blocking loss and damage funding", "Associated Press (original photo crop—later apologized)"],
+        "allies": []
+      },
+      "international": ["UNFCCC Secretariat", "UN Secretary-General (expressed strong support for youth climate activists)", "IPCC (provided scientific backing for loss-and-damage claims)"]
+    }
+  },
+  {
+    "id": 36,
+    "name": "Bolivia Cochabamba Water Wars",
+    "outcome_score": 5,
+    "outcome_summary": "The Water Wars achieved their immediate demand completely—Bechtel/Aguas del Tunari expelled and water privatization reversed. Oscar Olivera became a global symbol. The movement influenced the UN's 2010 recognition of water as a human right. It catalyzed Bolivia's broader leftward turn, directly enabling Evo Morales's 2005 election. Bolivia enshrined rights of nature in its 2009 constitution. The Cochabamba water system remains publicly managed as of 2024. This is one of the cleanest wins in the dataset.",
+    "progress_markers": [
+      {"year": 1997, "type": "BUILDUP", "event": "World Bank conditions loans on Cochabamba water privatization; Bolivian government begins privatization process; communities begin organizing opposition"},
+      {"year": 1999, "type": "BUILDUP", "event": "November: Law 2029 passed granting 40-year water concession to Aguas del Tunari (Bechtel subsidiary); law even prohibits collecting rainwater"},
+      {"year": 2000, "type": "BUILDUP", "event": "January: Water bills arrive showing 200-300% increases; immediate protests begin; Coordinadora de Defensa del Agua y de la Vida formed"},
+      {"year": 2000, "type": "MILESTONE", "event": "February-March: Escalating strikes and road blockades; government promises talks but doesn't deliver; water declared human right by Coordinadora"},
+      {"year": 2000, "type": "TIP", "event": "April 4-8: Coordinadora calls general strike; transporters block roads; police and military clash with protesters; state of siege declared; Victor Hugo Daza (17) killed by police"},
+      {"year": 2000, "type": "WIN", "event": "April 10: Government negotiates directly with Coordinadora; agrees to cancel Aguas del Tunari contract and repeal Law 2029"},
+      {"year": 2000, "type": "WIN", "event": "April 11: Aguas del Tunari expelled; SEMAPA (public water utility) restored; international anti-globalization movement celebrates as model victory"},
+      {"year": 2001, "type": "WIN", "event": "Bechtel files $50 million ICSID arbitration claim against Bolivia; international solidarity campaign mounts; Bechtel withdraws claim for nominal compensation"},
+      {"year": 2003, "type": "MILESTONE", "event": "Bolivia Gas Wars; similar popular uprising defeats natural gas privatization; Gonzalo Sánchez de Lozada forced to resign"},
+      {"year": 2005, "type": "WIN", "event": "Evo Morales (Aymara coca farmers' leader, ally of Coordinadora) wins presidential election—Water Wars was the organizational seedbed for Bolivia's political revolution"},
+      {"year": 2009, "type": "WIN", "event": "Bolivia's new constitution under Morales enshrines rights of nature (Pachamama) and right to water as human right"},
+      {"year": 2010, "type": "WIN", "event": "UN General Assembly adopts resolution recognizing right to water—explicitly citing Bolivia's advocacy; Bolivia presented resolution from Cochabamba climate conference"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Coordinadora de Defensa del Agua y de la Vida", "description": "Coalition of farmers, workers, and civic groups led by Oscar Olivera; organized the Water Wars resistance"},
+        {"name": "Federación de Regantes (Irrigators' Federation)", "description": "Rural water users organization that provided community mobilization backbone outside the city"},
+        {"name": "COB (Central Obrera Boliviana - national labor union)", "description": "National union federation that provided labor infrastructure for general strike"}
+      ],
+      "funders": ["Grassroots community contributions", "International solidarity from anti-globalization networks"],
+      "celebrities": ["Oscar Olivera (factory worker turned global icon)", "Aymara indigenous community leaders"],
+      "government_champions": ["Evo Morales (MAS leader, ally)", "Hugo Banzer initially agreed to cancel contract (ironically, the same dictator who privatized in first place)"],
+      "corporate_actors": {
+        "villains": ["Bechtel Corporation / Aguas del Tunari", "World Bank (mandated privatization as loan condition)", "IMF (structural adjustment framework)"],
+        "allies": []
+      },
+      "international": ["Global anti-globalization movement (post-Seattle WTO)", "International Forum on Globalization", "Democracy Center (documented and amplified internationally)", "UN (General Assembly resolution 2010)"]
+    }
+  },
+  {
+    "id": 37,
+    "name": "Ecuador Rights of Nature / Pacha Mama Constitution",
+    "outcome_score": 3,
+    "outcome_summary": "Ecuador created the world's first constitutional rights of nature framework—a genuine breakthrough in legal philosophy. Multiple subsequent court rulings have invoked Rights of Nature (most notably the 2022 Amazon case ruling against oil extraction in Yasuni-ITT, upheld by referendum in 2023). However, the Correa government that passed the constitution simultaneously expanded oil and mining extraction, demonstrating that constitutional rights without enforcement culture are limited. The framework has traveled globally—Bolivia, multiple US cities, New Zealand river personhood—making its normative impact larger than Ecuador's domestic record suggests.",
+    "progress_markers": [
+      {"year": 1990, "type": "BUILDUP", "event": "CONAIE (indigenous confederation) 'levantamiento' (uprising) establishes indigenous social movements as major political force in Ecuador"},
+      {"year": 2000, "type": "BUILDUP", "event": "Community Rights movement globally, led by Thomas Berry's 'Earth Jurisprudence'; CELDF (Community Environmental Legal Defense Fund) begins drafting rights of nature ordinances in US"},
+      {"year": 2006, "type": "BUILDUP", "event": "Rafael Correa wins presidential election on anti-neoliberal platform; promises new constitution via Citizens' Assembly"},
+      {"year": 2007, "type": "TIP", "event": "Constituent Assembly convened; CONAIE and civil society organizations lobby for Rights of Nature provisions; Cormac Cullinan and CELDF provide legal drafting expertise"},
+      {"year": 2008, "type": "WIN", "event": "Ecuadorian Constitution adopted (September 28) with Articles 71-74 granting Nature legal rights—world first; 64% vote in favor"},
+      {"year": 2009, "type": "WIN", "event": "Bolivia's new constitution also enshrines Pachamama rights; global Earth Jurisprudence movement gains momentum"},
+      {"year": 2010, "type": "SETBACK", "event": "Correa government approves massive oil and mining expansion, including in sensitive Amazon areas; Rights of Nature provisions begin to show enforcement gap"},
+      {"year": 2011, "type": "PARTIAL-WIN", "event": "First Rights of Nature case in Ecuador: Vilcabamba River wins injunction against road construction project—first Rights of Nature court victory globally"},
+      {"year": 2017, "type": "SETBACK", "event": "Correa leaves office with rights of nature largely unenforced for large-scale industrial projects; succeeding Moreno government continues extractive orientation"},
+      {"year": 2019, "type": "MILESTONE", "event": "Rights of Nature adopted by Toledo, Ohio (US) for Lake Erie; framework spreads globally to cities, regions"},
+      {"year": 2021, "type": "WIN", "event": "Constitutional Court ruling: Los Cedros cloud forest protected as Rights of Nature case against mining—significant enforcement precedent"},
+      {"year": 2022, "type": "WIN", "event": "Constitutional Court rules Yasuni-ITT Amazon oil extraction violates Rights of Nature; upheld by national referendum in August 2023"},
+      {"year": 2024, "type": "ONGOING", "event": "Yasuni oil extraction ceasing under court order; Ecuador facing economic pressure from lost oil revenue; rights of nature framework increasingly cited in global climate litigation"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "CONAIE (Confederation of Indigenous Nationalities of Ecuador)", "description": "Most powerful indigenous confederation; lobbied strongly for Rights of Nature provisions and provided cosmovisión framework"},
+        {"name": "Community Environmental Legal Defense Fund (CELDF)", "description": "US NGO that provided legal drafting expertise for Rights of Nature articles; Thomas Linzey key drafter"},
+        {"name": "Alianza por los Derechos de la Naturaleza (Rights of Nature Alliance)", "description": "Ecuadorian civil society coalition that advocates for Rights of Nature enforcement post-constitution"}
+      ],
+      "funders": ["Correa government's Citizen Revolution funding for constitutional process", "International environmental foundations", "Indigenous rights networks"],
+      "celebrities": ["Cormac Cullinan (Earth Jurisprudence scholar-activist)", "Alberto Acosta (economist, Constituent Assembly president)"],
+      "government_champions": ["Rafael Correa (president, initially)", "Alberto Acosta (Constituent Assembly)"],
+      "corporate_actors": {
+        "villains": ["Chevron/Texaco (historic oil contamination in Amazon)", "OCP Ecuador and Petroecuador (state oil extraction continuing despite constitutional rights)", "Mining companies operating in cloud forest areas"],
+        "allies": []
+      },
+      "international": ["IUCN (International Union for Conservation of Nature)", "Global Rights of Nature movement (Earth Law Center, Global Alliance for Rights of Nature)", "UN Special Rapporteur on human rights and environment"]
+    }
+  },
+  {
+    "id": 38,
+    "name": "Mexico Ayotzinapa 43",
+    "outcome_score": 2,
+    "outcome_summary": "The Ayotzinapa case produced significant political consequences—it permanently discredited Peña Nieto and contributed to AMLO's 2018 election—but failed at its core demand: finding the 43 students and bringing perpetrators to justice. As of 2025, most students remain unaccounted for. Mexico's 'historical truth' narrative was definitively discredited by the GIEI independent expert group. High-level convictions remain elusive; the Guerrero cartel-state nexus that enabled the disappearances has been partially disrupted but not dismantled.",
+    "progress_markers": [
+      {"year": 2006, "type": "BUILDUP", "event": "Calderón launches 'drug war'; forced disappearances become systematic; human rights organizations document pattern nationally"},
+      {"year": 2011, "type": "BUILDUP", "event": "Javier Sicilia 'Movement for Peace with Justice and Dignity' follows murder of his son; largest anti-violence marches in Mexican history—briefly"},
+      {"year": 2014, "type": "TIP", "event": "Night of September 26-27: Police in Iguala attack Ayotzinapa student buses; 43 students disappear; 6 killed; mass graves found in following days"},
+      {"year": 2014, "type": "MILESTONE", "event": "'43 = todos' slogan; monthly parents' marches begin; specific number makes abstraction impossible; faces of 43 plastered across Mexico"},
+      {"year": 2014, "type": "MILESTONE", "event": "International attention: global protests in diaspora cities; EZLN solidarity; university shutdowns across Mexico"},
+      {"year": 2015, "type": "WIN", "event": "PGR's 'historical truth' (students burned at Cocula dump) demolished by GIEI independent expert group using forensic evidence; narrative accountability achieved"},
+      {"year": 2015, "type": "WIN", "event": "Peña Nieto government's credibility permanently destroyed; 'Es la Estado!' (It's the State!) framing entered mainstream discourse"},
+      {"year": 2016, "type": "SETBACK", "event": "GIEI expelled from Mexico after government refuses to give access to military information; investigation stalled"},
+      {"year": 2018, "type": "WIN", "event": "AMLO wins presidential election partly on anti-impunity/Ayotzinapa platform; creates Undersecretariat for Human Rights for Alejandro Encinas"},
+      {"year": 2022, "type": "WIN", "event": "New official investigation (GTJP) names military officers as complicit; 'state crime' formally acknowledged by AMLO government"},
+      {"year": 2022, "type": "SETBACK", "event": "Arrests of military personnel; but cases face legal obstacles; military resists accountability; AMLO himself protective of military despite findings"},
+      {"year": 2023, "type": "SETBACK", "event": "AMLO's defense of military limits accountability; some arrests overturned on procedural grounds; parents still march monthly"},
+      {"year": 2025, "type": "ONGOING", "event": "Most students still not found; investigation ongoing but politically constrained; parents' movement continues as permanent moral witness; case shapes anti-impunity campaigns globally"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Families of the 43 (Padres de Familia)", "description": "Parents who became the moral core of the movement; monthly marches sustained for years; unimpeachable moral authority"},
+        {"name": "GIEI (Interdisciplinary Group of Independent Experts)", "description": "IACHR-mandated independent expert group that demolished the government's 'historical truth' narrative using forensic evidence"},
+        {"name": "Tlachinollan Human Rights Center", "description": "Guerrero-based human rights organization that has represented Ayotzinapa families from the beginning; Vidulfo Rosales is lead attorney"}
+      ],
+      "funders": ["IACHR funding for GIEI", "International human rights foundations", "Mexican and international NGO networks"],
+      "celebrities": ["Various Mexican artists and musicians who joined marches", "International human rights organizations"],
+      "government_champions": ["Alejandro Encinas (AMLO's human rights undersecretary; led new investigation)", "IACHR (provided institutional legitimacy)"],
+      "corporate_actors": {
+        "villains": ["Guerreros Unidos cartel", "Iguala municipal police and government (Jose Luis Abarca, then-mayor)", "Elements of Federal Police and military with documented collusion"],
+        "allies": []
+      },
+      "international": ["IACHR (Inter-American Commission on Human Rights)", "Amnesty International", "Human Rights Watch", "UN Human Rights Committee", "Global solidarity marches in 50+ countries"]
+    }
+  },
+  {
+    "id": 39,
+    "name": "Guatemala Anti-Corruption CICIG Protests",
+    "outcome_score": 3,
+    "outcome_summary": "The 2015 anti-corruption protests achieved the remarkable goal of forcing a sitting president to resign—unprecedented in Guatemala. CICIG's existence as an international validator with real prosecutorial power was the decisive factor. However, the 2019 expulsion of CICIG under US/Trump pressure reversed institutional gains. Subsequent elections have been contested; Bernardo Arévalo won the 2023 presidential election on anti-corruption platform and survived a coup attempt against his inauguration—showing the movement's lasting effects on political culture even as institutions have weakened.",
+    "progress_markers": [
+      {"year": 2006, "type": "BUILDUP", "event": "CICIG (UN-mandated anti-corruption commission with prosecutorial powers) established under Oscar Berger government—unique international accountability mechanism"},
+      {"year": 2010, "type": "BUILDUP", "event": "CICIG under Castresana begins prosecuting police-crime nexus; establishes credibility as genuinely independent institution"},
+      {"year": 2014, "type": "BUILDUP", "event": "#RenunciaYa (Resign Now) hashtag begins circulating as corruption scandals accumulate; CICIG investigations generate evidence"},
+      {"year": 2015, "type": "TIP", "event": "April 16: CICIG press conference reveals 'La Línea'—systematic customs fraud scheme directly linked to VP Baldetti and subsequently President Pérez Molina"},
+      {"year": 2015, "type": "WIN", "event": "May: VP Roxana Baldetti resigns; arrested for corruption"},
+      {"year": 2015, "type": "WIN", "event": "August-September: Weekly '#SábadosDeProtesta' in Guatemala City; up to 100,000 march with rare cross-class and cross-ethnic coalition"},
+      {"year": 2015, "type": "WIN", "event": "September 3: Otto Pérez Molina resigns as president—two days before election; arrested September 8; unprecedented constitutional accountability"},
+      {"year": 2016, "type": "CONSOLIDATION", "event": "CICIG continues investigations; new president Jimmy Morales elected on anti-corruption platform (irony: later himself target of CICIG)"},
+      {"year": 2017, "type": "REVERSAL", "event": "President Morales attempts to expel CICIG after it investigates him for illegal campaign financing; Constitutional Court blocks expulsion"},
+      {"year": 2019, "type": "REVERSAL", "event": "Morales (with US Trump administration acquiescence) refuses to renew CICIG mandate; CICIG leaves Guatemala September 2019—major institutional loss"},
+      {"year": 2023, "type": "WIN", "event": "Bernardo Arévalo wins presidential election on anti-corruption platform; establishment attempts to block his inauguration through prosecutors and courts"},
+      {"year": 2024, "type": "PARTIAL-WIN", "event": "Arévalo inaugurated despite coup attempt; reformist government faces entrenched corrupt establishment without CICIG's institutional support"},
+      {"year": 2025, "type": "ONGOING", "event": "Arévalo government struggling against 'pacto de corruptos' (corruption pact); shows movement's cultural legacy but limits without institutional validator"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "CICIG (International Commission Against Impunity in Guatemala)", "description": "UN-backed commission with prosecutorial capacity; provided the institutional legitimacy that converted accusations into criminal charges"},
+        {"name": "Plataforma Nacional para la Reforma del Estado", "description": "Civil society coalition that organized #SábadosDeProtesta and provided movement coordination"},
+        {"name": "CIDH / IACHR", "description": "Provided international human rights monitoring and reporting that supported CICIG's legitimacy"}
+      ],
+      "funders": ["CICIG funded by Sweden, Netherlands, Canada, US (under Obama)", "European Union development funds for civil society"],
+      "celebrities": ["Claudia Paz y Paz (former Attorney General, prosecuted Ríos Montt for genocide)", "Thelma Aldana (Attorney General who worked with CICIG, later presidential candidate)"],
+      "government_champions": ["Ivan Velasquez (CICIG Director, Colombian prosecutor)", "Constitutional Court that blocked Morales's expulsion attempt"],
+      "corporate_actors": {
+        "villains": ["La Línea customs fraud network (politicians and business elite)", "CACIF (business elites—Guatemala's Chamber of Commerce)"],
+        "allies": ["Some mid-size business sectors opposed to corruption as competitive barrier"]
+      },
+      "international": ["CICIG (UN body)", "US State Department (under Obama supportive; under Trump reversed)", "OAS", "Sweden, Netherlands (long-term CICIG funders)"]
+    }
+  },
+  {
+    "id": 40,
+    "name": "Peru Anti-Boluarte Protests",
+    "outcome_score": 1,
+    "outcome_summary": "Protests demanding new elections and Boluarte's resignation achieved neither outcome. Boluarte remained in power as of 2025 despite calls for resignation. At least 49 protesters were killed by security forces, with deaths concentrated in indigenous Andean regions. The Defensoría del Pueblo (Ombudsman) documented human rights violations. No accountability for deaths. Castillo faces ongoing corruption trials. The protests successfully demonstrated the depth of Lima-vs-regions structural divide but produced no structural change.",
+    "progress_markers": [
+      {"year": 2016, "type": "BUILDUP", "event": "PPK elected; Peru begins 5-president-in-5-years cycle of political instability driven by congressional opposition and corruption"},
+      {"year": 2021, "type": "BUILDUP", "event": "June: Pedro Castillo (rural teacher, union leader from Cajamarca) wins presidential election by narrow margin—first indigenous Andean president; establishment resists from day one"},
+      {"year": 2021, "type": "BUILDUP", "event": "Castillo government faces six cabinet reshuffles in 16 months; Congress initiates two impeachment proceedings; government paralyzed by coalition dysfunction"},
+      {"year": 2022, "type": "TIP", "event": "December 7: Castillo attempts self-coup (dissolve Congress, rule by emergency decree); Congress impeaches him within hours; Boluarte (VP) assumes presidency"},
+      {"year": 2022, "type": "TIP", "event": "December 12 onwards: Mass protests demanding Boluarte resign and new elections; concentrated in southern indigenous regions (Ayacucho, Puno, Cusco)"},
+      {"year": 2022, "type": "SUPPRESSED", "event": "December 15: Ayacucho massacre—10 protesters killed by military; single worst day; Boluarte government declared state of emergency in multiple regions"},
+      {"year": 2023, "type": "SUPPRESSED", "event": "January-February: Ongoing protests; road blockades including Machu Picchu; total death toll reaches 49; international tourism disrupted"},
+      {"year": 2023, "type": "SETBACK", "event": "Congress repeatedly refuses early elections; Boluarte survives despite approval ratings below 15%; protests lose momentum through attrition and repression"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "Inter-American Commission on Human Rights condemns killings; Defensoría del Pueblo documents violations; some accountability cases opened but slow"},
+      {"year": 2024, "type": "ONGOING", "event": "Boluarte still in office; Castillo's trial continues; 2026 elections approaching; Andean communities' structural exclusion unchanged; impunity for protest deaths continues"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "CGTP (General Confederation of Peruvian Workers)", "description": "National union federation that supported protests and called strikes"},
+        {"name": "Asociaciones de Comunidades Campesinas y Nativas (peasant and native community associations)", "description": "Community organizations in Puno, Ayacucho, Cusco that organized and sustained protests in the south"},
+        {"name": "Coordinadora Nacional de Derechos Humanos", "description": "Human rights coalition documenting deaths and demanding accountability"}
+      ],
+      "funders": ["Community self-funded", "International solidarity from indigenous rights networks"],
+      "celebrities": ["Various Peruvian artists who expressed solidarity"],
+      "government_champions": ["Pedro Castillo (imprisoned, still contested symbol of indigenous representation)", "Defensoría del Pueblo (Eliana Revollar, criticized government)"],
+      "corporate_actors": {
+        "villains": ["Mining companies (extraction model represents structural issue)", "Lima media oligarchy that framed protests as terrorism"],
+        "allies": []
+      },
+      "international": ["IACHR", "Amnesty International", "Human Rights Watch", "UN Special Rapporteurs (issued statements)", "Bolivia, Mexico (initially offered Castillo asylum)"]
+    }
+  },
+  {
+    "id": 41,
+    "name": "Honduras Berta Cáceres / COPINH Anti-Dam Movement",
+    "outcome_score": 4,
+    "outcome_summary": "The Agua Zarca dam was canceled in November 2016—a clear, specific win. German company Voith Hydro withdrew, followed by Dutch FMO and Finnish FINNFUND. DESA (dam company) executives were convicted for Cáceres's murder in 2021. Berta Cáceres's assassination paradoxically amplified the movement globally, demonstrating that the murder of Goldman Prize winners creates international accountability pressure. However, Honduras remains the world's most dangerous country for environmental defenders, and the root causes—military-corporate alliance, weak rule of law—remain unchanged.",
+    "progress_markers": [
+      {"year": 2006, "type": "BUILDUP", "event": "Berta Cáceres and COPINH begin organizing Lenca indigenous communities against planned hydroelectric projects on the Gualcarque River (sacred to Lenca people)"},
+      {"year": 2010, "type": "BUILDUP", "event": "Agua Zarca dam concession granted to DESA without FPIC (Free, Prior, Informed Consent) consultation with Lenca communities—violating ILO Convention 169"},
+      {"year": 2011, "type": "BUILDUP", "event": "Post-2009 Honduras coup context: extractive projects accelerate; environmental defenders increasingly targeted; murders documented by FIAN and Global Witness"},
+      {"year": 2013, "type": "MILESTONE", "event": "COPINH organizes sustained community blockade of Agua Zarca dam construction; German company Voith Hydro, Dutch FMO, Finnish FINNFUND are funders—international pressure points identified"},
+      {"year": 2015, "type": "WIN", "event": "April: Berta Cáceres wins Goldman Environmental Prize—maximum international visibility; becomes globally protected figure theoretically"},
+      {"year": 2015, "type": "MILESTONE", "event": "International financial institutions begin receiving pressure from human rights organizations over funding for project despite ongoing violence against COPINH"},
+      {"year": 2016, "type": "TIP", "event": "March 3: Berta Cáceres assassinated in her home in La Esperanza—seven bullets; international shock at murder of Goldman Prize winner"},
+      {"year": 2016, "type": "WIN", "event": "#JusticiaParaBerta goes globally viral; #BertaVive; international calls for investigation and project cancellation; investor withdrawal pressure intensifies"},
+      {"year": 2016, "type": "WIN", "event": "June: Voith Hydro (Germany) withdraws from Agua Zarca citing 'social conflicts'"},
+      {"year": 2016, "type": "WIN", "event": "October: FMO (Netherlands) and FINNFUND (Finland) withdraw financial support"},
+      {"year": 2016, "type": "WIN", "event": "November: Agua Zarca dam officially canceled—COPINH's decade-long campaign wins"},
+      {"year": 2018, "type": "WIN", "event": "DESA manager David Castillo arrested and eventually convicted as co-conspirator in murder; Cáceres family continues international advocacy"},
+      {"year": 2021, "type": "WIN", "event": "Seven DESA company officials convicted for Cáceres murder; corporate accountability for environmental defender murder unprecedented in Honduras"},
+      {"year": 2025, "type": "ONGOING", "event": "Honduras remains world's most dangerous country per capita for environmental defenders; COPINH continues; structural conditions unchanged"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "COPINH (Council of Popular and Indigenous Organizations of Honduras)", "description": "Founded by Berta Cáceres and others in 1993; represents Lenca, Tolupan, and other indigenous communities against extractive projects"},
+        {"name": "FIAN International", "description": "Human rights organization that documented COPINH repression and filed international human rights complaints"},
+        {"name": "Global Witness", "description": "Published annual data on environmental defender killings naming Honduras as world's most dangerous country per capita"}
+      ],
+      "funders": ["Goldman Prize proceeds (Berta's)", "European development agencies (ironically FMO funded the dam initially)", "International indigenous rights funders"],
+      "celebrities": ["Amy Goodman (Democracy Now extensively covered)", "Naomi Klein (solidarity statement)", "Various European MEPs and politicians"],
+      "government_champions": ["German, Dutch, Finnish parliamentarians who pressured their national development banks"],
+      "corporate_actors": {
+        "villains": ["DESA (Desarrollos Energéticos SA)", "Voith Hydro (German company that provided technology)", "FMO (Dutch development bank)", "FINNFUND (Finnish development bank)", "Honduran military involved in intimidation"],
+        "allies": []
+      },
+      "international": ["ILO Convention 169 (violated, cited repeatedly in advocacy)", "IACHR", "UN Special Rapporteur on Human Rights Defenders", "European Parliament (multiple resolutions)"]
+    }
+  },
+  {
+    "id": 42,
+    "name": "Haiti PetroCaribe Anti-Corruption Movement",
+    "outcome_score": 0,
+    "outcome_summary": "The movement correctly identified the systematic theft of PetroCaribe funds and created massive political pressure, but produced no accountability and no structural change. President Moïse survived both protest waves. He was assassinated in July 2021 in an unrelated plot. Haiti descended into gang-controlled chaos by 2022-2024, with an estimated 80% of Port-au-Prince controlled by gangs. The movement diagnosed the problem accurately but accelerated instability without building institutional alternatives, contributing to state collapse.",
+    "progress_markers": [
+      {"year": 2008, "type": "BUILDUP", "event": "PetroCaribe agreement with Venezuela: Haiti can buy oil on deferred payment terms and invest the price difference; billions in development fund accumulates"},
+      {"year": 2013, "type": "BUILDUP", "event": "Haiti's Senate begins investigation into PetroCaribe fund management; preliminary evidence of systematic diversion; no accountability results"},
+      {"year": 2017, "type": "BUILDUP", "event": "Court of Accounts report reveals $2 billion in PetroCaribe funds diverted or missing; names former presidents Préval, Martelly, and ministers"},
+      {"year": 2018, "type": "TIP", "event": "July 6: Government raises fuel prices 51% overnight under IMF pressure; violent protests immediately; fuel price increase reversed within 48 hours by government retreat"},
+      {"year": 2018, "type": "MILESTONE", "event": "#PetroCaribeChallenge: Haitians post ironic social media content asking 'where did the money go?' next to dilapidated infrastructure"},
+      {"year": 2018, "type": "WIN", "event": "February 2019: Prime Minister Jack Guy Lafontant resigns under protest pressure; small accountability step"},
+      {"year": 2019, "type": "TIP", "event": "October: Senate commission releases full report naming former PM Laurent Lamothe and others; street protests demand Moïse resign"},
+      {"year": 2019, "type": "SETBACK", "event": "Peyi lok (country lockdown): protesters blockade roads for weeks; economy collapses; Moïse refuses to resign; parliament suspended"},
+      {"year": 2020, "type": "SUPPRESSED", "event": "COVID-19 suppresses street protests; Moïse governs by decree without parliament; rule-of-law erosion accelerates"},
+      {"year": 2021, "type": "SETBACK", "event": "July 7: Moïse assassinated by mercenaries; country descends into deeper chaos; no accountability for PetroCaribe theft"},
+      {"year": 2022, "type": "SETBACK", "event": "Gang federation G9 controls 80%+ of Port-au-Prince; state institutions collapse; humanitarian crisis reaches catastrophic levels"},
+      {"year": 2024, "type": "SETBACK", "event": "Kenya-led multinational security force arrives; PM Garry Conille resigns; Haiti remains failed state; PetroCaribe theft never prosecuted"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "#PetroCaribeChallenge social media collective", "description": "Decentralized digital movement; no formal leadership; created viral accountability demand"},
+        {"name": "PAPDA (Haitian Platform to Advocate Alternative Development)", "description": "Development advocacy NGO that provided economic analysis of PetroCaribe mismanagement"},
+        {"name": "Haitian progressive churches", "description": "Some progressive Catholic and Protestant congregations that framed corruption in moral terms"}
+      ],
+      "funders": ["No formal funding—grassroots digital movement"],
+      "celebrities": ["Various diaspora Haitian artists and musicians in Miami, New York, Montreal who amplified internationally"],
+      "government_champions": ["Some senators who led PetroCaribe investigation"],
+      "corporate_actors": {
+        "villains": ["Digicel (Sean Combs-associated company received PetroCaribe contracts amid corruption allegations)", "Various construction companies that received inflated contracts"],
+        "allies": []
+      },
+      "international": ["OAS (observer missions)", "US (sanctioned some officials but limited leverage)", "Venezuela (PetroCaribe funder—also politically complicated)"]
+    }
+  },
+  {
+    "id": 43,
+    "name": "Brazil Amazon Defenders / Yanomami Crisis",
+    "outcome_score": 3,
+    "outcome_summary": "Lula's government produced measurable results: Amazon deforestation reduced 50% in 2023 vs. Bolsonaro-era peak; Yanomami humanitarian emergency declared and military deployed; killers of Bruno Pereira and Dom Phillips convicted. However, illegal mining expulsions are incomplete; garimpeiro operations have partially resumed; broader extractive pressures persist. The structural contradiction—Brazil's economy depends partly on Amazon extraction—remains unresolved. The environmental recovery is real but fragile.",
+    "progress_markers": [
+      {"year": 2019, "type": "SETBACK", "event": "Bolsonaro takes office; IBAMA (environmental enforcement) gutted; FUNAI (indigenous affairs) dismantled; Amazon deforestation jumps 80% in first year"},
+      {"year": 2019, "type": "SUPPRESSED", "event": "Environmental advocates, indigenous leaders, and journalists face criminalization; 'red-tagging' of Amazon defenders increases"},
+      {"year": 2020, "type": "SETBACK", "event": "COVID spreads rapidly through indigenous communities (especially Yanomami); federal government ignores crisis; illegal miners flood into Yanomami territory"},
+      {"year": 2021, "type": "MILESTONE", "event": "Amazon deforestation reaches highest level since 2008; deforestation under Bolsonaro cumulatively devastating; international pressure builds"},
+      {"year": 2022, "type": "TIP", "event": "June 5: Indigenous expert Bruno Pereira and British journalist Dom Phillips assassinated in Javari Valley; international shock; case becomes global symbol of Amazon impunity"},
+      {"year": 2022, "type": "WIN", "event": "Killers of Pereira and Phillips arrested; case breaks through international media silence on Amazon defender murders"},
+      {"year": 2023, "type": "WIN", "event": "January 1: Lula inaugurated; immediately declares Yanomami humanitarian emergency; shocking images of malnutrition and disease released (suppressed under Bolsonaro)"},
+      {"year": 2023, "type": "WIN", "event": "IBAMA, ICMBio, FUNAI reactivated with full staff; military deployed to expel illegal miners from Yanomami territory; Amazon deforestation drops 50%"},
+      {"year": 2023, "type": "WIN", "event": "Killers of Bruno Pereira convicted; Bolsonaro faces multiple criminal investigations including for inciting violence against indigenous people"},
+      {"year": 2023, "type": "CONSOLIDATION", "event": "Brazil leads Global Alliance Against Deforestation (GAAD); Amazon Fund reactivated (Norway, Germany contribute $1 billion+); International support for forest protection restored"},
+      {"year": 2024, "type": "SETBACK", "event": "Illegal gold mining partially resumes; some expelled garimpeiros return; budget constraints limit IBAMA enforcement capacity; infrastructure projects (roads, hydropower) continue"},
+      {"year": 2025, "type": "ONGOING", "event": "COP30 in Belém (November 2025) creates global pressure point; Lula government's environmental record mixed but substantially better than predecessor"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "APIB (Articulation of Indigenous Peoples of Brazil)", "description": "National indigenous federation led by Sonia Guajajara (later Minister of Indigenous Peoples); key advocacy and legal voice"},
+        {"name": "Hutukara Yanomami Association", "description": "Yanomami indigenous organization led by Davi Kopenawa; documented crisis and demanded federal action"},
+        {"name": "Instituto Socioambiental (ISA)", "description": "Major environmental and indigenous rights NGO providing documentation, mapping, and policy advocacy"}
+      ],
+      "funders": ["Norwegian government (Amazon Fund)", "German government (Amazon Fund)", "Amazon Conservation Association", "Avaaz, Greenpeace international campaigns"],
+      "celebrities": ["Sonia Guajajara (indigenous leader, later minister)", "Davi Kopenawa Yanomami (global indigenous rights icon)", "Raoni Metuktire (Kayapó chief)"],
+      "government_champions": ["Lula da Silva (president from January 2023)", "Marina Silva (Environment Minister, returned for third term)", "Sonia Guajajara (Minister of Indigenous Peoples)"],
+      "corporate_actors": {
+        "villains": ["Illegal gold mining (garimpeiro) networks with political connections", "Agricultural expansion lobby (bancada ruralista in Congress)", "Timber and cattle ranching interests"],
+        "allies": ["Some European retail companies committing to deforestation-free supply chains"]
+      },
+      "international": ["Amazon Fund (Norway, Germany)", "European Union (Forest Regulation)", "US (rejoined Paris Agreement; climate finance)", "Greenpeace, WWF, Rainforest Alliance"]
+    }
+  },
+  {
+    "id": 44,
+    "name": "Tunisia Arab Spring",
+    "outcome_score": 3,
+    "outcome_summary": "Tunisia achieved the only genuine democratic transition from the Arab Spring—Ben Ali fled, elections were held, a new constitution passed (2014), and the National Dialogue Quartet won the Nobel Peace Prize. However, President Kais Saied conducted a 'soft coup' in July 2021, suspended parliament, and subsequently installed a presidential system through a new constitution (2022) with vastly expanded executive power. Tunisia's democratic experiment lasted roughly 7 years before reverting to soft authoritarianism—making the final score genuinely contested.",
+    "progress_markers": [
+      {"year": 2008, "type": "BUILDUP", "event": "Gafsa mining basin protests (largely ignored internationally) show deep resentment at Ben Ali's economic exclusion of interior regions; brutally suppressed"},
+      {"year": 2010, "type": "BUILDUP", "event": "WikiLeaks cables confirm Ben Ali family corruption to Tunisian public—corroborating what everyone knew; rage over economic conditions building"},
+      {"year": 2010, "type": "TIP", "event": "December 17: Mohamed Bouazizi self-immolates in Sidi Bouzid after police confiscate his vegetable cart; protests begin in interior immediately"},
+      {"year": 2011, "type": "WIN", "event": "January 4: Bouazizi dies; protests intensify; spread to coastal cities"},
+      {"year": 2011, "type": "WIN", "event": "January 14: Ben Ali flees to Saudi Arabia after 23 years in power; 28 days after Bouazizi's self-immolation—fastest any Arab dictator had fallen"},
+      {"year": 2011, "type": "MILESTONE", "event": "October: Free elections; Ennahda (Islamist party) wins plurality; secular fears but democratic process respected—historic"},
+      {"year": 2013, "type": "SETBACK", "event": "Political assassinations (Chokri Belaid, Mohamed Brahmi); Islamist-secular standoff threatens democratic transition; economic stagnation"},
+      {"year": 2014, "type": "WIN", "event": "New constitution adopted with broad consensus—considered most progressive Arab constitution; hybrid presidential-parliamentary system"},
+      {"year": 2015, "type": "WIN", "event": "Nobel Peace Prize awarded to National Dialogue Quartet (UGTT, UTICA, Bar Association, Human Rights League) for brokering Tunisia's democratic transition"},
+      {"year": 2019, "type": "SETBACK", "event": "Kais Saied (anti-establishment, anti-corruption candidate) elected president; economic stagnation continues; democratic institutions weakening"},
+      {"year": 2021, "type": "REVERSAL", "event": "July 25: Saied suspends parliament, fires prime minister, seizes emergency powers—widely described as soft coup; some initial public support due to frustration with parliament"},
+      {"year": 2022, "type": "REVERSAL", "event": "New constitution passed by referendum (low turnout); concentrates power in presidency; effectively ends parliamentary system; opposition boycotts"},
+      {"year": 2024, "type": "ONGOING", "event": "Saied wins re-election (low turnout, opposition arrested); civil society space narrowing; Tunisia's democratic gains substantially reversed"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "UGTT (General Union of Tunisian Workers)", "description": "One of Africa's most powerful independent unions; provided organizational backbone for protests and National Dialogue Quartet"},
+        {"name": "LTDH (Tunisian Human Rights League)", "description": "Oldest human rights organization in Arab world; member of Nobel Prize-winning National Dialogue Quartet"},
+        {"name": "National Dialogue Quartet (UGTT, UTICA, LTDH, Bar Association)", "description": "Four civil society bodies that brokered democratic transition; Nobel Peace Prize 2015"}
+      ],
+      "funders": ["National Democratic Institute (NDE), IRI (US democracy promotion)", "European Union", "UGTT's own membership dues"],
+      "celebrities": ["Bouazizi became global symbol posthumously", "Various Tunisian intellectuals and artists"],
+      "government_champions": ["Moncef Marzouki (first post-Ben Ali president)", "Rached Ghannouchi (Ennahda leader who ultimately respected democratic norms during transition)"],
+      "corporate_actors": {
+        "villains": ["Ben Ali family business networks ('the family')"],
+        "allies": ["UTICA (employers' federation) joined National Dialogue Quartet"]
+      },
+      "international": ["Al Jazeera (critical amplifier)", "IMF (provided loans—conditionality controversial)", "EU (association agreement)", "US (cautious support for democratic transition)"]
+    }
+  },
+  {
+    "id": 45,
+    "name": "Egypt Arab Spring [FAILED TIP]",
+    "outcome_score": 0,
+    "outcome_summary": "Egypt's Arab Spring failed definitively. Mubarak fell (February 2011), democratic elections were held (2012), but military coup (July 2013) returned Egypt to authoritarianism more severe than Mubarak's. Rabaa Massacre (August 14, 2013) killed 800-1,000 Brotherhood supporters in one day. Sisi's Egypt has more political prisoners, more executions, and more surveillance than Mubarak's. This is the canonical failed-tip case: won the battle (Mubarak gone), lost the war (democracy destroyed).",
+    "progress_markers": [
+      {"year": 2010, "type": "BUILDUP", "event": "June: Khaled Said beaten to death by police in Alexandria; 'We Are All Khaled Said' Facebook page (admin Wael Ghonim) accumulates 450,000 members"},
+      {"year": 2011, "type": "TIP", "event": "January 25 'Police Day': Day of Rage called following Tunisia's success; Tahrir Square occupation begins"},
+      {"year": 2011, "type": "WIN", "event": "February 11: Mubarak resigns after 18 days of protests; SCAF (military council) takes power"},
+      {"year": 2011, "type": "SETBACK", "event": "SCAF extends emergency law; attacks on protesters continue; virginity tests on women protesters; 'Parliament' dissolved and reconstituted"},
+      {"year": 2012, "type": "WIN", "event": "June: Mohamed Morsi (Muslim Brotherhood) elected president—first democratic election in Egypt's history"},
+      {"year": 2012, "type": "SETBACK", "event": "November: Morsi issues constitutional declaration granting himself near-absolute power; secular opposition turns against Brotherhood"},
+      {"year": 2013, "type": "TIP", "event": "June 30: Millions protest Morsi government; military issues 48-hour ultimatum"},
+      {"year": 2013, "type": "REVERSAL", "event": "July 3: General Sisi leads military coup; Morsi arrested; military returns to power"},
+      {"year": 2013, "type": "SUPPRESSED", "event": "August 14: Rabaa and Nahda Square massacres—security forces clear pro-Morsi sit-ins; 800-1,000 killed; Human Rights Watch calls it 'crime against humanity'"},
+      {"year": 2014, "type": "SUPPRESSED", "event": "New constitution approved by referendum; Sisi 'elected' president with 96% in low-turnout election; emergency law extended"},
+      {"year": 2015, "type": "SUPPRESSED", "event": "Giulio Regeni (Italian researcher documenting labor organizing) found tortured to death in Cairo; state of human rights catastrophic"},
+      {"year": 2018, "type": "SUPPRESSED", "event": "Sisi 'elected' to second term; only opposition candidate allowed had previously expressed support for Sisi; political space near zero"},
+      {"year": 2025, "type": "ONGOING", "event": "Egypt has 60,000+ political prisoners; journalist Mohamed El-Baqer and Alaa Abd El-Fattah (imprisoned since 2011 revolution); Sisi in third term after constitutional change"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "April 6 Youth Movement", "description": "Labor solidarity movement that organized the January 25 'Day of Rage' call; modeled on Serbian Otpor movement"},
+        {"name": "We Are All Khaled Said (Facebook group)", "description": "450,000-member group administered by Google marketing exec Wael Ghonim; provided organizing infrastructure"},
+        {"name": "Muslim Brotherhood / Freedom and Justice Party", "description": "Best-organized political force in Egypt; ultimately unable to navigate transition between street movement and institutional governance"}
+      ],
+      "funders": ["April 6 activists were mostly self-funded", "Muslim Brotherhood had significant organizational resources"],
+      "celebrities": ["Wael Ghonim (Google exec, human face of revolution)", "Alaa Abd El-Fattah (blogger, imprisoned across multiple presidencies)"],
+      "government_champions": ["Mohamed El-Baradei (Nobel laureate, attempted to bridge factions)"],
+      "corporate_actors": {
+        "villains": ["Mubarak's National Democratic Party business networks", "Sisi's military-economic complex (military owns 40-60% of Egyptian economy)"],
+        "allies": ["Al Jazeera (early coverage, later expelled)"]
+      },
+      "international": ["Al Jazeera (critical amplifier)", "US (ambivalent; suspended some aid briefly then restored)", "Qatar (funded Brotherhood-adjacent forces)", "Saudi Arabia and UAE (backed Sisi coup financially with $12 billion+)"]
+    }
+  },
+  {
+    "id": 46,
+    "name": "Iran Green Movement [FAILED TIP]",
+    "outcome_score": 0,
+    "outcome_summary": "The Green Movement was crushed by September 2009. No electoral reforms resulted. Leaders Mousavi and Karroubi remain under house arrest as of 2025 (14+ years). The movement's networks survived underground and re-emerged in 2019 and 2022 protests. Neda Agha-Soltan's death became a global icon but could not protect the movement from state violence. Iran's political system remained fundamentally unchanged; if anything, IRGC power increased in the wake of the crackdown.",
+    "progress_markers": [
+      {"year": 1997, "type": "BUILDUP", "event": "Khatami elected on reform platform; reformist decade (1997-2005) builds civil society before Ahmadinejad reversal; 'Reformist infrastructure' survives underground"},
+      {"year": 2005, "type": "BUILDUP", "event": "Ahmadinejad wins election (disputed); reformist political space severely constrained; economic mismanagement accelerates; youth frustration builds"},
+      {"year": 2009, "type": "TIP", "event": "June 12: Official results show Ahmadinejad winning with implausible 63% margin; Mousavi and Karroubi supporters immediately dispute; 'Where is my vote?' protests begin same night"},
+      {"year": 2009, "type": "MILESTONE", "event": "June 15: Largest protest in Iranian history since 1979; 3 million marching in Tehran in silence; eerie, disciplined, powerful"},
+      {"year": 2009, "type": "SUPPRESSED", "event": "June 20: Neda Agha-Soltan shot dead on Tehran street; filmed by bystander; video transmitted globally within hours—most documented political killing in history to that point"},
+      {"year": 2009, "type": "SUPPRESSED", "event": "June-September: Basij and IRGC systematically suppresses protests; Kahrizak detention center torture; opposition leaders arrested"},
+      {"year": 2010, "type": "SETBACK", "event": "February 11 (revolution anniversary): Final attempt at protest crushed; movement effectively over as visible force"},
+      {"year": 2011, "type": "SUPPRESSED", "event": "February: Mousavi and Karroubi placed under house arrest (to present, 14+ years) after calling for sympathy protests with Arab Spring"},
+      {"year": 2019, "type": "MILESTONE", "event": "November: Fuel price protests (40% overnight increase); regime kills 1,500+ in 4 days—shows the continuity of repressive capacity but also underground resistance"},
+      {"year": 2022, "type": "MILESTONE", "event": "Mahsa Amini protests (Case #47) demonstrate Green Movement's legacy—same networks, same generation's children; movement was suppressed but not destroyed"},
+      {"year": 2025, "type": "ONGOING", "event": "Mousavi and Karroubi still under house arrest; no accountability for 2009 crackdown; Green Movement's organizational networks survive as underground infrastructure"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Mir Hossein Mousavi's campaign network", "description": "Presidential campaign infrastructure became protest organizational backbone; decentralized but recognizable"},
+        {"name": "Reformist political networks (Mojahedin of the Islamic Revolution, Islamic Iran Participation Front)", "description": "Underground organizational infrastructure maintaining connections between protest waves"},
+        {"name": "Digital activists using early Twitter, SMS, proxy servers", "description": "Twitter delayed maintenance for the Green Movement; proxy networks enabled communication despite internet filtering"}
+      ],
+      "funders": ["Self-funded from reform movement donor base", "International human rights organizations for documentation"],
+      "celebrities": ["Neda Agha-Soltan (posthumous global symbol)", "Various Iranian artists and musicians in diaspora"],
+      "government_champions": ["Mir Hossein Mousavi (Green Movement leader, imprisoned)", "Mehdi Karroubi (Green Movement co-leader, imprisoned)"],
+      "corporate_actors": {
+        "villains": ["IRGC (Islamic Revolutionary Guard Corps) ran crackdown and Evin Prison", "Basij (voluntary militia that conducted street-level violence)"],
+        "allies": ["Twitter (delayed maintenance to allow movement communication—minor but symbolically noted)"]
+      },
+      "international": ["Amnesty International", "Human Rights Watch", "US State Department", "EU (statements, limited sanctions)"]
+    }
+  },
+  {
+    "id": 47,
+    "name": "Iran Mahsa Amini Protests",
+    "outcome_score": 1,
+    "outcome_summary": "The protests were the largest and most sustained challenge to the Islamic Republic since 1979. The slogan 'Woman, Life, Freedom' became global. But the regime survived, and no structural political change resulted. The Guidance Patrol was briefly suspended then reinstated in new form with enhanced technology (cameras, phones). New hijab enforcement legislation (stricter) was passed in 2023. 551+ protesters were killed; 19,000+ arrested; several protesters executed. 'Woman, Life, Freedom' lives as a global frame but failed to change the Iranian state.",
+    "progress_markers": [
+      {"year": 2019, "type": "BUILDUP", "event": "November: Fuel price protests; regime kills 1,500+ in 96 hours; demonstrates repressive capacity but also depth of societal anger—precondition for 2022"},
+      {"year": 2022, "type": "BUILDUP", "event": "Summer: Hijab protests already escalating; activist Sepideh Rashno arrested for not wearing hijab; widespread solidarity even from non-political women"},
+      {"year": 2022, "type": "TIP", "event": "September 13: Mahsa (Zhina) Amini arrested by Guidance Patrol for 'improper hijab'; September 16: Dies in custody"},
+      {"year": 2022, "type": "TIP", "event": "September 16-20: Protests begin at Kasra Hospital, Amini's family outside; spread to Saqqez (her hometown) and rapidly nationwide"},
+      {"year": 2022, "type": "MILESTONE", "event": "'Jin, Jiyan, Azadî' (Woman, Life, Freedom) in Kurdish becomes movement's global slogan—Kurdish feminist origins of the slogan honored; amplified as universal feminist frame"},
+      {"year": 2022, "type": "MILESTONE", "event": "Female students remove hijabs in schools and universities; high school girls burning headscarves publicly; unprecedented defiance across generations"},
+      {"year": 2022, "type": "SUPPRESSED", "event": "October-December: Security forces kill 551+ protesters; IRGC and Basij use live ammunition; Baloch and Kurdish protesters disproportionately targeted"},
+      {"year": 2022, "type": "PARTIAL-WIN", "event": "Guidance Patrol (morality police) announced 'suspended' by Attorney General November 2022—never officially confirmed, operationally reduced briefly"},
+      {"year": 2023, "type": "SUPPRESSED", "event": "Four protesters executed by Iran for alleged crimes committed during protests; dozens more on death row; thousands still imprisoned"},
+      {"year": 2023, "type": "REVERSAL", "event": "New Hijab and Chastity law passed June 2023—harsher penalties than before; cars with unveiled women can be impounded; businesses can be closed"},
+      {"year": 2024, "type": "SUPPRESSED", "event": "Guidance Patrol reinstated under new 'Noor' (Light) plan using CCTV cameras; AI-assisted enforcement; repression continues with technology upgrade"},
+      {"year": 2025, "type": "ONGOING", "event": "'Woman, Life, Freedom' lives as global feminist frame; networks inside Iran maintain quiet resistance; no structural political change; Khamenei still Supreme Leader"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "No centralized leadership—deliberately leaderless", "description": "Decentralized coordination through Signal, Telegram, VPN-accessed Instagram; leaderless structure prevented decapitation but also limited escalation strategy"},
+        {"name": "1420 Telegram channel", "description": "Major coordination and documentation channel with 7 million+ subscribers during peak protests"},
+        {"name": "Iran Human Rights (IHR)", "description": "Oslo-based NGO that documented casualty counts and named victims; most reliable international source"}
+      ],
+      "funders": ["Iranian diaspora globally (extensive)", "International human rights organizations"],
+      "celebrities": ["Massive international diaspora celebrity support (Iranian film directors, musicians, athletes)", "Nazanin Boniadi (actress, became major international spokesperson)"],
+      "government_champions": ["No domestic government champions in a theocracy"],
+      "corporate_actors": {
+        "villains": ["IRGC (Islamic Revolutionary Guard Corps)", "Basij militia", "Telecommunications companies that cooperated with internet shutdowns"],
+        "allies": []
+      },
+      "international": ["UN Human Rights Council (special session)", "EU (sanctioned IRGC as terrorist organization—unprecedented)", "US (expanded sanctions)", "Amnesty International", "FIFA (Iran played World Cup during protests; team complicated relationship with movement)"]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Lebanon Thawra (October Revolution)",
+    "outcome_score": 0,
+    "outcome_summary": "Lebanon's October Revolution failed to produce any structural political change. PM Hariri resigned but sectarian system continued. COVID then the Beirut Port Explosion (August 4, 2020—218 killed, 300,000 homeless) further devastated the country. By 2021-2022, Lebanon had the world's highest inflation rate and 90%+ poverty rate. Political class remained unchanged; Hezbollah's political influence continued; no new constitution was drafted. The movement correctly diagnosed Lebanon's terminal kleptocracy and could not cure it.",
+    "progress_markers": [
+      {"year": 2015, "type": "BUILDUP", "event": "#YouStink garbage crisis movement demonstrates mass mobilization capacity but achieves only limited concessions; establishes civil society activist generation"},
+      {"year": 2019, "type": "BUILDUP", "event": "Economic crisis worsens through 2019; electricity cuts 20 hours/day in some areas; bank dollar withdrawals restricted; government hasn't passed budget in 10 years"},
+      {"year": 2019, "type": "TIP", "event": "October 17: WhatsApp tax announcement ($0.20/day) + government failure to fight Shouf forest fire triggers spontaneous street explosions simultaneously across the country"},
+      {"year": 2019, "type": "MILESTONE", "event": "Human chain across entire country—first time in Lebanese history citizens physically connected from Tripoli to Tyre despite sectarian geography"},
+      {"year": 2019, "type": "WIN", "event": "October 29: PM Hariri resigns—first visible concession from political class"},
+      {"year": 2019, "type": "MILESTONE", "event": "'Kellun ya3ne kellun' (All of them means all of them) becomes movement's demand for complete political class replacement; unprecedented cross-sectarian solidarity"},
+      {"year": 2019, "type": "SETBACK", "event": "Hezbollah and Amal supporters attack protest camps in Beirut; sectarian factions try to contain or discredit movement"},
+      {"year": 2020, "type": "SUPPRESSED", "event": "January: Banks continue restricting withdrawals; economic collapse accelerates; COVID lockdowns suppress protests in March-April"},
+      {"year": 2020, "type": "SETBACK", "event": "August 4: Beirut Port Explosion—2,750 tons of ammonium nitrate stored unsafely for 6 years; 218 killed; 7,000 wounded; 300,000 homeless"},
+      {"year": 2020, "type": "SETBACK", "event": "Post-explosion rage briefly revives protests but political class survives; Hassan Diab government resigns; no accountability for explosion"},
+      {"year": 2021, "type": "SETBACK", "event": "Lebanese pound loses 90%+ of value; bank accounts effectively wiped out; poverty rate reaches 78%; World Bank describes as 'deliberate depression'"},
+      {"year": 2022, "type": "ONGOING", "event": "Judge Tarek Bitar's Beirut blast investigation repeatedly sabotaged; politicians face immunity claims; Lebanon remains in political stalemate"},
+      {"year": 2024, "type": "ONGOING", "event": "Joseph Aoun elected president January 2025 (after 2-year vacuum)—very small progress; sectarian system essentially unchanged; no accountability for explosion or economic collapse"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "No formal organization—explicitly leaderless", "description": "Rejection of political parties and NGOs as compromised; civil society groups like LiHaqqi and Minteshreen coordinated tactically"},
+        {"name": "LiHaqqi (For My Rights)", "description": "Electoral reform organization that tried to convert Thawra energy into 2022 election campaigns; had limited success"},
+        {"name": "Lawyers' syndicate and professional unions", "description": "Provided some organizational infrastructure; staged their own strikes"}
+      ],
+      "funders": ["Self-funded; some diaspora support for protest logistics"],
+      "celebrities": ["Ziad Rahbani (iconic musician, supported)", "Various Lebanese artists and intellectuals"],
+      "government_champions": ["Judge Tarek Bitar (Beirut blast investigator, repeatedly targeted)", "A handful of reform-minded MPs"],
+      "corporate_actors": {
+        "villains": ["Lebanese banking sector (Riad Salameh, central bank governor, under investigation for $330 million fraud)", "Fuel importers (cartel operating amid subsidies)", "Electricity holding companies with political connections"],
+        "allies": []
+      },
+      "international": ["France (Macron flew to Beirut post-explosion; CEDRE conference funding)", "IMF (negotiations deadlocked due to political obstruction)", "World Bank (published devastating assessment of Lebanon's 'deliberate depression')", "Amnesty International"]
+    }
+  },
+  {
+    "id": 49,
+    "name": "Israel Judicial Reform Protests",
+    "outcome_score": 2,
+    "outcome_summary": "The protests successfully delayed the judicial overhaul for approximately 9 months—a tactical win. The first reform element (eliminating the 'reasonableness' standard) was passed in July 2023 but struck down by the Supreme Court in January 2024 (13-0 vote). October 7, 2023 Hamas attacks suspended the protest movement as the country went to war. By 2025, the Netanyahu government is pursuing judicial reform through different mechanisms under cover of wartime. The democratic crisis was delayed, not resolved.",
+    "progress_markers": [
+      {"year": 2022, "type": "BUILDUP", "event": "November: Netanyahu returns to power with most right-wing coalition in Israeli history; Itamar Ben-Gvir and Bezalel Smotrich in cabinet; judicial overhaul announced"},
+      {"year": 2023, "type": "TIP", "event": "January 7: Judicial overhaul package announced; first protests begin; legal experts warn of fundamental damage to democratic checks"},
+      {"year": 2023, "type": "MILESTONE", "event": "January-March: Saturday night protests grow from tens of thousands to 100,000+ weekly; 'brothers and sisters' framing; IDF reserve pilots announce strike"},
+      {"year": 2023, "type": "TIP", "event": "March 26: Netanyahu fires Defense Minister Gallant who warned judicial overhaul threatening military readiness; 400,000 protest Ayalon Highway in spontaneous response"},
+      {"year": 2023, "type": "WIN", "event": "March 27: Netanyahu announces 'pause' of judicial overhaul—first major concession; business sector, defense community pressure was decisive"},
+      {"year": 2023, "type": "SETBACK", "event": "July: Knesset passes first element of overhaul (eliminating 'reasonableness' standard) despite resumed protests; Netanyahu resumes package"},
+      {"year": 2023, "type": "SETBACK", "event": "October 7: Hamas attacks; 1,200 killed; 250 hostages taken; country goes to war; protest movement suspended"},
+      {"year": 2023, "type": "PARTIAL-WIN", "event": "November: War cabinet formed; emergency coalition dilutes far-right influence temporarily"},
+      {"year": 2024, "type": "WIN", "event": "January: Supreme Court strikes down reasonableness law 13-0; Netanyahu government refuses to comply—constitutional crisis"},
+      {"year": 2024, "type": "ONGOING", "event": "Judicial reform pursuit continues through other legislative tracks; Netanyahu under ICC warrant; protest movement partially resumes around hostage deal and democratic concerns"},
+      {"year": 2025, "type": "ONGOING", "event": "Democratic crisis ongoing; government replacing attorney generals and state prosecutors; judicial independence under sustained attack; wartime conditions suppress full protest revival"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Brothers in Arms (Achim L'Neshek)", "description": "Military reserve soldiers' organization; their refusal to serve drill threat was the single most powerful leverage point of the movement"},
+        {"name": "Kaplan Force", "description": "Tel Aviv-centered protest organization that coordinated the mass weekly demonstrations"},
+        {"name": "UnXeptable", "description": "High-tech sector protest group; organized tech industry opposition including threats to move capital offshore"}
+      ],
+      "funders": ["Tech industry donors", "Liberal diaspora donations", "Grassroots crowdfunding"],
+      "celebrities": ["Yuval Noah Harari (historian, prominent voice)", "Various Israeli tech executives", "Former military chiefs of staff"],
+      "government_champions": ["Yair Lapid (opposition leader)", "Benny Gantz (joined war cabinet, later left)", "Yoav Gallant (Defense Minister who was fired for speaking out)"],
+      "corporate_actors": {
+        "villains": ["Netanyahu government and coalition partners (Likud, Religious Zionist Party, Otzma Yehudit)", "Yariv Levin (Justice Minister, architect of overhaul)"],
+        "allies": ["High-tech sector (collectively warned of capital flight)", "Israeli Bar Association", "Bank of Israel (warned of economic consequences)"]
+      },
+      "international": ["US State Department (expressed 'concern')", "European Union", "German, British, French foreign ministers made statements", "American Jewish community (deeply divided; liberal orgs opposed reform)"]
+    }
+  },
+  {
+    "id": 50,
+    "name": "Jordan Bread Protests",
+    "outcome_score": 2,
+    "outcome_summary": "The protests achieved their immediate demand—PM Hani Mulki resigned and the tax bill was withdrawn for revision. But Jordan's structural economic problems remain: IMF conditions continue, youth unemployment persists, and inequality has not been addressed. The withdrawal was tactical; a modified tax law was subsequently passed. The Jordan protests demonstrate how economic-shock protests can extract concessions from regimes that maintain legitimacy through material distribution, without producing structural reform. The professional unions' cross-class mobilization was a genuine innovation.",
+    "progress_markers": [
+      {"year": 2011, "type": "BUILDUP", "event": "Arab Spring reaches Jordan; modest protests; King Abdullah announces reform program; some constitutional amendments; protest movement contained through modest concessions"},
+      {"year": 2016, "type": "BUILDUP", "event": "Jordan negotiates 3-year IMF Extended Fund Facility ($723 million); austerity measures begin; fuel and food subsidies reduced; cost of living rising"},
+      {"year": 2018, "type": "BUILDUP", "event": "April-May: IMF pushes income tax law reform as condition for continued support; draft law would double tax rates for middle class; professional unions organize opposition"},
+      {"year": 2018, "type": "TIP", "event": "May 30: General strike by 33 trade unions; June 1: Midnight fuel price increase triggers immediate street protests"},
+      {"year": 2018, "type": "MILESTONE", "event": "June 1-4: Unprecedented scenes—lawyers, doctors, engineers leading protests alongside workers and poor; 'We want to bring down the government' chant in Amman"},
+      {"year": 2018, "type": "WIN", "event": "June 4: PM Hani Mulki resigns; Omar Razzaz appointed; Razzaz announces intention to withdraw income tax bill"},
+      {"year": 2018, "type": "WIN", "event": "June 7: King Abdullah accepts withdrawal of income tax bill for further consultation; protests cease; movement wins tactical demand"},
+      {"year": 2019, "type": "SETBACK", "event": "Modified income tax law passed with some revisions; IMF structural adjustment continues; underlying conditions unchanged"},
+      {"year": 2020, "type": "SETBACK", "event": "COVID-19 economic shock compounds austerity; IMF provides additional support with further conditionality; Jordan's debt-to-GDP exceeds 110%"},
+      {"year": 2022, "type": "ONGOING", "event": "Professional unions continue to be major political voice; teachers' union protests 2022 suppressed; some gains in civil society space"},
+      {"year": 2024, "type": "ONGOING", "event": "Jordan's economy dependent on Gulf aid and US/IMF support; structural reform stalled; professional unions remain best-organized civil society sector"}
+    ],
+    "key_actors": {
+      "lead_orgs": [
+        {"name": "Professional Associations Council (PAC)", "description": "Umbrella coordinating body for Jordan's 14 professional unions (lawyers, doctors, engineers, pharmacists, etc.)—strongest civil society institutional force in Jordan"},
+        {"name": "General Federation of Jordanian Trade Unions (GFJTU)", "description": "National labor federation that called the general strike and provided labor protest infrastructure"},
+        {"name": "Hirak (Popular Movement)", "description": "Youth movement networks that coordinated street protests; emerged from 2011 Arab Spring organizing"}
+      ],
+      "funders": ["Professional union membership dues funded organizing", "No external funding identified"],
+      "celebrities": ["Various Jordanian public intellectuals and journalists"],
+      "government_champions": ["Omar Razzaz (incoming PM who agreed to withdraw bill)"],
+      "corporate_actors": {
+        "villains": ["IMF (external conditionality driving austerity)", "Gulf state creditors who supported the IMF program"],
+        "allies": []
+      },
+      "international": ["IMF (paradoxically both the cause of protests and the institution Jordan must negotiate with)", "World Bank", "US bilateral aid", "Gulf Cooperation Council (Saudi Arabia, UAE—major donors)"]
+    }
+  }
+]
