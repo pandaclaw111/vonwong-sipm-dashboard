@@ -1,2 +1,9 @@
 *.lock
 *.deleted
+*.log
+reports/
+cases_backup.json
+apply_verification.py
+verify_76_100.py
+node_modules/
+

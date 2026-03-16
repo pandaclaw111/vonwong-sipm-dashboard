@@ -1,0 +1,566 @@
+[
+  {
+    "id": 200,
+    "name": "Global Plastics Treaty (INC-5.4 Negotiations)",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Plastic Pollution",
+    "description": "The UN Intergovernmental Negotiating Committee (INC) is working toward a legally binding global plastics treaty covering the full plastic lifecycle. After stalled negotiations at INC-5.1 (Busan, Nov 2024) and INC-5.2 (Geneva, Aug 2025) and the resignation of the chair, a new chair (Julio Cordano of Chile) was elected at the procedural INC-5.3 session on Feb 7, 2026. Substantive negotiations are expected to resume at INC-5.4 (date/location TBD, likely mid-2026).",
+    "whyNow": "Negotiations are at a critical inflection point: a new chair has been elected after months of obstruction, and civil society is pushing hard for a reset with an ambitious, legally binding treaty that addresses plastic production, not just waste. The INC-5.4 session is the next major make-or-break moment before the process loses all momentum. Petrochemical industry and 'high-ambition' coalition states are in direct conflict.",
+    "ncrs": {
+      "tipping_threshold": 7,
+      "conformity_trap_risk": 4,
+      "benefit_visibility": 8,
+      "penalty_reduction": 7,
+      "broad_angle_potential": 9,
+      "leader_persistence": 6,
+      "overall_readiness": 41,
+      "rationale": "Broad public concern about plastic pollution translates well visually. High benefit visibility (ocean plastics, microplastics in food). Risk of conformity trap is moderate since negotiating positions are polarized. Broad angle potential is very high — touches ocean, health, climate, Global South justice, corporate accountability. Artist activation (e.g., Von Wong's work) fits naturally."
+    },
+    "wefCategory": "Environmental",
+    "timeline": [
+      {"year": 2022, "type": "BUILDUP", "event": "UNEA-5.2 adopts resolution to develop global plastics treaty; INC process launched"},
+      {"year": 2024, "type": "BUILDUP", "event": "INC-4 in Ottawa; high-ambition coalition forms; petrochemical bloc obstructs"},
+      {"year": 2024, "type": "BUILDUP", "event": "INC-5.1 in Busan collapses without agreement on production caps"},
+      {"year": 2025, "type": "BUILDUP", "event": "INC-5.2 in Geneva also stalls; chair resigns"},
+      {"year": 2026, "type": "BUILDUP", "event": "INC-5.3 (Feb 7, Geneva): procedural session elects new chair, Julio Cordano"},
+      {"year": 2026, "type": "TIP", "event": "INC-5.4: substantive negotiations resume (date/location TBD, mid-2026)"}
+    ],
+    "keyOrgs": [
+      {"name": "Center for International Environmental Law (CIEL)", "url": "https://www.ciel.org"},
+      {"name": "UNEP INC Secretariat", "url": "https://www.unep.org/inc-plastic-pollution"},
+      {"name": "Break Free From Plastic", "url": "https://www.breakfreefromplastic.org"},
+      {"name": "WWF Plastics Campaign", "url": "https://wwf.panda.org/act/plastic_pollution_treaty/"},
+      {"name": "High Ambition Coalition to End Plastic Pollution", "url": "https://hactoendplasticpollution.org"}
+    ],
+    "regulatoryWindow": "INC-5.4 (mid-2026, TBD) is the next formal negotiation session. Without progress, treaty momentum may collapse entirely. Window for civil society pressure is open NOW ahead of scheduling and text finalization.",
+    "slogans": ["#EndPlasticPollution", "#TurnOffTheTap", "Break Free From Plastic", "#PlasticsTreaty", "No Plastic Produced = No Plastic Polluted"],
+    "sources": [
+      {"title": "INC-5.3 Concludes with Election of New Plastics Treaty Chair - CIEL", "url": "https://www.ciel.org/news/inc-5-3-reaction/", "verified": true, "source_note": "First-hand civil society reaction to INC-5.3"},
+      {"title": "UNEP INC Plastic Pollution Hub", "url": "https://www.unep.org/inc-plastic-pollution", "verified": true, "source_note": "Official UNEP treaty process page"},
+      {"title": "INC-5.3 status search result", "url": "https://www.iisd.org/articles/explainer/inc5.3-global-plastics-treaty-talks-why-meeting-matters", "verified": true, "source_note": "IISD explainer on INC-5.3 stakes"},
+      {"title": "WWF Global Plastics Treaty", "url": "https://wwf.panda.org/act/plastic_pollution_treaty/a_global_treaty/", "verified": true, "source_note": "WWF campaign framing and positions"}
+    ],
+    "cross_movement_links": [
+      {"id": 1, "name": "Ocean Plastics Movement (Von Wong et al)", "relationship": "Direct overlap — visual art activism around plastics is already established; INC-5.4 is prime activation moment"},
+      {"id": 2, "name": "Climate Justice Movement", "relationship": "Production-cap framing connects petrochemical industry accountability to fossil fuel phase-out"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 201,
+    "name": "BBNJ High Seas Treaty — First COP",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Ocean Governance / Biodiversity",
+    "description": "The UN High Seas Treaty (BBNJ Agreement — Biodiversity Beyond National Jurisdiction) entered into force on January 17, 2026, after 60 countries ratified. It creates the first legal framework to protect marine biodiversity in international waters covering ~50% of Earth's surface. The first Conference of Parties (COP1) must be held within one year of entry into force (i.e., by January 2027), with Preparatory Commission meetings in 2026 establishing institutional architecture.",
+    "whyNow": "COP1 will set the rules for marine protected areas, environmental impact assessments, and benefit-sharing of marine genetic resources for decades. Civil society has a narrow window to shape the treaty's implementation mechanisms before they are locked in. The 30x30 ocean protection target (protecting 30% of the ocean by 2030) requires urgent designation of high seas MPAs starting now.",
+    "ncrs": {
+      "tipping_threshold": 6,
+      "conformity_trap_risk": 5,
+      "benefit_visibility": 7,
+      "penalty_reduction": 6,
+      "broad_angle_potential": 8,
+      "leader_persistence": 7,
+      "overall_readiness": 39,
+      "rationale": "Treaty is now law — 'we won, now what?' is a powerful mobilization frame. Benefit visibility is strong via ocean imagery. Conformity trap moderate (technocratic process can demobilize). Broad angle potential high — ocean covers climate, biodiversity, food security, Global South benefit-sharing, deep-sea mining opposition."
+    },
+    "wefCategory": "Environmental",
+    "timeline": [
+      {"year": 2023, "type": "BUILDUP", "event": "BBNJ Agreement text finalized in March after 20 years of negotiations"},
+      {"year": 2025, "type": "BUILDUP", "event": "60th ratification reached September 19, 2025"},
+      {"year": 2026, "type": "TIP", "event": "Treaty enters into force January 17, 2026 — legally binding"},
+      {"year": 2026, "type": "BUILDUP", "event": "PrepCom session 3: March 23–April 2, 2026 (Geneva) — institutional rules being set"},
+      {"year": 2026, "type": "TIP", "event": "BBNJ COP1: to be held by January 2027 — designates first high seas MPAs"}
+    ],
+    "keyOrgs": [
+      {"name": "High Seas Alliance (250+ NGOs)", "url": "https://highseasalliance.org"},
+      {"name": "Ocean Conservancy", "url": "https://oceanconservancy.org"},
+      {"name": "World Resources Institute — Oceans", "url": "https://www.wri.org/insights/high-seas-treaty-explainer"},
+      {"name": "OceanCare", "url": "https://www.oceancare.org"},
+      {"name": "For the Ocean", "url": "https://for-the-ocean.org/making-the-high-seas-treaty-work/"}
+    ],
+    "regulatoryWindow": "PrepCom 3 (March 23–April 2, 2026) and COP1 (by Jan 2027) are key institutional windows. MPA nominations and benefit-sharing rules being written NOW. Deep-sea mining moratorium advocacy is critical leverage point.",
+    "slogans": ["#HighSeasTreaty", "#30x30", "#ProtectTheHighSeas", "The Ocean is Ours", "#BBNJnow"],
+    "sources": [
+      {"title": "Historic High Seas Treaty Enters Into Force - High Seas Alliance", "url": "https://highseasalliance.org/2026/01/16/historic-high-seas-treaty-enters-into-force-launching-a-new-era-of-global-ocean-governance/", "verified": true, "source_note": "Official announcement from lead coalition"},
+      {"title": "After 20 Years, High Seas Agreement Takes Force - WRI", "url": "https://www.wri.org/insights/high-seas-treaty-explainer", "verified": true, "source_note": "Comprehensive explainer on treaty mechanics"},
+      {"title": "BBNJ Agreement — Ocean Care", "url": "https://www.oceancare.org/en/stories_and_news/bbnj-enters-into-force/", "verified": true, "source_note": "Civil society celebration and next steps"},
+      {"title": "Harvard BBNJ Treaty Resource", "url": "https://bbnj-mgr.fas.harvard.edu/bbnj-treaty", "verified": true, "source_note": "Academic resource on treaty text and governance"}
+    ],
+    "cross_movement_links": [
+      {"id": 200, "name": "Global Plastics Treaty", "relationship": "Both concern ocean health; BBNJ treaty's EIA requirements cover deep-sea plastic impacts"},
+      {"id": 3, "name": "30x30 Biodiversity Campaign", "relationship": "BBNJ COP1 is the primary vehicle for achieving the 30% ocean protection target under Kunming-Montreal"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑↑"
+  },
+  {
+    "id": 202,
+    "name": "COP31 — Climate Justice & Fossil Fuel Phase-Out",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Climate Change",
+    "description": "The 31st UN Climate Conference (COP31) will be hosted in Antalya, Turkey, November 9–20, 2026, with Australia as President of Negotiations and a Pacific pre-COP co-hosted by Australia and Pacific island nations. This COP is the first major climate check-in after the 2025 Global Stocktake, and is expected to pressure countries to update their Nationally Determined Contributions (NDCs) for 2035 targets. The sequence of Global South/Pacific-facing COPs (Brazil 2025, Turkey/Pacific 2026, Africa 2027) creates momentum for climate justice framing.",
+    "whyNow": "Australia's presidency creates tension: a coal-exporting nation leading climate negotiations. Civil society is mobilizing to demand Australia prove climate leadership through domestic fossil fuel phase-out, strong climate finance, and Pacific-centered ambition. The Loss and Damage Fund, NDC ambition, and fossil fuel non-proliferation treaty are key pressure points. Youth movements and Pacific island voices amplified.",
+    "ncrs": {
+      "tipping_threshold": 8,
+      "conformity_trap_risk": 6,
+      "benefit_visibility": 7,
+      "penalty_reduction": 7,
+      "broad_angle_potential": 9,
+      "leader_persistence": 8,
+      "overall_readiness": 45,
+      "rationale": "High tipping threshold — COP events reliably generate global media and street mobilization. Australia presidency contradiction is a potent narrative hook. Pacific islands provide high emotional stakes. Broad angle potential very high: fossil fuels, finance, justice, Indigenous rights. Fridays for Future, 350.org, AYCC, and Pacific Climate Warriors all active."
+    },
+    "wefCategory": "Environmental",
+    "timeline": [
+      {"year": 2023, "type": "BUILDUP", "event": "First Global Stocktake shows world off track on Paris Agreement targets"},
+      {"year": 2025, "type": "BUILDUP", "event": "COP30 Belem, Brazil: updated NDCs due; Loss and Damage fund operationalized"},
+      {"year": 2026, "type": "BUILDUP", "event": "Pre-COP in Pacific (date TBD): Pacific nations and Australia co-lead leaders' event"},
+      {"year": 2026, "type": "TIP", "event": "COP31 in Antalya, Turkey (Nov 9–20): NDC 2035 targets, climate finance, fossil fuel phase-out"},
+      {"year": 2027, "type": "BUILDUP", "event": "COP32 in Africa: pressure on African climate finance and just transition"}
+    ],
+    "keyOrgs": [
+      {"name": "WWF Australia", "url": "https://wwf.org.au/what-we-do/climate/cop31-australias-opportunity/"},
+      {"name": "Australian Youth Climate Coalition (AYCC)", "url": "https://www.aycc.org.au"},
+      {"name": "350.org Pacific", "url": "https://350.org"},
+      {"name": "Pacific Climate Warriors", "url": "https://www.pacificclimatewarriors.org"},
+      {"name": "Fossil Fuel Non-Proliferation Treaty Initiative", "url": "https://fossilfueltreaty.org"},
+      {"name": "Loss and Damage Collaboration", "url": "https://www.lossanddamagecollaboration.org"}
+    ],
+    "regulatoryWindow": "NDC submission deadline (Feb 2025 passed; next major round 2035 targets due by COP31). Loss and Damage Fund capitalization, $1.3 trillion climate finance goal under NCQG are active negotiation items.",
+    "slogans": ["#COP31", "#FossilFuelPhaseOut", "#LossAndDamage", "#PacificsCOP", "#ClimateJustice", "1.5 to Survive", "Pacific Climate Warriors"],
+    "sources": [
+      {"title": "COP31 Host Announced — WWF Australia", "url": "https://wwf.org.au/what-we-do/climate/cop31-australias-opportunity/", "verified": true, "source_note": "WWF campaign framing and civil society goals"},
+      {"title": "COP31 Road to Antalya — UNFCCC", "url": "https://unfccc.int/cop31/the-road-to-antalya", "verified": true, "source_note": "Official UNFCCC COP31 page"},
+      {"title": "Australia COP31 President of Negotiations — IISD", "url": "https://sdg.iisd.org/events/2026-un-climate-change-conference-unfccc-cop-31/", "verified": true, "source_note": "Conference details and civil society context"},
+      {"title": "Climate Action Week Sydney 2026", "url": "https://www.caw.sydney/", "verified": true, "source_note": "March 9–15, 2026 mobilization event in Australia"}
+    ],
+    "cross_movement_links": [
+      {"id": 203, "name": "Loss and Damage Fund Mobilization", "relationship": "COP31 is primary venue for scaling up L&D finance commitments"},
+      {"id": 4, "name": "Fridays for Future", "relationship": "Global climate strikes historically peak around COP cycles"}
+    ],
+    "deployWindow": "prepare",
+    "trajectory": "↑↑"
+  },
+  {
+    "id": 203,
+    "name": "Loss and Damage Fund — Civil Society Mobilization",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Climate Finance / Climate Justice",
+    "description": "The Fund for Responding to Loss and Damage (FRLD), established at COP27 (2022) and operationalized at COP28, is the world's first dedicated mechanism to compensate developing nations for climate harms they did not cause. Civil society is demanding at least $400 billion/year in disbursements through the FRLD, and $724 billion in new grants under the New Collective Quantified Goal (NCQG) by 2030. The Baku to Belém Roadmap to $1.3 trillion in climate finance is the overarching goal.",
+    "whyNow": "The FRLD Board is operationalizing direct access, governance, and eligibility rules right now in 2026. Early Board decisions will determine whether the fund reaches frontline communities or gets captured by multilateral bureaucracy. The Loss and Damage Youth Coalition (900+ members, 70+ countries) is a rising mobilization force. Climate litigation and human rights framing are converging with loss and damage advocacy.",
+    "ncrs": {
+      "tipping_threshold": 7,
+      "conformity_trap_risk": 5,
+      "benefit_visibility": 8,
+      "penalty_reduction": 8,
+      "broad_angle_potential": 8,
+      "leader_persistence": 7,
+      "overall_readiness": 43,
+      "rationale": "High penalty reduction — developing countries bearing existential climate costs are a potent injustice narrative. Benefit visibility strong (Pacific islands, Bangladesh, Small Island States). Youth coalition provides sustained energy. Broad angle: colonial justice, climate finance, accountability, human rights all converge."
+    },
+    "wefCategory": "Geopolitical",
+    "timeline": [
+      {"year": 2022, "type": "BUILDUP", "event": "COP27 establishes Loss and Damage Fund after decades of developing country advocacy"},
+      {"year": 2023, "type": "BUILDUP", "event": "COP28 operationalizes fund; pledges total ~$800M (far below need)"},
+      {"year": 2024, "type": "BUILDUP", "event": "FRLD Board begins work; civil society demands direct access and grant-based finance"},
+      {"year": 2025, "type": "BUILDUP", "event": "COP30 Belem: Baku to Belém $1.3T roadmap agreed; NCQG includes L&D sub-goal"},
+      {"year": 2026, "type": "TIP", "event": "FRLD Board sessions: direct access rules, country eligibility, and first grants being decided"},
+      {"year": 2026, "type": "TIP", "event": "COP31 Antalya: pressure to scale capitalization to $400B/year target"}
+    ],
+    "keyOrgs": [
+      {"name": "Loss and Damage Collaboration", "url": "https://www.lossanddamagecollaboration.org"},
+      {"name": "Loss and Damage Youth Coalition (LDYC)", "url": "https://ldyouth.org"},
+      {"name": "Climate Action Network International", "url": "https://climatenetwork.org"},
+      {"name": "Oxfam Climate Finance", "url": "https://www.oxfam.org/en/tags/climate-finance"},
+      {"name": "Fund for Responding to Loss and Damage (FRLD)", "url": "https://www.frld.org"}
+    ],
+    "regulatoryWindow": "FRLD Board sessions in 2026 are setting direct access rules and first disbursement mechanisms. COP31 (Nov 2026) is the next major capitalization pressure point. Window to embed civil society participation in Board governance is NOW.",
+    "slogans": ["#LossAndDamage", "#PayUpForClimateJustice", "#ClimateJustice", "#1p3T", "Who Pays? The Polluters Pay", "#BakuToBelem"],
+    "sources": [
+      {"title": "Loss and Damage Finance Project — L&DC", "url": "https://www.lossanddamagecollaboration.org/loss-and-damage-finance-project", "verified": true, "source_note": "Primary civil society advocacy hub on L&D finance"},
+      {"title": "FRLD Board — Official Fund Site", "url": "https://www.frld.org/board", "verified": true, "source_note": "Official Fund for Responding to Loss and Damage"},
+      {"title": "Loss and Damage Youth Coalition", "url": "https://ldyouth.org", "verified": true, "source_note": "900+ member youth coalition across 70+ countries"}
+    ],
+    "cross_movement_links": [
+      {"id": 202, "name": "COP31 Climate Justice", "relationship": "L&D Fund capitalization is a central demand at COP31 Antalya"},
+      {"id": 5, "name": "Pacific Climate Warriors", "relationship": "Pacific island nations are primary beneficiaries and strongest advocates for the fund"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 204,
+    "name": "WHO Pandemic Accord — Ratification & Implementation",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Global Health / Health Equity",
+    "description": "The WHO Pandemic Agreement (Accord) was agreed in principle at the WHO Intergovernmental Negotiating Body (INB) in April 2025 and adopted at the World Health Assembly in May 2025. It is now in the ratification phase in 2026. Civil society celebrated the deal as a 'first step' but criticized diluted provisions on intellectual property, technology transfer, and access to medical countermeasures — key COVID-19 lessons. The accord must now be ratified by member states and implementation mechanisms developed.",
+    "whyNow": "The accord's effectiveness depends entirely on how ambiguous provisions on IP waivers, pathogen sharing (PABS system), and equitable access are interpreted in implementing regulations. Big Pharma lobbied hard to weaken the text; now civil society must push governments to implement strongly. US withdrawal from negotiations (under Trump) has weakened the accord's enforcement architecture. Ratification race and implementation standard-setting are the active battlegrounds in 2026.",
+    "ncrs": {
+      "tipping_threshold": 7,
+      "conformity_trap_risk": 6,
+      "benefit_visibility": 7,
+      "penalty_reduction": 8,
+      "broad_angle_potential": 8,
+      "leader_persistence": 7,
+      "overall_readiness": 43,
+      "rationale": "COVID-19 remains in public memory; 'never again' framing resonates strongly. High penalty reduction — millions died due to vaccine inequity. Pharma vs. people framing is compelling. Conformity trap risk elevated in technocratic WHO process. Broad angle: health equity, pharmaceutical accountability, IP reform, Global South rights."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2021, "type": "BUILDUP", "event": "WHO member states launch negotiations for Pandemic Treaty post-COVID-19"},
+      {"year": 2024, "type": "BUILDUP", "event": "US blocks progress; negotiations repeatedly stall on IP and access"},
+      {"year": 2025, "type": "BUILDUP", "event": "April 2025: consensus text agreed at INB; US has withdrawn from process"},
+      {"year": 2025, "type": "TIP", "event": "May 2025: World Health Assembly adopts Pandemic Agreement"},
+      {"year": 2026, "type": "BUILDUP", "event": "Ratification campaign by member states; PABS (pathogen sharing) implementing regulations"},
+      {"year": 2026, "type": "TIP", "event": "WHA79 (May 2026): review of implementation progress, pressure on ambiguous provisions"}
+    ],
+    "keyOrgs": [
+      {"name": "People's Medicines Alliance (formerly People's Vaccine Alliance)", "url": "https://peoplesmedicines.org"},
+      {"name": "Médecins Sans Frontières (MSF) Access Campaign", "url": "https://www.msf.org/access-medicines"},
+      {"name": "Oxfam Health", "url": "https://www.oxfam.org/en/what-we-do/issues/health"},
+      {"name": "Third World Network", "url": "https://www.twn.my"},
+      {"name": "WHO INB Secretariat", "url": "https://www.who.int/teams/covid-19/origins-studies/inb"}
+    ],
+    "regulatoryWindow": "WHA79 (May 2026) is the next major WHO governance moment. PABS implementing agreement negotiations are ongoing in 2026. Annex to the Accord on IP waiver mechanisms requires member state action — this is the active battleground.",
+    "slogans": ["#PandemicTreaty", "#PeoplesVaccine", "#HealthEquity", "#NoMorePandemicProfiteering", "People's Medicines Not Corporate Profits", "#NeverAgain"],
+    "sources": [
+      {"title": "WHO Pandemic Agreement 'Must Only Be the First Step' — People's Medicines Alliance", "url": "https://peoplesmedicines.org/resources/media-releases/who-pandemic-agreement-must-only-be-the-first-step/", "verified": true, "source_note": "Civil society reaction to April 2025 agreement with background on history"},
+      {"title": "WHO INB negotiations — WHO news item April 2025", "url": "https://www.who.int/news/item/16-04-2025-who-member-states-conclude-negotiations-and-make-significant-progress-on-draft-pandemic-agreement", "verified": true, "source_note": "Official WHO announcement of agreement"},
+      {"title": "People's Medicines Alliance", "url": "https://peoplesmedicines.org", "verified": true, "source_note": "Lead civil society coalition on pandemic accord equity"}
+    ],
+    "cross_movement_links": [
+      {"id": 6, "name": "COVID-19 Vaccine Equity Movement", "relationship": "Pandemic accord is the institutional legacy of People's Vaccine Alliance campaign during COVID-19"},
+      {"id": 7, "name": "Right to Health Movement", "relationship": "Accord provisions on equitable access directly tie to ICESCR right-to-health obligations"}
+    ],
+    "deployWindow": "prepare",
+    "trajectory": "↑"
+  },
+  {
+    "id": 205,
+    "name": "Stop Killer Robots — Autonomous Weapons Treaty",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Disarmament / AI Ethics",
+    "description": "The Stop Killer Robots coalition (274+ organizations) is campaigning for a binding international treaty to ban fully autonomous weapons systems ('killer robots') that can select and attack targets without human control. The UN General Assembly's First Committee adopted resolutions on autonomous weapons for three consecutive years (2023, 2024, 2025), with the November 2025 resolution expressing concern about 'consequences and impact of autonomous weapon systems.' A growing bloc of states has signaled readiness to start treaty negotiations, expected to accelerate in 2026.",
+    "whyNow": "AI-driven autonomous targeting is being deployed in active conflicts (Gaza, Ukraine), making the issue viscerally urgent. A UNGA resolution in November 2025 showed growing state consensus. The UN Secretary-General has called these weapons 'morally repugnant.' The REAIM summit process and Conference on Disarmament (CD) are potential venues for negotiations in 2026. Civil society is pushing for formal mandate to negotiate a binding treaty — the window is 2026–2027.",
+    "ncrs": {
+      "tipping_threshold": 7,
+      "conformity_trap_risk": 4,
+      "benefit_visibility": 8,
+      "penalty_reduction": 9,
+      "broad_angle_potential": 9,
+      "leader_persistence": 8,
+      "overall_readiness": 45,
+      "rationale": "Extremely high penalty reduction — autonomous weapons represent existential threat to human dignity and civilian safety. Very high broad angle: AI ethics, military accountability, racial bias in targeting algorithms, international humanitarian law. Low conformity trap — movement has clear binary demand (ban/don't ban). High visual/emotional impact for activist art framing."
+    },
+    "wefCategory": "Technological",
+    "timeline": [
+      {"year": 2013, "type": "BUILDUP", "event": "Stop Killer Robots coalition launched"},
+      {"year": 2023, "type": "BUILDUP", "event": "UNGA First Committee adopts first-ever resolution on autonomous weapons systems"},
+      {"year": 2025, "type": "BUILDUP", "event": "REAIM summit (Responsible AI in Military Domain); UNGA resolution adopted third year running (Nov 2025)"},
+      {"year": 2026, "type": "TIP", "event": "Conference on Disarmament sessions (Jan–March 2026 Geneva): states push for formal treaty mandate"},
+      {"year": 2026, "type": "TIP", "event": "Growing state bloc signals readiness for binding negotiations; UNGA vote expected again Nov 2026"},
+      {"year": 2027, "type": "BUILDUP", "event": "Formal treaty negotiations potentially begin if state consensus reached"}
+    ],
+    "keyOrgs": [
+      {"name": "Stop Killer Robots", "url": "https://stopkillerrobots.org"},
+      {"name": "Human Rights Watch — Arms", "url": "https://www.hrw.org/topic/arms"},
+      {"name": "Amnesty International — Arms Control", "url": "https://www.amnesty.org/en/what-we-do/arms-control/"},
+      {"name": "Article 36", "url": "https://article36.org"},
+      {"name": "PAX Netherlands", "url": "https://paxforpeace.nl"}
+    ],
+    "regulatoryWindow": "Conference on Disarmament (Jan–Mar 2026, Geneva), First Committee UNGA (Oct–Nov 2026). 2026 is the critical year for escalating from resolutions to formal treaty negotiations mandate.",
+    "slogans": ["#StopKillerRobots", "#BanKillerRobots", "Less Autonomy More Humanity", "#LAWS", "Keep a Human In The Loop", "#MilitaryAI"],
+    "sources": [
+      {"title": "Stop Killer Robots — News and Campaign Updates", "url": "https://stopkillerrobots.org/news/", "verified": true, "source_note": "Coalition news including UNGA resolution Nov 2025 and REAIM"},
+      {"title": "Stop Killer Robots Homepage", "url": "https://stopkillerrobots.org", "verified": true, "source_note": "Coalition of 274+ organizations"},
+      {"title": "Stop Killer Robots — Why We Exist", "url": "https://stopkillerrobots.org/stop-killer-robots/", "verified": true, "source_note": "Campaign mission including UN SG quote"}
+    ],
+    "cross_movement_links": [
+      {"id": 8, "name": "AI Governance Movement", "relationship": "Autonomous weapons are the highest-stakes test case for AI accountability and international law"},
+      {"id": 9, "name": "Palestine Solidarity Movement", "relationship": "AI-targeting in Gaza has catalyzed grassroots demand for killer robot ban from conflict zones"}
+    ],
+    "deployWindow": "prepare",
+    "trajectory": "↑↑"
+  },
+  {
+    "id": 206,
+    "name": "CSW70 — Women's Access to Justice",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Gender Equality / Women's Rights",
+    "description": "The 70th Session of the Commission on the Status of Women (CSW70), held March 9–19, 2026 at UN Headquarters, is the UN's largest annual gathering on gender equality. The priority theme is 'Ensuring and strengthening access to justice for all women and girls, including by promoting inclusive and equitable legal systems, eliminating discriminatory laws, policies, and practices, and addressing structural barriers.' Over 10,000 delegates from government, civil society, and NGOs attend. Agreed Conclusions from CSW70 will guide global gender policy.",
+    "whyNow": "The session happens at a moment of sharp global backlash against gender rights — rollback of abortion rights, femicide crises in Latin America, rollback of LGBTQ+ protections. The 'access to justice' theme directly engages legal system reform, discriminatory laws, and structural barriers. The review theme (women's participation in public life from CSW65) creates accountability for 5-year commitments. This is a prime moment for feminist activists to set the global agenda.",
+    "ncrs": {
+      "tipping_threshold": 6,
+      "conformity_trap_risk": 5,
+      "benefit_visibility": 7,
+      "penalty_reduction": 8,
+      "broad_angle_potential": 8,
+      "leader_persistence": 7,
+      "overall_readiness": 41,
+      "rationale": "High penalty reduction — impunity for gender-based violence and discriminatory laws affect billions. Strong cross-regional solidarity (Latin America femicide, South Asian child marriage, African FGM, Western abortion rights rollback). Broad angle bridges legal reform, economic justice, healthcare access, climate vulnerability. Conformity trap risk via over-formalization."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2021, "type": "BUILDUP", "event": "CSW65: Agreed Conclusions on women's participation in public life — 5-year review at CSW70"},
+      {"year": 2024, "type": "BUILDUP", "event": "Femicide crisis in Latin America; Dobbs decision aftermath in US; global feminist organizing"},
+      {"year": 2026, "type": "TIP", "event": "CSW70 (March 9–19, 2026, New York): largest annual global gathering on gender equality"},
+      {"year": 2026, "type": "BUILDUP", "event": "Agreed Conclusions adopted — global policy commitments on justice systems"}
+    ],
+    "keyOrgs": [
+      {"name": "UN Women", "url": "https://www.unwomen.org"},
+      {"name": "DAWN (Development Alternatives with Women for a New Era)", "url": "https://dawnnet.org"},
+      {"name": "Feminist Green New Deal coalition", "url": "https://feministgreennewdeal.com"},
+      {"name": "Women's Major Group", "url": "https://www.womensmajogroup.org"},
+      {"name": "AWID (Association for Women's Rights in Development)", "url": "https://www.awid.org"}
+    ],
+    "regulatoryWindow": "CSW70 Agreed Conclusions (adopted March 19, 2026) establish 5-year global policy benchmarks on women's access to justice. Implementation reviews begin immediately. Key window to embed strong language on reproductive rights, GBV legal accountability, and Indigenous women's rights.",
+    "slogans": ["#CSW70", "#FeministFuture", "#WomensRights", "#EndFemicide", "#GenderJustice", "#AccessToJustice"],
+    "sources": [
+      {"title": "CSW70 2026 — UN Women", "url": "https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women/csw70-2026", "verified": true, "source_note": "Official UN Women page with themes, bureau, and NGO participation"},
+      {"title": "Commission on the Status of Women 70th Session — ECOSOC", "url": "https://ecosoc.un.org/en/events/2026/commission-status-women", "verified": true, "source_note": "Official ECOSOC event page"}
+    ],
+    "cross_movement_links": [
+      {"id": 10, "name": "Global Femicide Crisis Campaign", "relationship": "CSW70 access-to-justice theme directly addresses impunity for femicide in Latin America and beyond"},
+      {"id": 11, "name": "Reproductive Rights Movement", "relationship": "CSW70 is a key venue for advancing SRHR commitments in the face of global rollbacks"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 207,
+    "name": "UN Permanent Forum on Indigenous Issues (UNPFII 25) — Health in Conflict",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Indigenous Rights / Health",
+    "description": "The 25th Session of the UN Permanent Forum on Indigenous Issues (UNPFII 25) meets April 20–May 1, 2026 at UN Headquarters with the theme 'Ensuring Indigenous Peoples' health, including in the context of conflict.' This brings together Indigenous delegates, member states, and UN agencies to address Indigenous health rights intersecting with armed conflict, climate displacement, and territorial dispossession. Pre-sessional expert group meeting (Dec 2025) focused on nomadic and semi-nomadic peoples, climate crisis, and biodiversity governance.",
+    "whyNow": "Multiple ongoing crises intersect: Gaza conflict, Sudan, Myanmar, and Canada residential school health legacy. The theme explicitly connects health, conflict, and territorial rights — a powerful convergence for Indigenous peoples facing extractive industries and climate displacement simultaneously. UNPFII recommendations carry formal status in UN system and can influence BBNJ, CBD, UNFCCC, and INC plastics processes.",
+    "ncrs": {
+      "tipping_threshold": 5,
+      "conformity_trap_risk": 5,
+      "benefit_visibility": 7,
+      "penalty_reduction": 9,
+      "broad_angle_potential": 8,
+      "leader_persistence": 7,
+      "overall_readiness": 41,
+      "rationale": "Very high penalty reduction — Indigenous communities face disproportionate colonial health harms, conflict violence, and climate impacts. Broad angle: health equity, territorial rights, Free Prior Informed Consent (FPIC), biodiversity, mining rights. Tipping threshold moderate — UNPFII less public-facing than COPs but high advocacy leverage."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2007, "type": "BUILDUP", "event": "UN Declaration on the Rights of Indigenous Peoples (UNDRIP) adopted"},
+      {"year": 2023, "type": "BUILDUP", "event": "Kunming-Montreal GBF includes Indigenous Peoples in biodiversity governance"},
+      {"year": 2025, "type": "BUILDUP", "event": "Pre-sessional expert group meeting on climate/biodiversity/territorial rights (Dec 2025, virtual)"},
+      {"year": 2026, "type": "TIP", "event": "UNPFII 25 (April 20–May 1, 2026): Health + conflict theme with formal UN recommendations"},
+      {"year": 2026, "type": "BUILDUP", "event": "Recommendations feed into CBD COP, BBNJ COP1, and HLPF SDG reviews"}
+    ],
+    "keyOrgs": [
+      {"name": "UN Permanent Forum on Indigenous Issues (UNPFII)", "url": "https://social.desa.un.org/issues/indigenous-peoples/unpfii"},
+      {"name": "International Indigenous Peoples Forum on Climate Change (IIPFCC)", "url": "https://indigenousclimateportal.com"},
+      {"name": "Cultural Survival", "url": "https://www.culturalsurvival.org"},
+      {"name": "Forest Peoples Programme", "url": "https://www.forestpeoples.org"},
+      {"name": "Asia Indigenous Peoples Pact (AIPP)", "url": "https://aippnet.org"}
+    ],
+    "regulatoryWindow": "UNPFII 25 recommendations (May 2026) formally submitted to ECOSOC and UN agencies. These influence the BBNJ PrepCom, CBD COP, and HLPF SDG reviews in 2026. Free Prior Informed Consent (FPIC) operationalization in extractive and climate projects is the key battleground.",
+    "slogans": ["#UNPFII25", "#IndigenousRights", "#FPIC", "#NothingAboutUsWithoutUs", "#IndigenousHealth", "#TerritorialRights"],
+    "sources": [
+      {"title": "UNPFII 25th Session — UN DESA", "url": "https://social.desa.un.org/issues/indigenous-peoples/unpfii/25th-session", "verified": true, "source_note": "Official UNPFII 25 page with theme, agenda, and preparatory work"}
+    ],
+    "cross_movement_links": [
+      {"id": 200, "name": "Global Plastics Treaty", "relationship": "Indigenous communities on frontlines of plastic pollution; FPIC applies to plastic waste processing facilities"},
+      {"id": 201, "name": "BBNJ High Seas Treaty", "relationship": "Indigenous coastal and maritime communities must be included in high seas MPA governance under BBNJ"}
+    ],
+    "deployWindow": "prepare",
+    "trajectory": "↑"
+  },
+  {
+    "id": 208,
+    "name": "Global Digital Compact — AI Governance Implementation",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Digital Governance / AI",
+    "description": "The Global Digital Compact (GDC), adopted at the UN Summit of the Future (September 2024), is a comprehensive framework for digital cooperation and AI governance. The UN Office for Digital and Emerging Technologies (ODET) is now implementing it, including the AI Governance framework. 2026 is the first full year of GDC implementation, with civil society pushing for meaningful inclusion in AI governance forums, regulation of surveillance technologies, and bridging the digital divide.",
+    "whyNow": "The GDC's AI provisions are being operationalized exactly as generative AI's social impacts are peaking. The ITU's AI for Good Global Summit (July 7–10, 2026, Geneva) is a major convergence point. The gap between GDC commitments on digital inclusion and surveillance state realities in the Global South is a growing pressure point. Civil society is fighting to prevent GDC from becoming a pro-industry document.",
+    "ncrs": {
+      "tipping_threshold": 6,
+      "conformity_trap_risk": 7,
+      "benefit_visibility": 6,
+      "penalty_reduction": 7,
+      "broad_angle_potential": 8,
+      "leader_persistence": 6,
+      "overall_readiness": 40,
+      "rationale": "High conformity trap risk — AI governance processes tend toward technocratic capture. Broad angle potential very high: affects labor, surveillance, democracy, education, healthcare, military. Benefit visibility moderate but improving as AI impacts become tangible. Penalty reduction strong re: surveillance, algorithmic bias, digital colonialism."
+    },
+    "wefCategory": "Technological",
+    "timeline": [
+      {"year": 2005, "type": "BUILDUP", "event": "World Summit on Information Society (WSIS) — 20-year review due in 2025"},
+      {"year": 2024, "type": "TIP", "event": "Global Digital Compact adopted at Summit of the Future (September 22, 2024)"},
+      {"year": 2025, "type": "BUILDUP", "event": "WSIS+20 review process; ODET established as UN AI governance body"},
+      {"year": 2026, "type": "TIP", "event": "AI for Good Global Summit (July 7–10, 2026, Geneva): first major GDC implementation review"},
+      {"year": 2026, "type": "BUILDUP", "event": "Internet Governance Forum 2026: civil society input on GDC implementation"},
+      {"year": 2027, "type": "BUILDUP", "event": "GDC first progress review at UN General Assembly"}
+    ],
+    "keyOrgs": [
+      {"name": "UN Office for Digital and Emerging Technologies (ODET)", "url": "https://www.un.org/digital-emerging-technologies"},
+      {"name": "Association for Progressive Communications (APC)", "url": "https://www.apc.org"},
+      {"name": "Access Now", "url": "https://www.accessnow.org"},
+      {"name": "Algorithm Watch", "url": "https://algorithmwatch.org"},
+      {"name": "Global Partners Digital", "url": "https://www.gp-digital.org"}
+    ],
+    "regulatoryWindow": "GDC implementation began January 2026. AI for Good Summit (July 2026) is first major accountability checkpoint. Internet Governance Forum 2026 will feature civil society GDC monitoring. Key window to shape AI governance norms before they calcify.",
+    "slogans": ["#GlobalDigitalCompact", "#AIGovernance", "#DigitalJustice", "#TechForPeople", "#AIAccountability", "#DigitalRights"],
+    "sources": [
+      {"title": "Global Digital Compact — UN ODET", "url": "https://www.un.org/digital-emerging-technologies/global-digital-compact", "verified": true, "source_note": "Official UN GDC page with adopted text link"},
+      {"title": "AI for Good Global Summit 2026 — ITU", "url": "https://aiforgood.itu.int/summit26/", "verified": true, "source_note": "July 7–10, 2026, Geneva — primary AI governance implementation event"}
+    ],
+    "cross_movement_links": [
+      {"id": 205, "name": "Stop Killer Robots", "relationship": "Military AI governance is the most urgent test case for GDC AI accountability provisions"},
+      {"id": 12, "name": "Data Rights / Surveillance Capitalism Movement", "relationship": "GDC's data governance provisions are key battleground for civil liberties vs. surveillance state interests"}
+    ],
+    "deployWindow": "watch",
+    "trajectory": "↑"
+  },
+  {
+    "id": 209,
+    "name": "UNCCD COP17 — Land Degradation and Desertification",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Land Rights / Desertification",
+    "description": "The 17th Conference of the Parties to the UN Convention to Combat Desertification (UNCCD COP17) will be held in Ulaanbaatar, Mongolia, August 17–28, 2026. It focuses on land degradation, drought resilience, and desertification affecting over 3.2 billion people globally. This COP arrives at a critical moment as the UNCCD's Land Degradation Neutrality (LDN) targets approach the 2030 deadline and droughts intensify from climate change.",
+    "whyNow": "The global land degradation crisis affects more people than any other environmental crisis yet receives far less funding and attention than climate or biodiversity. Mongolia hosting shifts the spotlight to Central Asian nomadic communities and the devastating impact of dzud (extreme cold and snow events). Civil society is pushing for recognition of land rights, pastoralist communities, and the connection between land degradation and forced migration.",
+    "ncrs": {
+      "tipping_threshold": 5,
+      "conformity_trap_risk": 5,
+      "benefit_visibility": 6,
+      "penalty_reduction": 7,
+      "broad_angle_potential": 7,
+      "leader_persistence": 6,
+      "overall_readiness": 36,
+      "rationale": "Lower profile than climate/biodiversity COPs but strong regional significance. Mongolia hosting creates unique opportunity for Central Asian/nomadic peoples' rights framing. Broad angle: food security, migration, Indigenous land rights, climate adaptation. Penalty reduction strong for pastoral communities facing existential threat."
+    },
+    "wefCategory": "Environmental",
+    "timeline": [
+      {"year": 2015, "type": "BUILDUP", "event": "Land Degradation Neutrality (LDN) targets set as part of SDG 15"},
+      {"year": 2022, "type": "BUILDUP", "event": "UNCCD COP15 in Abidjan: 'Land is Life' declaration, drought protocol negotiations begin"},
+      {"year": 2024, "type": "BUILDUP", "event": "UNCCD COP16 in Riyadh: drought resilience framework and land rights advocacy"},
+      {"year": 2026, "type": "TIP", "event": "UNCCD COP17 in Ulaanbaatar, Mongolia (Aug 17–28): LDN progress review, drought treaty, pastoralist rights"},
+      {"year": 2030, "type": "BUILDUP", "event": "LDN 2030 targets deadline — Land Degradation Neutrality must be achieved"}
+    ],
+    "keyOrgs": [
+      {"name": "UNCCD Secretariat", "url": "https://www.unccd.int"},
+      {"name": "World Agroforestry (ICRAF)", "url": "https://www.worldagroforestry.org"},
+      {"name": "International Land Coalition", "url": "https://www.landcoalition.org"},
+      {"name": "IUCN Drylands", "url": "https://www.iucn.org"},
+      {"name": "Global Mechanism (UNCCD)", "url": "https://www.unccd.int/actions/global-mechanism"}
+    ],
+    "regulatoryWindow": "COP17 (Aug 2026) is the primary decision point for UNCCD drought protocol finalization, LDN progress review, and land rights commitments. Mongolia hosting creates unique opportunity for Central Asian nomadic communities' rights advocacy.",
+    "slogans": ["#UNCCDCOP17", "#LandIsLife", "#FightDesertification", "#DroughtResilience", "#LandDegradation", "#RestoreLand"],
+    "sources": [
+      {"title": "UNCCD COP17 — UN Calendar 2026", "url": "https://www.ungeneva.org/en/news-media/calendar-major-meetings", "verified": true, "source_note": "Official UN calendar confirming COP17 dates and location"},
+      {"title": "UNCCD Convention to Combat Desertification", "url": "https://www.unccd.int", "verified": true, "source_note": "Official UNCCD website"}
+    ],
+    "cross_movement_links": [
+      {"id": 202, "name": "COP31 Climate Justice", "relationship": "Droughts and desertification are intensifying climate impacts; LDN targets linked to Paris temperature goals"},
+      {"id": 207, "name": "UN Permanent Forum on Indigenous Issues", "relationship": "Nomadic and pastoralist peoples featured in UNPFII 25 also affected by UNCCD land degradation"}
+    ],
+    "deployWindow": "watch",
+    "trajectory": "↑"
+  },
+  {
+    "id": 210,
+    "name": "HLPF 2026 — SDG Accountability (Water, Energy, Cities)",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Sustainable Development / SDGs",
+    "description": "The High-level Political Forum on Sustainable Development (HLPF 2026) meets July 6–15, 2026 at UN Headquarters under the theme 'Transformative, equitable, innovative and coordinated actions for the 2030 Agenda.' It will conduct in-depth reviews of SDGs 6 (water), 7 (energy), 9 (infrastructure/innovation), 11 (cities), and 17 (partnerships). 36 countries will present Voluntary National Reviews (VNRs). With 4 years to the 2030 SDG deadline, this is a critical accountability moment.",
+    "whyNow": "The SDG midpoint (2023 SDG Summit) showed the world drastically off track — only 17% of SDG targets are on course. HLPF 2026 is the major follow-up accountability moment specifically for water, energy, and cities — three SDGs critical to climate adaptation and urban equity. Civil society is using this to push accountability for governments' broken promises and advocate for SDG-aligned financing.",
+    "ncrs": {
+      "tipping_threshold": 5,
+      "conformity_trap_risk": 7,
+      "benefit_visibility": 6,
+      "penalty_reduction": 6,
+      "broad_angle_potential": 7,
+      "leader_persistence": 5,
+      "overall_readiness": 36,
+      "rationale": "HLPF tends toward diplomatic process capture, hence high conformity trap risk. However, SDG accountability framing has strong resonance with development NGOs, youth movements, and Global South advocates. Water and cities themes have clear benefit visibility. Four years to 2030 creates urgency framing."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2015, "type": "BUILDUP", "event": "SDGs adopted as part of 2030 Agenda"},
+      {"year": 2023, "type": "BUILDUP", "event": "SDG Summit at UNGA: midpoint review shows 17% of targets on track"},
+      {"year": 2026, "type": "TIP", "event": "HLPF 2026 (July 6–15, NY): in-depth reviews of SDG 6,7,9,11,17; 36 country VNRs"},
+      {"year": 2027, "type": "BUILDUP", "event": "SDG Summit 2027 at UNGA: major accountability moment"},
+      {"year": 2030, "type": "TIP", "event": "SDG deadline — global assessment of progress"}
+    ],
+    "keyOrgs": [
+      {"name": "UN DESA HLPF Secretariat", "url": "https://hlpf.un.org/2026"},
+      {"name": "SDG Action Campaign", "url": "https://www.sdgactioncampaign.org"},
+      {"name": "Global Policy Forum", "url": "https://www.globalpolicy.org"},
+      {"name": "Women's Major Group SDGs", "url": "https://www.womensmajogroup.org"},
+      {"name": "Together 2030 (CSO SDG platform)", "url": "https://together2030.net"}
+    ],
+    "regulatoryWindow": "HLPF 2026 Ministerial Declaration (July 15, 2026) and country VNRs create accountability benchmarks. SDG Investment Fair (April 20–24, 2026) and ECOSOC Youth Forum (April 14–16, 2026) are pre-HLPF mobilization moments.",
+    "slogans": ["#HLPF2026", "#SDGs2030", "#LeaveNoOneBehind", "#WaterForAll", "#UrbanJustice", "#CleanEnergyForAll"],
+    "sources": [
+      {"title": "HLPF 2026 — Official UN Page", "url": "https://hlpf.un.org/2026", "verified": true, "source_note": "Official HLPF 2026 page with theme, SDG reviews, and VNR list"},
+      {"title": "UN 2026 Academic Calendar", "url": "https://www.un.org/en/academic-impact/2026-calendar-selected-united-nations-events", "verified": true, "source_note": "Full 2026 UN events calendar"}
+    ],
+    "cross_movement_links": [
+      {"id": 203, "name": "Loss and Damage Fund", "relationship": "Climate finance for L&D is prerequisite for achieving SDG 6, 11, and 13 in vulnerable countries"},
+      {"id": 204, "name": "WHO Pandemic Accord", "relationship": "SDG 3 (health) implementation linked to pandemic accord commitments on equitable access"}
+    ],
+    "deployWindow": "watch",
+    "trajectory": "→"
+  },
+  {
+    "id": 211,
+    "name": "Universal Periodic Review (UPR) — Human Rights Accountability Cycles",
+    "region": "Global",
+    "year": 2026,
+    "issue": "Human Rights",
+    "description": "The Universal Periodic Review (UPR) is the UN mechanism reviewing every country's human rights record in rotating cycles. In 2026, three sessions (January, May, November) will review 42 countries including Australia, France, Germany, Saudi Arabia, and many Global South states. Civil society organizations submit 'stakeholder reports' that directly influence state recommendations. UPR findings are used by advocates to hold governments accountable domestically.",
+    "whyNow": "With global human rights backsliding — from LGBTQ+ rights rollbacks to crackdowns on environmental defenders — UPR 2026 provides concrete leverage mechanisms. Australia under review in January 2026 (as it holds COP31 presidency) creates a unique accountability moment. CSOs are coordinating to use UPR recommendations on climate, Indigenous rights, and gender to pressure governments with formal UN findings.",
+    "ncrs": {
+      "tipping_threshold": 4,
+      "conformity_trap_risk": 6,
+      "benefit_visibility": 5,
+      "penalty_reduction": 8,
+      "broad_angle_potential": 7,
+      "leader_persistence": 6,
+      "overall_readiness": 36,
+      "rationale": "Strong penalty reduction mechanism — UPR creates formal UN accountability for human rights violations. Lower tipping threshold as UPR is less visible to public. High broad angle — covers climate rights, Indigenous rights, gender, civil liberties, and economic rights under one mechanism. Conformity trap risk of over-institutionalization."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2006, "type": "BUILDUP", "event": "UPR mechanism established by UN Human Rights Council"},
+      {"year": 2026, "type": "TIP", "event": "UPR Session 51 (January 2026): Australia, Austria, Georgia, Lebanon, Nepal, Rwanda reviewed"},
+      {"year": 2026, "type": "TIP", "event": "UPR Session 52 (May 2026): Saudi Arabia, France, Germany and others under review"},
+      {"year": 2026, "type": "TIP", "event": "UPR Session 53 (November 2026): Another 14 states reviewed"}
+    ],
+    "keyOrgs": [
+      {"name": "UPR Info NGO", "url": "https://upr-info.org"},
+      {"name": "Amnesty International", "url": "https://www.amnesty.org/en/what-we-do/un-human-rights-mechanisms/"},
+      {"name": "Human Rights Watch", "url": "https://www.hrw.org/topic/human-rights-review"},
+      {"name": "CIVICUS", "url": "https://civicus.org"},
+      {"name": "Global Coalition to Protect Education from Attack (GCPEA)", "url": "https://protectingeducation.org"}
+    ],
+    "regulatoryWindow": "UPR stakeholder submissions due 6-8 months before each session. January 2026 session (Australia under review): leverage moment given COP31 presidency. May 2026 session: key G7 countries. All three 2026 sessions are active civil society engagement windows.",
+    "slogans": ["#UPR2026", "#HumanRightsReview", "#HoldGovernmentsAccountable", "#UPR51", "#HumanRights"],
+    "sources": [
+      {"title": "UPR Info — 2026 States Under Review", "url": "https://upr-info.org/en", "verified": true, "source_note": "UPR 2026 timeline and countries under review for all three sessions"},
+      {"title": "UPR Info NGO", "url": "https://upr-info.org", "verified": true, "source_note": "Lead NGO on UPR capacity-building and advocacy"}
+    ],
+    "cross_movement_links": [
+      {"id": 202, "name": "COP31 Climate Justice", "relationship": "Australia's UPR review (Jan 2026) creates accountability for climate commitments alongside COP31 presidency"},
+      {"id": 207, "name": "UN Permanent Forum on Indigenous Issues", "relationship": "UNDRIP implementation is tracked through UPR recommendations across all state reviews"}
+    ],
+    "deployWindow": "watch",
+    "trajectory": "→"
+  }
+]

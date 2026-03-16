@@ -1,0 +1,539 @@
+[
+  {
+    "id": 250,
+    "name": "Alberta Sovereignty & Separation Movement",
+    "region": "Canada — Alberta",
+    "year": 2026,
+    "issue": "Provincial Sovereignty / Separatism",
+    "description": "The Alberta Prosperity Project (APP), a far-right separatist group, is collecting signatures under Danielle Smith's Citizen Initiative Act to trigger a fall 2026 referendum on Alberta leaving Canada. With a May 2 deadline to gather 177,732 valid signatures, the APP faces challenges including canvassing Canadian snowbirds in Arizona and Mexico. A competing 'Forever Canadian' petition gathered 456,365 signatures in 2025. King Charles reportedly expressed concern about the movement to a First Nations chief in March 2026.",
+    "whyNow": "The APP referendum push has a hard May 2026 deadline. The Carney-led Liberal federal government is viewed by many conservative Albertans as antithetical to Alberta's oil-dominated interests. Trump's tariffs have ironically boosted Canadian nationalist sentiment, creating a counter-current where Alberta separatism faces headwinds even as Premier Smith enables the movement. A provincial election looms in 2027, making 2026 the critical inflection year for the referendum question.",
+    "ncrs": {
+      "tipping_threshold": 5,
+      "conformity_trap_risk": 7,
+      "benefit_visibility": 6,
+      "penalty_reduction": 4,
+      "broad_angle_potential": 7,
+      "leader_persistence": 8,
+      "overall_readiness": 37,
+      "rationale": "Strong leader persistence from Premier Smith enabling the referendum process. High conformity trap: Albertan identity politics create pressure to support or oppose. Tipping threshold is moderate — 456K Albertans signed 'Forever Canadian,' suggesting majority doesn't support separation. Benefit visibility is murky since APP can't clearly define economic gains. The cross-movement links to Quebec sovereigntism and US MAGA populism are significant."
+    },
+    "wefCategory": "Geopolitical",
+    "timeline": [
+      {"year": 2019, "type": "BUILDUP", "event": "Kenney government creates Fair Deal Panel examining Alberta's place in Confederation"},
+      {"year": 2022, "type": "BUILDUP", "event": "Alberta Sovereignty Act passes, asserting province can resist federal laws"},
+      {"year": 2024, "type": "BUILDUP", "event": "Danielle Smith passes Citizen Initiative Act, creating path for citizen-led referendums"},
+      {"year": 2025, "type": "BUILDUP", "event": "Alberta Prosperity Project launches separation petition; Forever Canadian counter-petition gathers 456,365 signatures"},
+      {"year": 2025, "type": "BUILDUP", "event": "December: Court rules APP referendum question unconstitutional"},
+      {"year": 2026, "type": "TIP", "event": "APP has until May 2 to gather 177,732 valid signatures; King Charles expresses concern about movement"},
+      {"year": 2026, "type": "UPCOMING", "event": "Fall 2026: Potential referendum if signatures gathered and constitutional challenge overcome"},
+      {"year": 2027, "type": "UPCOMING", "event": "Alberta provincial election — decisive moment for Smith and separatist agenda"}
+    ],
+    "keyOrgs": [
+      {"name": "Alberta Prosperity Project", "url": "https://www.albertaprosperityproject.ca"},
+      {"name": "Take Back Alberta", "url": "https://www.takebackalberta.ca"},
+      {"name": "Forever Canadian Campaign", "url": "https://www.forevercanadiancampaign.ca"},
+      {"name": "rabble.ca (coverage)", "url": "https://rabble.ca/politics/canadian-politics/is-the-alberta-prosperity-project-having-trouble-getting-signatures-for-separation-petition/"}
+    ],
+    "regulatoryWindow": "May 2, 2026 signature deadline under Citizen Initiative Act; constitutional courts will likely be involved if signatures are reached. Provincial election in 2027 creates legislative window.",
+    "slogans": ["#AlbertaFirst", "#FreeAlberta", "#AlbertaProspersAlone", "Do you agree Alberta should cease to be part of Canada?"],
+    "sources": [
+      {"title": "Is the Alberta Prosperity Project having trouble getting signatures?", "url": "https://rabble.ca/politics/canadian-politics/is-the-alberta-prosperity-project-having-trouble-getting-signatures-for-separation-petition/", "verified": true, "source_note": "rabble.ca, March 10 2026"},
+      {"title": "King Charles concerned about Alberta separatist movement, First Nation chief says", "url": "https://www.theguardian.com/world/canada", "verified": true, "source_note": "The Guardian, March 2026 roundup"},
+      {"title": "Preston Manning Claps Back at Alberta Secession Leader", "url": "https://thetyee.ca/News/2026/03/02/Preston-Manning-Claps-Back-Alberta-Secession-Leader/", "verified": true, "source_note": "The Tyee, March 2026"},
+      {"title": "Forever Canadian campaign delivers petition signed by 456,365 citizens", "url": "https://albertapolitics.ca/2025/10/forever-canadian-campaign-delivers-petition-forms-signed-by-456365-citizens-to-elections-alberta/", "verified": true, "source_note": "Alberta Politics, October 2025"}
+    ],
+    "cross_movement_links": [
+      {"id": 251, "name": "Quebec Sovereignty Renaissance", "relationship": "Parallel subnational independence movements, though ideologically opposite — one right-populist, one cultural-nationalist"},
+      {"id": null, "name": "Scottish Independence Movement", "relationship": "Similar federal vs. regional resource sovereignty tensions; APP borrows strategic framing"},
+      {"id": null, "name": "MAGA Populism (US)", "relationship": "APP shares ideological DNA with Trump-era Republican grievance politics; some foreign funding suspected"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "→"
+  },
+  {
+    "id": 251,
+    "name": "Quebec Sovereignty Renaissance — Millennial Wave",
+    "region": "Canada — Quebec",
+    "year": 2026,
+    "issue": "Provincial Sovereignty / Cultural Independence",
+    "description": "A generational shift is underway in Quebec's independence movement. The Parti Québécois, polling ahead heading into the next provincial election, has revived referendum promises. A new Montreal café 'Club Pays' opened in March 2026 specifically as a hub for millennial and Gen Z sovereigntists, inspired by Catalonian independence cafés in Barcelona. OUI Québec, the organizing group, wants to normalize sovereignty conversations for people who've never met a separatist. Despite this cultural momentum, only ~29% of Quebecers support a referendum per recent polls.",
+    "whyNow": "PQ leads provincial polls ahead of 2026-2027 election. Carney's Liberal federal government creates a new federalist tension point. Canada's pivot toward national unity in the face of US tariffs has created both pressure on and against sovereigntism — some Quebecers feel nationalist solidarity, others feel Quebec's distinctness undermined. The Catalonian movement's cultural organizing model is being directly transplanted to Montreal.",
+    "ncrs": {
+      "tipping_threshold": 4,
+      "conformity_trap_risk": 8,
+      "benefit_visibility": 5,
+      "penalty_reduction": 5,
+      "broad_angle_potential": 7,
+      "leader_persistence": 7,
+      "overall_readiness": 36,
+      "rationale": "Cultural conformity trap is very high in Quebec — identity politics make neutrality difficult. Low tipping threshold (only 29% support referendum) limits mass activation potential. But the generational organizing model is genuine and has long-tail potential. PQ electoral momentum could create a policy window post-2027 election."
+    },
+    "wefCategory": "Geopolitical",
+    "timeline": [
+      {"year": 1995, "type": "BUILDUP", "event": "Second Quebec sovereignty referendum: 50.6% No — razor-thin margin"},
+      {"year": 2011, "type": "BUILDUP", "event": "PQ returns to power under Pauline Marois; sovereignty off the agenda for years"},
+      {"year": 2022, "type": "BUILDUP", "event": "Bill 96 (French language law) passes, strengthening Quebec distinctness"},
+      {"year": 2025, "type": "BUILDUP", "event": "PQ rises in polls; party leader commits to sovereignty referendum in next mandate"},
+      {"year": 2026, "type": "TIP", "event": "Club Pays café opens in Montreal — first pro-sovereignty civic space aimed at millennials and Gen Z"},
+      {"year": 2026, "type": "UPCOMING", "event": "Quebec provincial election anticipated; PQ currently leading polls"},
+      {"year": 2027, "type": "UPCOMING", "event": "If PQ wins majority, referendum debate reactivated in full"}
+    ],
+    "keyOrgs": [
+      {"name": "OUI Québec", "url": "https://ouiquebec.qc.ca"},
+      {"name": "Parti Québécois", "url": "https://pq.org"},
+      {"name": "Club Pays (cultural hub)", "url": "https://www.cbc.ca/news/canada/montreal/oui-quebec-cafe-pays-9.7129150"},
+      {"name": "Mouvement national des Québécoises et Québécois", "url": "https://www.mnq.quebec"}
+    ],
+    "regulatoryWindow": "Provincial election cycle (expected 2026-2027). A PQ majority would trigger legislative planning for a third referendum — a decade-long regulatory and constitutional battle.",
+    "slogans": ["#Indépendance", "#OuiQuébec", "Certains pays naissent dans la fête", "Un pays, c'est une joie collective"],
+    "sources": [
+      {"title": "New Montreal café hopes to dispel myths surrounding Quebec sovereignty", "url": "https://www.cbc.ca/news/canada/montreal/oui-quebec-cafe-pays-9.7129150", "verified": true, "source_note": "CBC News, March 15 2026"},
+      {"title": "Support for 3rd referendum in Quebec at all-time low, new poll suggests", "url": "https://www.cbc.ca/news/canada/montreal/quebec-independence-referendum-poll", "verified": true, "source_note": "CBC News, March 6 2026 — poll results showing only ~29% support"},
+      {"title": "Young Montreal sovereigntists long for Quebec independence, 30 years after referendum", "url": "https://www.cbc.ca/news/canada/montreal/quebec-independence-montreal-march-9.6954119", "verified": true, "source_note": "CBC News"}
+    ],
+    "cross_movement_links": [
+      {"id": 250, "name": "Alberta Sovereignty Movement", "relationship": "Parallel separatist movements with opposite ideological bases — one culturally progressive, one conservative-resource"},
+      {"id": null, "name": "Catalonian Independence Movement", "relationship": "Direct inspiration; OUI Québec borrowed the café-as-cultural-hub organizing model from Barcelona"}
+    ],
+    "deployWindow": "prepare",
+    "trajectory": "↑"
+  },
+  {
+    "id": 252,
+    "name": "Canada-US Trade War — Buy Canadian / Economic Sovereignty Movement",
+    "region": "Canada — National",
+    "year": 2026,
+    "issue": "Economic Sovereignty / Anti-Tariff",
+    "description": "Donald Trump's imposition of broad tariffs on Canadian goods in 2025, including steel, aluminum, and auto-sector products, triggered a surge of Canadian economic nationalism. 'Buy Canadian' campaigns swept social media and consumer behavior shifted measurably away from American products. The federal government under Mark Carney deployed retaliatory tariffs. Multiple provinces appointed US trade representatives. Quebec SAQ began removing US liquor and highlighting domestic alternatives. This movement blends populist nationalism with consumer activism.",
+    "whyNow": "As of March 2026, the tariff war is still active. Carney's minority Liberal government is defined partly by this conflict — it's the central geopolitical frame of his mandate. The Iran war (US-Israel strike) is also pushing energy prices higher, compounding economic pressure on Canadians. Oil prices soaring post-Iran conflict create Alberta/Ottawa tensions while also giving Canada leverage. Provinces are competing to show trade diversification results.",
+    "ncrs": {
+      "tipping_threshold": 8,
+      "conformity_trap_risk": 3,
+      "benefit_visibility": 9,
+      "penalty_reduction": 7,
+      "broad_angle_potential": 9,
+      "leader_persistence": 8,
+      "overall_readiness": 44,
+      "rationale": "Very high benefit visibility (you can see 'Made in Canada' on a product immediately) and strong broad angle appeal (crosses political lines — Conservative and Liberal Canadians both resent Trump tariffs). Low conformity trap risk — buying Canadian is universally affirmed socially. High tipping threshold already crossed: polls show >80% of Canadians hostile to tariffs. This is one of the highest-activation movements in Canada right now."
+    },
+    "wefCategory": "Economic",
+    "timeline": [
+      {"year": 2025, "type": "BUILDUP", "event": "Trump imposes 25% tariffs on most Canadian goods; Canada retaliates with C-tariffs on US products"},
+      {"year": 2025, "type": "BUILDUP", "event": "Buy Canadian movement surges on social media; grocery chains promote Canadian products"},
+      {"year": 2025, "type": "BUILDUP", "event": "Mark Carney wins Liberal leadership partly on platform of standing up to Trump"},
+      {"year": 2025, "type": "BUILDUP", "event": "Manitoba, Ontario, BC hire US trade representatives to protect provincial interests"},
+      {"year": 2026, "type": "TIP", "event": "Canada's annual inflation rate at 1.8% but oil prices rising sharply due to Iran war; Carney presents trade diversification agenda at Davos"},
+      {"year": 2026, "type": "UPCOMING", "event": "CUSMA/USMCA renegotiation window; Carney government seeks new bilateral deals with UK, EU, Australia, India"},
+      {"year": 2026, "type": "UPCOMING", "event": "Potential CUSMA collapse or renegotiation by end of 2026 as Trump demands further concessions"}
+    ],
+    "keyOrgs": [
+      {"name": "Council of Canadians", "url": "https://canadians.org"},
+      {"name": "Canadian Labour Congress", "url": "https://clc-ctc.ca"},
+      {"name": "BuyCanadian.ca (grassroots)", "url": "https://buycanadian.ca"},
+      {"name": "Unifor", "url": "https://www.unifor.org"}
+    ],
+    "regulatoryWindow": "CUSMA/USMCA review deadline late 2026. Federal budget 2026 allocating funds for trade diversification and industrial support. Multiple provincial-level trade envoy contracts through 2028.",
+    "slogans": ["#BuyCanadian", "#CanadaStrong", "#CanadaIsNotForSale", "Elbows up", "Canada is not for sale"],
+    "sources": [
+      {"title": "Manitoba's U.S. trade rep paid $482K a year", "url": "https://www.cbc.ca/news/canada/manitoba/richard-madan-trade-envoy-compensation-9.7128435", "verified": true, "source_note": "CBC News, March 2026"},
+      {"title": "With U.S. bottles off the shelves, local whisky is having a moment in Quebec", "url": "https://www.cbc.ca/news/canada/montreal/quebec-whisky-moment-saq-9.7126593", "verified": true, "source_note": "CBC Montreal, March 2026"},
+      {"title": "Carney, Starmer meet amid deepening Middle East crisis", "url": "https://www.cbc.ca/news/politics", "verified": true, "source_note": "CBC Politics, March 2026"},
+      {"title": "Message to PM: adult supervision is needed here at home too", "url": "https://policyoptions.irpp.org/2026/03/carney-davos-canada-hard-choices/", "verified": true, "source_note": "Policy Options, March 16 2026"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "Anti-NAFTA/CUSMA movements (past)", "relationship": "Historical precedent; this movement inverts the anti-free-trade narrative — now Canadians WANT trade but with anyone except Trump's US"},
+      {"id": null, "name": "Brexit Economic Nationalism (UK)", "relationship": "Similar consumer-nationalism reaction to geopolitical rupture — though Canada's is defensive rather than assertive"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑↑"
+  },
+  {
+    "id": 253,
+    "name": "Canada Anti-Austerity Movement — Stop the Cuts",
+    "region": "Canada — National",
+    "year": 2026,
+    "issue": "Fiscal Austerity / Public Services",
+    "description": "The Council of Canadians launched a major 'Stop the Cuts' anti-austerity campaign in 2026, describing proposed federal cuts as '$25 billion per year less for public services with 40,000 jobs eliminated — the worst cuts in modern history.' The campaign targets both federal spending restraint under Carney and provincial-level cuts, particularly in Ontario's healthcare sector. CUPE has led healthcare worker organizing including a March 2026 press conference at Bruyere Health in Ottawa against planned elimination of 50+ nursing jobs. Ontario's Financial Accountability Office confirmed provincial health funding will cause service decreases.",
+    "whyNow": "The Carney Liberal government, while popular for its anti-Trump stance, is facing pressure to balance Canada's fiscal position amid trade war economic disruption. The combination of federal fiscal constraint + Ontario's structural underfunding of healthcare creates a pincer movement on public services. Post-pandemic exhaustion among healthcare workers has reached crisis levels — CUPE surveys show 67% of hospital workers worked through scheduled breaks due to understaffing. The NDP has lost official party status (only 7 seats), weakening the institutional progressive opposition.",
+    "ncrs": {
+      "tipping_threshold": 6,
+      "conformity_trap_risk": 4,
+      "benefit_visibility": 7,
+      "penalty_reduction": 5,
+      "broad_angle_potential": 8,
+      "leader_persistence": 7,
+      "overall_readiness": 37,
+      "rationale": "High broad angle potential — healthcare cuts affect everyone regardless of political affiliation. Benefit visibility is strong (hospital wait times, service closures are tangible). The tipping threshold is moderate — Canadians are distracted by the US tariff crisis, which can either amplify (everything costs more) or overshadow anti-austerity messaging. CUPE and Council of Canadians provide strong organizational infrastructure."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2019, "type": "BUILDUP", "event": "Ontario's PC government begins systematic underfunding of health sector"},
+      {"year": 2020, "type": "BUILDUP", "event": "Pandemic exposes systemic healthcare worker shortages; LTC crisis kills thousands"},
+      {"year": 2023, "type": "BUILDUP", "event": "Ontario Bill 124 wage restraint for public sector workers — nurses and healthcare workers strike"},
+      {"year": 2025, "type": "BUILDUP", "event": "Financial Accountability Office of Ontario warns healthcare funding will decrease service levels"},
+      {"year": 2026, "type": "TIP", "event": "Council of Canadians launches Stop the Cuts campaign; CUPE presses conference over Bruyere Health eliminating 50+ jobs"},
+      {"year": 2026, "type": "UPCOMING", "event": "Federal budget (Spring 2026): Carney government signals fiscal restraint amid trade war costs"},
+      {"year": 2027, "type": "UPCOMING", "event": "Ontario provincial election: Healthcare privatization vs. public system is central issue"}
+    ],
+    "keyOrgs": [
+      {"name": "Council of Canadians", "url": "https://canadians.org"},
+      {"name": "Canadian Union of Public Employees (CUPE)", "url": "https://cupe.ca"},
+      {"name": "Ontario Council of Hospital Unions (OCHU)", "url": "https://cupe.ca/sectors/health/hospital-unions"},
+      {"name": "Canadian Centre for Policy Alternatives", "url": "https://www.policyalternatives.ca"}
+    ],
+    "regulatoryWindow": "Federal budget Spring 2026; Ontario fall economic statement 2026; Ontario provincial election 2027. Canada Health Act enforcement by Carney government is a key lever — CUPE calling on federal government to penalize provinces violating CHA.",
+    "slogans": ["#StopTheCuts", "#DefendPublicHealthcare", "#NotForSale", "Healthcare is a right, not a privilege"],
+    "sources": [
+      {"title": "Job cuts at Ottawa hospital show deepening crisis of underfunding across Ontario", "url": "https://rabble.ca/labour/job-cuts-at-ottawa-hospital-show-deepening-crisis-of-underfunding-across-ontario/", "verified": true, "source_note": "rabble.ca, March 12 2026"},
+      {"title": "Council of Canadians launches Anti-Austerity campaign", "url": "https://canadians.org", "verified": true, "source_note": "Council of Canadians homepage, March 2026"},
+      {"title": "Canada's labour protections aren't ready for the age of AI", "url": "https://policyoptions.irpp.org/2026/03/ai-labour-protections/", "verified": true, "source_note": "Policy Options, March 2026 — related austerity frame"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "UK NHS Defence Campaign", "relationship": "Mirror issue — public healthcare under fiscal pressure while private alternatives expand"},
+      {"id": null, "name": "US Medicare for All movement", "relationship": "Canadians organize against becoming more like the US system — explicit rhetorical frame used by CUPE"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 254,
+    "name": "Alberta Drug Policy Wars — Harm Reduction vs. Recovery",
+    "region": "Canada — Alberta",
+    "year": 2026,
+    "issue": "Drug Policy / Healthcare / Civil Rights",
+    "description": "Alberta's UCP government under Danielle Smith is systematically closing overdose prevention sites (supervised consumption sites) in favour of a 'recovery-oriented system of care.' Red Deer's only OD prevention site closed in 2025; Calgary's is closing in 2026; of Edmonton's sites, the Royal Alex location has already closed. A government-funded study released in March 2026 claims the Red Deer closure didn't cause more deaths — but firefighters on the ground contradict this, reporting sharply increased overdose calls in encampments. Critics accuse the government of manufacturing data to justify political decisions.",
+    "whyNow": "The closure of Calgary's site in 2026 and the ongoing fight over Edmonton's remaining two sites creates an acute confrontation window. Firefighters, harm reduction advocates, and healthcare professionals are openly contradicting government data. The federal government under Carney has leverage through the Canada Health Act and transfer payment conditions. This is a provincial rights vs. federal standards battleground that has national implications for drug policy.",
+    "ncrs": {
+      "tipping_threshold": 5,
+      "conformity_trap_risk": 8,
+      "benefit_visibility": 6,
+      "penalty_reduction": 5,
+      "broad_angle_potential": 5,
+      "leader_persistence": 9,
+      "overall_readiness": 38,
+      "rationale": "Very high conformity trap — political polarization around drug use makes it hard to organize beyond existing harm reduction community. Leader persistence is extremely high from UCP government side. Key ally is the firefighters' union, which gives the pro-harm-reduction side unusual credibility with conservative demographics. The federal government's role creates a potentially high-impact intervention point."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2017, "type": "BUILDUP", "event": "Opioid overdose crisis declared national public health emergency"},
+      {"year": 2020, "type": "BUILDUP", "event": "Supervised consumption sites expanded across Alberta under NDP"},
+      {"year": 2023, "type": "BUILDUP", "event": "UCP government announces plans to close consumption sites, shift to recovery model"},
+      {"year": 2024, "type": "BUILDUP", "event": "CoRE (Canadian Centre of Recovery Excellence) created — government-funded research body"},
+      {"year": 2025, "type": "TIP", "event": "Red Deer's only OD prevention site closes; Red Deer firefighters report spike in encampment overdoses"},
+      {"year": 2026, "type": "TIP", "event": "Government-funded study claims closure didn't increase deaths; Calgary site closing; scientists challenge study's independence"},
+      {"year": 2026, "type": "UPCOMING", "event": "Fight for Edmonton's remaining two sites; federal enforcement of Canada Health Act under Carney"},
+      {"year": 2027, "type": "UPCOMING", "event": "Alberta election — drug policy a major issue with first responders and healthcare workers"}
+    ],
+    "keyOrgs": [
+      {"name": "Moms Stop the Harm", "url": "https://www.momsstoptheharm.com"},
+      {"name": "International Association of Firefighters Local 1190 (Red Deer)", "url": "https://www.iaff1190.ca"},
+      {"name": "Harm Reduction International", "url": "https://www.hri.global"},
+      {"name": "Canadian Drug Policy Coalition", "url": "https://drugpolicy.ca"}
+    ],
+    "regulatoryWindow": "Federal Canada Health Act enforcement; Alberta election 2027; ongoing court injunctions sought by harm reduction advocates against site closures.",
+    "slogans": ["#HarmReductionSavesLives", "#KeepTheSites", "#RecoveryNotCondemnation", "The sites were working"],
+    "sources": [
+      {"title": "Alberta Crown corporation study finds Red Deer OD prevention site closure didn't lead to more deaths", "url": "https://www.cbc.ca/news/canada/edmonton/red-deer-overdose-prevention-closure-study-core-alberta-government-9.7128107", "verified": true, "source_note": "CBC Edmonton, March 15 2026"},
+      {"title": "Province closing supervised drug consumption site at Edmonton's Royal Alex", "url": "https://www.cbc.ca/news/canada/edmonton/royal-alex-drug-consumption-site-closes-9.6985574", "verified": true, "source_note": "CBC Edmonton"},
+      {"title": "Red Deer firefighters concerned about overdose consumption site closure", "url": "https://www.cbc.ca/news/red-deer-firefighters-concerned-about-overdose-consumption-site-closure-9.7049040", "verified": true, "source_note": "CBC News"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "Portugal Drug Decriminalization Model", "relationship": "International policy alternative cited by Canadian harm reduction advocates"},
+      {"id": null, "name": "BC Safe Supply Movement", "relationship": "BC's parallel safe supply program faces same federal-provincial tensions but different provincial politics"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 255,
+    "name": "Alberta School Book Bans — Free Expression Under Attack",
+    "region": "Canada — Alberta",
+    "year": 2026,
+    "issue": "Education / Press & Expression / LGBTQ+ Rights",
+    "description": "Alberta's education minister issued a ministerial order in fall 2025 requiring all schools to remove material containing explicit depictions of sexual acts. By early 2026, at least 160 titles had been pulled from shelves — including graphic novel versions of The Handmaid's Tale, 1984, Sandman, and LGBTQ+ memoirs. The Toronto Metropolitan University Centre for Free Expression reports that nearly three-quarters of all documented Canadian book challenges in 2025 occurred in Alberta. The Alberta Teachers' Association is fighting back with legal injunctions.",
+    "whyNow": "This is an escalating culture war with direct federal implications. The ATA secured a court ruling in early 2026 (injunction decision being contested). The overlap with the Alberta sovereignty movement is significant — these moves mirror US red-state culture war tactics and are partly influenced by Take Back Alberta's social conservative wing. As Alberta moves toward a potential referendum, the culture war atmosphere both enables and inflames provincial-federal tensions.",
+    "ncrs": {
+      "tipping_threshold": 6,
+      "conformity_trap_risk": 6,
+      "benefit_visibility": 7,
+      "penalty_reduction": 5,
+      "broad_angle_potential": 7,
+      "leader_persistence": 8,
+      "overall_readiness": 39,
+      "rationale": "High leader persistence from UCP government. Benefit visibility is strong — removed books are tangible, lists are published, parents and librarians can see exactly what's missing. Broad angle potential is high — conservative parents who support the removals and liberal educators who oppose them both have strong feelings. The Handmaid's Tale and 1984 being banned creates powerful symbolic resonance that crosses political lines."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2022, "type": "BUILDUP", "event": "Take Back Alberta gains influence in UCP; social conservative agenda gains prominence"},
+      {"year": 2024, "type": "BUILDUP", "event": "Provincial government restricts LGBTQ+ content in schools; legal challenges begin"},
+      {"year": 2025, "type": "TIP", "event": "Ministerial Order issued requiring removal of sexually explicit material from all K-12 libraries"},
+      {"year": 2026, "type": "TIP", "event": "At least 166 titles confirmed removed; Alberta Teachers' Association files legal injunction; ATA court decision March 2026"},
+      {"year": 2026, "type": "UPCOMING", "event": "Centre for Free Expression releases full analysis of 2025 book challenges in Canada"},
+      {"year": 2027, "type": "UPCOMING", "event": "Alberta election — education and cultural freedom a central ballot issue"}
+    ],
+    "keyOrgs": [
+      {"name": "Alberta Teachers' Association (ATA)", "url": "https://www.teachers.ab.ca"},
+      {"name": "Centre for Free Expression, Toronto Metropolitan University", "url": "https://cfe.torontomu.ca"},
+      {"name": "Canadian Civil Liberties Association", "url": "https://ccla.org"},
+      {"name": "Take Back Alberta (opposing force)", "url": "https://www.takebackalberta.ca"}
+    ],
+    "regulatoryWindow": "Active court injunctions through 2026. Federal human rights law may be invoked. Alberta election 2027. Federal government has limited direct jurisdiction over provincial education but can use funding levers.",
+    "slogans": ["#BooksNotBans", "#FreedomToRead", "#ABEdCrisis", "#LetThemRead"],
+    "sources": [
+      {"title": "By the book: Alberta schools pull at least 160 titles from shelves to meet provincial order", "url": "https://www.cbc.ca/news/canada/edmonton/alberta-school-book-ban-order-graphic-novels-9.7118495", "verified": true, "source_note": "CBC Edmonton, March 10 2026"},
+      {"title": "Judge issues decision in ATA's bid for injunction (video)", "url": "https://www.cbc.ca/news/canada/edmonton", "verified": true, "source_note": "CBC Edmonton video, March 2026"},
+      {"title": "New Alberta school books order bans explicit images of sexual acts", "url": "https://www.cbc.ca/news/canada/edmonton/new-alberta-school-books-order-bans-explicit-images-of-sexual-acts-1.7628336", "verified": true, "source_note": "CBC Edmonton"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "US School Book Ban Movement (PEN America)", "relationship": "Direct ideological import — Florida and Texas book ban templates adopted by Alberta's UCP government"},
+      {"id": null, "name": "UK Gender Critical Movement", "relationship": "Shares social conservative framing around protecting children from 'inappropriate' LGBTQ+ content"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 256,
+    "name": "Inuit & Northern Communities Housing Crisis — Nunavut Flash Point",
+    "region": "Canada — Nunavut / North",
+    "year": 2026,
+    "issue": "Indigenous Rights / Housing / Northern Sovereignty",
+    "description": "Nunavut faces an acute and worsening housing crisis with severe overcrowding in most communities. Nunavut MP Lori Idlout (formerly NDP, crossed to Liberals in March 2026) cited housing as her primary motivation for switching parties — saying she was 'betraying the wrong people' by remaining in opposition when her constituents were in overcrowded homes and poverty. The move brings Liberals two seats from a majority and is highly controversial among Nunavummiut who valued her independent critical voice. The NDP, stripped of official party status with only 7 seats, has limited ability to advocate for northern communities.",
+    "whyNow": "Idlout's floor-crossing creates an immediate political window: either Carney delivers visible housing results in Nunavut quickly, or Idlout loses all credibility with her constituents. Upcoming byelections could give Liberals a majority. The NDP leadership race (Avi Lewis pulling ahead in fundraising) will determine whether the progressive opposition can rebuild. This is a highly compressed political moment — 6-12 months to show results.",
+    "ncrs": {
+      "tipping_threshold": 7,
+      "conformity_trap_risk": 3,
+      "benefit_visibility": 9,
+      "penalty_reduction": 6,
+      "broad_angle_potential": 6,
+      "leader_persistence": 7,
+      "overall_readiness": 38,
+      "rationale": "Very high benefit visibility — in small Inuit communities, new housing is immediately visible and its absence equally so. Low conformity trap in Nunavut ('we vote for the person, not the party'). The compressed political timeline creates urgency. Risk is that without official NDP party status, independent critical voices in parliament are weakened — benefiting the government but reducing accountability pressure."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2006, "type": "BUILDUP", "event": "Nunavut housing crisis documented — 50% of homes overcrowded, high rates of mold and disrepair"},
+      {"year": 2017, "type": "BUILDUP", "event": "Auditor General report: federal housing investment in Nunavut 'not meeting needs'"},
+      {"year": 2021, "type": "BUILDUP", "event": "Lori Idlout elected as NDP MP for Nunavut; housing crisis her signature issue"},
+      {"year": 2025, "type": "BUILDUP", "event": "NDP loses official party status — only 7 seats, stripping Idlout of guaranteed QP time"},
+      {"year": 2026, "type": "TIP", "event": "Idlout crosses floor to Liberals — Carney government now 2 seats from majority; housing promised as key deliverable"},
+      {"year": 2026, "type": "UPCOMING", "event": "Byelections (April 2026) expected to give Liberals majority"},
+      {"year": 2027, "type": "UPCOMING", "event": "Federal budget must show tangible Nunavut housing investment or Idlout's credibility collapses"}
+    ],
+    "keyOrgs": [
+      {"name": "Nunavut Tunngavik Incorporated (NTI)", "url": "https://www.tunngavik.com"},
+      {"name": "Qikiqtani Inuit Association", "url": "https://www.qia.ca"},
+      {"name": "Inuit Tapiriit Kanatami", "url": "https://www.itk.ca"},
+      {"name": "Makivik Corporation", "url": "https://www.makivik.org"}
+    ],
+    "regulatoryWindow": "Federal budget spring 2026; Carney majority likely after April byelections creates legislative window for major housing investment. CMHC Northern Housing Strategy review underway.",
+    "slogans": ["#NunavutHousing", "#InuitPriority", "#NotBetrayingTheWrongPeople", "Too many people in overcrowded housing"],
+    "sources": [
+      {"title": "Here's how Lori Idlout's Nunavut constituents feel about her joining the Liberals", "url": "https://www.cbc.ca/news/canada/north/nunavummiut-lori-idlout-9.7130019", "verified": true, "source_note": "CBC North, March 16 2026"},
+      {"title": "Nunavut MP says she won't cross the floor to join Liberals at this point", "url": "https://www.cbc.ca/news/canada/north/nunavut-mp-says-she-wont-cross-the-floor-to-join-liberals-at-this-point-9.7035383", "verified": true, "source_note": "CBC North — earlier reporting, now reversed"},
+      {"title": "New Democrats feel the Carney burn as Nunavut MP Lori Idlout crosses floor", "url": "https://rabble.ca/politics/canadian-politics/new-democrats-feel-the-carney-burn-as-nunavut-mp-lori-idlout-crosses-floor-to-liberals/", "verified": true, "source_note": "rabble.ca, March 11 2026"}
+    ],
+    "cross_movement_links": [
+      {"id": 259, "name": "UNDRIP Implementation Gap (Canada)", "relationship": "Nunavut housing crisis is a direct UNDRIP implementation failure — right to adequate housing is explicit in the declaration"},
+      {"id": null, "name": "First Nations Water Crisis", "relationship": "Parallel infrastructure crisis in Indigenous communities; same federal accountability failure patterns"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 257,
+    "name": "NDP Reconstruction & Left Realignment",
+    "region": "Canada — National",
+    "year": 2026,
+    "issue": "Electoral Politics / Progressive Movement",
+    "description": "Canada's NDP is undergoing a crisis of identity and institutional survival. After winning only 7 seats in the 2025 federal election, the party lost official party status — stripping it of guaranteed Question Period time and research budgets. Avi Lewis (documentary filmmaker, son of Stephen Lewis) is leading in NDP leadership fundraising in March 2026. Nunavut MP Lori Idlout's defection to the Liberals signals ongoing collapse of the progressive parliamentary bloc. The party is at a crossroads between pragmatic social democratic coalition-building and a more assertive left-populist identity.",
+    "whyNow": "The NDP leadership race results will define whether Canada has a viable left-wing federal opposition for the next decade. With Carney commanding the center-left and Pierre Poilievre's Conservatives representing the right, the NDP risks being squeezed out of relevance. Avi Lewis represents a media-savvy, climate-justice oriented 'movement left' that could reinvent the party — or fracture it. The timing of the 2025-2026 NDP leadership race is critical.",
+    "ncrs": {
+      "tipping_threshold": 5,
+      "conformity_trap_risk": 5,
+      "benefit_visibility": 5,
+      "penalty_reduction": 6,
+      "broad_angle_potential": 6,
+      "leader_persistence": 7,
+      "overall_readiness": 34,
+      "rationale": "Moderate readiness — the party is organizationally weak but the political vacuum created by Carney's centrist dominance creates opportunity. Avi Lewis's profile (The Big Picture, This Changes Everything) gives him movement credibility. The key question is whether NDP can articulate a distinct economic justice message that isn't absorbed by Liberal centrism. Climate justice framing has potential broad angle appeal."
+    },
+    "wefCategory": "Geopolitical",
+    "timeline": [
+      {"year": 2015, "type": "BUILDUP", "event": "NDP under Mulcair moves to centre; loses to Trudeau Liberals; begins long decline"},
+      {"year": 2019, "type": "BUILDUP", "event": "Jagmeet Singh keeps NDP alive but fails to break through"},
+      {"year": 2022, "type": "BUILDUP", "event": "NDP-Liberal supply-and-confidence agreement; NDP secures dental care and pharmacare"},
+      {"year": 2025, "type": "TIP", "event": "NDP wins only 7 seats in federal election — loses official party status"},
+      {"year": 2026, "type": "TIP", "event": "Avi Lewis leads NDP leadership fundraising; Idlout crosses floor to Liberals"},
+      {"year": 2026, "type": "UPCOMING", "event": "NDP leadership race concludes — new leader must rebuild party identity"},
+      {"year": 2027, "type": "UPCOMING", "event": "Ontario and Alberta provincial elections test NDP's provincial relevance"}
+    ],
+    "keyOrgs": [
+      {"name": "NDP Canada", "url": "https://ndp.ca"},
+      {"name": "Avi Lewis Leadership Campaign", "url": "https://avilewis.ca"},
+      {"name": "Canadian Centre for Policy Alternatives", "url": "https://www.policyalternatives.ca"},
+      {"name": "rabble.ca (progressive media ecosystem)", "url": "https://rabble.ca"}
+    ],
+    "regulatoryWindow": "NDP leadership race 2026. Without official party status, any byelection wins become existential. The party needs 12 seats to regain status and full parliamentary resources.",
+    "slogans": ["#NDPRenewal", "#LeftPopulism", "#TimeForChange", "A left-wing populist is what the NDP needs"],
+    "sources": [
+      {"title": "Avi Lewis pulls ahead in fundraising as end of federal NDP leadership race nears", "url": "https://rabble.ca/politics/canadian-politics/avi-lewis-pulls-ahead-in-fundraising-as-end-of-federal-ndp-leadership-race-nears/", "verified": true, "source_note": "rabble.ca, March 10 2026"},
+      {"title": "Why New Democrats might (secretly) welcome Lori Idlout's defection", "url": "https://rabble.ca/politics/canadian-politics/why-new-democrats-might-secretly-welcome-lori-idlouts-defection/", "verified": true, "source_note": "rabble.ca, March 12 2026"},
+      {"title": "A left-wing populist is what the NDP needs in the age of obscene wealth inequality", "url": "https://rabble.ca/columnists/a-left-wing-populist-is-what-the-ndp-needs-in-the-age-of-obscene-wealth-inequality/", "verified": true, "source_note": "Linda McQuaig / rabble.ca, March 5 2026"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "UK Labour Renewal (post-Corbyn)", "relationship": "Similar left-party reconstruction challenge — how to rebuild progressive movement after electoral collapse"},
+      {"id": null, "name": "Bernie Sanders movement (US)", "relationship": "Avi Lewis draws on same democratic socialist organizing playbook; movement-party hybrid model"}
+    ],
+    "deployWindow": "prepare",
+    "trajectory": "→"
+  },
+  {
+    "id": 258,
+    "name": "UNDRIP Implementation Gap — Closing Anti-Hate Offices & Indigenous Rights Regression",
+    "region": "Canada — National",
+    "year": 2026,
+    "issue": "Indigenous Rights / Anti-Racism / UNDRIP",
+    "description": "Canada adopted the UN Declaration on the Rights of Indigenous Peoples (UNDRIP) through federal legislation in 2021 (Bill C-15). However, implementation remains slow and contested. In March 2026, Policy Options reported that Canada is closing its anti-hate offices — sending 'the wrong signal' on racial equality just as UNDRIP implementation needs to accelerate. First Nations land rights, MMIWG2S action plan implementation, and FPIC (Free, Prior and Informed Consent) requirements for resource extraction projects continue to generate flashpoints. AI-generated Indigenous cultural content is a new frontier of rights violation (reported March 2026 by CBC Indigenous).",
+    "whyNow": "The Carney government's first budget and legislative agenda will reveal whether UNDRIP implementation is genuinely prioritized or treated as symbolic. The closure of anti-hate offices in early 2026 signals potential rollback. Multiple specific land defense and treaty disputes are at varying stages of legal and political confrontation. The combination of Idlout in cabinet, Carney's 'reconciliation' rhetoric, and the closure of hate-monitoring offices creates a contradictory signal environment that Indigenous rights groups are actively challenging.",
+    "ncrs": {
+      "tipping_threshold": 6,
+      "conformity_trap_risk": 4,
+      "benefit_visibility": 7,
+      "penalty_reduction": 6,
+      "broad_angle_potential": 7,
+      "leader_persistence": 8,
+      "overall_readiness": 38,
+      "rationale": "Strong organizational infrastructure in Indigenous rights (ITK, NTI, AFN, FNHA). High leader persistence — Indigenous rights organizations have decades of sustained advocacy. Benefit visibility is high — specific rights violations (land theft, MMIWG, children in care) are concrete and documentable. Broad angle potential growing as settler Canadians increasingly support reconciliation."
+    },
+    "wefCategory": "Societal",
+    "timeline": [
+      {"year": 2015, "type": "BUILDUP", "event": "Truth and Reconciliation Commission releases 94 Calls to Action"},
+      {"year": 2019, "type": "BUILDUP", "event": "MMIWG Final Report: National Inquiry releases findings of genocide"},
+      {"year": 2021, "type": "BUILDUP", "event": "Bill C-15 (UNDRIP Act) passes — Canada commits to implementing declaration"},
+      {"year": 2022, "type": "BUILDUP", "event": "Wet'suwet'en land defense ongoing; Coastal GasLink pipeline forced through despite opposition"},
+      {"year": 2025, "type": "BUILDUP", "event": "Federal Action Plan on UNDRIP released — civil society groups criticize lack of binding timelines"},
+      {"year": 2026, "type": "TIP", "event": "Canada closes anti-hate offices; AI-generated Indigenous cultural content spreading online; Carney government faces contradiction between reconciliation rhetoric and austerity cuts"},
+      {"year": 2026, "type": "UPCOMING", "event": "Specific treaty and land claim disputes likely to reach Supreme Court or confrontation stage"},
+      {"year": 2027, "type": "UPCOMING", "event": "UNDRIP implementation review — will Canada meet its own stated timelines?"}
+    ],
+    "keyOrgs": [
+      {"name": "Assembly of First Nations", "url": "https://afn.ca"},
+      {"name": "Inuit Tapiriit Kanatami", "url": "https://www.itk.ca"},
+      {"name": "Métis National Council", "url": "https://www.metisnation.ca"},
+      {"name": "Amnesty International Canada (Indigenous Rights)", "url": "https://www.amnesty.ca"},
+      {"name": "First Nations Information Governance Centre", "url": "https://fnigc.ca"}
+    ],
+    "regulatoryWindow": "UNDRIP action plan annual reviews; Carney government first budget; specific FPIC court challenges at various stages. MMIWG National Action Plan 2-year review.",
+    "slogans": ["#LandBack", "#MMIWG2S", "#UNDRIP", "#Reconciliation", "#NoMoreStolenLand"],
+    "sources": [
+      {"title": "Closing anti-hate offices sends the wrong signal", "url": "https://policyoptions.irpp.org/2026/03/closing-anti-hate-offices/", "verified": true, "source_note": "Policy Options, March 9 2026"},
+      {"title": "Be wary of AI-generated content on Indigenous cultures, say experts", "url": "https://www.cbc.ca/news/indigenous/ai-indigenous-language-culture-9.7126508", "verified": true, "source_note": "CBC Indigenous, March 16 2026"},
+      {"title": "Amnesty International Canada — Indigenous Rights Initiative", "url": "https://amnesty.ca/activism-guide/indigenous-rights-initiative-needs-urgent-support/", "verified": true, "source_note": "Amnesty Canada"},
+      {"title": "LANDBACK — NDN Collective", "url": "https://landback.org", "verified": true, "source_note": "NDN Collective LANDBACK framework"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "Standing Rock (2016)", "relationship": "Historical precedent for FPIC-based land defense; Canadian Indigenous groups cite Standing Rock as key inspiration"},
+      {"id": null, "name": "Global UNDRIP Implementation Movement", "relationship": "Canada is a case study (positive and negative) for UNDRIP implementation globally — being watched by rights groups worldwide"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "→"
+  },
+  {
+    "id": 259,
+    "name": "Canada Housing Crisis — Tenant Rights & Unaffordability Movement",
+    "region": "Canada — National (esp. Toronto, Vancouver, Montreal)",
+    "year": 2026,
+    "issue": "Housing / Economic Rights",
+    "description": "Canada's housing affordability crisis — among the worst in the G7 — continues to drive a growing tenant rights and housing justice movement. Average home prices remain 10-12x median income in Toronto and Vancouver. Renters face renovictions, AGI (above-guideline increase) applications, and corporate landlord consolidation. The Canadian Centre for Housing Rights (CCHR) released the first national study on discrimination in rental housing, documenting systemic racism against Black, Indigenous, and other racialized renters. Federal housing promises from Carney's government are being evaluated against the scale of the crisis.",
+    "whyNow": "Canada's annual inflation fell to 1.8% in February 2026, but housing costs remain structurally elevated. With Carney government potentially reaching a majority after April byelections, advocates are pushing for binding housing rights legislation. The US tariff war disrupts construction supply chains and may delay housing starts. CCHR's new discrimination report provides fresh legal and advocacy ammunition for systemic change rather than market-solutions only.",
+    "ncrs": {
+      "tipping_threshold": 7,
+      "conformity_trap_risk": 3,
+      "benefit_visibility": 8,
+      "penalty_reduction": 7,
+      "broad_angle_potential": 9,
+      "leader_persistence": 8,
+      "overall_readiness": 42,
+      "rationale": "Very high overall readiness. Housing crosses all political and demographic lines — young people, families, newcomers, seniors all affected. High benefit visibility (rent amounts, eviction notices, rent-to-income ratios are concrete). Low conformity trap — it's socially acceptable to complain about housing costs across the political spectrum. Strong organizational infrastructure. Key risk: government promises may defuse urgency without resolving structural issues."
+    },
+    "wefCategory": "Economic",
+    "timeline": [
+      {"year": 2016, "type": "BUILDUP", "event": "Toronto and Vancouver become international housing affordability crisis case studies"},
+      {"year": 2018, "type": "BUILDUP", "event": "National Housing Strategy announced by Trudeau — criticized as insufficient"},
+      {"year": 2022, "type": "BUILDUP", "event": "Interest rate hikes begin; rental market tightens dramatically as buyer demand pivots to rentals"},
+      {"year": 2023, "type": "BUILDUP", "event": "CCHR launches tenant rights advocacy; Ottawa encampments grow; BC and Ontario tent city crises"},
+      {"year": 2025, "type": "BUILDUP", "event": "CCHR releases first national rental discrimination study; Carney campaigns on housing as 'biggest issue'"},
+      {"year": 2026, "type": "TIP", "event": "Inflation at 1.8% but housing still structurally unaffordable; Carney government housing agenda under scrutiny; potential majority government creates legislative window"},
+      {"year": 2026, "type": "UPCOMING", "event": "Federal housing legislation expected under Carney majority; CMHC reform discussions"},
+      {"year": 2027, "type": "UPCOMING", "event": "Ontario and BC provincial elections — housing central issue"}
+    ],
+    "keyOrgs": [
+      {"name": "Canadian Centre for Housing Rights (CCHR)", "url": "https://housingrightscanada.com"},
+      {"name": "ACORN Canada (tenant organizing)", "url": "https://www.acorncanada.org"},
+      {"name": "Canada's People's Housing Network", "url": "https://www.peopleshousingnetwork.ca"},
+      {"name": "Wellesley Institute", "url": "https://www.wellesleyinstitute.com"}
+    ],
+    "regulatoryWindow": "Carney government housing legislation expected 2026-2027. CMHC mandate review. Provincial eviction moratorium debates in BC and Ontario. National Right to Housing Act could be introduced.",
+    "slogans": ["#HousingIsARight", "#RentControl", "#EndRenovictions", "#HousingCrisis", "#AffordableHousingNow"],
+    "sources": [
+      {"title": "Canadian Centre for Housing Rights — measuring discrimination in rental housing", "url": "https://housingrightscanada.com/reports/measuring-discrimination-in-rental-housing-across-canada/", "verified": true, "source_note": "CCHR, 2025-2026"},
+      {"title": "Council of Canadians — housing and pharmacare campaigns", "url": "https://canadians.org", "verified": true, "source_note": "Council of Canadians, 2026"},
+      {"title": "Canada annual inflation rate fell to 1.8% in February", "url": "https://www.cbc.ca/news/business/canada-annual-inflation-rate-february-2026-9.7130104", "verified": true, "source_note": "CBC Business, March 2026"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "Berlin Rent Cap Movement (Deutsche Wohnen & Co. Enteignen)", "relationship": "Direct model for collective action against institutional landlords; Berlin's expropriation referendum inspires Canadian advocates"},
+      {"id": null, "name": "Los Angeles/NYC Tenant Movement", "relationship": "North American tenant organizing network sharing tactics on rent strikes and AGI challenges"}
+    ],
+    "deployWindow": "act-now",
+    "trajectory": "↑"
+  },
+  {
+    "id": 260,
+    "name": "Canada Climate Policy — Post-Carbon Tax, Industrial Strategy",
+    "region": "Canada — National",
+    "year": 2026,
+    "issue": "Climate / Energy / Just Transition",
+    "description": "After the political controversy and eventual scrapping of the consumer carbon tax by the Carney government, Canada's climate movement faces a strategic pivot. Policy attention has shifted to industrial emissions, building codes, clean electricity regulations, and climate adaptation infrastructure. Alberta's UCP government weakened water basin protections in March 2026 (merging the largest river basins). ATCO wrote down $408M in wind and solar assets due to Alberta power policy changes. The federal government is attempting to position Canada as a 'clean economy' partner to Europe and Asia as a diversification from US-dependent fossil fuel exports.",
+    "whyNow": "The Iran-US war has caused global oil prices to soar — creating both a window and a challenge for Canadian climate action. Higher oil prices generate Alberta revenue and provincial resistance to transition; but they also underscore Canada's petrostate vulnerability and the strategic value of clean energy diversification. The Carney government is a former Bank of England governor who coined the 'tragedy of the horizon' on climate — there is a unique opportunity to anchor industrial climate policy before 2027 elections.",
+    "ncrs": {
+      "tipping_threshold": 7,
+      "conformity_trap_risk": 5,
+      "benefit_visibility": 6,
+      "penalty_reduction": 6,
+      "broad_angle_potential": 7,
+      "leader_persistence": 8,
+      "overall_readiness": 39,
+      "rationale": "High leader persistence from Carney (genuine climate credibility) and civil society. Moderate conformity trap — consumer carbon tax's failure shows climate messaging can backfire when it feels punitive to working people. Benefit visibility improving as climate disasters become more frequent (wildfire season building in BC). Broad angle potential through economic framing (clean energy jobs, trade diversification) rather than sacrifice framing."
+    },
+    "wefCategory": "Environmental",
+    "timeline": [
+      {"year": 2019, "type": "BUILDUP", "event": "Trudeau government introduces consumer carbon price; legal challenges begin"},
+      {"year": 2023, "type": "BUILDUP", "event": "Supreme Court upholds federal carbon pricing authority"},
+      {"year": 2025, "type": "BUILDUP", "event": "Carney government removes consumer carbon tax amid affordability pressure; shifts to industrial-only carbon pricing"},
+      {"year": 2025, "type": "BUILDUP", "event": "Clean Electricity Regulations introduced; Oil and Gas Emissions Cap regulation"},
+      {"year": 2026, "type": "TIP", "event": "Alberta merges river basins and weakens water protections; ATCO writes down $408M in renewables; Iran war causes oil price surge"},
+      {"year": 2026, "type": "UPCOMING", "event": "Federal Clean Economy legislation expected; Carney UK meetings signal G7 climate alignment"},
+      {"year": 2027, "type": "UPCOMING", "event": "BC wildfire season projections suggest intensifying climate adaptation crisis"}
+    ],
+    "keyOrgs": [
+      {"name": "Environmental Defence Canada", "url": "https://environmentaldefence.ca"},
+      {"name": "David Suzuki Foundation", "url": "https://davidsuzuki.org"},
+      {"name": "Clean Prosperity", "url": "https://cleanprosperity.ca"},
+      {"name": "Council of Canadians — Just Transition", "url": "https://canadians.org"}
+    ],
+    "regulatoryWindow": "Federal Clean Electricity Regulations 2026; Oil and Gas Emissions Cap; Clean Economy legislation under potential Carney majority. Alberta water act changes — subject to federal environmental review. COP32 preparations.",
+    "slogans": ["#ClimateAction", "#JustTransition", "#CleanEconomy", "#EndFossilFuels", "#ClimateDebt"],
+    "sources": [
+      {"title": "Why is climate adaptation so difficult for Canada?", "url": "https://policyoptions.irpp.org/2026/03/climate-adaptation-canada-barriers/", "verified": true, "source_note": "Policy Options, March 11 2026"},
+      {"title": "Alberta merges its largest river basins as major update to water rules comes into effect", "url": "https://www.cbc.ca/news/canada/calgary/alberta-river-basins-peace-slave-athabasca-basin-water-act-9.7128174", "verified": true, "source_note": "CBC Calgary, March 14 2026"},
+      {"title": "ATCO blames Alberta power policies as it devalues wind and solar projects by $408M", "url": "https://www.cbc.ca/news/canada/calgary/atco-blames-alberta-power-policies-as-it-devalues-wind-and-solar-projects-by-408m-9.7128473", "verified": true, "source_note": "CBC Calgary, March 14 2026"},
+      {"title": "Global oil prices continue to soar, impacting costs for Canadians", "url": "https://www.cbc.ca/news/canada/edmonton", "verified": true, "source_note": "CBC video, March 2026"}
+    ],
+    "cross_movement_links": [
+      {"id": null, "name": "Fridays for Future (Global)", "relationship": "Canadian chapter active but post-pandemic mobilization weaker than 2019 peak — rebuilding under new frames"},
+      {"id": null, "name": "Standing Rock (US-Canada pipeline resistance)", "relationship": "Trans Mountain and other pipeline fights share FPIC and climate justice framing"}
+    ],
+    "deployWindow": "prepare",
+    "trajectory": "↑"
+  }
+]
