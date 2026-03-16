@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>SIPM — Social Inflection Point Monitor</title>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #08090c;
+  --surface: #0f1117;
+  --surface2: #161922;
+  --surface3: #1e222f;
+  --accent: #00d4aa;
+  --accent2: #ff6b6b;
+  --accent3: #ffd93d;
+  --accent4: #6c5ce7;
+  --text: #e8eaf0;
+  --text-muted: #6b7394;
+  --border: #252a3a;
+  --success: #00d4aa;
+  --warning: #ffd93d;
+  --danger: #ff6b6b;
+  --radius: 10px;
+  --font: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Category colors */
+  --cat-climate: #00c8a0;
+  --cat-democracy: #f59e0b;
+  --cat-labor: #ef4444;
+  --cat-health: #8b5cf6;
+  --cat-digital: #3b82f6;
+  --cat-indigenous: #f97316;
+  --cat-other: #6b7280;
+  
+  /* Edge type colors */
+  --edge-compound: #ff7b54;
+  --edge-actors: #4a9eff;
+  --edge-narrative: #4ade80;
+  --edge-geographic: #fbbf24;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
+body { 
+  background: var(--bg); 
+  color: var(--text); 
+  font-family: var(--font); 
+  font-size: 14px; 
+  line-height: 1.6; 
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Touch/click improvements */
+button, .case-card, .calendar-event, .domain-card, .funder-card, .candidate-card, .nav-tab, .filter-btn, .page-btn, .eco-tab-btn, .network-filter-btn, .org-item a, .funder-name a, .legend-filter-item {
+  -webkit-tap-highlight-color: rgba(0,212,170,0.2);
+  touch-action: manipulation;
+}
+
+/* NAV */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(8,9,12,0.92); backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 2px;
+  padding: 0 16px; height: 52px;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+nav::-webkit-scrollbar { display: none; }
+.nav-logo { 
+  font-weight: 900; font-size: 15px; 
+  background: linear-gradient(135deg, var(--accent), #00f5c4);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text; letter-spacing: -0.5px; 
+  margin-right: 8px; white-space: nowrap; flex-shrink: 0; 
+}
+.nav-logo span { color: var(--text-muted); font-weight: 400; -webkit-text-fill-color: var(--text-muted); }
+.nav-tab { 
+  background: none; border: none; color: var(--text-muted); 
+  padding: 8px 12px; border-radius: 8px; cursor: pointer; 
+  font-size: 12px; font-weight: 600; transition: all 0.2s; 
+  white-space: nowrap; flex-shrink: 0;
+  min-height: 44px; min-width: 44px;
+  display: flex; align-items: center; justify-content: center;
+}
+.nav-tab:hover { color: var(--text); background: var(--surface2); }
+.nav-tab.active { color: var(--accent); background: rgba(0,212,170,0.1); }
+.nav-tab:active { transform: scale(0.95); }
+.nav-right { margin-left: auto; display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
+.badge-count { 
+  background: linear-gradient(135deg, var(--accent), #00f5c4); 
+  color: #000; border-radius: 16px; padding: 3px 10px; 
+  font-size: 10px; font-weight: 800; 
+}
+.last-updated { font-size: 10px; color: var(--text-muted); white-space: nowrap; }
+
+/* LAYOUT */
+.page { display: none; padding: 64px 16px 80px; max-width: 1440px; margin: 0 auto; overflow-x: hidden; width: 100%; }
+.page.active { display: block; }
+@media (min-width: 768px) { .page { padding: 72px 24px 60px; } }
+
+/* STATS */
+.stats-grid { 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; margin-bottom: 20px; 
+}
+@media (min-width: 600px) { .stats-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1000px) { .stats-grid { grid-template-columns: repeat(6, 1fr); } }
+.stat-card { 
+  background: var(--surface); border: 1px solid var(--border); 
+  border-radius: var(--radius); padding: 14px; 
+  transition: all 0.2s; 
+}
+.stat-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.stat-card .val { font-size: 28px; font-weight: 900; line-height: 1; margin-bottom: 2px; }
+.stat-card .lbl { color: var(--text-muted); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.stat-card .sub { color: var(--text-muted); font-size: 10px; margin-top: 2px; }
+
+/* GRID LAYOUTS */
+.two-col { display: grid; grid-template-columns: 1fr; gap: 14px; margin-bottom: 14px; }
+@media (min-width: 900px) { .two-col { grid-template-columns: 1fr 1fr; } }
+.three-col { display: grid; grid-template-columns: 1fr; gap: 14px; margin-bottom: 14px; }
+@media (min-width: 800px) { .three-col { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1100px) { .three-col { grid-template-columns: repeat(3, 1fr); } }
+
+/* CARD */
+.card { 
+  background: var(--surface); border: 1px solid var(--border); 
+  border-radius: var(--radius); padding: 16px; margin-bottom: 14px; 
+}
+.card-title { 
+  font-size: 11px; font-weight: 700; text-transform: uppercase; 
+  letter-spacing: 0.6px; color: var(--text-muted); margin-bottom: 12px; 
+}
+.chart-wrap { position: relative; height: 280px; }
+.chart-wrap-sm { position: relative; height: 200px; }
+
+/* NETWORK CONTAINER */
+#network-container { 
+  width: 100%; 
+  height: 580px; 
+  background: radial-gradient(ellipse at center, #0f1218 0%, #0a0a0f 100%);
+  border-radius: var(--radius); 
+  position: relative; 
+  overflow: hidden;
+  max-width: 100%;
+}
+#network-svg { 
+  max-width: 100%; 
+  display: block; 
+  cursor: grab;
+}
+#network-svg:active { cursor: grabbing; }
+@media (min-width: 768px) { #network-container { height: 680px; } }
+
+/* NETWORK WRAPPER - Flex layout for legend sidebar on desktop */
+.network-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (min-width: 1024px) {
+  .network-wrapper {
+    flex-direction: row;
+  }
+  #network-container {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+/* INTERACTIVE LEGEND CONTROL PANEL */
+.legend-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  width: 100%;
+  max-height: none;
+  overflow-y: auto;
+}
+@media (min-width: 1024px) {
+  .legend-panel {
+    width: 280px;
+    min-width: 280px;
+    max-height: 680px;
+    position: sticky;
+    top: 72px;
+  }
+}
+
+.legend-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.legend-panel-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.legend-toggle-btn {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.legend-toggle-btn:hover { background: var(--surface3); color: var(--text); }
+@media (min-width: 1024px) {
+  .legend-toggle-btn { display: none; }
+}
+
+.legend-panel-body {
+  display: none;
+}
+.legend-panel-body.open {
+  display: block;
+}
+@media (min-width: 1024px) {
+  .legend-panel-body { display: block !important; }
+}
+
+.legend-section {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.legend-section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.legend-section-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+/* Filter items */
+.legend-filter-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  margin: 2px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-size: 11px;
+  user-select: none;
+}
+.legend-filter-item:hover {
+  background: var(--surface2);
+}
+.legend-filter-item.active {
+  background: rgba(0,212,170,0.12);
+}
+.legend-filter-item.dimmed {
+  opacity: 0.4;
+}
+.legend-filter-item .indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.legend-filter-item .indicator.line {
+  width: 20px;
+  height: 3px;
+  border-radius: 2px;
+}
+.legend-filter-item .indicator.dashed {
+  background: repeating-linear-gradient(90deg, var(--edge-compound), var(--edge-compound) 4px, transparent 4px, transparent 7px);
+}
+.legend-filter-item .indicator.dotted {
+  background: repeating-linear-gradient(90deg, var(--edge-narrative), var(--edge-narrative) 2px, transparent 2px, transparent 5px);
+}
+.legend-filter-item .label {
+  flex: 1;
+  color: var(--text);
+}
+.legend-filter-item .count {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.legend-filter-item .checkbox {
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.legend-filter-item.active .checkbox {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.legend-filter-item.active .checkbox::after {
+  content: '✓';
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+/* Node size scale visual */
+.node-size-scale {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 8px 0;
+}
+.node-size-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  transition: all 0.15s;
+}
+.node-size-item:hover {
+  background: var(--surface2);
+}
+.node-size-item.active {
+  background: rgba(0,212,170,0.12);
+}
+.node-size-item .node-circle {
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.7;
+}
+.node-size-item .node-label {
+  font-size: 9px;
+  color: var(--text-muted);
+  text-align: center;
+}
+.node-size-item .node-range {
+  font-size: 8px;
+  color: var(--text-muted);
+}
+
+/* Benjamin's Lens toggle */
+.benjamin-lens-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: linear-gradient(135deg, rgba(0,212,170,0.08), rgba(0,245,196,0.04));
+  border: 1px solid rgba(0,212,170,0.25);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.benjamin-lens-toggle:hover {
+  border-color: var(--accent);
+}
+.benjamin-lens-toggle.active {
+  background: linear-gradient(135deg, rgba(0,212,170,0.2), rgba(0,245,196,0.1));
+  border-color: var(--accent);
+}
+.benjamin-lens-toggle .toggle-switch {
+  width: 36px;
+  height: 20px;
+  background: var(--surface3);
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.2s;
+}
+.benjamin-lens-toggle .toggle-switch::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: var(--text-muted);
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: all 0.2s;
+}
+.benjamin-lens-toggle.active .toggle-switch {
+  background: var(--accent);
+}
+.benjamin-lens-toggle.active .toggle-switch::after {
+  left: 18px;
+  background: #000;
+}
+.benjamin-lens-toggle .toggle-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+}
+.benjamin-lens-toggle .toggle-icon {
+  font-size: 14px;
+}
+
+/* Reset filters button */
+.reset-filters-btn {
+  width: 100%;
+  padding: 10px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-top: 8px;
+}
+.reset-filters-btn:hover {
+  background: var(--surface3);
+  color: var(--text);
+}
+
+/* Category filter buttons (top of network) */
+.network-filters {
+  position: absolute; top: 12px; left: 12px; right: 12px;
+  display: flex; gap: 6px; flex-wrap: wrap; z-index: 10;
+}
+@media (min-width: 1024px) {
+  .network-filters { display: none; }
+}
+.network-filter-btn {
+  background: rgba(8,9,12,0.88); border: 1px solid var(--border);
+  color: var(--text-muted); padding: 8px 12px; border-radius: 6px;
+  cursor: pointer; font-size: 10px; font-weight: 600; transition: all 0.15s;
+  min-height: 36px; min-width: 36px;
+  backdrop-filter: blur(8px);
+}
+.network-filter-btn:hover { border-color: var(--accent); color: var(--text); }
+.network-filter-btn.active { background: var(--accent); border-color: var(--accent); color: #000; }
+.network-filter-btn:active { transform: scale(0.92); }
+.network-filter-btn[data-cat="Climate"].active { background: var(--cat-climate); border-color: var(--cat-climate); }
+.network-filter-btn[data-cat="Democracy"].active { background: var(--cat-democracy); border-color: var(--cat-democracy); }
+.network-filter-btn[data-cat="Labor"].active { background: var(--cat-labor); border-color: var(--cat-labor); }
+.network-filter-btn[data-cat="Health"].active { background: var(--cat-health); border-color: var(--cat-health); }
+.network-filter-btn[data-cat="Digital"].active { background: var(--cat-digital); border-color: var(--cat-digital); }
+.network-filter-btn[data-cat="Indigenous"].active { background: var(--cat-indigenous); border-color: var(--cat-indigenous); }
+
+/* Enhanced tooltip */
+.network-tooltip {
+  position: fixed; pointer-events: none; 
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 14px 16px; font-size: 11px;
+  max-width: 300px; opacity: 0; transition: opacity 0.15s;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5); z-index: 1000;
+  backdrop-filter: blur(12px);
+}
+.network-tooltip.visible { opacity: 1; }
+.network-tooltip .tt-name { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+.network-tooltip .tt-cat { font-size: 10px; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+.network-tooltip .tt-score { 
+  font-size: 12px; margin-bottom: 4px; 
+  display: flex; align-items: center; gap: 8px;
+}
+.network-tooltip .tt-score .trajectory {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.network-tooltip .tt-score .trajectory.tipping { background: rgba(255,107,107,0.2); color: var(--danger); }
+.network-tooltip .tt-score .trajectory.building { background: rgba(255,217,61,0.2); color: var(--warning); }
+.network-tooltip .tt-score .trajectory.early { background: rgba(0,212,170,0.2); color: var(--accent); }
+.network-tooltip .tt-desc { font-size: 10px; color: var(--text-muted); margin-top: 6px; line-height: 1.5; }
+.network-tooltip .tt-connections { 
+  font-size: 10px; color: var(--text-muted); margin-top: 8px; 
+  padding-top: 8px; border-top: 1px solid var(--border); 
+}
+.network-tooltip .tt-connection-item {
+  display: flex; align-items: center; gap: 6px;
+  padding: 2px 0;
+}
+.network-tooltip .tt-connection-item .edge-dot {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+}
+.network-tooltip .tt-tap-hint {
+  font-size: 9px;
+  color: var(--accent);
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+/* Mobile filter button */
+.mobile-filter-btn {
+  display: none;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: var(--accent);
+  border: none;
+  color: #000;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0,212,170,0.3);
+}
+@media (max-width: 1023px) {
+  .mobile-filter-btn { display: block; }
+}
+
+/* Mobile hint */
+.mobile-hint {
+  display: none;
+  position: absolute; bottom: 60px; left: 50%; transform: translateX(-50%);
+  background: rgba(0,212,170,0.15); border: 1px solid var(--accent);
+  border-radius: 20px; padding: 8px 16px; font-size: 10px; color: var(--accent);
+  z-index: 10; white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .mobile-hint { display: block; }
+}
+
+/* FILTERS */
+.filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; align-items: center; }
+.filter-btn { 
+  background: var(--surface); border: 1px solid var(--border); 
+  color: var(--text-muted); padding: 8px 14px; border-radius: 8px; 
+  cursor: pointer; font-size: 11px; font-weight: 600; transition: all 0.15s;
+  min-height: 44px; min-width: 44px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.filter-btn:hover { border-color: var(--accent); color: var(--text); }
+.filter-btn.active { background: var(--accent); border-color: var(--accent); color: #000; }
+.filter-btn:active { transform: scale(0.95); }
+input[type=search], select { 
+  background: var(--surface); border: 1px solid var(--border); 
+  color: var(--text); padding: 8px 12px; border-radius: 8px; 
+  font-size: 12px; outline: none; transition: border-color 0.2s; 
+  font-family: var(--font); min-width: 0; 
+}
+input[type=search]:focus, select:focus { border-color: var(--accent); }
+select option { background: var(--surface2); }
+input[type=range] { accent-color: var(--accent); cursor: pointer; }
+
+/* CASE GRID */
+.cases-grid { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: 12px; 
+}
+@media (min-width: 500px) { .cases-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) { .cases-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1200px) { .cases-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.case-card { 
+  background: var(--surface); border: 1px solid var(--border); 
+  border-radius: var(--radius); padding: 14px; cursor: pointer; 
+  transition: all 0.2s; position: relative; overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.case-card::before { 
+  content: ''; position: absolute; top: 0; left: 0; right: 0; 
+  height: 3px; background: var(--accent); opacity: 0; transition: opacity 0.2s; 
+}
+.case-card:hover { 
+  border-color: var(--accent); transform: translateY(-2px); 
+  box-shadow: 0 8px 24px rgba(0,212,170,0.12); 
+}
+.case-card:hover::before { opacity: 1; }
+.case-card:active { transform: scale(0.98); }
+.case-card.failed { border-color: rgba(255,107,107,0.3); }
+.case-card.failed::before { background: var(--danger); }
+.case-card.failed:hover { border-color: var(--danger); box-shadow: 0 8px 24px rgba(255,107,107,0.12); }
+.case-header { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 6px; }
+.case-num { 
+  background: var(--surface3); color: var(--text-muted); border-radius: 4px; 
+  padding: 2px 5px; font-size: 9px; font-weight: 700; flex-shrink: 0; 
+}
+.case-name { font-weight: 700; font-size: 12px; line-height: 1.3; flex: 1; }
+.case-meta { 
+  color: var(--text-muted); font-size: 10px; margin-bottom: 8px; 
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap; 
+}
+.score-bar-wrap { margin-bottom: 8px; }
+.score-row { display: flex; align-items: center; gap: 6px; margin-bottom: 2px; }
+.score-label { 
+  font-size: 8px; color: var(--text-muted); width: 55px; 
+  flex-shrink: 0; font-weight: 600; text-transform: uppercase; 
+}
+.score-bar { flex: 1; height: 3px; background: var(--surface3); border-radius: 2px; overflow: hidden; }
+.score-fill { height: 100%; border-radius: 2px; transition: width 0.4s; }
+.score-num { font-size: 8px; color: var(--text-muted); width: 10px; text-align: right; flex-shrink: 0; }
+.total-score { display: inline-flex; align-items: center; gap: 4px; font-size: 16px; font-weight: 900; margin-bottom: 6px; }
+.total-score .denom { font-size: 10px; color: var(--text-muted); font-weight: 400; }
+.tags-wrap { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 6px; }
+.tag { 
+  background: var(--surface3); color: var(--text-muted); border-radius: 3px; 
+  padding: 2px 5px; font-size: 9px; font-weight: 500; 
+}
+.failed-badge { 
+  background: rgba(255,107,107,0.15); color: var(--danger); 
+  border-radius: 4px; padding: 2px 6px; font-size: 9px; font-weight: 700; 
+}
+
+/* OUTCOME BADGES */
+.outcome-badge { 
+  border-radius: 4px; padding: 2px 8px; font-size: 10px; 
+  font-weight: 700; display: inline-flex; align-items: center; gap: 3px; 
+}
+.ob-0 { background: rgba(139,0,0,0.25); color: #ff4444; }
+.ob-1 { background: rgba(231,76,60,0.2); color: #ff6b6b; }
+.ob-2 { background: rgba(255,217,61,0.15); color: #ffd93d; }
+.ob-3 { background: rgba(255,217,61,0.2); color: #ffe066; }
+.ob-4 { background: rgba(0,184,148,0.2); color: #00b894; }
+.ob-5 { background: rgba(0,212,170,0.2); color: var(--accent); }
+
+/* MODAL */
+.modal-overlay { 
+  position: fixed; inset: 0; z-index: 200; 
+  background: rgba(0,0,0,0.85); backdrop-filter: blur(6px); 
+  display: none; align-items: flex-start; justify-content: center; 
+  padding: 60px 16px 20px; overflow-y: auto;
+  pointer-events: none;
+  visibility: hidden;
+}
+.modal-overlay.open { 
+  display: flex; 
+  pointer-events: auto;
+  visibility: visible;
+}
+.modal { 
+  background: var(--surface); border: 1px solid var(--border); 
+  border-radius: 12px; padding: 20px; max-width: 800px; width: 100%; 
+  position: relative; animation: slideUp 0.25s ease; 
+}
+@keyframes slideUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.modal-close { 
+  position: absolute; top: 12px; right: 12px; 
+  background: var(--surface2); border: none; color: var(--text-muted); 
+  width: 44px; height: 44px; border-radius: 6px; cursor: pointer; 
+  font-size: 18px; display: flex; align-items: center; justify-content: center; 
+  transition: all 0.2s;
+  z-index: 10;
+}
+.modal-close:hover { background: var(--surface3); color: var(--text); }
+.modal-title { font-size: 18px; font-weight: 800; margin-bottom: 4px; padding-right: 36px; line-height: 1.3; }
+.modal-meta { color: var(--text-muted); font-size: 11px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.modal-section { margin-bottom: 16px; }
+.modal-section-title { 
+  font-size: 10px; font-weight: 700; text-transform: uppercase; 
+  letter-spacing: 0.6px; color: var(--text-muted); margin-bottom: 6px; 
+}
+.modal-section p { font-size: 12px; line-height: 1.7; color: #c8cad8; }
+.benjamin-box { 
+  background: linear-gradient(135deg, rgba(0,212,170,0.08), rgba(0,245,196,0.04)); 
+  border: 1px solid rgba(0,212,170,0.25); border-radius: 8px; 
+  padding: 12px 14px; margin-top: 14px; 
+}
+.benjamin-box .label { 
+  font-size: 9px; font-weight: 800; text-transform: uppercase; 
+  color: var(--accent); letter-spacing: 0.5px; margin-bottom: 4px; 
+}
+.benjamin-box p { font-size: 12px; line-height: 1.6; color: var(--text); }
+
+/* TIMELINE */
+.timeline-wrap { margin: 14px 0; }
+.timeline-item { 
+  display: flex; gap: 10px; padding: 8px 0; 
+  border-bottom: 1px solid var(--border); 
+}
+.timeline-item:last-child { border-bottom: none; }
+.timeline-year { 
+  font-size: 11px; font-weight: 700; color: var(--text-muted); 
+  width: 40px; flex-shrink: 0; 
+}
+.timeline-marker { 
+  font-size: 9px; font-weight: 700; padding: 2px 6px; 
+  border-radius: 3px; flex-shrink: 0; 
+}
+.tm-BUILDUP { background: rgba(107,115,148,0.2); color: #6b7394; }
+.tm-TIP { background: rgba(255,217,61,0.2); color: #ffd93d; }
+.tm-WIN { background: rgba(0,212,170,0.2); color: var(--accent); }
+.tm-PARTIAL-WIN { background: rgba(0,206,201,0.2); color: #00cec9; }
+.tm-SETBACK { background: rgba(253,150,68,0.2); color: #fd9644; }
+.tm-REVERSAL { background: rgba(255,107,107,0.2); color: var(--danger); }
+.tm-CONSOLIDATION { background: rgba(116,185,255,0.2); color: #74b9ff; }
+.tm-MILESTONE { background: rgba(162,155,254,0.2); color: #a29bfe; }
+.tm-ONGOING { background: rgba(0,207,232,0.2); color: #00cfe8; }
+.tm-SUPPRESSED { background: rgba(192,57,43,0.2); color: #c0392b; }
+.timeline-text { font-size: 11px; color: #c8cad8; line-height: 1.5; flex: 1; }
+
+/* RADAR CHART */
+.radar-wrap { width: 180px; height: 180px; margin: 0 auto; }
+
+/* ACTORS SECTION */
+.actors-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+@media (min-width: 600px) { .actors-grid { grid-template-columns: 1fr 1fr; } }
+.actor-group { background: var(--surface2); border-radius: 8px; padding: 12px; }
+.actor-group-title { 
+  font-size: 10px; font-weight: 700; text-transform: uppercase; 
+  color: var(--text-muted); margin-bottom: 6px; 
+}
+.actor-list { list-style: none; }
+.actor-list li { 
+  font-size: 11px; padding: 3px 0; 
+  border-bottom: 1px solid rgba(37,42,58,0.5); 
+}
+.actor-list li:last-child { border-bottom: none; }
+
+/* SOURCES */
+.sources-list { list-style: none; }
+.sources-list li { font-size: 11px; padding: 4px 0; line-height: 1.5; }
+.sources-list a { 
+  color: var(--accent); text-decoration: none; 
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+.sources-list a:hover { text-decoration: underline; }
+
+/* FORECAST CALENDAR */
+.calendar-wrap { 
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
+  max-width: 100%;
+  margin: 0 -16px;
+  padding: 0 16px;
+}
+.calendar-track { 
+  display: flex; gap: 12px; padding: 10px 0;
+  width: max-content;
+}
+.calendar-year { 
+  background: var(--surface); border: 1px solid var(--border); 
+  border-radius: var(--radius); padding: 14px; min-width: 300px; 
+}
+.calendar-year-title { 
+  font-size: 20px; font-weight: 900; margin-bottom: 10px; 
+  color: var(--accent); 
+}
+.calendar-event { 
+  background: var(--surface2); border-radius: 6px; 
+  padding: 12px; margin-bottom: 8px; cursor: pointer;
+  transition: all 0.2s; border-left: 3px solid var(--accent);
+  min-height: 44px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.calendar-event:hover { background: var(--surface3); }
+.calendar-event:active { transform: scale(0.98); }
+.calendar-event.hot { border-left-color: var(--danger); }
+.calendar-event.warm { border-left-color: var(--warning); }
+.calendar-event-date { font-size: 10px; color: var(--text-muted); font-weight: 600; }
+.calendar-event-title { font-size: 12px; font-weight: 700; margin: 2px 0; }
+.calendar-event-movements { font-size: 10px; color: var(--text-muted); }
+
+/* CANDIDATE CARDS */
+.candidate-card { 
+  background: var(--surface); border: 1px solid var(--border); 
+  border-radius: var(--radius); padding: 16px; margin-bottom: 12px;
+  cursor: pointer; transition: all 0.2s;
+}
+.candidate-card:hover { border-color: var(--accent); }
+.candidate-card:active { transform: scale(0.99); }
+.candidate-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+.candidate-name { font-size: 15px; font-weight: 800; margin-bottom: 2px; }
+.candidate-score { font-size: 22px; font-weight: 900; }
+.candidate-score.hot { color: var(--danger); }
+.candidate-score.warm { color: var(--warning); }
+.candidate-score.building { color: var(--accent); }
+.candidate-body { color: var(--text-muted); font-size: 12px; line-height: 1.7; }
+.candidate-body p { margin-bottom: 6px; }
+.candidate-body strong { color: var(--text); }
+
+/* ECOSYSTEM */
+.eco-tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
+.eco-tab-btn { 
+  background: var(--surface); border: 1px solid var(--border); 
+  color: var(--text-muted); padding: 10px 16px; border-radius: 8px; 
+  cursor: pointer; font-size: 12px; font-weight: 600; transition: all 0.2s;
+  min-height: 44px;
+}
+.eco-tab-btn:hover { border-color: var(--accent); color: var(--text); }
+.eco-tab-btn.active { background: rgba(0,212,170,0.1); border-color: var(--accent); color: var(--accent); }
+.eco-tab-btn:active { transform: scale(0.95); }
+.eco-tab-panel { display: none; }
+.eco-tab-panel.active { display: block; }
+.domain-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 700px) { .domain-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1100px) { .domain-grid { grid-template-columns: repeat(3, 1fr); } }
+.domain-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; max-width: 100%; overflow: hidden; }
+.domain-name { font-size: 14px; font-weight: 800; color: var(--accent); margin-bottom: 8px; }
+.domain-section-label { 
+  font-size: 9px; font-weight: 700; text-transform: uppercase; 
+  color: var(--text-muted); margin: 8px 0 4px; 
+}
+.org-item { padding: 8px 0; border-bottom: 1px solid rgba(37,42,58,0.5); min-height: 44px; display: flex; flex-direction: column; justify-content: center; }
+.org-item:last-child { border-bottom: none; }
+.org-name { font-weight: 700; font-size: 11px; }
+.org-budget { color: var(--accent); font-size: 10px; font-weight: 600; }
+.org-tactics { color: var(--text-muted); font-size: 10px; line-height: 1.4; margin-top: 2px; }
+.funder-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-bottom: 12px; cursor: pointer; transition: all 0.2s; }
+.funder-card:hover { border-color: var(--accent); }
+.funder-card:active { transform: scale(0.99); }
+.funder-name { font-size: 14px; font-weight: 800; margin-bottom: 4px; }
+.funder-giving { color: var(--success); font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+.funder-focus { color: var(--text-muted); font-size: 11px; line-height: 1.5; }
+.funder-domains { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.funder-domain { 
+  background: rgba(0,212,170,0.1); color: var(--accent); 
+  border-radius: 3px; padding: 2px 6px; font-size: 9px; font-weight: 500; 
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* PAGINATION */
+.pagination { display: flex; gap: 4px; margin-top: 16px; justify-content: center; flex-wrap: wrap; }
+.page-btn { 
+  background: var(--surface); border: 1px solid var(--border); 
+  color: var(--text-muted); padding: 8px 12px; border-radius: 6px; 
+  cursor: pointer; font-size: 11px; transition: all 0.15s; 
+  min-width: 44px; min-height: 44px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.page-btn:hover { border-color: var(--accent); color: var(--text); }
+.page-btn.active { background: var(--accent); border-color: var(--accent); color: #000; }
+.page-btn:active { transform: scale(0.92); }
+.results-count { color: var(--text-muted); font-size: 11px; margin-bottom: 10px; }
+
+/* FOOTER */
+.footer { 
+  text-align: center; padding: 20px; color: var(--text-muted); 
+  font-size: 11px; border-top: 1px solid var(--border); margin-top: 40px; 
+}
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+/* METHODOLOGY */
+.methodology-content { font-size: 12px; line-height: 1.8; color: #c8cad8; }
+.methodology-content h3 { color: var(--text); font-size: 14px; margin: 16px 0 8px; }
+.methodology-content p { margin-bottom: 10px; }
+.methodology-content ul { padding-left: 18px; margin-bottom: 10px; }
+.methodology-content li { margin-bottom: 4px; }
+.methodology-content strong { color: var(--text); }
+.condition-grid { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 14px 0; }
+@media (min-width: 600px) { .condition-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 900px) { .condition-grid { grid-template-columns: repeat(5, 1fr); } }
+.condition-card { background: var(--surface2); border-radius: 8px; padding: 12px; text-align: center; }
+.condition-card .num { font-size: 24px; font-weight: 900; color: var(--accent); }
+.condition-card .name { font-size: 10px; font-weight: 700; text-transform: uppercase; color: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">SIPM <span>Monitor</span></div>
+  <button class="nav-tab active" data-tab="network">Network</button>
+  <button class="nav-tab" data-tab="cases">Cases</button>
+  <button class="nav-tab" data-tab="forecast">Forecast</button>
+  <button class="nav-tab" data-tab="ecosystem">Ecosystem</button>
+  <button class="nav-tab" data-tab="methodology">About</button>
+  <div class="nav-right">
+    <span class="last-updated">Updated: Mar 15, 2026</span>
+    <span class="badge-count">100 Cases</span>
+  </div>
+</nav>
+
+<div class="network-tooltip" id="network-tooltip"></div>
+
+<!-- NETWORK VIEW -->
+<div class="page active" id="page-network">
+  <div class="stats-grid" id="stats-grid"></div>
+  
+  <div class="network-wrapper">
+    <!-- Network Graph Container -->
+    <div class="card" style="padding: 0; overflow: hidden; margin-bottom: 0; flex: 1;">
+      <div id="network-container">
+        <div class="network-filters" id="network-filters">
+          <button class="network-filter-btn active" data-cat="All">All</button>
+          <button class="network-filter-btn" data-cat="Climate">Climate</button>
+          <button class="network-filter-btn" data-cat="Democracy">Democracy</button>
+          <button class="network-filter-btn" data-cat="Labor">Labor</button>
+          <button class="network-filter-btn" data-cat="Health">Health</button>
+          <button class="network-filter-btn" data-cat="Digital">Digital</button>
+          <button class="network-filter-btn" data-cat="Indigenous">Indigenous</button>
+        </div>
+        <svg id="network-svg" width="100%" height="100%"></svg>
+        <div class="mobile-hint">👆 Tap bubbles for details</div>
+      </div>
+    </div>
+    
+    <!-- Interactive Legend Control Panel -->
+    <div class="legend-panel" id="legend-panel">
+      <div class="legend-panel-header" id="legend-header">
+        <div class="legend-panel-title">
+          <span>🎛️</span>
+          <span>Filter & Explore</span>
+        </div>
+        <button class="legend-toggle-btn" id="legend-toggle">▼ Expand</button>
+      </div>
+      
+      <div class="legend-panel-body" id="legend-body">
+        <!-- Section 1: Node Size = SIPM Score -->
+        <div class="legend-section">
+          <div class="legend-section-title">Node Size = SIPM Score</div>
+          <div class="node-size-scale">
+            <div class="node-size-item" data-size="high">
+              <div class="node-circle" style="width: 36px; height: 36px;"></div>
+              <div class="node-label">High</div>
+              <div class="node-range">20-25</div>
+            </div>
+            <div class="node-size-item" data-size="medium">
+              <div class="node-circle" style="width: 26px; height: 26px;"></div>
+              <div class="node-label">Med</div>
+              <div class="node-range">14-19</div>
+            </div>
+            <div class="node-size-item" data-size="low">
+              <div class="node-circle" style="width: 18px; height: 18px;"></div>
+              <div class="node-label">Low</div>
+              <div class="node-range">&lt;14</div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Section 2: Node Color = Category -->
+        <div class="legend-section">
+          <div class="legend-section-title">Category</div>
+          <div id="category-filters">
+            <div class="legend-filter-item active" data-category="All">
+              <div class="indicator" style="background: linear-gradient(135deg, var(--cat-climate), var(--cat-democracy), var(--cat-indigenous));"></div>
+              <span class="label">All Categories</span>
+              <span class="count" id="count-all">25</span>
+            </div>
+            <div class="legend-filter-item" data-category="Climate">
+              <div class="indicator" style="background: var(--cat-climate);"></div>
+              <span class="label">Climate</span>
+              <span class="count" id="count-climate">8</span>
+            </div>
+            <div class="legend-filter-item" data-category="Democracy">
+              <div class="indicator" style="background: var(--cat-democracy);"></div>
+              <span class="label">Democracy</span>
+              <span class="count" id="count-democracy">5</span>
+            </div>
+            <div class="legend-filter-item" data-category="Labor">
+              <div class="indicator" style="background: var(--cat-labor);"></div>
+              <span class="label">Labor</span>
+              <span class="count" id="count-labor">3</span>
+            </div>
+            <div class="legend-filter-item" data-category="Health">
+              <div class="indicator" style="background: var(--cat-health);"></div>
+              <span class="label">Health</span>
+              <span class="count" id="count-health">2</span>
+            </div>
+            <div class="legend-filter-item" data-category="Digital">
+              <div class="indicator" style="background: var(--cat-digital);"></div>
+              <span class="label">Digital</span>
+              <span class="count" id="count-digital">2</span>
+            </div>
+            <div class="legend-filter-item" data-category="Indigenous">
+              <div class="indicator" style="background: var(--cat-indigenous);"></div>
+              <span class="label">Indigenous</span>
+              <span class="count" id="count-indigenous">5</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Section 3: Edge Type Filter -->
+        <div class="legend-section">
+          <div class="legend-section-title">Connection Types</div>
+          <div id="edge-filters">
+            <div class="legend-filter-item active" data-edge="compound">
+              <div class="checkbox"></div>
+              <div class="indicator line dashed" style="background: var(--edge-compound);"></div>
+              <span class="label">Compound Crisis</span>
+              <span class="count" id="count-edge-compound">10</span>
+            </div>
+            <div class="legend-filter-item active" data-edge="actors">
+              <div class="checkbox"></div>
+              <div class="indicator line" style="background: var(--edge-actors);"></div>
+              <span class="label">Shared Actors</span>
+              <span class="count" id="count-edge-actors">6</span>
+            </div>
+            <div class="legend-filter-item active" data-edge="narrative">
+              <div class="checkbox"></div>
+              <div class="indicator line dotted" style="background: var(--edge-narrative);"></div>
+              <span class="label">Narrative Dependency</span>
+              <span class="count" id="count-edge-narrative">6</span>
+            </div>
+            <div class="legend-filter-item active" data-edge="geographic">
+              <div class="checkbox"></div>
+              <div class="indicator line" style="background: var(--edge-geographic);"></div>
+              <span class="label">Geographic Overlap</span>
+              <span class="count" id="count-edge-geographic">6</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Section 4: Trajectory Filter -->
+        <div class="legend-section">
+          <div class="legend-section-title">Trajectory</div>
+          <div id="trajectory-filters">
+            <div class="legend-filter-item" data-trajectory="tipping">
+              <div class="indicator" style="background: var(--danger);"></div>
+              <span class="label">🔴 Tipping Now</span>
+              <span class="count" id="count-tipping">6</span>
+            </div>
+            <div class="legend-filter-item" data-trajectory="building">
+              <div class="indicator" style="background: var(--warning);"></div>
+              <span class="label">🟡 Building</span>
+              <span class="count" id="count-building">12</span>
+            </div>
+            <div class="legend-filter-item" data-trajectory="early">
+              <div class="indicator" style="background: var(--accent);"></div>
+              <span class="label">🟢 Early Stage</span>
+              <span class="count" id="count-early">7</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Section 5: Benjamin's Lens -->
+        <div class="legend-section">
+          <div class="legend-section-title">Special Views</div>
+          <div class="benjamin-lens-toggle" id="benjamin-lens">
+            <div class="toggle-switch"></div>
+            <span class="toggle-label">Benjamin's Lens</span>
+            <span class="toggle-icon">🎨</span>
+          </div>
+          <p style="font-size: 9px; color: var(--text-muted); margin-top: 6px; line-height: 1.4;">
+            Highlights movements with specific visual intervention opportunities
+          </p>
+        </div>
+        
+        <button class="reset-filters-btn" id="reset-all-filters">↺ Reset All Filters</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col" style="margin-top: 14px;">
+    <div class="card">
+      <div class="card-title">SIPM Score Distribution</div>
+      <div class="chart-wrap-sm" id="chart-scores"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Outcome Distribution</div>
+      <div class="chart-wrap-sm" id="chart-outcomes"></div>
+    </div>
+  </div>
+</div>
+
+<!-- CASES LIST -->
+<div class="page" id="page-cases">
+  <div class="filters">
+    <input type="search" id="search-input" placeholder="Search cases..." style="flex: 1; min-width: 150px; max-width: 300px;">
+    <select id="filter-region">
+      <option value="">All Regions</option>
+    </select>
+    <select id="filter-outcome">
+      <option value="">Any Outcome</option>
+      <option value="5">5 – Full Change</option>
+      <option value="4">4 – Major Win</option>
+      <option value="3">3 – Cultural Shift</option>
+      <option value="2">2 – Partial Win</option>
+      <option value="1">1 – Awareness Only</option>
+      <option value="0">0 – Suppressed</option>
+    </select>
+    <div style="display: flex; align-items: center; gap: 4px;">
+      <span style="font-size: 10px; color: var(--text-muted);">Min SIPM:</span>
+      <input type="range" id="filter-score" min="0" max="25" value="0" style="width: 60px;">
+      <span id="score-val" style="font-size: 10px; color: var(--text-muted); width: 16px;">0</span>
+    </div>
+    <button class="filter-btn" id="reset-filters">↺</button>
+  </div>
+  <div class="filters" style="margin-bottom: 8px;">
+    <span style="font-size: 10px; color: var(--text-muted);">Sort:</span>
+    <button class="filter-btn active" data-sort="num">#</button>
+    <button class="filter-btn" data-sort="score">SIPM ↓</button>
+    <button class="filter-btn" data-sort="outcome">Outcome ↓</button>
+    <button class="filter-btn" data-sort="year">Year</button>
+  </div>
+  <div class="results-count" id="results-count"></div>
+  <div class="cases-grid" id="cases-grid"></div>
+  <div class="pagination" id="pagination"></div>
+</div>
+
+<!-- FORECAST CALENDAR -->
+<div class="page" id="page-forecast">
+  <div class="card" style="background: linear-gradient(135deg, rgba(0,212,170,0.06), rgba(255,107,107,0.04));">
+    <div class="card-title" style="color: var(--accent);">🔥 Active Inflection Windows — 2025-2028</div>
+    <p style="color: var(--text-muted); font-size: 12px; margin-bottom: 14px;">
+      Key global events that could catalyze movement tipping points. Scored using the SIPM 5-condition framework.
+    </p>
+  </div>
+  
+  <div class="calendar-wrap">
+    <div class="calendar-track" id="calendar-track"></div>
+  </div>
+  
+  <div class="card" style="margin-top: 20px;">
+    <div class="card-title">Current Candidates — 2025-2026</div>
+    <div id="candidates-list"></div>
+  </div>
+</div>
+
+<!-- ECOSYSTEM -->
+<div class="page" id="page-ecosystem">
+  <div class="eco-tabs">
+    <button class="eco-tab-btn active" data-eco="domains">🏛 Domains</button>
+    <button class="eco-tab-btn" data-eco="funders">💰 Funders</button>
+  </div>
+  <div class="eco-tab-panel active" id="eco-domains">
+    <div class="domain-grid" id="domain-grid"></div>
+  </div>
+  <div class="eco-tab-panel" id="eco-funders">
+    <div id="funders-grid"></div>
+  </div>
+</div>
+
+<!-- METHODOLOGY -->
+<div class="page" id="page-methodology">
+  <div class="card">
+    <div class="card-title">The SIPM Framework</div>
+    <div class="methodology-content">
+      <p><strong>The Social Inflection Point Monitor</strong> is a framework for reading when movements are ready to tip — and positioning campaigns at those moments.</p>
+      
+      <h3>The Five Conditions for Tipping</h3>
+      <p>Research into past movement inflection points consistently surfaces five conditions. A movement rarely tips on fewer than four. When all five are present, a trigger event ignites a cultural shift.</p>
+      
+      <div class="condition-grid">
+        <div class="condition-card">
+          <div class="num">1</div>
+          <div class="name">Grievance Saturation</div>
+        </div>
+        <div class="condition-card">
+          <div class="num">2</div>
+          <div class="name">Narrative Availability</div>
+        </div>
+        <div class="condition-card">
+          <div class="num">3</div>
+          <div class="name">Infrastructure</div>
+        </div>
+        <div class="condition-card">
+          <div class="num">4</div>
+          <div class="name">Permission Structure</div>
+        </div>
+        <div class="condition-card">
+          <div class="num">5</div>
+          <div class="name">Trigger Potential</div>
+        </div>
+      </div>
+      
+      <h3>Condition Definitions</h3>
+      <ul>
+        <li><strong>Grievance Saturation (0-5):</strong> Not just grievance presence — saturation. The harm has accumulated enough that a significant portion feels it personally or viscerally.</li>
+        <li><strong>Narrative Availability (0-5):</strong> The explanatory story exists and is accessible — who caused this, who suffers, and what can be done.</li>
+        <li><strong>Organizational Infrastructure (0-5):</strong> Networks of people capable of activating are already connected. You can't build this during a crisis.</li>
+        <li><strong>Permission Structure (0-5):</strong> The cultural/political environment endorses the movement's values or has become fragile enough to challenge.</li>
+        <li><strong>Trigger Event Potential (0-5):</strong> Specific, emotionally legible incidents that prove the grievance is happening right now, to real people.</li>
+      </ul>
+      
+      <h3>Outcome Scoring</h3>
+      <ul>
+        <li><strong>5 – Full Change:</strong> Durable policy/institutional change achieved and maintained</li>
+        <li><strong>4 – Major Win:</strong> Significant policy wins but vulnerable to reversal or incomplete</li>
+        <li><strong>3 – Cultural Shift:</strong> Permanent change in public consciousness, discourse, or norms</li>
+        <li><strong>2 – Partial Win:</strong> Some concessions extracted but core grievance unaddressed</li>
+        <li><strong>1 – Awareness Only:</strong> Public attention generated without structural change</li>
+        <li><strong>0 – Suppressed:</strong> Movement crushed with no lasting impact</li>
+      </ul>
+      
+      <h3>Key Insight</h3>
+      <p>The trigger doesn't create the conditions — the conditions determine when the trigger ignites. Build conditions relentlessly; be ready to amplify when the trigger comes.</p>
+      
+      <h3>Data Sources</h3>
+      <p>This dashboard synthesizes research from academic literature on social movements, historical case analysis, and real-time tracking of active campaigns. 100 cases spanning 1977-2025 across all continents.</p>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" id="modal-content"></div>
+</div>
+
+<footer class="footer">
+  <p>🐼 Built by PandaClaw for <a href="https://www.vonwong.com" target="_blank" rel="noopener">Benjamin Von Wong</a> / <a href="https://activism.studio" target="_blank" rel="noopener">Activism.Studio</a></p>
+  <p style="margin-top: 4px;">Data: 100 historical movement cases · SIPM Framework · March 2026</p>
+</footer>
+
+<script>
+// ============================================================
+// EMBEDDED DATA
+// ============================================================
+
+const CASES = [
+  {"id":1,"name":"MeToo","region":"United States/Global","year":2017,"failed":false,"issue":"Systemic sexual harassment and assault normalized across institutions worldwide.","scores":{"grievance":5,"narrative":4,"infrastructure":3,"permission":4,"trigger":5,"total":21},"tags":["participatory-structure","manufactured-permission","institutional-trigger"],"trigger":"Ronan Farrow's Harvey Weinstein exposé in New Yorker/NYT (Oct 5-10, 2017) + Alyssa Milano's tweet inviting survivors to reply \"Me too\" — Oct 15, 2017.","outcome":"19 million tweets in 24 hours. Dozens of high-profile firings and resignations. NDA reform in 12+ states. Weinstein convicted 2020 (NY conviction overturned 2024). Speak Out Act 2022.","benjamin":"The mechanism embedded IN the trigger (hashtag = invitation to participate) multiplied reach exponentially — design visual interventions that invite contribution, not just consumption.","outcome_score":4,"funders":["Ford Foundation","Open Society Foundations","Time Warner Foundation"],"orgs":["Time's Up","RAINN","MeToo Movement"],"timeline":[{"year":2006,"type":"BUILDUP","event":"Tarana Burke coins 'Me Too' on Myspace"},{"year":2017,"type":"TIP","event":"Weinstein exposé + Milano tweet"},{"year":2020,"type":"WIN","event":"Weinstein convicted"},{"year":2024,"type":"REVERSAL","event":"NY conviction overturned"}]},
+  {"id":2,"name":"Black Lives Matter — 2020 Tipping","region":"United States/Global","year":2020,"failed":false,"issue":"Police violence against Black Americans as state-sanctioned racial violence.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":4,"trigger":5,"total":24},"tags":["visual-simplification","compound-crisis","infrastructure-determines-magnitude","cross-border-contagion"],"trigger":"Bystander video of Derek Chauvin kneeling on George Floyd's neck for 8:46 minutes, May 25, 2020.","outcome":"15-26 million US participants — largest protest in American history. $10.6 billion pledged. 4,000+ protests in 60 countries. Chauvin convicted 2021. Most 'defund' measures later reversed.","benjamin":"Seven years of infrastructure made the 2020 tip enormous — campaigns that seem to fail are building the precondition for the next, larger tip.","outcome_score":3,"funders":["Ford Foundation","MacArthur Foundation","Open Society Foundations"],"orgs":["Movement for Black Lives","Color of Change","NAACP"],"timeline":[{"year":2013,"type":"BUILDUP","event":"BLM founded after Trayvon Martin"},{"year":2020,"type":"TIP","event":"George Floyd killing"},{"year":2020,"type":"WIN","event":"Largest protests in US history"},{"year":2021,"type":"WIN","event":"Chauvin convicted"},{"year":2021,"type":"REVERSAL","event":"Minneapolis voters reject police reform"}]},
+  {"id":3,"name":"Plastic Straw / Sea Turtle","region":"Global","year":2018,"failed":false,"issue":"Single-use plastic's impact on marine ecosystems.","scores":{"grievance":3,"narrative":3,"infrastructure":3,"permission":3,"trigger":5,"total":17},"tags":["visual-simplification","slow-violence-made-visible","manufactured-permission"],"trigger":"2015 video of marine biologist removing plastic straw from sea turtle nostril — 28 million views.","outcome":"Plastic straw bans in 70+ countries. Major corporations eliminated straws. But straws = 0.025% of ocean plastic. Narrative win exceeded material win.","benjamin":"A specific, visceral, small thing can unlock action on a large abstract thing — but only if organizational infrastructure is ready to convert attention into policy demand.","outcome_score":3,"funders":["Break Free From Plastic members"],"orgs":["Ocean Conservancy","Surfrider Foundation"],"timeline":[{"year":2015,"type":"TIP","event":"Turtle video goes viral"},{"year":2018,"type":"WIN","event":"Starbucks, McDonald's eliminate straws"}]},
+  {"id":4,"name":"Fridays for Future","region":"Global","year":2018,"failed":false,"issue":"Government inaction on climate change despite scientific consensus.","scores":{"grievance":4,"narrative":5,"infrastructure":3,"permission":5,"trigger":5,"total":22},"tags":["manufactured-permission","participatory-structure","cross-border-contagion"],"trigger":"Greta Thunberg's solo strike outside Swedish parliament, August 2018. Global tip: September 2019 Climate Strike — 6 million in 185 countries.","outcome":"6 million participants Sept 2019. 'Climate emergency' declarations in 2,000+ jurisdictions. Youth as climate political actors normalized.","benjamin":"Manufactured permission structures (reframing 'truancy' as moral necessity) can unlock mass participation that awareness-raising alone doesn't achieve.","outcome_score":3,"funders":["Climate Emergency Fund","350.org"],"orgs":["Fridays for Future","Sunrise Movement"],"timeline":[{"year":2018,"type":"TIP","event":"Greta's first strike"},{"year":2019,"type":"WIN","event":"6M global climate strike"}]},
+  {"id":5,"name":"Standing Rock / #NoDAPL","region":"United States","year":2016,"failed":false,"issue":"Dakota Access Pipeline threatening Standing Rock Sioux water supply and treaty rights.","scores":{"grievance":5,"narrative":4,"infrastructure":3,"permission":3,"trigger":4,"total":19},"tags":["visual-simplification","identity-threat","asymmetric-protection"],"trigger":"September 2016: private security dogs attacking water protectors. Video echoed civil rights era imagery.","outcome":"Obama halted pipeline (Dec 2016). Trump approved it (Jan 2017). Pipeline completed. Cultural impact lasting: Land Back movement acceleration, alliance-building.","benjamin":"Visual resonance with historical injustice is a powerful amplifier — an image that echoes prior recognized injustice mobilizes people who identify with the prior fight.","outcome_score":2,"funders":["First Nations Development Institute","Honor the Earth"],"orgs":["Standing Rock Sioux Tribe","Indigenous Environmental Network"],"timeline":[{"year":2016,"type":"TIP","event":"Dogs attack water protectors"},{"year":2016,"type":"WIN","event":"Obama halts pipeline"},{"year":2017,"type":"REVERSAL","event":"Trump approves pipeline"}]},
+  {"id":6,"name":"Marriage Equality — The Long Arc","region":"United States","year":2015,"failed":false,"issue":"Legal recognition of same-sex marriage.","scores":{"grievance":4,"narrative":5,"infrastructure":5,"permission":5,"trigger":4,"total":23},"tags":["deliberate-engineering","manufactured-permission","institutional-trigger"],"trigger":"Supreme Court's Windsor (2013) and Obergefell (2015) decisions, after public opinion crossed 50% support ~2011.","outcome":"Nationwide marriage equality June 2015. Public support: 27% (1996) → 62% (2015). Legal tipping followed cultural tipping by ~3 years.","benjamin":"Cultural tipping can be deliberately engineered through sustained narrative work — the movement didn't wait for a trigger; it built the permission structure over decades.","outcome_score":5,"funders":["Gill Foundation","Arcus Foundation","Ford Foundation"],"orgs":["Lambda Legal","Freedom to Marry","Human Rights Campaign"],"timeline":[{"year":1993,"type":"BUILDUP","event":"Hawaii case begins"},{"year":2013,"type":"WIN","event":"Windsor strikes DOMA"},{"year":2015,"type":"WIN","event":"Obergefell - nationwide equality"}]},
+  {"id":7,"name":"Chile Estallido Social","region":"Chile","year":2019,"failed":false,"issue":"Accumulated economic inequality, privatized infrastructure, and elite impunity in Chile's neoliberal model.","scores":{"grievance":5,"narrative":4,"infrastructure":3,"permission":3,"trigger":5,"total":20},"tags":["economic-shock-trigger","identity-threat","compound-crisis"],"trigger":"October 18, 2019: subway fare increase of 30 pesos ($0.04). Student fare evasion met with military force.","outcome":"Government agreed to constitutional convention. New constitutions drafted 2021-2022 but rejected by referendums. Political landscape permanently altered; Boric government elected.","benjamin":"A tiny, absurd trigger (4-cent fare increase) can detonate accumulated decades of grievance — the trigger doesn't need to be proportionate to the outcome.","outcome_score":3,"funders":["Chilean civil society"],"orgs":["No+AFP movement","Feminist collectives"],"timeline":[{"year":2019,"type":"TIP","event":"Metro fare protests explode"},{"year":2020,"type":"WIN","event":"Constitutional referendum passes 78%"},{"year":2022,"type":"SETBACK","event":"New constitution rejected"}]},
+  {"id":8,"name":"EndSARS Nigeria","region":"Nigeria","year":2020,"failed":false,"issue":"SARS police unit's systematic torture, extrajudicial killings, and extortion of young Nigerians.","scores":{"grievance":5,"narrative":5,"infrastructure":4,"permission":3,"trigger":5,"total":22},"tags":["visual-simplification","institutional-trigger","identity-threat"],"trigger":"October 3, 2020: video of SARS officers killing a young man in Delta State went viral on Twitter.","outcome":"SARS officially disbanded Oct 11, 2020. Lekki Toll Gate massacre Oct 20 — military fired on protesters. SWAT replaced SARS (widely seen as rebrand). Consciousness permanently shifted.","benjamin":"Sustained documentation over 3 years created a trigger-ready infrastructure — the video was the match in a room full of gas.","outcome_score":2,"funders":["Diaspora crowdfunding","Feminist Coalition Nigeria"],"orgs":["Feminist Coalition","Enough is Enough Nigeria"],"timeline":[{"year":2017,"type":"BUILDUP","event":"#EndSARS hashtag begins"},{"year":2020,"type":"TIP","event":"Video goes viral"},{"year":2020,"type":"SETBACK","event":"Lekki massacre"}]},
+  {"id":9,"name":"India Farmers' Protest","region":"India","year":2020,"failed":false,"issue":"Three Farm Acts deregulating agricultural markets, threatening 250 million farmers.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":3,"trigger":4,"total":22},"tags":["participatory-structure","identity-threat","infrastructure-determines-magnitude"],"trigger":"November 26, 2020 'Dilli Chalo' march to Delhi. Police met farmers with tear gas and water cannons in winter.","outcome":"November 19, 2021: PM Modi announced repeal of all three Farm Acts. Unprecedented reversal. One of most significant government capitulations in Indian democratic history.","benjamin":"Staying power matters — the farmers won through 13 months of sustained, disciplined presence, not through spectacle.","outcome_score":5,"funders":["Punjab farmer unions","Diaspora support"],"orgs":["Samyukta Kisan Morcha","BKU (Bharatiya Kisan Union)"],"timeline":[{"year":2020,"type":"BUILDUP","event":"Farm Acts passed without consultation"},{"year":2020,"type":"TIP","event":"Dilli Chalo march"},{"year":2021,"type":"WIN","event":"Modi repeals all three acts"}]},
+  {"id":10,"name":"South Korea Candlelight Revolution","region":"South Korea","year":2016,"failed":false,"issue":"President Park Geun-hye's corruption and influence by cult figure Choi Soon-sil.","scores":{"grievance":5,"narrative":5,"infrastructure":4,"permission":4,"trigger":5,"total":23},"tags":["institutional-trigger","participatory-structure","manufactured-permission"],"trigger":"October 2016: revelations that Park shared classified documents with Choi Soon-sil, a shamanistic cult leader.","outcome":"Park impeached Dec 2016. Constitutional Court upheld March 2017. Arrested and convicted 2018. Moon Jae-in elected. Democracy functioned.","benjamin":"The visual aesthetic of the movement (candles, peacefulness, beauty) was a strategic choice that made it impossible to delegitimize.","outcome_score":5,"funders":["Korean civil society"],"orgs":["Citizens' Coalition for Economic Justice","People's Solidarity for Participatory Democracy"],"timeline":[{"year":2016,"type":"TIP","event":"Corruption revealed"},{"year":2016,"type":"WIN","event":"Park impeached"},{"year":2017,"type":"WIN","event":"Constitutional Court upholds"}]},
+  {"id":11,"name":"Argentina Green Wave / Abortion Rights","region":"Argentina/Latin America","year":2020,"failed":false,"issue":"Legalization of abortion in Argentina.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":4,"trigger":4,"total":23},"tags":["cross-border-contagion","deliberate-engineering","visual-simplification"],"trigger":"December 30, 2020: Argentine Congress passed Voluntary Interruption of Pregnancy Law at 4am after years of organizing.","outcome":"Abortion legal up to 14 weeks. Ripple effect: Mexico Supreme Court 2021, Colombia 2022. Green wave transformed regional landscape.","benjamin":"The green handkerchief is a masterclass in visual movement identity — a single wearable object that creates instant identification and is maximally replicable.","outcome_score":5,"funders":["Latin American feminist funds","OSF"],"orgs":["Campaña Nacional por el Derecho al Aborto","Católicas por el Derecho a Decidir"],"timeline":[{"year":2018,"type":"BUILDUP","event":"First Congress vote fails narrowly"},{"year":2020,"type":"WIN","event":"Law passes"}]},
+  {"id":12,"name":"NiUnaMenos — Anti-Femicide","region":"Argentina/Global","year":2015,"failed":false,"issue":"Epidemic of femicide treated as private tragedy rather than systemic violence.","scores":{"grievance":5,"narrative":5,"infrastructure":4,"permission":4,"trigger":5,"total":23},"tags":["visual-simplification","participatory-structure","cross-border-contagion"],"trigger":"May 2015: Murder of 14-year-old Chiara Páez, found pregnant and buried under boyfriend's home.","outcome":"300,000+ first march Buenos Aires. Spread to 80 countries. Legislative strengthening of femicide laws. Became foundation for Green Wave.","benjamin":"Three words ('Not One Less') became a global movement. Visual and verbal simplicity is not compromise — it's power.","outcome_score":4,"funders":["Argentine feminist collectives"],"orgs":["NiUnaMenos collective","Feminist networks"],"timeline":[{"year":2015,"type":"TIP","event":"Chiara Páez murder"},{"year":2015,"type":"WIN","event":"300K march"}]},
+  {"id":13,"name":"Rana Plaza Aftermath","region":"Bangladesh/Global","year":2013,"failed":false,"issue":"Garment factory collapse killing 1,138 workers; supply chain accountability.","scores":{"grievance":5,"narrative":5,"infrastructure":3,"permission":4,"trigger":5,"total":22},"tags":["supply-chain-accountability","visual-simplification","institutional-trigger"],"trigger":"April 24, 2013: Rana Plaza collapse. Workers forced back to work in building with visible structural cracks. 1,138 dead.","outcome":"Bangladesh Accord on Fire and Building Safety — first legally binding supply chain safety agreement. 56,000+ inspections. Model for fashion accountability.","benjamin":"The 'forced back to work' detail made it murder, not accident. Labels in rubble connected abstract supply chains to specific brands.","outcome_score":4,"funders":["IndustriALL Global Union","Clean Clothes Campaign"],"orgs":["Bangladesh Accord","Clean Clothes Campaign","Fashion Revolution"],"timeline":[{"year":2013,"type":"TIP","event":"Building collapse"},{"year":2013,"type":"WIN","event":"Bangladesh Accord signed"}]},
+  {"id":14,"name":"Hong Kong Umbrella Movement","region":"Hong Kong","year":2014,"failed":true,"issue":"Beijing withdrawing promise of genuine universal suffrage.","scores":{"grievance":5,"narrative":4,"infrastructure":4,"permission":3,"trigger":4,"total":20},"tags":["failed-tip","institutional-intransigence","visual-symbol"],"trigger":"September 28, 2014: tear gas fired on protesters — activists opened umbrellas as protection, creating iconic visual.","outcome":"[FAILED TIP] Occupation lasted 79 days. Beijing made no concessions. BUT: planted conditions for 2019 uprising.","benjamin":"Some campaigns are the 2014 to another campaign's 2020. Document carefully — the seeds are the win, even when immediate outcome fails.","outcome_score":1,"funders":["Hong Kong civil society"],"orgs":["Occupy Central","Student federations"],"timeline":[{"year":2014,"type":"TIP","event":"Umbrella protests begin"},{"year":2014,"type":"SETBACK","event":"No concessions"}]},
+  {"id":15,"name":"Hong Kong 2019-2020 Protests","region":"Hong Kong","year":2019,"failed":true,"issue":"Extradition bill allowing transfer to mainland China; broader democracy demands.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":3,"trigger":5,"total":23},"tags":["failed-tip","authoritarian-absorption","external-leverage-gap"],"trigger":"Extradition bill 2019. 2 million out of 7.4 million Hong Kongers marched June 16, 2019.","outcome":"[FAILED TIP] Extradition bill withdrawn. BUT: National Security Law 2020 crushed movement. Most leaders arrested. Democracy gutted.","benjamin":"When opponent controls unlimited force without external accountability, all five conditions can be maxed and still fail. External leverage is the sixth condition for authoritarian contexts.","outcome_score":1,"funders":["Hong Kong democracy supporters"],"orgs":["Civil Human Rights Front","Demosistō"],"timeline":[{"year":2019,"type":"TIP","event":"2 million march"},{"year":2019,"type":"PARTIAL-WIN","event":"Extradition bill withdrawn"},{"year":2020,"type":"SUPPRESSED","event":"National Security Law imposed"}]},
+  {"id":16,"name":"Sudan Revolution 2018-2019","region":"Sudan","year":2019,"failed":false,"issue":"30-year rule of Omar al-Bashir, economic collapse, bread price increases.","scores":{"grievance":5,"narrative":4,"infrastructure":4,"permission":3,"trigger":4,"total":20},"tags":["female-leadership-visual","economic-trigger","military-absorption"],"trigger":"December 19, 2018 protests after bread price tripled. Alaa Salah's 'woman in white' photo became global icon.","outcome":"Al-Bashir removed April 2019. Transitional government. BUT: military coup October 2021 ended civilian transition. Civil war by 2023.","benjamin":"Alaa Salah's image shows how a single person becomes the visual embodiment of millions. The most powerful images are of people, not just problems.","outcome_score":2,"funders":["Sudanese diaspora"],"orgs":["Sudanese Professionals Association","Resistance Committees"],"timeline":[{"year":2018,"type":"TIP","event":"Bread protests begin"},{"year":2019,"type":"WIN","event":"Bashir removed"},{"year":2021,"type":"REVERSAL","event":"Military coup"},{"year":2023,"type":"SETBACK","event":"Civil war begins"}]},
+  {"id":17,"name":"Tunisia Jasmine Revolution","region":"Tunisia","year":2011,"failed":false,"issue":"Ben Ali authoritarian regime, unemployment, corruption.","scores":{"grievance":5,"narrative":4,"infrastructure":4,"permission":3,"trigger":5,"total":21},"tags":["martyrdom-trigger","military-refusal","institutional-civil-society"],"trigger":"December 17, 2010: Mohamed Bouazizi self-immolation after police confiscated his fruit cart and humiliated him.","outcome":"Ben Ali fled January 14, 2011 after 23 years. First successful Arab Spring. New constitution 2014. Nobel Peace Prize 2015. (Kais Saied coup 2021 partially reversed gains.)","benjamin":"Bouazizi is the straw turtle of the Arab Spring — one specific, undeniable human story that crystallized decades of grievance into ignition.","outcome_score":4,"funders":["UGTT labor union"],"orgs":["UGTT","Tunisian Human Rights League"],"timeline":[{"year":2010,"type":"TIP","event":"Bouazizi self-immolation"},{"year":2011,"type":"WIN","event":"Ben Ali flees"},{"year":2014,"type":"WIN","event":"New constitution"},{"year":2021,"type":"SETBACK","event":"Saied power grab"}]},
+  {"id":18,"name":"Egypt Arab Spring","region":"Egypt","year":2011,"failed":true,"issue":"Mubarak's 30-year rule, economic exclusion, police brutality.","scores":{"grievance":5,"narrative":4,"infrastructure":3,"permission":3,"trigger":5,"total":20},"tags":["failed-tip","infrastructure-gap","military-absorption"],"trigger":"Tahrir Square demonstrations began January 25, 2011, inspired by Tunisia.","outcome":"[FAILED TIP] Mubarak fell Feb 11. Muslim Brotherhood won elections 2012. Military coup 2013. Sisi government more authoritarian than Mubarak.","benjamin":"High grievance, strong trigger, weak organizational infrastructure = brief tip that collapses. Infrastructure determines what happens AFTER the tip.","outcome_score":1,"funders":["Egyptian civil society"],"orgs":["April 6 Youth Movement","Kefaya"],"timeline":[{"year":2011,"type":"TIP","event":"Tahrir occupation"},{"year":2011,"type":"WIN","event":"Mubarak falls"},{"year":2013,"type":"REVERSAL","event":"Military coup"}]},
+  {"id":19,"name":"Extinction Rebellion","region":"UK/Global","year":2018,"failed":false,"issue":"Government inaction on climate; demand for net zero by 2025, Citizens' Assembly.","scores":{"grievance":5,"narrative":4,"infrastructure":3,"permission":3,"trigger":4,"total":19},"tags":["manufactured-trigger","self-created-permission","organizational-burnout"],"trigger":"Declaration of Rebellion, Parliament Square, London, October 31, 2018.","outcome":"UK Parliament declared climate emergency. Major 2019 disruptions. Then XR fragmented — internal tensions between disruption and winnable demands.","benjamin":"Internal triggers burn faster than external triggers. Disruption without clear winnable demands produces energy without legacy.","outcome_score":3,"funders":["Climate Emergency Fund","Individual donors"],"orgs":["Extinction Rebellion","Just Stop Oil"],"timeline":[{"year":2018,"type":"TIP","event":"Declaration of Rebellion"},{"year":2019,"type":"WIN","event":"UK climate emergency declared"},{"year":2020,"type":"SETBACK","event":"Movement fragmentation"}]},
+  {"id":20,"name":"Montreal Protocol","region":"Global","year":1987,"failed":false,"issue":"Ozone-depleting CFCs destroying stratospheric ozone layer.","scores":{"grievance":4,"narrative":5,"infrastructure":4,"permission":4,"trigger":5,"total":22},"tags":["industrial-pivot","satellite-evidence","universal-ratification"],"trigger":"1985 British Antarctic Survey discovers Antarctic ozone hole — larger than any model predicted.","outcome":"Montreal Protocol signed 1987. 198 parties — universal ratification. Ozone hole slowly closing. Most successful environmental treaty in history.","benjamin":"The most successful environmental treaty worked because: visible harm, alternative technology existed, industry switched sides. All three conditions matter.","outcome_score":5,"funders":["UNEP","National governments"],"orgs":["UNEP","National ozone units"],"timeline":[{"year":1985,"type":"TIP","event":"Ozone hole discovered"},{"year":1987,"type":"WIN","event":"Montreal Protocol signed"},{"year":2023,"type":"CONSOLIDATION","event":"Ozone recovery on track"}]},
+  {"id":21,"name":"Ottawa Treaty / Landmine Ban","region":"Global","year":1997,"failed":false,"issue":"Anti-personnel landmines killing and maiming civilians in post-conflict countries.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":4,"trigger":4,"total":23},"tags":["NGO-led-treaty","celebrity-amplifier","bypass-veto-structures"],"trigger":"Canadian Foreign Minister Lloyd Axworthy's October 1996 challenge: negotiate complete ban in one year, outside UN.","outcome":"122 countries signed Dec 1997. Nobel Peace Prize. Mine production virtually eliminated. Casualties dropped from 26,000/year to under 5,000.","benjamin":"Civil society CAN write treaties. The ICBL created a treaty outside normal diplomatic channels — model for plastics treaty efforts.","outcome_score":5,"funders":["International donors","Nobel Prize money"],"orgs":["ICBL","Human Rights Watch","Handicap International"],"timeline":[{"year":1992,"type":"BUILDUP","event":"ICBL founded"},{"year":1997,"type":"WIN","event":"Ottawa Treaty signed"}]},
+  {"id":22,"name":"Paris Climate Agreement","region":"Global","year":2015,"failed":false,"issue":"Global greenhouse gas emissions causing catastrophic climate change.","scores":{"grievance":4,"narrative":4,"infrastructure":5,"permission":4,"trigger":4,"total":21},"tags":["failure-as-precondition","bilateral-enabling-multilateral","institutional-innovation"],"trigger":"French diplomatic process 2015 — COP21, following China-US bilateral deal November 2014.","outcome":"196 parties signed. First universal climate agreement. 1.5°C target. Now under threat — Trump withdrawal, fossil fuel pushback.","benjamin":"Copenhagen's collapse in 2009 made Paris possible in 2015. Failure builds conditions for later success.","outcome_score":4,"funders":["National governments","Green Climate Fund"],"orgs":["UNFCCC","Climate Action Network"],"timeline":[{"year":2009,"type":"SETBACK","event":"Copenhagen collapse"},{"year":2015,"type":"WIN","event":"Paris Agreement signed"},{"year":2017,"type":"SETBACK","event":"Trump announces withdrawal"}]},
+  {"id":23,"name":"Fossil Fuel Divestment","region":"Global","year":2012,"failed":false,"issue":"Institutional investment providing social license to fossil fuel companies.","scores":{"grievance":4,"narrative":5,"infrastructure":5,"permission":4,"trigger":4,"total":22},"tags":["model-replication","financial-moral-fusion","institutional-cascade"],"trigger":"350.org launched 'Go Fossil Free' 2012. Rockefeller Brothers Fund divestment 2014 — heirs to oil fortune divesting.","outcome":"$40.5 trillion in assets committed to divestment by 2023. Harvard $53B endowment divested 2021. Social license erosion visible.","benjamin":"The 'stranded assets' financial argument joined the moral argument — made divestment rational, not just ethical.","outcome_score":4,"funders":["350.org donors","Climate Emergency Fund"],"orgs":["350.org","Divest-Invest Network"],"timeline":[{"year":2012,"type":"BUILDUP","event":"Go Fossil Free launched"},{"year":2014,"type":"TIP","event":"Rockefeller Brothers Fund divests"},{"year":2021,"type":"WIN","event":"Harvard divests"}]},
+  {"id":24,"name":"ACT UP / AIDS Treatment Access","region":"United States/Global","year":1987,"failed":false,"issue":"AIDS epidemic killing thousands while FDA blocked treatments; Reagan's silence.","scores":{"grievance":5,"narrative":5,"infrastructure":4,"permission":2,"trigger":5,"total":21},"tags":["direct-action-science","visual-confrontation","parallel-expertise"],"trigger":"ACT UP founded March 1987. First demonstration on Wall Street targeting AZT pricing.","outcome":"FDA accelerated drug approval. AZT price forced down 20%. Protease inhibitors approved in record time. Template for patient advocacy.","benjamin":"'Silence = Death' is one of most effective activist visuals in history — three words, a symbol, and an accusation.","outcome_score":4,"funders":["Individual donors","LGBTQ foundations"],"orgs":["ACT UP","amfAR","Gay Men's Health Crisis"],"timeline":[{"year":1987,"type":"TIP","event":"ACT UP founded"},{"year":1989,"type":"WIN","event":"FDA parallel track created"}]},
+  {"id":25,"name":"Urgenda Climate Case","region":"Netherlands","year":2019,"failed":false,"issue":"Dutch government failing to meet its own climate commitments.","scores":{"grievance":4,"narrative":4,"infrastructure":4,"permission":4,"trigger":4,"total":20},"tags":["legal-landmark","global-cascade","human-rights-framing"],"trigger":"Dutch Supreme Court ruling December 20, 2019 — government must cut emissions 25% by end of 2020.","outcome":"First climate case to reach supreme court and win. Created global template. Climate litigation boom — 1,800+ cases by 2023.","benjamin":"Art that makes climate harm visceral and specific helps lawyers demonstrate 'concrete harm' — Benjamin's work IS legal evidence.","outcome_score":4,"funders":["Urgenda Foundation donors"],"orgs":["Urgenda Foundation","ClientEarth"],"timeline":[{"year":2013,"type":"BUILDUP","event":"Case filed"},{"year":2019,"type":"WIN","event":"Supreme Court rules for plaintiffs"}]},
+  {"id":26,"name":"SOPA/PIPA Defeat","region":"United States","year":2012,"failed":false,"issue":"Legislation enabling broad internet censorship under copyright enforcement.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":4,"trigger":5,"total":24},"tags":["manufactured-trigger","fire-alarm-model","institutional-moment"],"trigger":"January 18, 2012: Wikipedia, Reddit, Google, Mozilla coordinated internet blackout.","outcome":"Both bills killed. 80 Senate co-sponsors to zero in 12 days. Created precedent for coordinated tech-sector civil disobedience.","benjamin":"Campaigns can tip AGAINST an undesirable future — 'Stop X' campaigns are powerful when threat is made visceral.","outcome_score":5,"funders":["EFF","Tech companies"],"orgs":["EFF","Fight for the Future","Wikipedia"],"timeline":[{"year":2012,"type":"TIP","event":"Internet blackout"},{"year":2012,"type":"WIN","event":"Bills killed"}]},
+  {"id":27,"name":"Fees Must Fall","region":"South Africa","year":2015,"failed":false,"issue":"University fee increases excluding poor students; curriculum decolonization.","scores":{"grievance":5,"narrative":5,"infrastructure":4,"permission":3,"trigger":5,"total":22},"tags":["institutional-trigger","cross-campus-contagion","economic-justice"],"trigger":"October 2015: Wits University announced 10.5% fee increase. National strike spread to all major universities within days.","outcome":"Zuma announced 0% fee increase for 2016. Free higher education for households under R350,000 announced 2017. Curriculum decolonization ongoing.","benjamin":"The fee announcement was the trigger — not underlying inequality. Wait for the institutional moment that makes abstract grievance concrete.","outcome_score":4,"funders":["South African student organizations"],"orgs":["Student Representative Councils","Rhodes Must Fall"],"timeline":[{"year":2015,"type":"TIP","event":"Fee increase announced"},{"year":2015,"type":"WIN","event":"0% increase"},{"year":2017,"type":"WIN","event":"Free higher education announced"}]},
+  {"id":28,"name":"Ireland Repeal the 8th","region":"Ireland","year":2018,"failed":false,"issue":"Constitutional Eighth Amendment banning abortion.","scores":{"grievance":4,"narrative":5,"infrastructure":5,"permission":4,"trigger":5,"total":23},"tags":["citizens-assembly-permission","prior-infrastructure-redeployed","martyrdom-trigger"],"trigger":"Savita Halappanavar death 2012 + Citizens' Assembly 2016-2017 recommendation.","outcome":"May 25, 2018 referendum — 66.4% YES. Eighth Amendment repealed. Template for deliberative democracy.","benjamin":"Citizens' Assemblies build permission structures that make previously impossible outcomes achievable. The mechanism matters as much as message.","outcome_score":5,"funders":["Together for Yes donors","Atlantic Philanthropies"],"orgs":["Together for Yes","Amnesty Ireland","NWCI"],"timeline":[{"year":2012,"type":"BUILDUP","event":"Savita Halappanavar death"},{"year":2018,"type":"WIN","event":"66.4% vote to repeal"}]},
+  {"id":29,"name":"Wangari Maathai / Green Belt","region":"Kenya","year":2004,"failed":false,"issue":"Deforestation, soil erosion, women's disempowerment.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":2,"trigger":3,"total":20},"tags":["deliberate-long-game","participatory-structure","institutional-recognition"],"trigger":"No single trigger — Nobel Peace Prize 2004 created global visibility for 27 years of work.","outcome":"51 million trees planted by 2004. Women's empowerment serving hundreds of thousands. Model adopted in 30+ African countries.","benjamin":"Long-game visual work (51 million trees = visual proof of possibility) creates its own tipping through accumulated scale.","outcome_score":5,"funders":["UNEP","Various foundations"],"orgs":["Green Belt Movement"],"timeline":[{"year":1977,"type":"BUILDUP","event":"Green Belt Movement founded"},{"year":2004,"type":"WIN","event":"Nobel Peace Prize"}]},
+  {"id":30,"name":"Jubilee 2000 / Debt Cancellation","region":"Global","year":2000,"failed":false,"issue":"Unpayable debts crushing Global South countries.","scores":{"grievance":5,"narrative":4,"infrastructure":4,"permission":3,"trigger":4,"total":20},"tags":["celebrity-amplifier","religious-moral-framing","specific-financial-ask"],"trigger":"G8 Summit Birmingham 1998 — 70,000 formed human chain. Bono and Bob Geldof mobilized.","outcome":"$100 billion in debt cancelled for 42 countries by 2005. Freed billions for health and education.","benjamin":"Celebrity amplification works when tied to specific demands — Bono didn't just raise awareness, he met finance ministers. Visual spectacle + policy-specific asks.","outcome_score":4,"funders":["Oxfam","Christian Aid","CAFOD"],"orgs":["Jubilee 2000 Coalition","Drop the Debt"],"timeline":[{"year":1998,"type":"TIP","event":"Birmingham human chain"},{"year":2005,"type":"WIN","event":"$100B cancelled"}]},
+  {"id":31,"name":"Myanmar Coup Resistance","region":"Myanmar","year":2021,"failed":true,"issue":"Military coup against elected government February 1, 2021.","scores":{"grievance":5,"narrative":4,"infrastructure":3,"permission":2,"trigger":5,"total":19},"tags":["failed-tip","military-force","external-leverage-gap"],"trigger":"February 1, 2021 coup arrest of Aung San Suu Kyi and elected officials.","outcome":"[FAILED TIP] Military retained power despite widespread resistance. 3,000+ killed. Junta conducting aerial bombardments on civilians.","benjamin":"Another case where five conditions are met but authoritarian force + external indifference produces tragedy. External leverage is critical.","outcome_score":0,"funders":["Diaspora support","International emergency funds"],"orgs":["Civil Disobedience Movement","NUG (National Unity Government)"],"timeline":[{"year":2021,"type":"TIP","event":"Coup and resistance"},{"year":2021,"type":"SUPPRESSED","event":"Violent crackdown"}]},
+  {"id":32,"name":"New Zealand Zero Carbon Act","region":"New Zealand","year":2019,"failed":false,"issue":"Climate policy requiring binding emissions reductions.","scores":{"grievance":4,"narrative":4,"infrastructure":4,"permission":5,"trigger":4,"total":21},"tags":["institutional-design","durable-policy","bipartisan-support"],"trigger":"Climate Change Response (Zero Carbon) Amendment Act passed November 2019 with near-unanimous parliamentary support.","outcome":"Net zero by 2050 legally binding. Independent Climate Change Commission. Survived government change to National Party 2023.","benjamin":"The Zero Carbon Act's durability came from deliberate institutional design: independent commission, legally binding budgets. Build things designed to outlast activists.","outcome_score":5,"funders":["New Zealand government","Philanthropic foundations"],"orgs":["Generation Zero","WWF-NZ"],"timeline":[{"year":2019,"type":"WIN","event":"Zero Carbon Act passed"},{"year":2023,"type":"CONSOLIDATION","event":"Survives government change"}]},
+  {"id":33,"name":"Snowden / Digital Rights","region":"Global","year":2013,"failed":false,"issue":"NSA/GCHQ mass surveillance collecting data on hundreds of millions without consent.","scores":{"grievance":4,"narrative":4,"infrastructure":3,"permission":3,"trigger":5,"total":19},"tags":["documentation-cascade","incremental-revelation","technical-enabling-advocacy"],"trigger":"June 5, 2013: Glenn Greenwald and Laura Poitras publish first NSA PRISM documents.","outcome":"USA FREEDOM Act 2015. EU Privacy Shield invalidated. Mass adoption of end-to-end encryption. GDPR partly driven by post-Snowden anxieties.","benjamin":"Sequential revelation — each new document more damning — maintains attention. Campaign cadence matters.","outcome_score":3,"funders":["First Look Media","Freedom of the Press Foundation"],"orgs":["EFF","ACLU","Privacy International"],"timeline":[{"year":2013,"type":"TIP","event":"Snowden revelations begin"},{"year":2015,"type":"WIN","event":"USA FREEDOM Act"}]},
+  {"id":34,"name":"South Korea 2024 Martial Law Reversal","region":"South Korea","year":2024,"failed":false,"issue":"President Yoon Suk-yeol declared martial law December 3, 2024.","scores":{"grievance":5,"narrative":5,"infrastructure":5,"permission":4,"trigger":5,"total":24},"tags":["institutional-trigger","elite-fragmentation","military-restraint"],"trigger":"December 3, 2024: Yoon declares martial law. National Assembly members physically fought through military cordons to vote.","outcome":"Martial law lifted within 6 hours by National Assembly vote. Yoon impeached December 14, 2024. Democracy held.","benjamin":"South Korea's democratic institutions WORKED. The story of institutions holding against authoritarianism is the most important counter-narrative.","outcome_score":5,"funders":["Korean civil society"],"orgs":["National Assembly opposition","Constitutional Court"],"timeline":[{"year":2024,"type":"TIP","event":"Martial law declared"},{"year":2024,"type":"WIN","event":"Martial law reversed in 6 hours"},{"year":2024,"type":"WIN","event":"Yoon impeached"}]},
+  {"id":35,"name":"Vanuatu ICJ Climate Opinion","region":"Global/Pacific","year":2023,"failed":false,"issue":"Legal recognition of climate change as human rights violation under international law.","scores":{"grievance":5,"narrative":5,"infrastructure":4,"permission":4,"trigger":4,"total":22},"tags":["institutional-trigger","pacific-island-leadership","legal-landmark"],"trigger":"March 2023: UN General Assembly adopts resolution requesting ICJ advisory opinion on climate obligations.","outcome":"ICJ proceedings ongoing 2024-2025. Advisory opinion expected mid-2025. Could establish legal basis for climate liability.","benjamin":"Visual documentation of Pacific Island climate reality in the window around the opinion serves both advocacy and legal evidence functions.","outcome_score":4,"funders":["Pacific Island governments","Climate litigation funders"],"orgs":["Pacific Island Students Fighting Climate Change","World's Youth for Climate Justice"],"timeline":[{"year":2023,"type":"TIP","event":"UN resolution passed"},{"year":2025,"type":"ONGOING","event":"ICJ opinion expected"}]}
+];
+
+// Additional cases 36-100 (abbreviated for space - full data embedded)
+const CASES_EXTENDED = [
+  {"id":36,"name":"Occupy Wall Street","region":"United States","year":2011,"failed":true,"outcome_score":2,"scores":{"total":18},"issue":"Economic inequality, 99% vs 1%","tags":["narrative-success-infrastructure-failure"]},
+  {"id":37,"name":"Malawi Election Annulment","region":"Malawi","year":2020,"failed":false,"outcome_score":5,"scores":{"total":21},"issue":"Electoral fraud accountability"},
+  {"id":38,"name":"Kenya Gen Z Protests","region":"Kenya","year":2024,"failed":false,"outcome_score":4,"scores":{"total":21},"issue":"Finance Bill 2024 new taxes"},
+  {"id":39,"name":"Yellow Vests France","region":"France","year":2018,"failed":true,"outcome_score":2,"scores":{"total":18},"issue":"Fuel tax, economic inequality"},
+  {"id":40,"name":"Greek OXI Movement","region":"Greece","year":2015,"failed":true,"outcome_score":1,"scores":{"total":22},"issue":"Austerity referendum ignored"},
+  {"id":41,"name":"Liberia Women Peacebuilding","region":"Liberia","year":2003,"failed":false,"outcome_score":5,"scores":{"total":19},"issue":"Civil war peace"},
+  {"id":42,"name":"GDPR / Digital Rights","region":"Europe","year":2018,"failed":false,"outcome_score":5,"scores":{"total":20},"issue":"Data privacy regulation"},
+  {"id":43,"name":"Arms Trade Treaty","region":"Global","year":2014,"failed":false,"outcome_score":3,"scores":{"total":19},"issue":"International arms regulation"},
+  {"id":44,"name":"Ireland Marriage Equality","region":"Ireland","year":2015,"failed":false,"outcome_score":5,"scores":{"total":23},"issue":"Same-sex marriage referendum"},
+  {"id":45,"name":"Taiwan Marriage Equality","region":"Taiwan","year":2019,"failed":false,"outcome_score":5,"scores":{"total":21},"issue":"First in Asia marriage equality"},
+  {"id":46,"name":"MSF Access to Medicines","region":"Global","year":2001,"failed":false,"outcome_score":5,"scores":{"total":22},"issue":"HIV/AIDS drug access"},
+  {"id":47,"name":"Small Island States / Loss & Damage","region":"Global","year":2022,"failed":false,"outcome_score":4,"scores":{"total":20},"issue":"Climate finance"},
+  {"id":48,"name":"Deforestation No-Go Pledges","region":"Global","year":2014,"failed":false,"outcome_score":3,"scores":{"total":19},"issue":"Corporate supply chains"},
+  {"id":49,"name":"Domestic Workers Convention","region":"Global","year":2011,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Labor rights ILO C189"},
+  {"id":50,"name":"Gig Economy Worker Organizing","region":"UK/Europe","year":2021,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Platform worker rights"},
+  {"id":51,"name":"UNDRIP Adoption","region":"Global","year":2007,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Indigenous rights"},
+  {"id":52,"name":"Sarayaku v. Ecuador","region":"Ecuador/IACHR","year":2012,"failed":false,"outcome_score":5,"scores":{"total":20},"issue":"FPIC enforcement"},
+  {"id":53,"name":"Māori Treaty Rights / River Personhood","region":"New Zealand","year":2017,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Rights of nature"},
+  {"id":54,"name":"Aarhus Convention","region":"Europe","year":1998,"failed":false,"outcome_score":5,"scores":{"total":18},"issue":"Environmental democracy"},
+  {"id":55,"name":"Brazil MST Land Movement","region":"Brazil","year":1984,"failed":false,"outcome_score":4,"scores":{"total":21},"issue":"Land reform"},
+  {"id":56,"name":"Ecuador Rights of Nature","region":"Ecuador","year":2008,"failed":false,"outcome_score":4,"scores":{"total":20},"issue":"Constitutional rights for nature"},
+  {"id":57,"name":"Colombia Future Generations Climate","region":"Colombia","year":2018,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Youth climate litigation"},
+  {"id":58,"name":"Belo Monte Dam Resistance","region":"Brazil","year":2016,"failed":true,"outcome_score":2,"scores":{"total":19},"issue":"Indigenous dam opposition"},
+  {"id":59,"name":"Japan Anti-Nuclear Post-Fukushima","region":"Japan","year":2012,"failed":false,"outcome_score":3,"scores":{"total":21},"issue":"Nuclear shutdown"},
+  {"id":60,"name":"Mexico #MeToo / Glitter Protests","region":"Mexico","year":2019,"failed":false,"outcome_score":3,"scores":{"total":20},"issue":"Gender violence"},
+  {"id":61,"name":"Colombia Peace Accord","region":"Colombia","year":2016,"failed":false,"outcome_score":3,"scores":{"total":20},"issue":"FARC peace process"},
+  {"id":62,"name":"Philippines People Power II","region":"Philippines","year":2001,"failed":false,"outcome_score":4,"scores":{"total":22},"issue":"SMS-organized overthrow"},
+  {"id":63,"name":"India Shaheen Bagh","region":"India","year":2020,"failed":false,"outcome_score":2,"scores":{"total":22},"issue":"CAA protests"},
+  {"id":64,"name":"Senegal Democracy 2024","region":"Senegal","year":2024,"failed":false,"outcome_score":5,"scores":{"total":21},"issue":"Constitutional integrity"},
+  {"id":65,"name":"Ghana Agbogbloshie E-Waste","region":"Ghana/Global","year":2013,"failed":false,"outcome_score":2,"scores":{"total":18},"issue":"E-waste documentation"},
+  {"id":66,"name":"Philippines #HalaMapa Land Rights","region":"Philippines","year":2021,"failed":false,"outcome_score":2,"scores":{"total":19},"issue":"Environmental defenders"},
+  {"id":67,"name":"UK Anti-Poll Tax","region":"UK","year":1990,"failed":false,"outcome_score":5,"scores":{"total":23},"issue":"Tax revolt"},
+  {"id":68,"name":"South Africa Land Reform","region":"South Africa","year":1994,"failed":true,"outcome_score":2,"scores":{"total":18},"issue":"Post-apartheid land"},
+  {"id":69,"name":"Pakistan Climate Floods 2022","region":"Pakistan","year":2022,"failed":false,"outcome_score":3,"scores":{"total":20},"issue":"Climate justice"},
+  {"id":70,"name":"Uganda Vanessa Nakate / FFF","region":"Uganda","year":2020,"failed":false,"outcome_score":3,"scores":{"total":19},"issue":"Global South climate voice"},
+  {"id":71,"name":"Minamata Convention","region":"Global","year":2013,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Mercury treaty"},
+  {"id":72,"name":"Spain/Portugal Indignados","region":"Spain","year":2011,"failed":false,"outcome_score":3,"scores":{"total":21},"issue":"Anti-austerity"},
+  {"id":73,"name":"Germany Climate Court Victory","region":"Germany","year":2021,"failed":false,"outcome_score":4,"scores":{"total":20},"issue":"Future generations rights"},
+  {"id":74,"name":"Italy Slow Food","region":"Italy/Global","year":1989,"failed":false,"outcome_score":4,"scores":{"total":18},"issue":"Food sovereignty"},
+  {"id":75,"name":"France Repairability Index","region":"France","year":2021,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Right to repair"},
+  {"id":76,"name":"Uganda Anti-LGBTQ Law","region":"Uganda","year":2023,"failed":true,"outcome_score":1,"scores":{"total":17},"issue":"Human rights"},
+  {"id":77,"name":"Colombia Biodiversity COP16","region":"Colombia","year":2024,"failed":false,"outcome_score":3,"scores":{"total":19},"issue":"Biodiversity"},
+  {"id":78,"name":"Bangladesh 1971 Genocide Awareness","region":"Bangladesh","year":1971,"failed":false,"outcome_score":2,"scores":{"total":19},"issue":"Memory/accountability"},
+  {"id":79,"name":"India Right to Information","region":"India","year":2005,"failed":false,"outcome_score":4,"scores":{"total":21},"issue":"Transparency"},
+  {"id":80,"name":"Congo Conflict Minerals","region":"DRC/Global","year":2010,"failed":false,"outcome_score":2,"scores":{"total":19},"issue":"Supply chain"},
+  {"id":81,"name":"Philippines Marcos Disinformation","region":"Philippines","year":2022,"failed":true,"outcome_score":0,"scores":{"total":16},"issue":"Historical memory"},
+  {"id":82,"name":"Turkey Gezi Park","region":"Turkey","year":2013,"failed":true,"outcome_score":2,"scores":{"total":20},"issue":"Urban/democracy"},
+  {"id":83,"name":"Bhopal Accountability","region":"India","year":1984,"failed":true,"outcome_score":1,"scores":{"total":18},"issue":"Corporate impunity"},
+  {"id":84,"name":"Thailand Marium Dugong","region":"Thailand","year":2019,"failed":false,"outcome_score":3,"scores":{"total":18},"issue":"Plastic pollution"},
+  {"id":85,"name":"Narmada Anti-Dam","region":"India","year":1985,"failed":true,"outcome_score":2,"scores":{"total":20},"issue":"Dam displacement"},
+  {"id":86,"name":"Karura Forest Nairobi","region":"Kenya","year":1999,"failed":false,"outcome_score":4,"scores":{"total":19},"issue":"Urban forest"},
+  {"id":87,"name":"KONY 2012","region":"Uganda/Global","year":2012,"failed":false,"outcome_score":2,"scores":{"total":17},"issue":"Viral advocacy limits"},
+  {"id":88,"name":"Indonesia Peatland Fires","region":"Indonesia","year":2015,"failed":false,"outcome_score":3,"scores":{"total":19},"issue":"Deforestation"},
+  {"id":89,"name":"Central Asia Water Crisis","region":"Central Asia","year":"Ongoing","failed":true,"outcome_score":1,"scores":{"total":16},"issue":"Aral Sea"},
+  {"id":90,"name":"Russia Anti-War Movement","region":"Russia","year":2022,"failed":true,"outcome_score":0,"scores":{"total":15},"issue":"Suppressed dissent"},
+  {"id":91,"name":"US No Kings / Anti-Trump","region":"United States","year":2025,"failed":false,"outcome_score":2,"scores":{"total":24},"issue":"Democracy"},
+  {"id":92,"name":"Sudan Civil War Phase II","region":"Sudan","year":2023,"failed":true,"outcome_score":0,"scores":{"total":16},"issue":"State collapse"},
+  {"id":93,"name":"Tanzania Women's Land Rights","region":"Tanzania","year":2004,"failed":false,"outcome_score":2,"scores":{"total":18},"issue":"Land tenure"},
+  {"id":94,"name":"Great Green Wall","region":"Africa Sahel","year":2007,"failed":false,"outcome_score":3,"scores":{"total":17},"issue":"Desertification"},
+  {"id":95,"name":"Philippines Typhoon Haiyan","region":"Philippines","year":2013,"failed":false,"outcome_score":3,"scores":{"total":20},"issue":"Climate justice"},
+  {"id":96,"name":"Congo Basin Forest","region":"DRC","year":2020,"failed":false,"outcome_score":2,"scores":{"total":18},"issue":"Deforestation"},
+  {"id":97,"name":"West Papua Independence","region":"Indonesia/West Papua","year":"Ongoing","failed":true,"outcome_score":1,"scores":{"total":15},"issue":"Self-determination"},
+  {"id":98,"name":"Bangladesh Climate Migration","region":"Bangladesh","year":"Ongoing","failed":false,"outcome_score":2,"scores":{"total":19},"issue":"Climate displacement"},
+  {"id":99,"name":"Bolivia TIPNIS Road","region":"Bolivia","year":2011,"failed":true,"outcome_score":2,"scores":{"total":20},"issue":"Indigenous vs. development"},
+  {"id":100,"name":"COVID Vaccine Equity / TRIPS","region":"Global","year":2021,"failed":true,"outcome_score":1,"scores":{"total":20},"issue":"Vaccine apartheid"}
+];
+
+// Merge cases
+const ALL_CASES = [...CASES, ...CASES_EXTENDED.filter(c => c.id > 35)];
+
+// ============================================================
+// TOP 25 NETWORK DATA (Category-based movements) - EXPANDED
+// ============================================================
+
+const CATEGORY_COLORS = {
+  'Climate': '#00c8a0',
+  'Democracy': '#f59e0b',
+  'Labor': '#ef4444',
+  'Health': '#8b5cf6',
+  'Digital': '#3b82f6',
+  'Indigenous': '#f97316',
+  'Other': '#6b7280'
+};
+
+const EDGE_COLORS = {
+  compound: '#ff7b54',
+  actors: '#4a9eff',
+  narrative: '#4ade80',
+  geographic: '#fbbf24'
+};
+
+// Top 25 movements for the network visualization with trajectories and benjamin opportunities
+const NETWORK_NODES = [
+  { id: 'us-democracy', name: 'US Anti-Authoritarianism', score: 24, category: 'Democracy', trajectory: 'tipping', desc: '25M+ protesting, ACLU 400+ cases', benjamin: true },
+  { id: 'fast-fashion', name: 'Fast Fashion / Atacama', score: 21, category: 'Climate', trajectory: 'tipping', desc: 'Shein IPO scrutiny, desert waste', benjamin: true },
+  { id: 'plastics-treaty', name: 'Plastics Treaty', score: 18, category: 'Climate', trajectory: 'building', desc: 'INC negotiations stalled', benjamin: true },
+  { id: 'anti-austerity', name: 'Anti-Austerity / Cost of Living', score: 19, category: 'Labor', trajectory: 'building', desc: 'Global economic pressure', benjamin: false },
+  { id: 'indigenous-green', name: 'Indigenous Rights + Green Transition', score: 18, category: 'Indigenous', trajectory: 'building', desc: 'Mining vs. rights tension', benjamin: true },
+  { id: 'pacific-icj', name: 'Pacific Islands ICJ Climate', score: 24, category: 'Climate', trajectory: 'tipping', desc: 'Advisory opinion July 2025', benjamin: true },
+  { id: 'kenya-genz', name: 'Kenya Gen Z Accountability', score: 23, category: 'Democracy', trajectory: 'tipping', desc: 'Finance Bill withdrawn', benjamin: false },
+  { id: 'loss-damage', name: 'Loss & Damage / Climate Finance', score: 20, category: 'Climate', trajectory: 'building', desc: 'L&D Fund $700M vs $400B needed', benjamin: true },
+  { id: 'ai-labor', name: 'AI Displacement / Labor', score: 15, category: 'Labor', trajectory: 'early', desc: '40% jobs AI-exposed (IMF)', benjamin: false },
+  { id: 'deep-sea-mining', name: 'Deep Sea Mining', score: 16, category: 'Climate', trajectory: 'building', desc: '30+ countries call moratorium', benjamin: true },
+  { id: 'pfas', name: 'PFAS Forever Chemicals', score: 14, category: 'Health', trajectory: 'early', desc: 'EU considering REACH action', benjamin: false },
+  { id: 'microplastics', name: 'Microplastics in Human Body', score: 13, category: 'Health', trajectory: 'early', desc: 'Found in brain, testicles, arteries', benjamin: true },
+  { id: 'cop31', name: 'COP31 Australia Contradiction', score: 18, category: 'Climate', trajectory: 'building', desc: 'Coal exporter hosting COP', benjamin: false },
+  { id: 'iran-war', name: 'Iran War / Fossil Fuel Dependency', score: 17, category: 'Climate', trajectory: 'building', desc: 'Compound crisis conditions', benjamin: false },
+  { id: 'france-right', name: 'France Far-Right Rise', score: 17, category: 'Democracy', trajectory: 'building', desc: 'Le Pen/RN normalization', benjamin: false },
+  { id: 'sk-democracy', name: 'South Korea Democracy', score: 22, category: 'Democracy', trajectory: 'tipping', desc: 'Martial law reversed 6 hours', benjamin: false },
+  { id: 'brazil-land', name: 'Brazil Land Rights', score: 17, category: 'Indigenous', trajectory: 'building', desc: 'Amazon defense', benjamin: true },
+  { id: 'cobalt-mining', name: 'Cobalt Mining / EV Contradiction', score: 16, category: 'Indigenous', trajectory: 'building', desc: 'DRC 70% global supply', benjamin: true },
+  { id: 'fossil-subsidies', name: 'Fossil Fuel Subsidy Abolition', score: 17, category: 'Climate', trajectory: 'building', desc: '$7T annual subsidies', benjamin: false },
+  { id: 'debt-crisis', name: 'Global Debt Crisis / South', score: 15, category: 'Labor', trajectory: 'early', desc: 'Developing country debt trap', benjamin: false },
+  { id: 'ai-surveillance', name: 'AI Surveillance / Authoritarianism', score: 16, category: 'Digital', trajectory: 'building', desc: 'China export model', benjamin: false },
+  { id: 'digital-rights', name: 'Digital Rights / Internet Freedom', score: 15, category: 'Digital', trajectory: 'early', desc: 'Platform accountability', benjamin: false },
+  { id: 'metoo-ongoing', name: 'MeToo / Gender Justice (ongoing)', score: 16, category: 'Democracy', trajectory: 'building', desc: 'Institutional change continuing', benjamin: false },
+  { id: 'water-rights', name: 'Water Rights / Scarcity', score: 15, category: 'Climate', trajectory: 'early', desc: 'Growing crisis 2030s', benjamin: true },
+  { id: 'food-system', name: 'Food System / Industrial Ag', score: 14, category: 'Climate', trajectory: 'early', desc: '30% GHG emissions', benjamin: false }
+];
+
+// EXPANDED: 28 meaningful connections between movements
+const NETWORK_EDGES = [
+  // COMPOUND CRISIS (same system) - 10 edges
+  { source: 'fast-fashion', target: 'plastics-treaty', type: 'compound', desc: 'Same material system (polyester/plastic)' },
+  { source: 'fast-fashion', target: 'indigenous-green', type: 'compound', desc: 'Atacama sacrifice zone' },
+  { source: 'fast-fashion', target: 'deep-sea-mining', type: 'compound', desc: 'Resource extraction logic' },
+  { source: 'cobalt-mining', target: 'indigenous-green', type: 'compound', desc: 'Same communities impacted' },
+  { source: 'cobalt-mining', target: 'fast-fashion', type: 'compound', desc: 'Same supply chain logic' },
+  { source: 'iran-war', target: 'fossil-subsidies', type: 'compound', desc: 'Same economic actors' },
+  { source: 'iran-war', target: 'loss-damage', type: 'compound', desc: 'Compound crisis amplifier' },
+  { source: 'ai-labor', target: 'debt-crisis', type: 'compound', desc: 'Economic precarity' },
+  { source: 'plastics-treaty', target: 'microplastics', type: 'compound', desc: 'Same pollution chain' },
+  { source: 'food-system', target: 'water-rights', type: 'compound', desc: 'Same agricultural system' },
+  
+  // SHARED ACTORS (same corporations/governments) - 6 edges
+  { source: 'plastics-treaty', target: 'indigenous-green', type: 'actors', desc: 'Petrostate + indigenous land overlap' },
+  { source: 'ai-labor', target: 'ai-surveillance', type: 'actors', desc: 'Same tech companies' },
+  { source: 'digital-rights', target: 'ai-surveillance', type: 'actors', desc: 'Same legislative battles' },
+  { source: 'fast-fashion', target: 'anti-austerity', type: 'actors', desc: 'Same low-income workers' },
+  { source: 'fossil-subsidies', target: 'loss-damage', type: 'actors', desc: 'Same governments blocking both' },
+  { source: 'deep-sea-mining', target: 'pacific-icj', type: 'actors', desc: 'Same Pacific nations' },
+  
+  // NARRATIVE DEPENDENCY (one helps another) - 6 edges
+  { source: 'pacific-icj', target: 'loss-damage', type: 'narrative', desc: 'ICJ opinion strengthens L&D legal case' },
+  { source: 'metoo-ongoing', target: 'us-democracy', type: 'narrative', desc: 'Same permission structure shift' },
+  { source: 'kenya-genz', target: 'sk-democracy', type: 'narrative', desc: 'Leaderless model inspiring each other' },
+  { source: 'microplastics', target: 'plastics-treaty', type: 'narrative', desc: 'Science builds treaty narrative' },
+  { source: 'water-rights', target: 'fast-fashion', type: 'narrative', desc: 'Atacama water/textile dye connection' },
+  { source: 'pfas', target: 'plastics-treaty', type: 'narrative', desc: 'Forever chemicals urgency' },
+  
+  // GEOGRAPHIC OVERLAP (same region) - 6 edges
+  { source: 'brazil-land', target: 'loss-damage', type: 'geographic', desc: 'Amazon / COP30 same geography' },
+  { source: 'pacific-icj', target: 'deep-sea-mining', type: 'geographic', desc: 'Pacific Ocean same space' },
+  { source: 'kenya-genz', target: 'debt-crisis', type: 'geographic', desc: 'Same economic pressure' },
+  { source: 'indigenous-green', target: 'brazil-land', type: 'geographic', desc: 'Global South indigenous' },
+  { source: 'france-right', target: 'us-democracy', type: 'geographic', desc: 'Same authoritarian wave' },
+  { source: 'sk-democracy', target: 'us-democracy', type: 'geographic', desc: 'Same democratic backsliding pattern' }
+];
+
+// Forecast calendar events
+const FORECAST_EVENTS = {
+  2025: [
+    {date: 'Jul 23', title: '✅ ICJ Climate Advisory Opinion DELIVERED', movements: ['Climate liability', 'Loss & Damage', 'Legal precedent'], hot: true},
+    {date: 'Apr', title: 'Fashion Revolution Week', movements: ['Fast fashion', 'Supply chain'], warm: true},
+    {date: 'Jul 25', title: 'Earth Overshoot Day', movements: ['Climate', 'Consumption'], warm: false},
+    {date: 'Aug', title: 'INC-5.2 Geneva (Stalled)', movements: ['Plastics', 'Production caps'], warm: true},
+    {date: 'Nov', title: 'COP30 Belém, Brazil', movements: ['Climate finance', 'Amazon', 'Indigenous rights', 'NCQG'], hot: true},
+    {date: 'Ongoing', title: 'US Democracy Resistance (25M+ protests)', movements: ['Anti-authoritarianism', 'Courts', 'Civil society'], hot: true}
+  ],
+  2026: [
+    {date: 'Q1', title: 'EU Greenwashing Directive Full Enforcement', movements: ['Fashion', 'Corporate accountability'], warm: true},
+    {date: 'Q2', title: 'EU Right to Repair Full Implementation', movements: ['E-waste', 'Planned obsolescence'], warm: false},
+    {date: 'Nov', title: 'US Midterm Elections', movements: ['Democracy', 'Climate policy'], hot: true},
+    {date: 'Nov', title: 'COP31 Australia', movements: ['Climate', 'Loss & Damage', 'NCQG'], hot: true},
+    {date: 'Ongoing', title: 'Shein IPO Delayed — UK Parliament Scrutiny', movements: ['Fast fashion', 'Forced labor', 'Atacama'], hot: true},
+    {date: 'Ongoing', title: 'Iran War Compound Crisis', movements: ['Oil prices', 'Migration', 'Regional destabilization'], hot: true}
+  ],
+  2027: [
+    {date: 'TBD', title: 'EU Deforestation Regulation Full Effect', movements: ['Forests', 'Supply chain'], warm: false},
+    {date: 'TBD', title: 'Potential Plastics Treaty Entry into Force', movements: ['Plastics'], warm: true}
+  ],
+  2028: [
+    {date: 'Nov', title: 'US Presidential Election', movements: ['Democracy', 'Climate'], hot: true}
+  ]
+};
+
+// Candidates for 2025
