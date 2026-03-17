@@ -824,8 +824,6 @@ input[type=range] { accent-color: var(--accent); cursor: pointer; }
 .about-community-subtitle { font-size: 12px; color: var(--text-muted); margin-top: 12px; }
 .about-community-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(0,212,170,0.1); border: 1px solid rgba(0,212,170,0.25); border-radius: 20px; padding: 6px 14px; font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 20px; }
 .about-community-badge::before { content: '🌍'; }
-
-
 </style>
 </head>
 <body>
@@ -854,14 +852,9 @@ input[type=range] { accent-color: var(--accent); cursor: pointer; }
   <div class="filters">
     <input type="search" id="search-input" placeholder="Search cases..." style="flex:1;min-width:150px;max-width:300px;">
     <select id="filter-region"><option value="">All Regions</option></select>
-    <select id="filter-status">
-    <option value="">Any Status</option><option value="norm-changed">✅ Norm Changed</option><option value="ongoing">⚡ Ongoing</option><option value="under-threat">⚠️ Under Threat</option><option value="partial">👁️ Partial Win</option><option value="failed">❌ Failed</option><option value="resolved">✅ Resolved</option>
-    </select>
+    <select id="filter-status"><option value="">Any Status</option><option value="norm-changed">✅ Norm Changed</option><option value="ongoing">⚡ Ongoing</option><option value="under-threat">⚠️ Under Threat</option><option value="partial">👁️ Partial Win</option><option value="failed">❌ Failed</option><option value="resolved">✅ Resolved</option></select>
 
-    <select id="filter-tag">
-    <option value="">All Tags</option><option value="institutional-trigger">Institutional Trigger</option><option value="compound-crisis">Compound Crisis</option><option value="visual-simplification">Visual Simplification</option><option value="identity-threat">Identity Threat</option><option value="slow-violence-made-visible">Slow Violence Made Visible</option><option value="manufactured-permission">Manufactured Permission</option><option value="participatory-structure">Participatory Structure</option><option value="cross-border-contagion">Cross-Border Contagion</option><option value="economic-shock-trigger">Economic Shock Trigger</option><option value="treaty-path">Treaty Path</option><option value="false-tip">Failed Tip</option>
-    </select>
-    
+    <select id="filter-tag"><option value="">All Tags</option><option value="institutional-trigger">Institutional Trigger</option><option value="compound-crisis">Compound Crisis</option><option value="visual-simplification">Visual Simplification</option><option value="identity-threat">Identity Threat</option><option value="slow-violence-made-visible">Slow Violence Made Visible</option><option value="manufactured-permission">Manufactured Permission</option><option value="participatory-structure">Participatory Structure</option><option value="cross-border-contagion">Cross-Border Contagion</option><option value="economic-shock-trigger">Economic Shock Trigger</option><option value="treaty-path">Treaty Path</option><option value="false-tip">Failed Tip</option></select>
     <div style="display:flex;align-items:center;gap:4px;"><span style="font-size:10px;color:var(--text-muted);">Min NCRS%:</span><input type="range" id="filter-score" min="0" max="100" value="0" style="width:60px;"><span id="score-val" style="font-size:10px;color:var(--text-muted);width:24px;">0%</span></div>
     <button class="filter-btn" id="reset-filters">↺</button>
   </div>
@@ -877,7 +870,7 @@ input[type=range] { accent-color: var(--accent); cursor: pointer; }
   <div class="pagination" id="pagination"></div>
 </div>
 <div class="page active" id="page-about">
-<!-- Hero Section -->
+  <!-- Hero Section -->
   <section class="about-hero">
     <h1 class="about-hero-title">MOVEMENT<span>Monitor</span></h1>
     <p class="about-hero-subtitle">A real-time intelligence tool for tracking social norm change — where movements are brewing, who's involved, and when to act.</p>
@@ -932,7 +925,7 @@ input[type=range] { accent-color: var(--accent); cursor: pointer; }
           <span class="about-ncrs-score" style="color:#fd9644;">7.5</span>
         </div>
       </div>
-</div>
+    </div>
   </section>
 
   <hr class="about-divider">
@@ -1087,7 +1080,6 @@ input[type=range] { accent-color: var(--accent); cursor: pointer; }
 <div class="page" id="page-ecosystem">
   <div class="eco-filters">
     <input type="search" id="eco-search" class="eco-search" placeholder="Search organizations, funders...">
-    <button class="eco-filter-tag active" data-eco-filter="all">All</button>
     <button class="eco-filter-tag active" data-eco-filter="all">All</button>
     <button class="eco-filter-tag" data-eco-filter="Climate">Climate</button>
     <button class="eco-filter-tag" data-eco-filter="Democracy">Democracy</button>
@@ -1610,7 +1602,7 @@ function renderNCRSBreakdown(ncrsScore) {
 }
 
 // ===== MOVEMENT LANGUAGE DATA =====
-const MOVEMENT_LANGUAGE={
+const MOVEMENT_LANGUAGE = {
   'MeToo': {
     primaryHashtag: '#MeToo',
     keySlogan: '"Me Too" — Tarana Burke (2006), viral via Alyssa Milano (2017)',
@@ -1686,7 +1678,7 @@ const MOVEMENT_LANGUAGE={
 };
 
 // ===== INTERVENTION WINDOWS =====
-const INTERVENTION_WINDOWS=[
+const INTERVENTION_WINDOWS = [
   {
     date: 'September 2026',
     title: 'UN General Assembly / SDG Summit',
@@ -1723,7 +1715,7 @@ let ALL_CASES = [];
 
 // Inline 2026 research cases (101+) — these are preserved and merged with cases.json
 // NCRS dimensions now use numeric values (1-10 each, sum = overall_readiness, max 60)
-const INLINE_CASES_2026=[
+const INLINE_CASES_2026 = [
   {id:101,name:"ICE Out of Our Faces Act",region:"United States",year:2026,failed:false,
    issue:"ICE and CBP using facial recognition to track, target, and surveil people.",
    description:"Immigration and Customs Enforcement is deploying a vast facial recognition network — Clearview AI scrapes, DMV databases, airport cameras — to identify, track, and arrest undocumented immigrants without warrants. The technology has a documented error rate 10-100x higher for darker-skinned faces, and has already caused wrongful arrests of US citizens.",
@@ -2283,7 +2275,7 @@ const FORECAST_EVENTS={
 };
 
 // Fallback enriched data for forecast entries
-const FORECAST_FALLBACK_DATA={
+const FORECAST_FALLBACK_DATA = {
   'pacific-icj': {
     name: 'Pacific Islands ICJ Climate',
     timeline: [
@@ -2384,7 +2376,7 @@ const CANDIDATES=[
   }
 ];
 
-const PRIORITY_MOVEMENTS=[
+const PRIORITY_MOVEMENTS = [
   { name: 'AI Environmental Impact', score: 8, trajectory: '↑↑', ncrs:{tipping_threshold:8,conformity_trap_risk:7,benefit_visibility:9,penalty_reduction:6,broad_angle_potential:8,leader_persistence:7,overall_readiness:45},
     situation: 'IEA projects data center electricity demand doubling by 2026. Microsoft water usage +34% YoY. Growing awareness gap between AI benefits and environmental costs.',
     partner: 'AI Now Institute / Sierra Club', window: 'NOW — IEA report spring 2026',
@@ -2415,7 +2407,7 @@ const PRIORITY_MOVEMENTS=[
     patternMatch: { historical: 'Montreal Protocol science phase 1985', outcome: 'Legal consensus built the treaty', confidence: 'High' } }
 ];
 
-const KEY_ACTORS=[
+const KEY_ACTORS = [
   { name: 'Alphabet / Google', movements: ['AI Surveillance', 'AI Displacement', 'Digital Rights', 'AI Environment'],
     harm: 'Facial recognition to police + replacing workers + lobbying against regulation + data center water use',
     claim: '"Don\'t be evil" / "AI for everyone\'s benefit"',
@@ -2442,7 +2434,7 @@ const KEY_ACTORS=[
     leverage: 'State insurance commissioner investigations + class action litigation + physician coalition advocacy' }
 ];
 
-const HISTORICAL_PATTERNS=[
+const HISTORICAL_PATTERNS = [
   { movement: 'US Democracy', pattern: 'Resembles South Korea 2016-17 → next 18mo: sustained pressure → impeachment → accountability', confidence: 'High' },
   { movement: 'Fast Fashion', pattern: 'Resembles Plastic Straw Ban 2016 → next 18mo: one viral image triggered corporate cascade', confidence: 'High' },
   { movement: 'Plastics Treaty stall', pattern: 'Resembles Kyoto 2001 → took 14 years, conditions built until Paris 2015', confidence: 'Medium' },
@@ -2452,7 +2444,7 @@ const HISTORICAL_PATTERNS=[
   { movement: 'AI Ghost Workers', pattern: 'Resembles Nike sweatshop exposé 1996 → consumer pressure → code of conduct', confidence: 'Medium' }
 ];
 
-const DEPLOY_BADGE_CONFIG={
+const DEPLOY_BADGE_CONFIG = {
   'US Democracy Resistance': 'act-now', 'US Anti-Authoritarianism': 'act-now', 'Pacific ICJ Climate Opinion': 'act-now',
   'Pacific Islands ICJ Climate': 'act-now', 'Fast Fashion / Shein / Atacama': 'act-now', 'Fast Fashion / Atacama': 'act-now',
   'AI Energy & Water Crisis — Data Centers': 'act-now', 'Meta Teen Mental Health — Big Tobacco Moment': 'act-now',
@@ -2462,7 +2454,7 @@ const DEPLOY_BADGE_CONFIG={
   'Anthropic vs. Pentagon AI Governance': 'act-now', 'NO FAKES Act / Deepfake Legislation': 'act-now',
   'Kenya Gen Z Accountability': 'act-now', 'South Korea Democracy': 'act-now', 'Loss & Damage / Climate Finance': 'act-now'
 };
-const TRAJECTORY_CONFIG={
+const TRAJECTORY_CONFIG = {
   'US Democracy Resistance': '↑↑', 'Pacific ICJ Climate Opinion': '↑', 'Fast Fashion / Atacama': '↑',
   'AI Energy & Water Crisis — Data Centers': '↑↑', 'Meta Teen Mental Health — Big Tobacco Moment': '↑↑',
   'France Far-Right Municipal Conquest': '↑↑', 'France Anti-Police Violence / Nahel Trial': '↑',
@@ -2516,19 +2508,6 @@ function getTrajectoryArrow(name, percentage) {
   if (percentage >= 80) return '<span class="trajectory-arrow up-fast">↑↑</span>';
   if (percentage >= 60) return '<span class="trajectory-arrow up">↑</span>';
   return '<span class="trajectory-arrow stable">→</span>';
-}
-
-function getStatusForCase(c) {
-  if (c.failed) return 'failed';
-  const enriched = ENRICHED_DATA && ENRICHED_DATA[String(c.id)];
-  const outcomeScore = enriched ? enriched.outcome_score : null;
-  const markers = enriched ? (enriched.progress_markers || []) : [];
-  const lastType = markers.length ? markers[markers.length-1].type : null;
-  if (outcomeScore === 5) return 'norm-changed';
-  if (lastType === 'REVERSAL') return 'under-threat';
-  if (lastType === 'ONGOING' || outcomeScore >= 3) return 'ongoing';
-  if (outcomeScore >= 2) return 'partial';
-  return 'resolved';
 }
 
 function renderStats() {
@@ -2770,7 +2749,7 @@ function renderEmergingTrends() {
   el.innerHTML = emerging.map(c => renderCaseCard(c)).join('');
 }
 
-const STILL_ACTIVE_IDS=[1,18,31,38,43,49,57,63,64,67,69,72,77,80,84,94,95,100];
+const STILL_ACTIVE_IDS = [1,18,31,38,43,49,57,63,64,67,69,72,77,80,84,94,95,100];
 
 function renderStillActiveCases() {
   const el = document.getElementById('still-active-grid');
@@ -3554,6 +3533,11 @@ document.addEventListener('keydown', (e) => {
         <button class="research-priority-pill urgent" data-priority="urgent" onclick="setResearchPriority(this)">🔥 Urgent</button>
       </div>
     </div>
+    
+    <button class="research-submit-btn" id="research-submit-btn" onclick="submitResearchRequest()">Submit Request</button>
+    <div class="research-status" id="research-status"></div>
+  </div>
+</div>
 
 <script>
 // ===== RESEARCH REQUEST FUNCTIONALITY =====

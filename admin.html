@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOVEMENTMonitor Admin — Research Queue</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #08090c;
+  --surface: #0f1117;
+  --surface2: #161922;
+  --surface3: #1e222f;
+  --accent: #00d4aa;
+  --accent2: #ff6b6b;
+  --accent3: #ffd93d;
+  --accent4: #6c5ce7;
+  --text: #e8eaf0;
+  --text-muted: #6b7394;
+  --border: #252a3a;
+  --success: #00d4aa;
+  --warning: #ffd93d;
+  --danger: #ff6b6b;
+  --radius: 10px;
+  --font: 'Inter', system-ui, -apple-system, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 1.6; min-height: 100vh; }
+
+/* ===== LOGIN ===== */
+.login-wrapper {
+  display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px;
+}
+.login-box {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 32px; max-width: 380px; width: 100%; text-align: center;
+}
+.login-logo {
+  font-weight: 900; font-size: 20px; margin-bottom: 4px;
+  background: linear-gradient(135deg, var(--accent), #00f5c4);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.login-subtitle { color: var(--text-muted); font-size: 12px; margin-bottom: 24px; }
+.login-input {
+  width: 100%; background: var(--surface2); border: 1px solid var(--border); border-radius: 8px;
+  padding: 12px 14px; font-size: 14px; font-family: var(--font); color: var(--text);
+  outline: none; transition: border-color 0.2s; margin-bottom: 16px;
+}
+.login-input:focus { border-color: var(--accent); }
+.login-input::placeholder { color: var(--text-muted); }
+.login-btn {
+  width: 100%; background: linear-gradient(135deg, var(--accent), #00f5c4); border: none;
+  border-radius: 8px; padding: 14px; font-size: 14px; font-weight: 700; color: #000;
+  cursor: pointer; font-family: var(--font); transition: all 0.2s;
+}
+.login-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(0,212,170,0.3); }
+.login-error {
+  color: var(--danger); font-size: 12px; margin-top: 12px; display: none;
+}
+
+/* ===== ADMIN LAYOUT ===== */
+.admin-wrapper { display: none; }
+.admin-header {
+  position: sticky; top: 0; z-index: 100; background: rgba(8,9,12,0.95);
+  backdrop-filter: blur(16px); border-bottom: 1px solid var(--border);
+  padding: 14px 20px; display: flex; align-items: center; justify-content: space-between;
+}
+.admin-header-left { display: flex; align-items: center; gap: 12px; }
+.admin-title {
+  font-weight: 900; font-size: 16px;
+  background: linear-gradient(135deg, var(--accent), #00f5c4);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.admin-title span { -webkit-text-fill-color: var(--text-muted); font-weight: 400; font-size: 13px; }
+.admin-back {
+  background: var(--surface2); border: 1px solid var(--border); border-radius: 6px;
+  padding: 6px 12px; color: var(--text-muted); font-size: 11px; font-weight: 600;
+  font-family: var(--font); cursor: pointer; text-decoration: none; transition: all 0.2s;
+}
+.admin-back:hover { color: var(--text); border-color: var(--accent); }
+.admin-logout {
+  background: none; border: 1px solid var(--border); border-radius: 6px;
+  padding: 6px 12px; color: var(--text-muted); font-size: 11px; font-weight: 600;
+  font-family: var(--font); cursor: pointer; transition: all 0.2s;
+}
+.admin-logout:hover { color: var(--danger); border-color: var(--danger); }
+
+/* Stats bar */
+.admin-stats {
+  display: flex; gap: 12px; padding: 16px 20px; flex-wrap: wrap;
+}
+.stat-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 18px; flex: 1; min-width: 120px;
+}
+.stat-number { font-size: 28px; font-weight: 900; line-height: 1; }
+.stat-number.pending { color: var(--warning); }
+.stat-number.approved { color: var(--accent); }
+.stat-number.completed { color: var(--accent4); }
+.stat-number.rejected { color: var(--danger); }
+.stat-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-top: 4px; }
+
+/* Tabs */
+.admin-tabs {
+  display: flex; gap: 4px; padding: 0 20px; border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+}
+.admin-tab {
+  background: none; border: none; border-bottom: 2px solid transparent;
+  color: var(--text-muted); padding: 12px 16px; font-size: 12px; font-weight: 600;
+  font-family: var(--font); cursor: pointer; transition: all 0.2s; white-space: nowrap;
+}
+.admin-tab:hover { color: var(--text); }
+.admin-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.admin-tab .tab-count {
+  background: var(--surface3); border-radius: 10px; padding: 1px 7px;
+  font-size: 10px; margin-left: 6px;
+}
+.admin-tab.active .tab-count { background: rgba(0,212,170,0.15); color: var(--accent); }
+
+/* Request cards */
+.admin-content { padding: 16px 20px; }
+.request-list { display: flex; flex-direction: column; gap: 10px; }
+.request-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 16px; transition: border-color 0.2s;
+}
+.request-card:hover { border-color: rgba(0,212,170,0.3); }
+.request-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.request-case-name { font-size: 14px; font-weight: 700; line-height: 1.3; }
+.request-case-id { font-size: 10px; color: var(--text-muted); margin-left: 6px; }
+.request-badges { display: flex; gap: 6px; flex-shrink: 0; flex-wrap: wrap; }
+.request-type-badge {
+  background: rgba(108,92,231,0.15); color: var(--accent4); border-radius: 4px;
+  padding: 2px 8px; font-size: 10px; font-weight: 700;
+}
+.request-priority-badge {
+  border-radius: 4px; padding: 2px 8px; font-size: 10px; font-weight: 700;
+}
+.request-priority-badge.normal { background: rgba(107,115,148,0.15); color: var(--text-muted); }
+.request-priority-badge.urgent { background: rgba(255,107,107,0.15); color: var(--danger); }
+.request-description {
+  font-size: 12px; line-height: 1.6; color: #c8cad8; margin-bottom: 10px;
+  max-height: 80px; overflow: hidden; position: relative;
+}
+.request-meta {
+  display: flex; align-items: center; gap: 12px; font-size: 10px; color: var(--text-muted);
+  flex-wrap: wrap;
+}
+.request-actions { display: flex; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+.request-action-btn {
+  padding: 7px 14px; border-radius: 6px; border: 1px solid var(--border);
+  background: var(--surface2); color: var(--text-muted); font-size: 11px;
+  font-weight: 600; font-family: var(--font); cursor: pointer; transition: all 0.15s;
+  display: flex; align-items: center; gap: 4px;
+}
+.request-action-btn:hover { border-color: var(--accent); color: var(--text); }
+.request-action-btn.approve:hover { border-color: var(--success); color: var(--success); background: rgba(0,212,170,0.08); }
+.request-action-btn.reject:hover { border-color: var(--danger); color: var(--danger); background: rgba(255,107,107,0.08); }
+.request-action-btn.complete:hover { border-color: var(--accent4); color: var(--accent4); background: rgba(108,92,231,0.08); }
+.request-action-btn.notes:hover { border-color: var(--warning); color: var(--warning); background: rgba(255,217,61,0.08); }
+
+.request-admin-notes {
+  background: var(--surface2); border-radius: 6px; padding: 10px 12px;
+  font-size: 11px; color: var(--warning); margin-top: 8px; line-height: 1.5;
+}
+.request-admin-notes::before { content: '📝 '; }
+.request-summary {
+  background: rgba(108,92,231,0.08); border: 1px solid rgba(108,92,231,0.2);
+  border-radius: 6px; padding: 10px 12px; font-size: 11px; color: #c8cad8;
+  margin-top: 8px; line-height: 1.5;
+}
+.request-summary::before { content: '📋 Research Summary: '; font-weight: 700; color: var(--accent4); }
+
+/* Empty state */
+.empty-state {
+  text-align: center; padding: 60px 20px; color: var(--text-muted);
+}
+.empty-state-icon { font-size: 48px; margin-bottom: 12px; }
+.empty-state-text { font-size: 14px; font-weight: 600; }
+.empty-state-sub { font-size: 12px; margin-top: 4px; }
+
+/* Notes modal */
+.notes-modal-overlay {
+  position: fixed; inset: 0; z-index: 300; background: rgba(0,0,0,0.85);
+  backdrop-filter: blur(6px); display: none; align-items: center; justify-content: center; padding: 20px;
+}
+.notes-modal-overlay.open { display: flex; }
+.notes-modal {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 24px; max-width: 460px; width: 100%; animation: slideUp 0.25s ease;
+}
+.notes-modal-title { font-size: 16px; font-weight: 800; margin-bottom: 12px; }
+.notes-textarea {
+  width: 100%; min-height: 120px; resize: vertical; background: var(--surface2);
+  border: 1px solid var(--border); border-radius: 8px; padding: 12px; font-size: 13px;
+  font-family: var(--font); color: var(--text); outline: none; margin-bottom: 12px;
+}
+.notes-textarea:focus { border-color: var(--accent); }
+.notes-btn-row { display: flex; gap: 8px; justify-content: flex-end; }
+.notes-btn {
+  padding: 8px 18px; border-radius: 6px; font-size: 12px; font-weight: 600;
+  font-family: var(--font); cursor: pointer; transition: all 0.15s;
+}
+.notes-btn.cancel { background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted); }
+.notes-btn.cancel:hover { color: var(--text); }
+.notes-btn.save {
+  background: linear-gradient(135deg, var(--accent), #00f5c4); border: none; color: #000;
+}
+.notes-btn.save:hover { transform: translateY(-1px); }
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .admin-stats { flex-direction: column; }
+  .stat-card { min-width: auto; }
+  .request-card-header { flex-direction: column; }
+  .admin-header { flex-direction: column; gap: 8px; align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<!-- LOGIN SCREEN -->
+<div class="login-wrapper" id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">MOVEMENTMonitor</div>
+    <div class="login-subtitle">Admin — Research Queue</div>
+    <input type="password" class="login-input" id="login-password" placeholder="Enter admin password" autofocus>
+    <button class="login-btn" id="login-btn" onclick="doLogin()">Sign In</button>
+    <div class="login-error" id="login-error">Invalid password. Try again.</div>
+  </div>
+</div>
+
+<!-- ADMIN DASHBOARD -->
+<div class="admin-wrapper" id="admin-dashboard">
+  <div class="admin-header">
+    <div class="admin-header-left">
+      <div class="admin-title">MOVEMENTMonitor <span>Admin — Research Queue</span></div>
+      <a href="/" class="admin-back">← Back to Dashboard</a>
+    </div>
+    <button class="admin-logout" onclick="doLogout()">Logout</button>
+  </div>
+
+  <div class="admin-stats" id="admin-stats"></div>
+
+  <div class="admin-tabs" id="admin-tabs">
+    <button class="admin-tab active" data-status="pending" onclick="switchTab(this)">Pending <span class="tab-count" id="count-pending">0</span></button>
+    <button class="admin-tab" data-status="approved" onclick="switchTab(this)">Approved <span class="tab-count" id="count-approved">0</span></button>
+    <button class="admin-tab" data-status="completed" onclick="switchTab(this)">Completed <span class="tab-count" id="count-completed">0</span></button>
+    <button class="admin-tab" data-status="rejected" onclick="switchTab(this)">Rejected <span class="tab-count" id="count-rejected">0</span></button>
+  </div>
+
+  <div class="admin-content" id="admin-content"></div>
+</div>
+
+<!-- NOTES MODAL -->
+<div class="notes-modal-overlay" id="notes-modal">
+  <div class="notes-modal">
+    <div class="notes-modal-title" id="notes-modal-title">📝 Add Notes</div>
+    <textarea class="notes-textarea" id="notes-textarea" placeholder="Add admin notes..."></textarea>
+    <div class="notes-btn-row">
+      <button class="notes-btn cancel" onclick="closeNotesModal()">Cancel</button>
+      <button class="notes-btn save" onclick="saveNotes()">Save Notes</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ===== STATE =====
+let token = localStorage.getItem('mm_admin_token');
+let allRequests = [];
+let currentTab = 'pending';
+let notesRequestId = null;
+
+// ===== AUTH =====
+async function doLogin() {
+  const pw = document.getElementById('login-password').value;
+  const errEl = document.getElementById('login-error');
+  errEl.style.display = 'none';
+  
+  try {
+    const res = await fetch('/api/admin/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: pw })
+    });
+    const data = await res.json();
+    if (data.success) {
+      token = data.token;
+      localStorage.setItem('mm_admin_token', token);
+      showDashboard();
+    } else {
+      errEl.style.display = 'block';
+    }
+  } catch (e) {
+    errEl.textContent = 'Connection error. Is the server running?';
+    errEl.style.display = 'block';
+  }
+}
+
+function doLogout() {
+  token = null;
+  localStorage.removeItem('mm_admin_token');
+  document.getElementById('admin-dashboard').style.display = 'none';
+  document.getElementById('login-screen').style.display = 'flex';
+  document.getElementById('login-password').value = '';
+}
+
+// Enter key on password field
+document.getElementById('login-password').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') doLogin();
+});
+
+// ===== DASHBOARD =====
+function showDashboard() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('admin-dashboard').style.display = 'block';
+  loadRequests();
+}
+
+async function loadRequests() {
+  try {
+    const res = await fetch('/api/requests', {
+      headers: { 'Authorization': 'Bearer ' + token }
+    });
+    if (res.status === 401) {
+      doLogout();
+      return;
+    }
+    const data = await res.json();
+    if (data.success) {
+      allRequests = data.requests;
+      renderStats();
+      renderTabCounts();
+      renderRequests();
+    }
+  } catch (e) {
+    console.error('Failed to load requests:', e);
+  }
+}
+
+function renderStats() {
+  const pending = allRequests.filter(r => r.status === 'pending').length;
+  const approved = allRequests.filter(r => r.status === 'approved').length;
+  const now = new Date();
+  const weekAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
+  const completedThisWeek = allRequests.filter(r => r.status === 'completed' && new Date(r.completedAt) > weekAgo).length;
+  const total = allRequests.length;
+
+  document.getElementById('admin-stats').innerHTML = `
+    <div class="stat-card"><div class="stat-number pending">${pending}</div><div class="stat-label">Pending</div></div>
+    <div class="stat-card"><div class="stat-number approved">${approved}</div><div class="stat-label">In Progress</div></div>
+    <div class="stat-card"><div class="stat-number completed">${completedThisWeek}</div><div class="stat-label">Completed This Week</div></div>
+    <div class="stat-card"><div class="stat-number" style="color:var(--text);">${total}</div><div class="stat-label">Total Requests</div></div>
+  `;
+}
+
+function renderTabCounts() {
+  ['pending', 'approved', 'completed', 'rejected'].forEach(status => {
+    const count = allRequests.filter(r => r.status === status).length;
+    const el = document.getElementById('count-' + status);
+    if (el) el.textContent = count;
+  });
+}
+
+function switchTab(el) {
+  document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  currentTab = el.dataset.status;
+  renderRequests();
+}
+
+function renderRequests() {
+  const filtered = allRequests.filter(r => r.status === currentTab);
+  const container = document.getElementById('admin-content');
+
+  if (!filtered.length) {
+    const emojis = { pending: '📭', approved: '🔬', completed: '✅', rejected: '🚫' };
+    const msgs = { pending: 'No pending requests', approved: 'No approved requests in progress', completed: 'No completed requests yet', rejected: 'No rejected requests' };
+    container.innerHTML = `<div class="empty-state">
+      <div class="empty-state-icon">${emojis[currentTab] || '📋'}</div>
+      <div class="empty-state-text">${msgs[currentTab] || 'Nothing here'}</div>
+      <div class="empty-state-sub">Requests will appear here when submitted from the dashboard.</div>
+    </div>`;
+    return;
+  }
+
+  container.innerHTML = `<div class="request-list">${filtered.map(r => renderRequestCard(r)).join('')}</div>`;
+}
+
+function renderRequestCard(r) {
+  const timeAgo = getTimeAgo(r.createdAt);
+  const actions = getActions(r);
+  const notesHtml = r.adminNotes ? `<div class="request-admin-notes">${escapeHtml(r.adminNotes)}</div>` : '';
+  const summaryHtml = r.researchSummary ? `<div class="request-summary">${escapeHtml(r.researchSummary)}</div>` : '';
+
+  return `<div class="request-card">
+    <div class="request-card-header">
+      <div>
+        <span class="request-case-name">${escapeHtml(r.caseName)}</span>
+        <span class="request-case-id">#${r.caseId}</span>
+      </div>
+      <div class="request-badges">
+        <span class="request-type-badge">${escapeHtml(r.type)}</span>
+        <span class="request-priority-badge ${r.priority}">${r.priority === 'urgent' ? '🔥 Urgent' : 'Normal'}</span>
+      </div>
+    </div>
+    <div class="request-description">${escapeHtml(r.description)}</div>
+    <div class="request-meta">
+      <span>📅 ${timeAgo}</span>
+      <span>👤 Anonymous</span>
+      <span>🆔 ${r.id.slice(0, 8)}</span>
+      ${r.approvedAt ? `<span>✅ Approved ${getTimeAgo(r.approvedAt)}</span>` : ''}
+      ${r.completedAt ? `<span>🏁 Completed ${getTimeAgo(r.completedAt)}</span>` : ''}
+      ${r.rejectedAt ? `<span>❌ Rejected ${getTimeAgo(r.rejectedAt)}</span>` : ''}
+    </div>
+    ${notesHtml}
+    ${summaryHtml}
+    ${actions ? `<div class="request-actions">${actions}</div>` : ''}
+  </div>`;
+}
+
+function getActions(r) {
+  const btns = [];
+  if (r.status === 'pending') {
+    btns.push(`<button class="request-action-btn approve" onclick="approveRequest('${r.id}')">✅ Approve</button>`);
+    btns.push(`<button class="request-action-btn reject" onclick="rejectRequest('${r.id}')">❌ Reject</button>`);
+  }
+  if (r.status === 'approved') {
+    btns.push(`<button class="request-action-btn complete" onclick="completeRequest('${r.id}')">🏁 Mark Complete</button>`);
+  }
+  btns.push(`<button class="request-action-btn notes" onclick="openNotesModal('${r.id}')">📝 Notes</button>`);
+  return btns.join('');
+}
+
+// ===== ACTIONS =====
+async function approveRequest(id) {
+  await apiAction(`/api/requests/${id}/approve`, {});
+}
+
+async function rejectRequest(id) {
+  if (!confirm('Reject this request?')) return;
+  await apiAction(`/api/requests/${id}/reject`, {});
+}
+
+async function completeRequest(id) {
+  const summary = prompt('Research summary (optional):');
+  await apiAction(`/api/requests/${id}/complete`, { summary: summary || '' });
+}
+
+async function apiAction(url, body) {
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+      body: JSON.stringify(body)
+    });
+    if (res.status === 401) { doLogout(); return; }
+    const data = await res.json();
+    if (data.success) loadRequests();
+  } catch (e) {
+    console.error('Action failed:', e);
+  }
+}
+
+// ===== NOTES MODAL =====
+function openNotesModal(id) {
+  notesRequestId = id;
+  const r = allRequests.find(x => x.id === id);
+  document.getElementById('notes-textarea').value = r?.adminNotes || '';
+  document.getElementById('notes-modal-title').textContent = '📝 Notes — ' + (r?.caseName || '').slice(0, 40);
+  document.getElementById('notes-modal').classList.add('open');
+  document.getElementById('notes-textarea').focus();
+}
+
+function closeNotesModal() {
+  document.getElementById('notes-modal').classList.remove('open');
+  notesRequestId = null;
+}
+
+async function saveNotes() {
+  if (!notesRequestId) return;
+  const notes = document.getElementById('notes-textarea').value.trim();
+  await apiAction(`/api/requests/${notesRequestId}/notes`, { adminNotes: notes });
+  closeNotesModal();
+}
+
+document.getElementById('notes-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeNotesModal();
+});
+
+// ===== HELPERS =====
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function getTimeAgo(dateStr) {
+  if (!dateStr) return '';
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return mins + 'm ago';
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  const days = Math.floor(hrs / 24);
+  if (days < 7) return days + 'd ago';
+  return new Date(dateStr).toLocaleDateString();
+}
+
+// ===== INIT =====
+if (token) {
+  // Validate stored token
+  fetch('/api/requests', { headers: { 'Authorization': 'Bearer ' + token } })
+    .then(res => {
+      if (res.ok) showDashboard();
+      else doLogout();
+    })
+    .catch(() => doLogout());
+}
+
+// Auto-refresh every 30 seconds
+setInterval(() => {
+  if (token && document.getElementById('admin-dashboard').style.display !== 'none') {
+    loadRequests();
+  }
+}, 30000);
+</script>
+</body>
+</html>
